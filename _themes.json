@@ -1,0 +1,695 @@
+{
+ "version": 1793528413,
+ "skins": [
+  {
+   "id": "rosh-hashana",
+   "holiday": "rosh-hashana",
+   "name": {
+    "fr": "Roch Hachana",
+    "en": "Rosh Hashanah"
+   },
+   "greeting": {
+    "fr": "Chana tova oumetouka !",
+    "en": "Shana tova umetuka!"
+   },
+   "mood": "festive",
+   "palette": {
+    "paper": "#FBF4E6",
+    "card": "#FFFFFF",
+    "accent": "#E0A030",
+    "accentText": "#8C4A12",
+    "accentSoft": "#F8E2B8",
+    "gradient": [
+     "#FCE7B2",
+     "#F2B632",
+     "#C8352E"
+    ],
+    "gradientText": "#2A1606",
+    "paperDark": "#17110A",
+    "cardDark": "#241B10",
+    "accentTextDark": "#F2C25C",
+    "accentSoftDark": "#3A2A12"
+   },
+   "hero": "skins/hero/rosh-hashana.png",
+   "particles": {
+    "glyphs": [
+     "🍎",
+     "🍯",
+     "🍎"
+    ],
+    "count": 26,
+    "direction": "fall",
+    "speed": 1.0,
+    "duration": 7
+   },
+   "sound": "skins/sfx/shofar.m4a",
+   "font": {
+    "file": "skins/fonts/SuezOne-Regular.ttf",
+    "name": "SuezOne-Regular"
+   }
+  },
+  {
+   "id": "yom-kippour",
+   "holiday": "yom-kippour",
+   "name": {
+    "fr": "Yom Kippour",
+    "en": "Yom Kippur"
+   },
+   "greeting": {
+    "fr": "Gmar 'hatima tova",
+    "en": "G'mar chatimah tovah"
+   },
+   "mood": "sober",
+   "palette": {
+    "paper": "#F6F6F3",
+    "card": "#FFFFFF",
+    "accent": "#9AA3AE",
+    "accentText": "#46515E",
+    "accentSoft": "#E6E9ED",
+    "gradient": [
+     "#FFFFFF",
+     "#E3E7EC",
+     "#B8C1CC"
+    ],
+    "gradientText": "#1F2730",
+    "paperDark": "#101215",
+    "cardDark": "#1B1E22",
+    "accentTextDark": "#C9D1DA",
+    "accentSoftDark": "#262B31"
+   },
+   "hero": "skins/hero/yom-kippour.png"
+  },
+  {
+   "id": "souccot",
+   "holiday": "souccot",
+   "name": {
+    "fr": "Souccot",
+    "en": "Sukkot"
+   },
+   "greeting": {
+    "fr": "'Hag saméa'h !",
+    "en": "Chag sameach!"
+   },
+   "mood": "festive",
+   "palette": {
+    "paper": "#F5F7EE",
+    "card": "#FFFFFF",
+    "accent": "#7BA77F",
+    "accentText": "#3C6B44",
+    "accentSoft": "#DCEBD8",
+    "gradient": [
+     "#E7F1D4",
+     "#9CC28C",
+     "#5E8C6A"
+    ],
+    "gradientText": "#14260F",
+    "paperDark": "#0F140D",
+    "cardDark": "#1A2216",
+    "accentTextDark": "#9FCC9F",
+    "accentSoftDark": "#22331F"
+   },
+   "hero": "skins/hero/souccot.png",
+   "particles": {
+    "glyphs": [
+     "🍋",
+     "🌿",
+     "🍂"
+    ],
+    "count": 26,
+    "direction": "fall",
+    "speed": 1.0,
+    "duration": 7
+   },
+   "font": {
+    "file": "skins/fonts/SuezOne-Regular.ttf",
+    "name": "SuezOne-Regular"
+   }
+  },
+  {
+   "id": "simhat-torah",
+   "holiday": "simhat-torah",
+   "from": -2,
+   "name": {
+    "fr": "Simhat Torah",
+    "en": "Simchat Torah"
+   },
+   "greeting": {
+    "fr": "On danse avec la Torah !",
+    "en": "Dancing with the Torah!"
+   },
+   "mood": "festive",
+   "palette": {
+    "paper": "#F4F7FC",
+    "card": "#FFFFFF",
+    "accent": "#2F6BC2",
+    "accentText": "#23518F",
+    "accentSoft": "#DCE7F7",
+    "gradient": [
+     "#FFFFFF",
+     "#BFD4F2",
+     "#2F6BC2"
+    ],
+    "gradientText": "#0C1F3D",
+    "paperDark": "#0D1220",
+    "cardDark": "#16203A",
+    "accentTextDark": "#8DB4EA",
+    "accentSoftDark": "#1C2A45"
+   },
+   "hero": "skins/hero/simhat-torah.png",
+   "particles": {
+    "glyphs": [
+     "🎉",
+     "📜",
+     "💃"
+    ],
+    "count": 26,
+    "direction": "rise",
+    "speed": 1.0,
+    "duration": 7
+   },
+   "sound": "skins/sfx/fanfare.m4a",
+   "font": {
+    "file": "skins/fonts/SuezOne-Regular.ttf",
+    "name": "SuezOne-Regular"
+   }
+  },
+  {
+   "id": "hanoukka",
+   "holiday": "hanoukka",
+   "name": {
+    "fr": "Hanoukka",
+    "en": "Hanukkah"
+   },
+   "greeting": {
+    "fr": "'Hag Hanoukka saméa'h !",
+    "en": "Happy Hanukkah!"
+   },
+   "mood": "festive",
+   "palette": {
+    "paper": "#F3F6FB",
+    "card": "#FFFFFF",
+    "accent": "#E7B868",
+    "accentText": "#23497F",
+    "accentSoft": "#DCE6F4",
+    "gradient": [
+     "#1E3A6E",
+     "#2F5AA0",
+     "#E7B868"
+    ],
+    "gradientText": "#FFFFFF",
+    "paperDark": "#0B1222",
+    "cardDark": "#141E36",
+    "accentTextDark": "#F0C878",
+    "accentSoftDark": "#1B2A4A"
+   },
+   "hero": "skins/hero/hanoukka.png",
+   "particles": {
+    "glyphs": [
+     "✨",
+     "🍩",
+     "✨"
+    ],
+    "count": 22,
+    "direction": "rise",
+    "speed": 1.0,
+    "duration": 7
+   },
+   "sound": "skins/sfx/chime.m4a",
+   "font": {
+    "file": "skins/fonts/SuezOne-Regular.ttf",
+    "name": "SuezOne-Regular"
+   }
+  },
+  {
+   "id": "tou-bichvat",
+   "holiday": "tou-bichvat",
+   "name": {
+    "fr": "Tou Bichvat",
+    "en": "Tu BiShvat"
+   },
+   "greeting": {
+    "fr": "Bonne fête des arbres !",
+    "en": "Happy New Year of the Trees!"
+   },
+   "mood": "festive",
+   "palette": {
+    "paper": "#FCF6F7",
+    "card": "#FFFFFF",
+    "accent": "#E58AA5",
+    "accentText": "#9A2E55",
+    "accentSoft": "#F9DEE6",
+    "gradient": [
+     "#FDEFF3",
+     "#F4B3C4",
+     "#7BA77F"
+    ],
+    "gradientText": "#2A0E19",
+    "paperDark": "#160E10",
+    "cardDark": "#22161A",
+    "accentTextDark": "#F2A7BE",
+    "accentSoftDark": "#3A1F28"
+   },
+   "hero": "skins/hero/tou-bichvat.png",
+   "particles": {
+    "glyphs": [
+     "🌸",
+     "🌸",
+     "🍃"
+    ],
+    "count": 26,
+    "direction": "fall",
+    "speed": 1.0,
+    "duration": 7
+   },
+   "font": {
+    "file": "skins/fonts/SuezOne-Regular.ttf",
+    "name": "SuezOne-Regular"
+   }
+  },
+  {
+   "id": "pourim",
+   "holiday": "pourim",
+   "to": 1,
+   "name": {
+    "fr": "Pourim",
+    "en": "Purim"
+   },
+   "greeting": {
+    "fr": "Pourim saméa'h !",
+    "en": "Happy Purim!"
+   },
+   "mood": "festive",
+   "palette": {
+    "paper": "#F8F4FC",
+    "card": "#FFFFFF",
+    "accent": "#8A6BB0",
+    "accentText": "#5B3F86",
+    "accentSoft": "#E9E0F5",
+    "gradient": [
+     "#5B3F86",
+     "#7A5BA6",
+     "#E5534B"
+    ],
+    "gradientText": "#FFFFFF",
+    "paperDark": "#120E18",
+    "cardDark": "#1E1828",
+    "accentTextDark": "#C3A6EA",
+    "accentSoftDark": "#2C2240"
+   },
+   "hero": "skins/hero/pourim.png",
+   "accessory": {
+    "image": "skins/acc/mask.png",
+    "x": 0.475,
+    "y": 0.45,
+    "scale": 0.52
+   },
+   "particles": {
+    "glyphs": [
+     "🎭",
+     "🎉",
+     "🍬",
+     "🤡"
+    ],
+    "count": 30,
+    "direction": "fall",
+    "speed": 1.0,
+    "duration": 7
+   },
+   "sound": "skins/sfx/grogger.m4a",
+   "font": {
+    "file": "skins/fonts/SuezOne-Regular.ttf",
+    "name": "SuezOne-Regular"
+   }
+  },
+  {
+   "id": "pessah",
+   "holiday": "pessah",
+   "name": {
+    "fr": "Pessah",
+    "en": "Passover"
+   },
+   "greeting": {
+    "fr": "'Hag Pessa'h cacher vesaméa'h !",
+    "en": "Chag Pesach kasher v'sameach!"
+   },
+   "mood": "festive",
+   "palette": {
+    "paper": "#FBF5EC",
+    "card": "#FFFFFF",
+    "accent": "#8E1F3A",
+    "accentText": "#7A1A32",
+    "accentSoft": "#F4DDD0",
+    "gradient": [
+     "#F7E3BE",
+     "#EBC98C",
+     "#8E1F3A"
+    ],
+    "gradientText": "#2A0A12",
+    "paperDark": "#170D0F",
+    "cardDark": "#24161A",
+    "accentTextDark": "#E8899E",
+    "accentSoftDark": "#3A1C24"
+   },
+   "hero": "skins/hero/pessah.png",
+   "particles": {
+    "glyphs": [
+     "🐸",
+     "🍷",
+     "🐸"
+    ],
+    "count": 20,
+    "direction": "fall",
+    "speed": 1.0,
+    "duration": 7
+   },
+   "sound": "skins/sfx/chime.m4a",
+   "font": {
+    "file": "skins/fonts/SuezOne-Regular.ttf",
+    "name": "SuezOne-Regular"
+   }
+  },
+  {
+   "id": "yom-hashoah",
+   "holiday": "yom-hashoah",
+   "to": 0,
+   "name": {
+    "fr": "Yom HaShoah",
+    "en": "Yom HaShoah"
+   },
+   "greeting": {
+    "fr": "Yizkor : nous nous souvenons",
+    "en": "Yizkor: we remember"
+   },
+   "mood": "sober",
+   "palette": {
+    "paper": "#F1F0EE",
+    "card": "#FAFAF9",
+    "accent": "#6E6A64",
+    "accentText": "#45413C",
+    "accentSoft": "#E2E0DC",
+    "gradient": [
+     "#E9E7E3",
+     "#BDB8B0",
+     "#6E6A64"
+    ],
+    "gradientText": "#1A1816",
+    "paperDark": "#0E0D0C",
+    "cardDark": "#1A1917",
+    "accentTextDark": "#C9C3BA",
+    "accentSoftDark": "#26241F"
+   },
+   "hero": "skins/hero/yom-hashoah.png"
+  },
+  {
+   "id": "yom-hazikaron",
+   "holiday": "yom-hazikaron",
+   "name": {
+    "fr": "Yom HaZikaron",
+    "en": "Yom HaZikaron"
+   },
+   "greeting": {
+    "fr": "Nous nous souvenons",
+    "en": "We remember"
+   },
+   "mood": "sober",
+   "palette": {
+    "paper": "#F1F2F4",
+    "card": "#FAFAFB",
+    "accent": "#6B7686",
+    "accentText": "#3F4957",
+    "accentSoft": "#E0E4EA",
+    "gradient": [
+     "#EEF1F5",
+     "#BCC6D3",
+     "#6B7686"
+    ],
+    "gradientText": "#161B22",
+    "paperDark": "#0D0F12",
+    "cardDark": "#181B20",
+    "accentTextDark": "#C3CCD8",
+    "accentSoftDark": "#232831"
+   },
+   "hero": "skins/hero/yom-hazikaron.png"
+  },
+  {
+   "id": "yom-haatsmaout",
+   "holiday": "yom-haatsmaout",
+   "from": 0,
+   "name": {
+    "fr": "Yom Haatsmaout",
+    "en": "Yom Ha'atzmaut"
+   },
+   "greeting": {
+    "fr": "'Hag atsmaout saméa'h !",
+    "en": "Happy Independence Day!"
+   },
+   "mood": "festive",
+   "palette": {
+    "paper": "#F3F7FD",
+    "card": "#FFFFFF",
+    "accent": "#2F6BC2",
+    "accentText": "#23518F",
+    "accentSoft": "#DCE7F7",
+    "gradient": [
+     "#FFFFFF",
+     "#9CC0F0",
+     "#2F6BC2"
+    ],
+    "gradientText": "#0C1F3D",
+    "paperDark": "#0D1220",
+    "cardDark": "#16203A",
+    "accentTextDark": "#8DB4EA",
+    "accentSoftDark": "#1C2A45"
+   },
+   "hero": "skins/hero/yom-haatsmaout.png",
+   "accessory": {
+    "image": "skins/acc/flag.png",
+    "x": 0.8,
+    "y": 0.8,
+    "scale": 0.36
+   },
+   "particles": {
+    "glyphs": [
+     "🇮🇱",
+     "✨",
+     "🎆"
+    ],
+    "count": 24,
+    "direction": "fall",
+    "speed": 1.0,
+    "duration": 7
+   },
+   "sound": "skins/sfx/fanfare.m4a",
+   "font": {
+    "file": "skins/fonts/SuezOne-Regular.ttf",
+    "name": "SuezOne-Regular"
+   }
+  },
+  {
+   "id": "lag-baomer",
+   "holiday": "lag-baomer",
+   "name": {
+    "fr": "Lag Baomer",
+    "en": "Lag BaOmer"
+   },
+   "greeting": {
+    "fr": "Bon Lag Baomer !",
+    "en": "Happy Lag BaOmer!"
+   },
+   "mood": "festive",
+   "palette": {
+    "paper": "#FDF5EE",
+    "card": "#FFFFFF",
+    "accent": "#F07B2B",
+    "accentText": "#9C3F0C",
+    "accentSoft": "#FCE0CB",
+    "gradient": [
+     "#FFE27A",
+     "#F6A623",
+     "#F07B2B"
+    ],
+    "gradientText": "#2B0F02",
+    "paperDark": "#170F0A",
+    "cardDark": "#251810",
+    "accentTextDark": "#F5A26A",
+    "accentSoftDark": "#3A2416"
+   },
+   "hero": "skins/hero/lag-baomer.png",
+   "particles": {
+    "glyphs": [
+     "🔥",
+     "✨"
+    ],
+    "count": 20,
+    "direction": "rise",
+    "speed": 1.0,
+    "duration": 7
+   },
+   "font": {
+    "file": "skins/fonts/SuezOne-Regular.ttf",
+    "name": "SuezOne-Regular"
+   }
+  },
+  {
+   "id": "chavouot",
+   "holiday": "chavouot",
+   "name": {
+    "fr": "Chavouot",
+    "en": "Shavuot"
+   },
+   "greeting": {
+    "fr": "'Hag Chavouot saméa'h !",
+    "en": "Chag Shavuot sameach!"
+   },
+   "mood": "festive",
+   "palette": {
+    "paper": "#FBF7EC",
+    "card": "#FFFFFF",
+    "accent": "#C9922E",
+    "accentText": "#7F5410",
+    "accentSoft": "#F5E6C4",
+    "gradient": [
+     "#FFF6DD",
+     "#E7B868",
+     "#7BA77F"
+    ],
+    "gradientText": "#251803",
+    "paperDark": "#15110A",
+    "cardDark": "#221B10",
+    "accentTextDark": "#EBC27A",
+    "accentSoftDark": "#382B14"
+   },
+   "hero": "skins/hero/chavouot.png",
+   "particles": {
+    "glyphs": [
+     "🌾",
+     "🧀",
+     "🌾"
+    ],
+    "count": 26,
+    "direction": "fall",
+    "speed": 1.0,
+    "duration": 7
+   },
+   "font": {
+    "file": "skins/fonts/SuezOne-Regular.ttf",
+    "name": "SuezOne-Regular"
+   }
+  },
+  {
+   "id": "9-av",
+   "holiday": "9-av",
+   "name": {
+    "fr": "Tisha Beav",
+    "en": "Tisha B'Av"
+   },
+   "greeting": {
+    "fr": "Jour de deuil pour les deux Temples",
+    "en": "A day of mourning for both Temples"
+   },
+   "mood": "sober",
+   "palette": {
+    "paper": "#F2EFEA",
+    "card": "#FAF9F7",
+    "accent": "#8C8273",
+    "accentText": "#544C40",
+    "accentSoft": "#E5E0D7",
+    "gradient": [
+     "#EDE9E2",
+     "#CFC6B4",
+     "#8C8273"
+    ],
+    "gradientText": "#1F1B15",
+    "paperDark": "#100F0D",
+    "cardDark": "#1C1A17",
+    "accentTextDark": "#CFC6B4",
+    "accentSoftDark": "#29261F"
+   },
+   "hero": "skins/hero/9-av.png"
+  },
+  {
+   "id": "tou-beav",
+   "holiday": "tou-beav",
+   "name": {
+    "fr": "Tou Beav",
+    "en": "Tu B'Av"
+   },
+   "greeting": {
+    "fr": "La fête de l'amour",
+    "en": "The festival of love"
+   },
+   "mood": "festive",
+   "palette": {
+    "paper": "#FDF4F4",
+    "card": "#FFFFFF",
+    "accent": "#E5534B",
+    "accentText": "#A3261F",
+    "accentSoft": "#F9DCDA",
+    "gradient": [
+     "#FDE7EC",
+     "#F4A0A8",
+     "#E5534B"
+    ],
+    "gradientText": "#2B0705",
+    "paperDark": "#170D0D",
+    "cardDark": "#241616",
+    "accentTextDark": "#F2928B",
+    "accentSoftDark": "#3A1D1C"
+   },
+   "hero": "skins/hero/tou-beav.png",
+   "particles": {
+    "glyphs": [
+     "❤️",
+     "💕",
+     "🍇"
+    ],
+    "count": 22,
+    "direction": "rise",
+    "speed": 1.0,
+    "duration": 7
+   },
+   "font": {
+    "file": "skins/fonts/SuezOne-Regular.ttf",
+    "name": "SuezOne-Regular"
+   }
+  },
+  {
+   "id": "shabbat",
+   "weekdays": [
+    6,
+    7
+   ],
+   "name": {
+    "fr": "Chabbat",
+    "en": "Shabbat"
+   },
+   "greeting": {
+    "fr": "Chabbat chalom !",
+    "en": "Shabbat shalom!"
+   },
+   "mood": "festive",
+   "palette": {
+    "paper": "#FAF4E8",
+    "card": "#FFFFFF",
+    "accent": "#E7B868",
+    "accentText": "#8A5A12",
+    "accentSoft": "#F6E7C8",
+    "gradient": [
+     "#2A1E3F",
+     "#5B437E",
+     "#E7B868"
+    ],
+    "gradientText": "#FFFFFF",
+    "paperDark": "#120F0A",
+    "cardDark": "#211B12",
+    "accentTextDark": "#E7B868",
+    "accentSoftDark": "#45361C"
+   },
+   "hero": "skins/hero/shabbat.png",
+   "font": {
+    "file": "skins/fonts/SuezOne-Regular.ttf",
+    "name": "SuezOne-Regular"
+   }
+  }
+ ]
+}
