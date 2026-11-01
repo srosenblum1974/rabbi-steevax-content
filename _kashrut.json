@@ -3925,5 +3925,646 @@
     "to": "food:vin"
    }
   ]
+ },
+ "texts": {
+  "Avodah Zarah 29b": {
+   "he": [
+    "מַתְנִי׳ אֵלּוּ דְּבָרִים שֶׁל גּוֹיִם אֲסוּרִין, וְאִיסּוּרָן אִיסּוּר הֲנָאָה: הַיַּיִן, וְהַחוֹמֶץ שֶׁל גּוֹיִם שֶׁהָיָה מִתְּחִלָּתוֹ יַיִן, וְחֶרֶס הַדְרְיָינִי, וְעוֹרוֹת לְבוּבִין. רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר: בִּזְמַן שֶׁהַקֶּרַע שֶׁלּוֹ עָגוֹל — אָסוּר, מָשׁוּךְ — מוּתָּר."
+   ],
+   "fr": [
+    "MICHNA : Voici des choses appartenant aux non-Juifs qui sont interdites, d'un interdit qui s'étend même à tout profit : le vin ; le vinaigre des non-Juifs qui était d'abord du vin ; la poterie d'Hadrien ; les peaux percées à hauteur du cœur. Rabban Chimon ben Gamliel dit : la peau n'est interdite que si la déchirure autour du cœur est ronde ; si elle est allongée, elle est permise, car les non-Juifs n'offrent un cœur en sacrifice que s'il a été retiré par une incision circulaire."
+   ],
+   "en": [
+    "MISHNA: This mishna discusses the halakhic status of various items that belong to gentiles. These are items that belong to gentiles and are prohibited to Jews, and their prohibition is that of an item from which deriving benefit is prohibited: Wine, and vinegar belonging to gentiles that was originally wine, and Hadrianic earthenware, and hides with a tear opposite the heart. Rabban Shimon ben Gamliel says: A hide is prohibited only when the tear around its heart is circular, but if it is elongated it is permitted, as gentiles will sacrifice a heart only when it has been removed by a circular laceration."
+   ],
+   "excerpt": true
+  },
+  "Bekhorot 6b": {
+   "he": [
+    "מַאי שְׁנָא מֵהָא דְּתַנְיָא: ״הַטְּמֵאִים״ — לֶאֱסוֹר צִירָן, וְרוֹטְבָן, וְקֵיפֶה שֶׁלָּהֶן?",
+    "אִיצְטְרִיךְ, סָלְקָא דַּעְתָּךְ אָמֵינָא: הוֹאִיל וְלֵיכָּא מִידֵּי דְּאָתֵי מֵחַי וְשַׁרְיֵיהּ רַחֲמָנָא, וְהַאי חָלָב כִּי אֵבֶר מִן הַחַי הוּא, וּשְׁרֵי, וְהִילְכָּךְ אֲפִילּוּ בִּבְהֵמָה טְמֵאָה לִישְׁתְּרֵי, קָא מַשְׁמַע לַן."
+   ],
+   "fr": [
+    "En quoi ce cas diffère-t-il de ce qu'enseigne une baraïta ? La Torah dit, à propos de l'interdit de manger les petits animaux qui rampent : « Voici ceux qui sont impurs pour vous parmi tous les reptiles » (Lévitique 11:31). Les Sages lisent dans la lettre hé du mot « impurs » l'interdit de leur suc qui suinte du corps, de leur jus de cuisson et des dépôts de leur chair qui se figent au fond du plat. On voit donc que tout liquide qui sort d'un animal interdit est interdit.",
+    "La Guémara répond : c'était nécessaire. On aurait pu penser que c'est permis : en règle générale, la Torah ne permet rien de ce qui provient d'un animal vivant, et pourtant le lait d'un animal pur, semblable à un membre arraché à un vivant, est permis ; la permission du lait est donc une nouveauté de la Torah. On aurait pu en déduire que même le lait d'un animal impur est permis. Le verset enseigne donc qu'il est interdit."
+   ],
+   "en": [
+    "In what way is this case different from that which is taught in a baraita: The Torah states with regard to the prohibition against eating creeping animals: “These are they that are impure [hateme’im] to you among all the creeping animals” (Leviticus 11:31). The Sages interpret the letter heh in the term “that are impure [hateme’im]” to prohibit their juice that oozes from their body and their gravy that is produced when they are cooked, and sediments of their flesh that congeal at the bottom of the dish when cooked. Evidently, any liquid that emerges from a non-kosher animal is forbidden.",
+    "The Gemara answers: It was necessary, because it might enter your mind to say it may be permitted; since generally speaking there is nothing that comes from a living animal that the Merciful One permits, and yet this milk of a kosher animal is similar to a limb severed from the living and is nevertheless permitted, the permissibility of milk is a novelty of the Torah. And consequently it might enter your mind to say that even the milk of a non-kosher animal should be permitted in line with that novelty. Therefore, the verse teaches us that it is forbidden."
+   ],
+   "excerpt": true
+  },
+  "Bekhorot 7b": {
+   "he": [
+    "מֵיתִיבִי: מִפְּנֵי מָה אָמְרוּ דְּבַשׁ דְּבוֹרִים מוּתָּר? מִפְּנֵי שֶׁמַּכְנִיסוֹת אוֹתוֹ לְגוּפָן, וְאֵין מְמַצּוֹת אוֹתוֹ מִגּוּפָן.",
+    "הוּא דְּאָמַר כְּרַבִּי יַעֲקֹב, דְּאָמַר: דּוּבְשָׁא רַחֲמָנָא שַׁרְיֵיהּ."
+   ],
+   "fr": [
+    "La Guémara objecte à partir d'une baraïta : pour quelle raison les Sages ont-ils dit que le miel des abeilles est permis ? Parce qu'elles rapportent le nectar des fleurs dans leur corps, mais ne le sécrètent pas de leur corps. De même, l'urine de l'âne n'est pas une sécrétion produite par le corps : elle est rejetée telle qu'elle est entrée. Pourquoi serait-elle interdite ?",
+    "La Guémara répond : Rav Chéchet a parlé selon l'avis de Rabbi Yaakov, qui dit que pour le miel, le Miséricordieux l'a permis comme une exception au principe selon lequel ce qui sort d'un animal impur est impur."
+   ],
+   "en": [
+    "The Gemara raises an objection from a baraita: For what reason did the Sages say that the honey of bees is permitted? It is because they bring the nectar from the flowers into their body, but they do not excrete it from their body as a bodily excretion. So too, the urine of a donkey is not an excretion produced by the body itself. Rather, it is simply ejected in the same form that it entered the body. Why, then, should it be forbidden?",
+    "The Gemara answers: Rav Sheshet stated his answer in accordance with the opinion of Rabbi Ya’akov, who says that with regard to honey, the Merciful One permits it as an exception to the principle that a substance that emerges from a non-kosher animal is non-kosher."
+   ],
+   "excerpt": true
+  },
+  "Chullin 104b": {
+   "he": [
+    "אֶלָּא חוּצָה לְאָרֶץ, מִשּׁוּם דְּלֵיכָּא לְמִיגְזַר הוּא. אֲבָל הָכָא, אִי שָׁרֵית לֵיהּ לְאַסּוֹקֵי עוֹף וּגְבִינָה, אָתֵי לְאַסּוֹקֵי בָּשָׂר וּגְבִינָה, וּמֵיכַל בָּשָׂר בְּחָלָב דְּאוֹרָיְיתָא."
+   ],
+   "fr": [
+    "Mais la michna enseigne en réalité cette règle à propos de la ‘hala hors de la terre d'Israël qui y reste. Elle ne prouve donc rien sur les décrets superposés : on peut dire que la pratique n'est permise que parce qu'il n'y a pas lieu d'en faire un décret. Comme, selon la Torah, l'obligation de la ‘hala ne s'applique pas hors de la terre d'Israël, une telle conduite ne risque pas de mener à transgresser une loi de la Torah. Mais ici, si l'on permettait de poser viande de volaille et fromage sur la même table, certains en viendraient à poser viande d'animal domestique et fromage sur une même table et à manger cette viande cuite dans le lait, transgressant ainsi un interdit de la Torah."
+   ],
+   "en": [
+    "But the mishna actually teaches this halakha with regard to ḥalla from outside of Eretz Yisrael that remains there. It therefore proves nothing about compound decrees, as it can be claimed that the practice is permitted only because there is no reason to decree. Since by Torah law the obligation of ḥalla does not apply outside of Eretz Yisrael, there is no chance that such behavior will lead to transgression of Torah law. But here, if you permit one to place the meat of birds and cheese on the same table, some might come to place the meat of domesticated animals and cheese on a single table and to eat this meat cooked in milk, thereby transgressing a prohibition by Torah law."
+   ],
+   "excerpt": true
+  },
+  "Chullin 105a": {
+   "he": [
+    "אָמַר מָר עוּקְבָא: אֲנָא, לְהָא מִלְּתָא, חַלָּא בַּר חַמְרָא לְגַבֵּי אַבָּא, דְּאִילּוּ אַבָּא כִּי הֲוָה אָכֵיל בִּשְׂרָא הָאִידָּנָא, לָא הֲוָה אָכֵל גְּבִינָה עַד לִמְחַר עַד הַשְׁתָּא, וְאִילּוּ אֲנָא – בְּהָא סְעוֹדְתָּא הוּא דְּלָא אָכֵילְנָא, לִסְעוֹדְתָּא אַחְרִיתָא – אָכֵילְנָא."
+   ],
+   "fr": [
+    "Mar Oukva a dit : sur ce point, je suis comme du vinaigre, fils du vin, par rapport à mon père — ma pratique est inférieure à la sienne. Car mon père, s'il mangeait de la viande à cette heure-ci, ne mangeait pas de fromage avant le lendemain à la même heure. Moi, je ne mange pas de fromage seulement au cours du repas où j'ai mangé de la viande ; à un autre repas du même jour, je mange du fromage."
+   ],
+   "en": [
+    "Mar Ukva said: I am, with regard to this matter, like vinegar, son of wine, with respect to Father, i.e., my practice is inferior to that of my father. As Father, if he were to eat meat at this time, would not eat cheese until tomorrow at this time. But as for me, only at this meal, during which I ate meat, do I not eat cheese; at a different meal on the same day I will eat cheese."
+   ],
+   "excerpt": true
+  },
+  "Chullin 115b": {
+   "he": [
+    "דְּבֵי רַבִּי יִשְׁמָעֵאל תָּנָא: ״לֹא תְבַשֵּׁל גְּדִי בַּחֲלֵב אִמּוֹ״ שָׁלֹשׁ פְּעָמִים, אֶחָד לְאִיסּוּר אֲכִילָה, וְאֶחָד לְאִיסּוּר הֲנָאָה, וְאֶחָד לְאִיסּוּר בִּשּׁוּל."
+   ],
+   "fr": [
+    "L'école de Rabbi Ichmaël enseigne : la Torah dit trois fois « Tu ne cuiras pas le chevreau dans le lait de sa mère » (Exode 23:19, 34:26 ; Deutéronome 14:21). Un verset enseigne l'interdit de manger la viande cuite dans le lait, un autre l'interdit d'en tirer profit, et un autre l'interdit de cuire la viande dans le lait."
+   ],
+   "en": [
+    "The school of Rabbi Yishmael taught: The Torah states three times: “You shall not cook a kid in its mother’s milk” (Exodus 23:19, 34:26; Deuteronomy 14:21). One verse serves to teach the prohibition against eating meat cooked in milk, and one serves to teach the prohibition against deriving benefit from it, and one serves to teach the prohibition against cooking meat in milk."
+   ],
+   "excerpt": true
+  },
+  "Chullin 63b": {
+   "he": [
+    "אָמַר רַבִּי יִצְחָק: עוֹף טָהוֹר נֶאֱכָל בְּמָסוֹרֶת, נֶאֱמָן הַצַּיָּיד לוֹמַר: עוֹף זֶה טָהוֹר, מָסַר לִי רַבִּי. אָמַר רַבִּי יוֹחָנָן: וְהוּא שֶׁבָּקִי בָּהֶן וּבִשְׁמוֹתֵיהֶן."
+   ],
+   "fr": [
+    "Rabbi Yits'hak dit : un oiseau pur se mange sur la foi d'une tradition qui le dit pur, sans examiner les signes énumérés dans la michna. Et le chasseur est cru quand il dit : mon maître m'a transmis que cet oiseau est pur. Rabbi Yo'hanan a dit : la règle ne vaut que si le maître connaît les oiseaux impurs et leurs noms."
+   ],
+   "en": [
+    "Rabbi Yitzḥak says: A kosher bird may be eaten on the strength of a tradition that it is kosher, without inspecting for the signs listed in the mishna. And the hunter is deemed credible to say: My teacher conveyed to me that this bird is kosher. Rabbi Yoḥanan said: And this is the halakha only when the teacher is familiar with the non-kosher birds and with their names."
+   ],
+   "excerpt": true
+  },
+  "Deuteronomy 12:21": {
+   "he": [
+    "כִּֽי־יִרְחַ֨ק מִמְּךָ֜ הַמָּק֗וֹם אֲשֶׁ֨ר יִבְחַ֜ר יְהֹוָ֣ה אֱלֹהֶ֘יךָ֮ לָשׂ֣וּם שְׁמ֣וֹ שָׁם֒ וְזָבַחְתָּ֞ מִבְּקָרְךָ֣ וּמִצֹּֽאנְךָ֗ אֲשֶׁ֨ר נָתַ֤ן יְהֹוָה֙ לְךָ֔ כַּאֲשֶׁ֖ר צִוִּיתִ֑ךָ וְאָֽכַלְתָּ֙ בִּשְׁעָרֶ֔יךָ בְּכֹ֖ל אַוַּ֥ת נַפְשֶֽׁךָ׃"
+   ],
+   "fr": [
+    "Trop éloigné du lieu choisi par l’Éternel, ton Dieu, comme siège de son nom, tu pourras tuer, de la manière que je t’ai prescrite, de ton gros ou menu bétail que l’Éternel t’aura donné, et en manger dans tes villes tout comme il te plaira."
+   ],
+   "en": [
+    "If the place where GOD has chosen to establish the divine name is too far from you, you may slaughter any of the cattle or sheep that GOD gives you, as I have instructed you; and you may eat to your heart’s content in your settlements."
+   ],
+   "excerpt": false
+  },
+  "Deuteronomy 14:21": {
+   "he": [
+    "לֹ֣א תֹאכְל֣וּ כׇל־נְ֠בֵלָ֠ה לַגֵּ֨ר אֲשֶׁר־בִּשְׁעָרֶ֜יךָ תִּתְּנֶ֣נָּה וַאֲכָלָ֗הּ א֤וֹ מָכֹר֙ לְנׇכְרִ֔י כִּ֣י עַ֤ם קָדוֹשׁ֙ אַתָּ֔ה לַיהֹוָ֖ה אֱלֹהֶ֑יךָ לֹֽא־תְבַשֵּׁ֥ל גְּדִ֖י בַּחֲלֵ֥ב אִמּֽוֹ׃&nbsp;"
+   ],
+   "fr": [
+    "Vous ne mangerez d’aucune bête morte: donne-la à manger à l’étranger admis dans tes murs, ou vends-la à ceux du dehors, car tu es un peuple consacré à l’Éternel, ton Dieu. Tu ne feras pas cuire un chevreau dans le lait de sa mère."
+   ],
+   "en": [
+    "You shall not eat anything that has died a natural death; give it to the stranger in your community to eat, or you may sell it to a foreigner. For you are a people consecrated to the ETERNAL your God. You shall not boil a kid in its mother’s milk."
+   ],
+   "excerpt": false
+  },
+  "Deuteronomy 14:4-8": {
+   "he": [
+    "זֹ֥את הַבְּהֵמָ֖ה אֲשֶׁ֣ר תֹּאכֵ֑לוּ שׁ֕וֹר שֵׂ֥ה כְשָׂבִ֖ים וְשֵׂ֥ה עִזִּֽים׃",
+    "אַיָּ֥ל וּצְבִ֖י וְיַחְמ֑וּר וְאַקּ֥וֹ וְדִישֹׁ֖ן וּתְא֥וֹ וָזָֽמֶר׃",
+    "וְכׇל־בְּהֵמָ֞ה מַפְרֶ֣סֶת פַּרְסָ֗ה וְשֹׁסַ֤עַת שֶׁ֙סַע֙ שְׁתֵּ֣י פְרָס֔וֹת מַעֲלַ֥ת גֵּרָ֖ה בַּבְּהֵמָ֑ה אֹתָ֖הּ תֹּאכֵֽלוּ׃",
+    "אַ֣ךְ אֶת־זֶ֞ה לֹ֤א תֹֽאכְלוּ֙ מִמַּֽעֲלֵ֣י הַגֵּרָ֔ה וּמִמַּפְרִיסֵ֥י הַפַּרְסָ֖ה הַשְּׁסוּעָ֑ה אֶֽת־הַ֠גָּמָ֠ל וְאֶת־הָאַרְנֶ֨בֶת וְאֶת־הַשָּׁפָ֜ן כִּֽי־מַעֲלֵ֧ה גֵרָ֣ה הֵ֗מָּה וּפַרְסָה֙ לֹ֣א הִפְרִ֔יסוּ טְמֵאִ֥ים הֵ֖ם לָכֶֽם׃",
+    "וְאֶת־הַ֠חֲזִ֠יר כִּֽי־מַפְרִ֨יס פַּרְסָ֥ה הוּא֙ וְלֹ֣א גֵרָ֔ה טָמֵ֥א ה֖וּא לָכֶ֑ם מִבְּשָׂרָם֙ לֹ֣א תֹאכֵ֔לוּ וּבְנִבְלָתָ֖ם לֹ֥א תִגָּֽעוּ׃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+   ],
+   "fr": [
+    "Voici les animaux dont vous pouvez manger: le bœuf, le menu bétail, brebis et chèvre;",
+    "le cerf, le chevreuil, le daim, le bouquetin, l’antilope, l’aurochs, le zémer.",
+    "Bref, tout quadrupède qui a le pied corné et divisé en deux ongles distincts, parmi les animaux ruminants, vous pouvez le manger.",
+    "Mais vous ne mangerez point les suivants, qui ruminent ou qui ont l’ongle fendu seulement: le chameau, le lièvre, la gerboise (car ils ruminent, mais n’ont pas l’ongle fendu: ils seront impurs pour vous);",
+    "ni le porc, parce qu’il a l’ongle fendu, mais ne rumine point: il sera impur pour vous. Ne mangez point de leur chair, et ne touchez point à leur cadavre."
+   ],
+   "en": [
+    "These are the animals that you may eat: the ox, the sheep, and the goat;",
+    "the deer, the gazelle, the roebuck, the wild goat, the ibex, the antelope, the mountain sheep,",
+    "and any other animal that has true hoofs that are cleft in two and brings up the cud—such you may eat.",
+    "But the following, which do bring up the cud or have true hoofs that are cleft through, you may not eat: the camel, the hare, and the daman—for although they bring up the cud, they have no true hoofs—they are impure for you;",
+    "also the swine—for although it has true hoofs, it does not bring up the cud—is impure for you. You shall not eat of their flesh or touch their carcasses."
+   ],
+   "excerpt": false
+  },
+  "Deuteronomy 14:9-10": {
+   "he": [
+    "אֶת־זֶה֙ תֹּֽאכְל֔וּ מִכֹּ֖ל אֲשֶׁ֣ר בַּמָּ֑יִם כֹּ֧ל אֲשֶׁר־ל֛וֹ סְנַפִּ֥יר וְקַשְׂקֶ֖שֶׂת תֹּאכֵֽלוּ׃",
+    "וְכֹ֨ל אֲשֶׁ֧ר אֵֽין־ל֛וֹ סְנַפִּ֥יר וְקַשְׂקֶ֖שֶׂת לֹ֣א תֹאכֵ֑לוּ טָמֵ֥א ה֖וּא לָכֶֽם׃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+   ],
+   "fr": [
+    "Voici ceux que vous mangerez, entre les animaux aquatiques: tout ce qui a des nageoires et des écailles, vous pouvez le manger;",
+    "mais tout ce qui est privé de nageoires et d’écailles, vous n’en mangerez point: c’est impur pour vous."
+   ],
+   "en": [
+    "These you may eat of all that live in water: you may eat anything that has fins and scales.",
+    "But you may not eat anything that has no fins and scales: it is impure for you."
+   ],
+   "excerpt": false
+  },
+  "Exodus 12:15-20": {
+   "he": [
+    "שִׁבְעַ֤ת יָמִים֙ מַצּ֣וֹת תֹּאכֵ֔לוּ אַ֚ךְ בַּיּ֣וֹם הָרִאשׁ֔וֹן תַּשְׁבִּ֥יתוּ שְּׂאֹ֖ר מִבָּתֵּיכֶ֑ם כִּ֣י&thinsp;׀ כׇּל־אֹכֵ֣ל חָמֵ֗ץ וְנִכְרְתָ֞ה הַנֶּ֤פֶשׁ הַהִוא֙ מִיִּשְׂרָאֵ֔ל מִיּ֥וֹם הָרִאשֹׁ֖ן עַד־י֥וֹם הַשְּׁבִעִֽי׃",
+    "וּבַיּ֤וֹם הָרִאשׁוֹן֙ מִקְרָא־קֹ֔דֶשׁ וּבַיּוֹם֙ הַשְּׁבִיעִ֔י מִקְרָא־קֹ֖דֶשׁ יִהְיֶ֣ה לָכֶ֑ם כׇּל־מְלָאכָה֙ לֹא־יֵעָשֶׂ֣ה בָהֶ֔ם אַ֚ךְ אֲשֶׁ֣ר יֵאָכֵ֣ל לְכׇל־נֶ֔פֶשׁ ה֥וּא לְבַדּ֖וֹ יֵעָשֶׂ֥ה לָכֶֽם׃",
+    "וּשְׁמַרְתֶּם֮ אֶת־הַמַּצּוֹת֒ כִּ֗י בְּעֶ֙צֶם֙ הַיּ֣וֹם הַזֶּ֔ה הוֹצֵ֥אתִי אֶת־צִבְאוֹתֵיכֶ֖ם מֵאֶ֣רֶץ מִצְרָ֑יִם וּשְׁמַרְתֶּ֞ם אֶת־הַיּ֥וֹם הַזֶּ֛ה לְדֹרֹתֵיכֶ֖ם חֻקַּ֥ת עוֹלָֽם׃",
+    "בָּרִאשֹׁ֡ן בְּאַרְבָּעָה֩ עָשָׂ֨ר י֤וֹם לַחֹ֙דֶשׁ֙ בָּעֶ֔רֶב תֹּאכְל֖וּ מַצֹּ֑ת עַ֠ד י֣וֹם הָאֶחָ֧ד וְעֶשְׂרִ֛ים לַחֹ֖דֶשׁ בָּעָֽרֶב׃",
+    "שִׁבְעַ֣ת יָמִ֔ים שְׂאֹ֕ר לֹ֥א יִמָּצֵ֖א בְּבָתֵּיכֶ֑ם כִּ֣י&thinsp;׀ כׇּל־אֹכֵ֣ל מַחְמֶ֗צֶת וְנִכְרְתָ֞ה הַנֶּ֤פֶשׁ הַהִוא֙ מֵעֲדַ֣ת יִשְׂרָאֵ֔ל בַּגֵּ֖ר וּבְאֶזְרַ֥ח הָאָֽרֶץ׃",
+    "כׇּל־מַחְמֶ֖צֶת לֹ֣א תֹאכֵ֑לוּ בְּכֹל֙ מוֹשְׁבֹ֣תֵיכֶ֔ם תֹּאכְל֖וּ מַצּֽוֹת׃&nbsp;"
+   ],
+   "fr": [
+    "Sept jours durant, vous mangerez des pains azymes; surtout, le jour précédent, vous ferez disparaître le levain de vos maisons. Car celui-là serait retranché d’Israël, qui mangerait du pain levé, depuis le premier jour jusqu’au septième.",
+    "Le premier jour vous aurez une convocation sainte et le septième jour encore une sainte convocation. Aucun travail ne pourra être fait ces jours-là; toutefois, ce qui sert à la nourriture de chacun, cela seul vous pourrez le faire.",
+    "Conservez la fête des Azymes, car c’est en ce même jour que j’aurai fait sortir vos légions du pays d’Égypte; conservez ce jour-là dans vos générations, comme une institution perpétuelle.",
+    "Le premier mois, le quatorzième jour du mois, au soir, vous mangerez des azymes, jusqu’au vingt-et-unième jour du mois au soir.",
+    "Durant sept jours, qu’il ne soit point trouvé de levain dans vos maisons; car quiconque mangera une substance levée, celui-là sera retranché de la communion d’Israël, le prosélyte comme l’indigène.",
+    "Vous ne mangerez d’aucune pâte levée; dans toutes vos demeures vous consommerez des pains azymes.\""
+   ],
+   "en": [
+    "Seven days you shall eat unleavened bread; on the very first day you shall remove leaven from your houses, for whoever eats leavened bread from the first day to the seventh day, that person shall be cut off from Israel.",
+    "You shall celebrate a sacred occasion on the first day, and a sacred occasion on the seventh day; no work at all shall be done on them; only what every person is to eat, that alone may be prepared for you.",
+    "You shall observe the [Feast of] Unleavened Bread, for on this very day I brought your ranks out of the land of Egypt; you shall observe this day throughout the ages as an institution for all time.",
+    "In the first month, from the fourteenth day of the month at evening, you shall eat unleavened bread until the twenty-first day of the month at evening.",
+    "No leaven shall be found in your houses for seven days. For whoever eats what is leavened, that person—whether a stranger or a citizen of the country—shall be cut off from the community of Israel.",
+    "You shall eat nothing leavened; in all your settlements you shall eat unleavened bread."
+   ],
+   "excerpt": false
+  },
+  "Exodus 12:18": {
+   "he": [
+    "בָּרִאשֹׁ֡ן בְּאַרְבָּעָה֩ עָשָׂ֨ר י֤וֹם לַחֹ֙דֶשׁ֙ בָּעֶ֔רֶב תֹּאכְל֖וּ מַצֹּ֑ת עַ֠ד י֣וֹם הָאֶחָ֧ד וְעֶשְׂרִ֛ים לַחֹ֖דֶשׁ בָּעָֽרֶב׃"
+   ],
+   "fr": [
+    "Le premier mois, le quatorzième jour du mois, au soir, vous mangerez des azymes, jusqu’au vingt-et-unième jour du mois au soir."
+   ],
+   "en": [
+    "In the first month, from the fourteenth day of the month at evening, you shall eat unleavened bread until the twenty-first day of the month at evening."
+   ],
+   "excerpt": false
+  },
+  "Exodus 13:7": {
+   "he": [
+    "מַצּוֹת֙ יֵֽאָכֵ֔ל אֵ֖ת שִׁבְעַ֣ת הַיָּמִ֑ים וְלֹֽא־יֵרָאֶ֨ה לְךָ֜ חָמֵ֗ץ וְלֹֽא־יֵרָאֶ֥ה לְךָ֛ שְׂאֹ֖ר בְּכׇל־גְּבֻלֶֽךָ׃"
+   ],
+   "fr": [
+    "On se nourrira de pains azymes durant ces sept jours; et l’on ne doit voir chez toi ni pain levé, ni levain, dans toutes tes possessions."
+   ],
+   "en": [
+    "Throughout the seven days unleavened bread shall be eaten; no leavened bread shall be found with you, and no leaven shall be found in all your territory."
+   ],
+   "excerpt": false
+  },
+  "Exodus 23:19": {
+   "he": [
+    "רֵאשִׁ֗ית בִּכּוּרֵי֙ אַדְמָ֣תְךָ֔ תָּבִ֕יא בֵּ֖ית יְהֹוָ֣ה אֱלֹהֶ֑יךָ לֹֽא־תְבַשֵּׁ֥ל גְּדִ֖י בַּחֲלֵ֥ב אִמּֽוֹ׃&nbsp;"
+   ],
+   "fr": [
+    "Les prémices nouvelles de ton sol, tu les apporteras dans la maison de l’Éternel ton Dieu. Tu ne feras point cuire un chevreau dans le lait de sa mère."
+   ],
+   "en": [
+    "The choice first fruits of your soil you shall bring to the house of the ETERNAL your God. You shall not boil a kid in its mother’s milk."
+   ],
+   "excerpt": false
+  },
+  "Genesis 32:33": {
+   "he": [
+    "עַל־כֵּ֡ן לֹֽא־יֹאכְל֨וּ בְנֵֽי־יִשְׂרָאֵ֜ל אֶת־גִּ֣יד הַנָּשֶׁ֗ה אֲשֶׁר֙ עַל־כַּ֣ף הַיָּרֵ֔ךְ עַ֖ד הַיּ֣וֹם הַזֶּ֑ה כִּ֤י נָגַע֙ בְּכַף־יֶ֣רֶךְ יַעֲקֹ֔ב בְּגִ֖יד הַנָּשֶֽׁה׃"
+   ],
+   "fr": [
+    "C’est pourquoi les enfants d’Israël ne mangent point aujourd’hui encore le nerf sciatique, qui tient à la cavité de la cuisse; parce que Jacob fut touché à la cavité de la cuisse, sur le nerf sciatique."
+   ],
+   "en": [
+    "That is why the children of Israel to this day do not eat the thigh muscle that is on the socket of the hip, since Jacob’s hip socket was wrenched at the thigh muscle."
+   ],
+   "excerpt": false
+  },
+  "Leviticus 11:13-19": {
+   "he": [
+    "וְאֶת־אֵ֙לֶּה֙ תְּשַׁקְּצ֣וּ מִן־הָע֔וֹף לֹ֥א יֵאָכְל֖וּ שֶׁ֣קֶץ הֵ֑ם אֶת־הַנֶּ֙שֶׁר֙ וְאֶת־הַפֶּ֔רֶס וְאֵ֖ת הָעׇזְנִיָּֽה׃",
+    "וְאֶ֨ת־הַדָּאָ֔ה וְאֶת־הָאַיָּ֖ה לְמִינָֽהּ׃",
+    "אֵ֥ת כׇּל־עֹרֵ֖ב לְמִינֽוֹ׃",
+    "וְאֵת֙ בַּ֣ת הַֽיַּעֲנָ֔ה וְאֶת־הַתַּחְמָ֖ס וְאֶת־הַשָּׁ֑חַף וְאֶת־הַנֵּ֖ץ לְמִינֵֽהוּ׃",
+    "וְאֶת־הַכּ֥וֹס וְאֶת־הַשָּׁלָ֖ךְ וְאֶת־הַיַּנְשֽׁוּף׃",
+    "וְאֶת־הַתִּנְשֶׁ֥מֶת וְאֶת־הַקָּאָ֖ת וְאֶת־הָרָחָֽם׃",
+    "וְאֵת֙ הַחֲסִידָ֔ה הָאֲנָפָ֖ה לְמִינָ֑הּ וְאֶת־הַדּוּכִיפַ֖ת וְאֶת־הָעֲטַלֵּֽף׃"
+   ],
+   "fr": [
+    "Et voici, parmi les oiseaux, ceux que vous repousserez; on ne les mangera point, ils sont abominables: l’aigle, l’orfraie, la vallérie;",
+    "le faucon et le vautour selon ses espèces;",
+    "tous les corbeaux selon leurs espèces;",
+    "l’autruche, l’hirondelle, la mouette, l’épervier selon ses espèces;",
+    "le hibou, le cormoran, la hulotte;",
+    "le porphyrion, le pélican, le percnoptère;",
+    "la cigogne, le héron selon ses espèces, le tétras et la chauve-souris."
+   ],
+   "en": [
+    "The following you shall abominate among the birds—they shall not be eaten, they are an abomination: the eagle, the vulture, and the black vulture;",
+    "the kite, falcons of every variety;",
+    "all varieties of raven;",
+    "the ostrich, the nighthawk, the sea gull; hawks of every variety;",
+    "the little owl, the cormorant, and the great owl;",
+    "the white owl, the pelican, and the bustard;",
+    "the stork; herons of every variety; the hoopoe, and the bat."
+   ],
+   "excerpt": false
+  },
+  "Leviticus 11:2-8": {
+   "he": [
+    "דַּבְּר֛וּ אֶל־בְּנֵ֥י יִשְׂרָאֵ֖ל לֵאמֹ֑ר זֹ֤את הַֽחַיָּה֙ אֲשֶׁ֣ר תֹּאכְל֔וּ מִכׇּל־הַבְּהֵמָ֖ה אֲשֶׁ֥ר עַל־הָאָֽרֶץ׃",
+    "כֹּ֣ל&thinsp;׀ מַפְרֶ֣סֶת פַּרְסָ֗ה וְשֹׁסַ֤עַת שֶׁ֙סַע֙ פְּרָסֹ֔ת מַעֲלַ֥ת גֵּרָ֖ה בַּבְּהֵמָ֑ה אֹתָ֖הּ תֹּאכֵֽלוּ׃",
+    "אַ֤ךְ אֶת־זֶה֙ לֹ֣א תֹֽאכְל֔וּ מִֽמַּעֲלֵי֙ הַגֵּרָ֔ה וּמִמַּפְרִסֵ֖י הַפַּרְסָ֑ה אֶֽת־הַ֠גָּמָ֠ל כִּֽי־מַעֲלֵ֨ה גֵרָ֜ה ה֗וּא וּפַרְסָה֙ אֵינֶ֣נּוּ מַפְרִ֔יס טָמֵ֥א ה֖וּא לָכֶֽם׃",
+    "וְאֶת־הַשָּׁפָ֗ן כִּֽי־מַעֲלֵ֤ה גֵרָה֙ ה֔וּא וּפַרְסָ֖ה לֹ֣א יַפְרִ֑יס טָמֵ֥א ה֖וּא לָכֶֽם׃",
+    "וְאֶת־הָאַרְנֶ֗בֶת כִּֽי־מַעֲלַ֤ת גֵּרָה֙ הִ֔וא וּפַרְסָ֖ה לֹ֣א הִפְרִ֑יסָה טְמֵאָ֥ה הִ֖וא לָכֶֽם׃",
+    "וְאֶת־הַ֠חֲזִ֠יר כִּֽי־מַפְרִ֨יס פַּרְסָ֜ה ה֗וּא וְשֹׁסַ֥ע שֶׁ֙סַע֙ פַּרְסָ֔ה וְה֖וּא גֵּרָ֣ה לֹֽא־יִגָּ֑ר טָמֵ֥א ה֖וּא לָכֶֽם׃",
+    "מִבְּשָׂרָם֙ לֹ֣א תֹאכֵ֔לוּ וּבְנִבְלָתָ֖ם לֹ֣א תִגָּ֑עוּ טְמֵאִ֥ים הֵ֖ם לָכֶֽם׃"
+   ],
+   "fr": [
+    "\"Parlez ainsi aux enfants d’Israël: voici les animaux que vous pouvez manger, entre tous les quadrupèdes qui vivent sur la terre:",
+    "tout ce qui a le pied corné et divisé en deux ongles, parmi les animaux ruminants, vous pouvez le manger.",
+    "Quant aux suivants, qui ruminent ou qui ont le pied corné, vous n’en mangerez point: le chameau, parce qu’il rumine mais n’a point le pied corné: il sera immonde pour vous;",
+    "la gerboise, parce qu’elle rumine, mais n’a point le pied corné: elle sera immonde pour vous;",
+    "le lièvre, parce qu’il rumine, mais n’a point le pied corné: il sera immonde pour vous;",
+    "le porc, qui a bien le pied corné, qui a même le sabot bifurqué, mais qui ne rumine point: il sera immonde pour vous.",
+    "Vous ne mangerez point de leur chair, et vous ne toucherez point à leur cadavre: ils sont immondes pour vous."
+   ],
+   "en": [
+    "Speak to the Israelite people thus: These are the creatures that you may eat from among all the land animals:",
+    "any animal that has true hoofs, with clefts through the hoofs, and that chews the cud—such you may eat.",
+    "The following, however, of those that either chew the cud or have true hoofs, you shall not eat: the camel—although it chews the cud, it has no true hoofs: it is impure for you;",
+    "the daman—although it chews the cud, it has no true hoofs: it is impure for you;",
+    "the hare—although it chews the cud, it has no true hoofs: it is impure for you;",
+    "and the swine—although it has true hoofs, with the hoofs cleft through, it does not chew the cud: it is impure for you.",
+    "You shall not eat of their flesh or touch their carcasses; they are impure for you."
+   ],
+   "excerpt": false
+  },
+  "Leviticus 11:21-22": {
+   "he": [
+    "אַ֤ךְ אֶת־זֶה֙ תֹּֽאכְל֔וּ מִכֹּל֙ שֶׁ֣רֶץ הָע֔וֹף הַהֹלֵ֖ךְ עַל־אַרְבַּ֑ע אֲשֶׁר־[ל֤וֹ] (לא) כְרָעַ֙יִם֙ מִמַּ֣עַל לְרַגְלָ֔יו לְנַתֵּ֥ר בָּהֵ֖ן עַל־הָאָֽרֶץ׃",
+    "אֶת־אֵ֤לֶּה מֵהֶם֙ תֹּאכֵ֔לוּ אֶת־הָֽאַרְבֶּ֣ה לְמִינ֔וֹ וְאֶת־הַסׇּלְעָ֖ם לְמִינֵ֑הוּ וְאֶת־הַחַרְגֹּ֣ל לְמִינֵ֔הוּ וְאֶת־הֶחָגָ֖ב לְמִינֵֽהוּ׃"
+   ],
+   "fr": [
+    "Toutefois, vous pourrez manger, parmi les insectes ailés marchant sur quatre pieds, celui qui a au-dessus de ses pieds des articulations au moyen desquelles il saute sur la terre.",
+    "Vous pouvez donc manger les suivants: l’arbé selon ses espèces, le solam selon les siennes, le hargol selon ses espèces et le hagab selon les siennes."
+   ],
+   "en": [
+    "But these you may eat among all the winged swarming things that walk on fours: all that have, above their feet, jointed legs to leap with on the ground—",
+    "of these you may eat the following: locusts of every variety; all varieties of bald locust; crickets of every variety; and all varieties of grasshopper."
+   ],
+   "excerpt": false
+  },
+  "Leviticus 11:41-43": {
+   "he": [
+    "וְכׇל־הַשֶּׁ֖רֶץ הַשֹּׁרֵ֣ץ עַל־הָאָ֑רֶץ שֶׁ֥קֶץ ה֖וּא לֹ֥א יֵאָכֵֽל׃",
+    "כֹּל֩ הוֹלֵ֨ךְ עַל־גָּח֜וֹן וְכֹ֣ל&thinsp;׀ הוֹלֵ֣ךְ עַל־אַרְבַּ֗ע עַ֚ד כׇּל־מַרְבֵּ֣ה רַגְלַ֔יִם לְכׇל־הַשֶּׁ֖רֶץ הַשֹּׁרֵ֣ץ עַל־הָאָ֑רֶץ לֹ֥א תֹאכְל֖וּם כִּי־שֶׁ֥קֶץ הֵֽם׃",
+    "אַל־תְּשַׁקְּצוּ֙ אֶת־נַפְשֹׁ֣תֵיכֶ֔ם בְּכׇל־הַשֶּׁ֖רֶץ הַשֹּׁרֵ֑ץ וְלֹ֤א תִֽטַּמְּאוּ֙ בָּהֶ֔ם וְנִטְמֵתֶ֖ם בָּֽם׃"
+   ],
+   "fr": [
+    "Tout reptile, qui se traîne sur le sol, est chose abominable on n’en doit pas manger.",
+    "Tout ce qui se traîne sur le ventre, ou se meut soit sur quatre pieds, soit sur un plus grand nombre de pieds, parmi les reptiles quelconques rampant sur le sol, vous n’en mangerez point, car ce sont choses abominables.",
+    "Ne vous rendez point vous-mêmes abominables par toutes ces créatures rampantes; ne vous souillez point par elles, vous en contracteriez la souillure."
+   ],
+   "en": [
+    "All the things that swarm upon the earth are an abomination; they shall not be eaten.",
+    "You shall not eat, among all things that swarm upon the earth, anything that crawls on its belly, or anything that walks on fours, or anything that has many legs; for they are an abomination.",
+    "You shall not draw abomination upon yourselves through anything that swarms; you shall not make yourselves impure therewith and thus become impure."
+   ],
+   "excerpt": false
+  },
+  "Leviticus 11:9-12": {
+   "he": [
+    "אֶת־זֶה֙ תֹּֽאכְל֔וּ מִכֹּ֖ל אֲשֶׁ֣ר בַּמָּ֑יִם כֹּ֣ל אֲשֶׁר־לוֹ֩ סְנַפִּ֨יר וְקַשְׂקֶ֜שֶׂת בַּמַּ֗יִם בַּיַּמִּ֛ים וּבַנְּחָלִ֖ים אֹתָ֥ם תֹּאכֵֽלוּ׃",
+    "וְכֹל֩ אֲשֶׁ֨ר אֵֽין־ל֜וֹ סְנַפִּ֣יר וְקַשְׂקֶ֗שֶׂת בַּיַּמִּים֙ וּבַנְּחָלִ֔ים מִכֹּל֙ שֶׁ֣רֶץ הַמַּ֔יִם וּמִכֹּ֛ל נֶ֥פֶשׁ הַחַיָּ֖ה אֲשֶׁ֣ר בַּמָּ֑יִם שֶׁ֥קֶץ הֵ֖ם לָכֶֽם׃",
+    "וְשֶׁ֖קֶץ יִהְי֣וּ לָכֶ֑ם מִבְּשָׂרָם֙ לֹ֣א תֹאכֵ֔לוּ וְאֶת־נִבְלָתָ֖ם תְּשַׁקֵּֽצוּ׃",
+    "כֹּ֣ל אֲשֶׁ֥ר אֵֽין־ל֛וֹ סְנַפִּ֥יר וְקַשְׂקֶ֖שֶׂת בַּמָּ֑יִם שֶׁ֥קֶץ ה֖וּא לָכֶֽם׃"
+   ],
+   "fr": [
+    "Voici ce que vous pouvez manger des divers animaux aquatiques: tout ce qui, dans les eaux, mers ou rivières, est pourvu de nageoires et d’écailles, vous pouvez en manger.",
+    "Mais tout ce qui n’est pas pourvu de nageoires et d’écailles, dans les mers ou les rivières, soit ce qui pullule dans l’eau, soit les animaux qui l’habitent, ils vous sont abominables,",
+    "abominables ils resteront pour vous: ne mangez point de leur chair, et ayez leurs cadavres en abomination.",
+    "Tout ce qui, dans les eaux, est privé de nageoires et d’écailles, vous sera une abomination."
+   ],
+   "en": [
+    "These you may eat of all that live in water: anything in water, whether in the seas or in the streams, that has fins and scales—these you may eat.",
+    "But anything in the seas or in the streams that has no fins and scales, among all the swarming things of the water and among all the other living creatures that are in the water—they are an abomination for you",
+    "and an abomination for you they shall remain: you shall not eat of their flesh and you shall abominate their carcasses.",
+    "Everything in water that has no fins and scales shall be an abomination for you."
+   ],
+   "excerpt": false
+  },
+  "Leviticus 17:10-14": {
+   "he": [
+    "וְאִ֨ישׁ אִ֜ישׁ מִבֵּ֣ית יִשְׂרָאֵ֗ל וּמִן־הַגֵּר֙ הַגָּ֣ר בְּתוֹכָ֔ם אֲשֶׁ֥ר יֹאכַ֖ל כׇּל־דָּ֑ם וְנָתַתִּ֣י פָנַ֗י בַּנֶּ֙פֶשׁ֙ הָאֹכֶ֣לֶת אֶת־הַדָּ֔ם וְהִכְרַתִּ֥י אֹתָ֖הּ מִקֶּ֥רֶב עַמָּֽהּ׃",
+    "כִּ֣י נֶ֣פֶשׁ הַבָּשָׂר֮ בַּדָּ֣ם הִוא֒ וַאֲנִ֞י נְתַתִּ֤יו לָכֶם֙ עַל־הַמִּזְבֵּ֔חַ לְכַפֵּ֖ר עַל־נַפְשֹׁתֵיכֶ֑ם כִּֽי־הַדָּ֥ם ה֖וּא בַּנֶּ֥פֶשׁ יְכַפֵּֽר׃",
+    "עַל־כֵּ֤ן אָמַ֙רְתִּי֙ לִבְנֵ֣י יִשְׂרָאֵ֔ל כׇּל־נֶ֥פֶשׁ מִכֶּ֖ם לֹא־תֹ֣אכַל דָּ֑ם וְהַגֵּ֛ר הַגָּ֥ר בְּתוֹכְכֶ֖ם לֹא־יֹ֥אכַל דָּֽם׃",
+    "וְאִ֨ישׁ אִ֜ישׁ מִבְּנֵ֣י יִשְׂרָאֵ֗ל וּמִן־הַגֵּר֙ הַגָּ֣ר בְּתוֹכָ֔ם אֲשֶׁ֨ר יָצ֜וּד צֵ֥יד חַיָּ֛ה אוֹ־ע֖וֹף אֲשֶׁ֣ר יֵאָכֵ֑ל וְשָׁפַךְ֙ אֶת־דָּמ֔וֹ וְכִסָּ֖הוּ בֶּעָפָֽר׃",
+    "כִּֽי־נֶ֣פֶשׁ כׇּל־בָּשָׂ֗ר דָּמ֣וֹ בְנַפְשׁוֹ֮ הוּא֒ וָֽאֹמַר֙ לִבְנֵ֣י יִשְׂרָאֵ֔ל דַּ֥ם כׇּל־בָּשָׂ֖ר לֹ֣א תֹאכֵ֑לוּ כִּ֣י נֶ֤פֶשׁ כׇּל־בָּשָׂר֙ דָּמ֣וֹ הִ֔וא כׇּל־אֹכְלָ֖יו יִכָּרֵֽת׃"
+   ],
+   "fr": [
+    "Quiconque aussi, dans la maison d’Israël ou parmi les étrangers établis au milieu d’eux, mangera de quelque sang, je dirigerai mon regard sur la personne qui aura mangé ce sang, et je la retrancherai du milieu de son peuple.",
+    "Car le principe vital de la chair gît dans le sang, et moi je vous l’ai accordé sur l’autel, pour procurer l’expiation à vos personnes; car c’est le sang qui fait expiation pour la personne.",
+    "C’est pourquoi j’ai dit aux enfants d’Israël: Que nul d’entre vous ne mange du sang, et que l’étranger résidant avec vous n’en mange point.",
+    "Tout homme aussi, parmi les enfants d’Israël ou parmi les étrangers résidant avec eux, qui aurait pris un gibier, bête sauvage ou volatile, propre à être mangé, devra en répandre le sang et le couvrir de terre.",
+    "Car le principe vital de toute créature, c’est son sang qui est dans son corps, aussi ai-je dit aux enfants d’Israël: Ne mangez le sang d’aucune créature. Car la vie de toute créature c’est son sang: quiconque en mangera sera retranché."
+   ],
+   "en": [
+    "And regarding anyone of the house of Israel, or of the strangers who reside among them, who partakes of any blood: I will set My face against the person who partakes of the blood; I will cut them off from among their kin.",
+    "For the life of the flesh is in the blood, and I have assigned it to you for making expiation for your lives upon the altar; it is the blood, as life, that effects expiation.",
+    "Therefore I say to the Israelite people: No person among you shall partake of blood, nor shall the stranger who resides among you partake of blood.",
+    "And regarding anyone, whether an Israelite or a stranger who resides among them, who hunts down an animal or a bird that may be eaten: they shall pour out its blood and cover it with earth.",
+    "For the life of all flesh—its blood is its life. Therefore I say to the Israelite people: You shall not partake of the blood of any flesh, for the life of all flesh is its blood. Anyone who partakes of it shall be cut off."
+   ],
+   "excerpt": false
+  },
+  "Leviticus 19:23-25": {
+   "he": [
+    "וְכִי־תָבֹ֣אוּ אֶל־הָאָ֗רֶץ וּנְטַעְתֶּם֙ כׇּל־עֵ֣ץ מַאֲכָ֔ל וַעֲרַלְתֶּ֥ם עׇרְלָת֖וֹ אֶת־פִּרְי֑וֹ שָׁלֹ֣שׁ שָׁנִ֗ים יִהְיֶ֥ה לָכֶ֛ם עֲרֵלִ֖ים לֹ֥א יֵאָכֵֽל׃",
+    "וּבַשָּׁנָה֙ הָרְבִיעִ֔ת יִהְיֶ֖ה כׇּל־פִּרְי֑וֹ קֹ֥דֶשׁ הִלּוּלִ֖ים לַיהֹוָֽה׃",
+    "וּבַשָּׁנָ֣ה הַחֲמִישִׁ֗ת תֹּֽאכְלוּ֙ אֶת־פִּרְי֔וֹ לְהוֹסִ֥יף לָכֶ֖ם תְּבוּאָת֑וֹ אֲנִ֖י יְהֹוָ֥ה אֱלֹהֵיכֶֽם׃"
+   ],
+   "fr": [
+    "Quand vous serez entrés dans la Terre promise et y aurez planté quelque arbre fruitier, vous en considérerez le fruit comme une excroissance: trois années durant, ce sera pour vous autant d’excroissances, il n’en sera point mangé.",
+    "Dans sa quatrième année, tous ses fruits seront consacrés à des réjouissances, en l’honneur de l’Éternel:",
+    "et la cinquième année, vous pourrez jouir de ses fruits, de manière à en augmenter pour vous le produit: je suis l’Éternel votre Dieu."
+   ],
+   "en": [
+    "When you enter the land and plant any tree for food, you shall regard its fruit as forbidden. Three years it shall be forbidden for you, not to be eaten.",
+    "In the fourth year all its fruit shall be set aside for jubilation before GOD;",
+    "and only in the fifth year may you use its fruit—that its yield to you may be increased: I the ETERNAL am your God."
+   ],
+   "excerpt": false
+  },
+  "Leviticus 25:1-7": {
+   "he": [
+    "וַיְדַבֵּ֤ר יְהֹוָה֙ אֶל־מֹשֶׁ֔ה בְּהַ֥ר סִינַ֖י לֵאמֹֽר׃",
+    "דַּבֵּ֞ר אֶל־בְּנֵ֤י יִשְׂרָאֵל֙ וְאָמַרְתָּ֣ אֲלֵהֶ֔ם כִּ֤י תָבֹ֙אוּ֙ אֶל־הָאָ֔רֶץ אֲשֶׁ֥ר אֲנִ֖י נֹתֵ֣ן לָכֶ֑ם וְשָׁבְתָ֣ה הָאָ֔רֶץ שַׁבָּ֖ת לַיהֹוָֽה׃",
+    "שֵׁ֤שׁ שָׁנִים֙ תִּזְרַ֣ע שָׂדֶ֔ךָ וְשֵׁ֥שׁ שָׁנִ֖ים תִּזְמֹ֣ר כַּרְמֶ֑ךָ וְאָסַפְתָּ֖ אֶת־תְּבוּאָתָֽהּ׃",
+    "וּבַשָּׁנָ֣ה הַשְּׁבִיעִ֗ת שַׁבַּ֤ת שַׁבָּתוֹן֙ יִהְיֶ֣ה לָאָ֔רֶץ שַׁבָּ֖ת לַיהֹוָ֑ה שָֽׂדְךָ֙ לֹ֣א תִזְרָ֔ע וְכַרְמְךָ֖ לֹ֥א תִזְמֹֽר׃",
+    "אֵ֣ת סְפִ֤יחַ קְצִֽירְךָ֙ לֹ֣א תִקְצ֔וֹר וְאֶת־עִנְּבֵ֥י נְזִירֶ֖ךָ לֹ֣א תִבְצֹ֑ר שְׁנַ֥ת שַׁבָּת֖וֹן יִהְיֶ֥ה לָאָֽרֶץ׃",
+    "וְ֠הָיְתָ֠ה שַׁבַּ֨ת הָאָ֤רֶץ לָכֶם֙ לְאׇכְלָ֔ה לְךָ֖ וּלְעַבְדְּךָ֣ וְלַאֲמָתֶ֑ךָ וְלִשְׂכִֽירְךָ֙ וּלְתוֹשָׁ֣בְךָ֔ הַגָּרִ֖ים עִמָּֽךְ׃",
+    "וְלִ֨בְהֶמְתְּךָ֔ וְלַֽחַיָּ֖ה אֲשֶׁ֣ר בְּאַרְצֶ֑ךָ תִּהְיֶ֥ה כׇל־תְּבוּאָתָ֖הּ לֶאֱכֹֽל׃&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+   ],
+   "fr": [
+    "L’Éternel parla à Moïse au mont Sinaï, en ces termes:",
+    "\"Parle aux enfants d’Israël et dis-leur: Quand vous serez entrés dans le pays que je vous donne, la terre sera soumise à un chômage en l’honneur de l’Éternel.",
+    "Six années tu ensemenceras ton champ, six années tu travailleras ta vigne, et tu en recueilleras le produit;",
+    "mais, la septième année, un chômage absolu sera accordé à la terre, un sabbat en l’honneur de l’Éternel. Tu n’ensemenceras ton champ ni ne tailleras ta vigne.",
+    "Le produit spontané de ta moisson, tu ne le couperas point, et les raisins de ta vigne intacte, tu ne les vendangeras point: ce sera une année de chômage pour le sol.",
+    "Ce solen repos vous appartiendra à tous pour la consommation: à toi, à ton esclave, à ta servante, au mercenaire et à l’étranger qui habitent avec toi;",
+    "ton bétail même, ainsi que les bêtes sauvages de ton pays, pourront se nourrir de tous ces produits."
+   ],
+   "en": [
+    "GOD spoke to Moses on Mount Sinai:",
+    "Speak to the Israelite people and say to them: When you enter the land that I assign to you, the land shall observe a sabbath of GOD.",
+    "Six years you may sow your field and six years you may prune your vineyard and gather in the yield.",
+    "But in the seventh year the land shall have a sabbath of complete rest, a sabbath of GOD: you shall not sow your field or prune your vineyard.",
+    "You shall not reap the aftergrowth of your harvest or gather the grapes of your untrimmed vines; it shall be a year of complete rest for the land.",
+    "But you may eat whatever the land during its sabbath will produce—you, your male and female slaves, the hired and bound laborers who live with you,",
+    "and your cattle and the beasts in your land may eat all its yield."
+   ],
+   "excerpt": false
+  },
+  "Leviticus 7:23-25": {
+   "he": [
+    "דַּבֵּ֛ר אֶל־בְּנֵ֥י יִשְׂרָאֵ֖ל לֵאמֹ֑ר כׇּל־חֵ֜לֶב שׁ֥וֹר וְכֶ֛שֶׂב וָעֵ֖ז לֹ֥א תֹאכֵֽלוּ׃",
+    "וְחֵ֤לֶב נְבֵלָה֙ וְחֵ֣לֶב טְרֵפָ֔ה יֵעָשֶׂ֖ה לְכׇל־מְלָאכָ֑ה וְאָכֹ֖ל לֹ֥א תֹאכְלֻֽהוּ׃",
+    "כִּ֚י כׇּל־אֹכֵ֣ל חֵ֔לֶב מִ֨ן־הַבְּהֵמָ֔ה אֲשֶׁ֨ר יַקְרִ֥יב מִמֶּ֛נָּה אִשֶּׁ֖ה לַיהֹוָ֑ה וְנִכְרְתָ֛ה הַנֶּ֥פֶשׁ הָאֹכֶ֖לֶת מֵֽעַמֶּֽיהָ׃"
+   ],
+   "fr": [
+    "\"Parle aux enfants d’Israël en ces termes: Tout suif de bœuf, de brebis et de chèvre, vous n’en devez point manger.",
+    "Le suif d’une bête morte et celui d’une bête déchirée pourront être employés à un usage quelconque; quant à en manger, vous n’en mangerez point.",
+    "Car, quiconque mangera du suif de l’animal dont l’espèce est offerte en sacrifice au Seigneur, cette personne sera retranchée de son peuple."
+   ],
+   "en": [
+    "Speak to the Israelite people thus: You shall eat no fat of ox or sheep or goat.",
+    "Fat from animals that died or were torn by beasts may be put to any use, but you must not eat it.",
+    "If anyone eats the fat of animals from which offerings by fire may be made to GOD, the person who eats it shall be cut off from kin."
+   ],
+   "excerpt": false
+  },
+  "Mishnah Pesachim 2:5": {
+   "he": [
+    "אֵלּוּ דְבָרִים שֶׁאָדָם יוֹצֵא בָהֶן יְדֵי חוֹבָתוֹ בְּפֶסַח, בְּחִטִּים, בִּשְׂעוֹרִים, בְּכֻסְּמִין וּבְשִׁיפוֹן וּבְשִׁבֹּלֶת שׁוּעָל. וְיוֹצְאִין בִּדְמַאי וּבְמַעֲשֵׂר רִאשׁוֹן שֶׁנִּטְּלָה תְרוּמָתוֹ, וּבְמַעֲשֵׂר שֵׁנִי וְהֶקְדֵּשׁ שֶׁנִּפְדּוּ, וְהַכֹּהֲנִים בְּחַלָּה וּבִתְרוּמָה. אֲבָל לֹא בְטֶבֶל, וְלֹא בְמַעֲשֵׂר רִאשׁוֹן שֶׁלֹּא נִטְּלָה תְרוּמָתוֹ, וְלֹא בְמַעֲשֵׂר שֵׁנִי וְהֶקְדֵּשׁ שֶׁלֹּא נִפְדּוּ. חַלּוֹת תּוֹדָה וּרְקִיקֵי נָזִיר, עֲשָׂאָן לְעַצְמוֹ, אֵין יוֹצְאִין בָּהֶן. עֲשָׂאָן לִמְכֹּר בַּשּׁוּק, יוֹצְאִין בָּהֶן:"
+   ],
+   "fr": [
+    "Voici les céréales avec lesquelles on s'acquitte de l'obligation de manger de la matsa le premier soir de Pessa'h : le blé, l'orge, l'épeautre, le seigle et l'avoine. On s'en acquitte aussi avec une matsa de grain dont on doute qu'il ait été prélevé (demaï), avec du premier dîme dont la terouma a été prélevée, et avec du second dîme et des choses consacrées qui ont été rachetés. Les cohanim s'en acquittent avec de la ‘hala et de la terouma. Mais on ne s'en acquitte pas avec du produit non prélevé (tevel), ni avec du premier dîme dont la terouma n'a pas été prélevée, ni avec du second dîme ou des choses consacrées non rachetés. Quant aux pains de l'offrande de reconnaissance et aux galettes du naziréen : s'il les a faits pour lui-même, il ne s'en acquitte pas ; s'il les a faits pour les vendre au marché, on s'en acquitte."
+   ],
+   "en": [
+    "These are the types of grain with which a person fulfills his obligation to eat matza on the first night of Passover: With wheat, with barley, with spelt [kusmin], with rye [shifon], and with oats [shibbolet shu’al]. And one fulfills his obligation by eating not only matza made from properly tithed grains, but even with matza made from doubtfully tithed produce, and matza made with first tithe from which its teruma was already taken, or second tithe and consecrated food that were redeemed. And priests may eat matza prepared from ḥalla, the portion of dough that is given to priests, or with teruma, as priests are permitted to eat these portions. However, one may not fulfill one’s obligation to eat matza made with untithed produce, nor with matza made from the first tithe from which its teruma was not separated, nor with matza made either from the second tithe, nor from consecrated grain that was not redeemed. With regard to one who prepared loaves of matza that are brought with a thanks-offering, or to the wafers brought by a nazirite, the Sages drew the following distinction: If he prepared them for himself, then he does not fulfill his obligation to eat matza with them. However, if he prepared them to sell them in the market to those who require these loaves or wafers, one fulfills the obligation to eat matza with them."
+   ],
+   "excerpt": false
+  },
+  "Pesachim 114b": {
+   "he": [
+    "מַאי שְׁנֵי תַבְשִׁילִין? אָמַר רַב הוּנָא: סִילְקָא וְאָרוֹזָא. רָבָא הֲוָה מְיהַדַּר אַסִּילְקָא וְאָרוֹזָא הוֹאִיל וְנָפֵיק מִפּוּמֵּיהּ דְּרַב הוּנָא.",
+    "אָמַר רַב אָשֵׁי: שְׁמַע מִינַּהּ דְּרַב הוּנָא, לֵית דְּחָיֵישׁ לְהָא דְּרַבִּי יוֹחָנָן בֶּן נוּרִי. דְּתַנְיָא, רַבִּי יוֹחָנָן בֶּן נוּרִי אוֹמֵר: אוֹרֶז מִין דָּגָן הוּא וְחַיָּיבִין עַל חִימּוּצוֹ כָּרֵת, וְאָדָם יוֹצֵא בּוֹ יְדֵי חוֹבָתוֹ בַּפֶּסַח."
+   ],
+   "fr": [
+    "La Guémara demande : quels sont les deux plats cuits dont parle la michna ? Rav Houna a dit : des bettes et du riz. On raconte que Rava cherchait des bettes et du riz pour son repas du soir de Pessa'h, puisque cette règle venait de la bouche de Rav Houna. Bien que Rava ait compris que Rav Houna ne donnait que des exemples, il voulait accomplir à la lettre la parole de son maître.",
+    "Rav Achi a dit : apprends au passage une autre règle de cette parole de Rav Houna : personne ne tient compte de l'avis de Rabbi Yo'hanan ben Nouri. Car il est enseigné dans une baraïta : Rabbi Yo'hanan ben Nouri dit que le riz est une sorte de céréale à tous égards : on encourt le retranchement (karet) si on le mange levé à Pessa'h, et l'on s'acquitte avec lui de l'obligation de la matsa s'il a été cuit en matsa. On déduit de la proposition de Rav Houna d'utiliser du riz cuit que le riz ne peut pas devenir ‘hamets."
+   ],
+   "en": [
+    "The Gemara asks: What are these two cooked foods mentioned in the mishna? Rav Huna said: Beets and rice. The Gemara relates that Rava would seek beets and rice for his meal on Passover night, since this ruling came from Rav Huna’s mouth. Although Rava realized that Rav Huna was merely citing examples and did not mean that one must eat those specific foods, he wanted to fulfill the statement of his teacher precisely.",
+    "Rav Ashi said: Learn incidentally another halakha from this statement of Rav Huna, that there is no one who is concerned about that statement of Rabbi Yoḥanan ben Nuri. As it was taught in a baraita: Rabbi Yoḥanan ben Nuri says: Rice is a type of grain in all regards; and one is liable to receive karet for eating it in its leavened state on Passover; and one fulfills his obligation with it on Passover, if it was properly baked into matza. It can be inferred from Rav Huna’s suggestion to use cooked rice, that rice cannot become leavened."
+   ],
+   "excerpt": true
+  },
+  "Pesachim 76b": {
+   "he": [
+    "תָּנֵי רַב כָּהֲנָא בְּרֵיהּ דְּרַב חִינָּנָא סָבָא: פַּת שֶׁאֲפָאָהּ עִם צָלִי בַּתַּנּוּר — אָסוּר לְאׇכְלָהּ בְּכוּתָּחָא. הָהִיא בִּינִיתָא דְּאִיטְּווֹא בַּהֲדֵי בִּישְׂרָא, אַסְרַהּ רָבָא מִפַּרְזִיקְיָא לְמֵיכְלַיהּ בְּכוּתָּחָא. מָר בַּר רַב אָשֵׁי אָמַר: אֲפִילּוּ בְּמִילְחָא נָמֵי אֲסוּרָה, מִשּׁוּם דְּקַשְׁיָא לְרֵיחָא וּלְדָבָר אַחֵר."
+   ],
+   "fr": [
+    "Rav Kahana, fils de Rav ‘Hinana l'Ancien, enseigne : le pain qu'on a cuit au four avec de la viande rôtie, il est interdit de le manger avec du koutah, qui contient du lait, car le pain a absorbé l'odeur de la viande. On raconte qu'un poisson avait été rôti avec de la viande : Rava de Parzikiya interdit de le manger avec du koutah, à cause du goût de viande absorbé. Mar bar Rav Achi a dit : même le manger avec du sel est interdit, car la viande rôtie ou cuite avec du poisson est mauvaise pour l'haleine et pour autre chose, la lèpre. Il faut donc s'en garder à cause du danger."
+   ],
+   "en": [
+    "Rav Kahana, son of Rav Ḥinnana the Elder, teaches: In the case of bread that one baked together with roasting meat in the oven, it is prohibited to eat the bread with kutaḥ, which contains milk, because the bread absorbs some of the meat’s aroma. The Gemara relates: There was a certain fish that was roasted together with meat, Rava of Parzikiyya prohibited it from being eaten with kutaḥ, due to the meat flavor absorbed in the fish. Mar bar Rav Ashi said: Even to merely eat it with salt is also prohibited because meat that is roasted or cooked with fish is bad for odor, meaning it causes bad breath, and for something else, i.e., leprosy. Therefore, one should avoid eating it due to the danger involved."
+   ],
+   "excerpt": true
+  },
+  "Shulchan Arukh, Orach Chayim 453:1": {
+   "he": [
+    "דיני החטים וטחינתן למצות. ובו ט סעיפים: אלו דברים שיוצאים בהם ידי חובת מצה בחטים ובשעורים ובכוסמין ובשבולת שועל ובשיפון (והמנהג ליקח לכתחלה חטים) (מהרי\"ל) אבל לא באורז ושאר מיני קטנית וגם אינם באים לידי חימוץ ומותר לעשות מהם תבשיל: הגה ויש אוסרים (טור והגהות מיימוני פ\"ה ומרדכי פ' כל שעה) והמנהג באשכנז להחמיר ואין לשנות מיהו פשוט דאין אוסרים בדיעבד אם נפלו תוך התבשיל וכן מותר להדליק בשמנים הנעשים מהם ואינן אוסרין אם נפלו לתוך התבשיל וכן מותר להשהות מיני קטניות בבית (ת\"ה סי' קי\"ג) וזרע אקליז\"א (מהרי\"ל) ועני\"ס אליינד\"ר אינן מיני קטניות ומותר לאכלן בפסח כן נראה לי:"
+   ],
+   "fr": [
+    "Lois du blé et de sa mouture pour les matsot (9 paragraphes). Voici les céréales avec lesquelles on s'acquitte de l'obligation de la matsa : le blé, l'orge, l'épeautre, l'avoine et le seigle — (et l'usage est de prendre de préférence du blé (Maharil)) — mais pas le riz ni les autres légumineuses (kitniyot) ; celles-ci ne deviennent pas ‘hamets et il est permis d'en faire un plat cuit. REMA : Certains l'interdisent (Tour, Hagahot Maïmoniot, Mordekhaï), et l'usage en Achkénaz est d'être strict ; il ne faut pas changer cet usage. Il est clair cependant qu'elles n'interdisent pas après coup un plat où elles sont tombées. De même, il est permis d'allumer avec les huiles qu'on en tire, et ces huiles n'interdisent pas un plat où elles tombent. Il est aussi permis de garder des légumineuses chez soi (Terumat HaDéchen 113). Les graines d'aneth (Maharil), d'anis et de coriandre ne sont pas des légumineuses et il est permis d'en manger à Pessa'h ; c'est ce qui me semble juste."
+   ],
+   "en": [
+    "The laws of wheat and grinding them for matzot. Containing 9 sections. These are the things through which one fulfills the obligation of [eating] matza: wheat, barley, spelt, oats and rye - (and the custom is to take wheat initially (Maharil) - but not rice and other types of legumes [kitniyiot], and these also do not come to be leavened and it is [so] permitted to make a cooked food from them. REMA: And some forbid [it] (Tur and Hagahot Maimoniot and Mordechai on the Chapter [entitled] Kol Sha'ah). And the custom in Ashkenaz is to be strict [about this], and one should not change [it]. However, it is obvious that they do not render a cooked food forbidden after the fact if they fall into it. And so [too] is it permitted to light with oils that are made from them and [these oils] do not render a cooked food forbidden if they fall into it. And so [too] is it permissible to store types of legumes in the home (Terumat HaDeshen, Section 113). And the seed of dill (Maharil) and anise and coriander are not types of legumes and it is permissible to eat them on Pesach, and so does it appear [correct] to me."
+   ],
+   "excerpt": false
+  },
+  "Shulchan Arukh, Orach Chayim 462:1": {
+   "he": [
+    "דין מי פירות אם מחמיצין. ובו ז סעיפים: מי פירות בלא מים אין מחמיצין כלל ומותר לאכול בפסח מצה שנילושה במי פירות אפילו שהתה כל היום אבל אין יוצא בה ידי חובתו מפני שהיא מצה עשירה וקרא כתיב לחם עוני:"
+   ],
+   "fr": [
+    "Lois des jus de fruits, qui ne font pas lever (7 paragraphes). Le jus de fruit sans eau ne fait pas lever du tout, et il est permis à Pessa'h de manger une matsa pétrie avec du jus de fruit, même si la pâte est restée toute la journée. On ne s'acquitte pas avec elle de l'obligation de la matsa, car c'est une matsa « riche » (‘ashira), alors que le verset dit « pain de pauvreté »."
+   ],
+   "en": [
+    "THE LAWS OF WETHER FRUIT JUICES LEAVEN; 7 SECTIONS Fruit juice without water does not leaven at all and is permitted to eat on Pesach Matzah which was kneaded with fruit juice, even if [the dough] was idle all the day. However, one may not fulfill his obligation with it, because of its Matzah Ashirah, and the verse states \"lechem onee\"."
+   ],
+   "excerpt": false
+  },
+  "Shulchan Arukh, Yoreh De'ah 115:1": {
+   "he": [
+    "דין חלב שחלבו עובד כוכבים ואין ישראל רואהו וגבינה וחמאה. ובו ג' סעיפים: חלב שחלבו עובד כוכבים ואין ישראל רואהו אסור שמא עירב בו חלב טמא היה חולב בביתו וישראל יושב מבחוץ אם ידוע שאין לו דבר טמא בעדרו מותר אפילו אין הישראל יכול לראותו בשעה שהוא חולב היה לו דבר טמא בעדרו והישראל יושב מבחוץ והעובד כוכבים חולב לצורך ישראל אפילו אינו יכול לראותו כשהוא יושב אם יכול לראותו כשהוא עומד מותר שירא שמא יעמוד ויראהו והוא שיודע שחלב טמא אסור לישראל: הגה ולכתחלה צריך להיות הישראל בתחילת החליבה ויראה בכלי שלא יהיה בכלי שחולבין בו דבר טמא (א\"ו הארוך כלל מ\"ה ונהגו להחמיר שלא יחלוב בכלי שדרכו של עובד כוכבים לחלוב בו שמא נשארו בו צחצוחי חלב של עובד כוכבים (שם) מיהו בדיעבד אין לחוש לכל זה (ש\"ד ועס\"ק ח') ושפחות שחולבות הבהמות בבית ישראל או בדיר שלהם כל מקום שאין בית עובד כוכבים מפסיק ואין לחוש לדבר טמא מותר אפילו לכתחילה להניח אותן לחלוב אע\"פ שאין שם ישראל כלל דמאחר שהוא בבית ישראל או בשכונתו אין לחוש לדבר טמא (ש\"ד סימן פ\"ב בשם ר\"ת ומהרא\"י שם) אבל אם בית עובד כוכבים מפסיק צריך להיות ישראל שם כאילו חולבות בבית עובד כוכבים (או\"ה שם) ואפי' ישראל קטן או קטנה מועילים דהעובד כוכבים מרתת לפניהם (ג\"ז שם) ואם חלבו עובד כוכבים מקצת בהמות ולא היה שם ישראל ואח\"כ בא ישראל אל האחרים עכשיו בזמן הזה שאין חלב דבר טמא מצוי כלל מותר (הגהות ש\"ד) מיהו אם לא בא שם הישראל עד לאחר שנחלבו כולם הוי כחלב שחלבו עובד כוכבים דאסור' אע\"פ שאין דבר טמא בעדרו (ב\"י בשם הר\"ף ובשם סמ\"ק) חלב של עובד כוכבים אוסרת כלים שנתבשלה בהם כשאר איסור אע\"פ שאינו רק ספק שמא עירב בה דבר טמא וכן גבינותיהם (תשובת הרשב\"א סי' קמ\"ג ובארוך) אבל לא חמאה שלהם אפילו במקום שנהגו בה איסור אינה אוסרת הכלים שנתבשלה בה ולא תערובות שלה שאם נתערבה בהיתר הכל שרי (בארוך) כדלעיל גבי פת של עובד כוכבים ועיין לעיל סי' קי\"ב (תשובו' מהרי\"ל ל\"ח ואו\"ה שם) חלב של עובד כוכבי' שנאסרה אינו מועיל אם יעשו אח\"כ גבינות או חמאה ממנה אלא נשארת באיסורה וכל מה שנעשה ממנה אסור (מרדכי פא\"מ ואגודה שם ותשובת מהר\"מ סי' רי\"ו ואו\"ה ורשב\"א וב\"י ונ\"ל שכ\"ד הרמב\"ם ודלא כהר' המגיד):"
+   ],
+   "fr": [
+    "Le lait trait par des non-Juifs sans qu'un Juif les ait vus est interdit, car on a pu y mêler du lait d'un animal impur. Si la traite a lieu dans la maison du non-Juif et qu'un Juif est assis dehors : s'il est connu qu'il n'y a pas d'animal impur dans le troupeau, c'est permis, même si le Juif ne peut pas le voir traire. S'il y a un animal impur dans le troupeau, que le Juif est assis dehors et que le non-Juif trait pour le Juif, c'est permis si le Juif peut le voir en se levant, même s'il ne le voit pas assis : le non-Juif craint qu'il ne se lève et le voie, et il sait que le lait impur est interdit au Juif. REMA : Il faut d'abord que le Juif soit présent au début de la traite et vérifie que le seau est vide. Notre usage est d'être strict et de ne pas traire dans les récipients où les non-Juifs traient habituellement ; mais après coup, il n'y a pas lieu de s'en inquiéter. Le lait interdit des non-Juifs ne devient pas permis si l'on en fait du fromage ou du beurre : il reste interdit, ainsi que tout ce qu'on en fait."
+   ],
+   "en": [
+    "Milk that was milked by non-Jews and no Jew saw them do so, it is forbidden as perhaps non-kosher milk was mixed in. If it was milked in his house and a Jew was sitting outside, if it is known that there is no non-kosher animal in his herd, it is permitted, even if no Jew is able to see him at the time that he milks the animal. If he has a non-kosher animal in his heard, and the Jew sits outside, and the non-Jew is milking only for the sake of the Jew, even if the Jew is unable to see him when he is sitting, if he is able to see him when he stands, this is permitted, because the non-Jew fears that perhaps he will stand and be seen, and he knows that non-kosher milk is forbidden to the Jew. Rema: Initially, it is necessary for the Jew to be there are the beginning of the milking and check to make sure that the bucket is empty and does not contain non-kosher milk. And it is our custom to be stringent and not milk with vessels which are usually used for milking by non-Jews, lest some of their [non-Kosher] milk remain in the vessel. In any case, after the fact there is no need to be concerned for this. And regarding maidservants that milk domestic animals in the Jew's house or in his [animal] pen, any instance in which it is not a house of a non-Jew, that is enough and there is no need to be concerned about a non-kosher matter, and it is permitted even initially to leave them to milk even there is not a Jew around, because the non-Jewish milker is in his house or neighborhood, they are not suspected of milking non-kosher animals. But if a non-Jew takes a break, the Jew needs to be there, because it is like the case of the non-Jew's house. And even a Jewish child will suffice, because the non-Jew fears in their presence. In any case, if a Jew is not present until after he has finished milking, this milk is considered the milk of non-Jews that is forbidden, even thought no non-kosher animal exists in his herd. Milk of a non-Jew makes vessels non-kosher when they are cooked in them, just as any prohibited food, even though this is only an uncertainty whether he has mixed in something non-kosher. And so too with non-Jewish cheese, but not non-Jewish butter, even in a place where it is considered prohibited it does not prohibit vessels when cooked, and it is not a problem if it becomes mixed; if it is mixed in that which is permitted, everything is permitted, like above regarding the bread of non-Jews. See above in chapter 112. Milk of non-Jews that is forbidden, it will not work to make it into cheese or butter afterwards, rather it remains forbidden, and everything that is made from it is forbidden."
+   ],
+   "excerpt": false
+  },
+  "Shulchan Arukh, Yoreh De'ah 115:2": {
+   "he": [
+    "גבינות העובדי כוכבים אסרום מפני שמעמידים אותם בעור קיבת שחיטתם שהיא נבלה ואפילו העמידוה בעשבים אסורה: הגה וכן המנהג ואין לפרוץ גדר (ב\"י) אם לא במקום שנהגו בהם היתר מקדמונים ואם הישראל רואה עשיית הגבינות והחליבה מותר (אגור פ' שואל) וכן המנהג פשוט בכל מדינות אלו ואם ראה עשיית הגבינות ולא ראה החליבה יש להתיר בדיעבד כי אין לחוש שמא עירב בו דבר טמא מאחר שעשה גבינות מן החלב כי דבר טמא אינו עומד ובודאי לא עירב בו העובד כוכבים מאחר שדעתו לעשות גבינות (הגהות אשיר\"י פא\"מ ובארוך) . ומכל מקום אסור לאכול החלב כך (שם):"
+   ],
+   "fr": [
+    "Le fromage des non-Juifs a été interdit parce qu'on le fait cailler avec la caillette séchée d'un animal non abattu rituellement ; et même quand on le fait cailler avec des plantes, il est interdit. REMA : Tel est l'usage, et il ne faut pas le changer, sauf dans un lieu où on le permet depuis longtemps. Si un Juif a surveillé la fabrication du fromage et la traite, c'est permis ; c'est l'usage répandu dans tous nos pays. Si un Juif a surveillé la fabrication du fromage mais pas la traite, c'est permis après coup : on ne craint pas qu'on ait mêlé quelque chose d'interdit, car le lait impur ne caille pas, et le non-Juif n'y a rien mêlé puisqu'il savait que c'était pour faire du fromage. Mais ce lait-là, il reste interdit de le boire."
+   ],
+   "en": [
+    "Cheese made by non Jews was forbidden because that they are produced with the dried stomach of an animal that was not correctly slaughtered. And even when the cheese is produced using vegetarian rennet it is forbidden. Rema: And thus is the custom, and it must not be changed, unless you are in a place that has permitted this since earlier times. And if a Jew oversees the production of the cheese and the milking, it is permitted. And thus is the custom that spread in all of our countries. And if a Jew oversaw the making of the cheese, but not the milking, it is permitted after the fact, because there is no concern that perhaps something non-kosher was mixed in after the cheese was made from the milk, because non-kosher milk will not allow the cheese to form, and of course the non-Jew did not mix anything in once he knew it was for making cheese. And in any case, it is forbidden to eat such milk."
+   ],
+   "excerpt": false
+  },
+  "Shulchan Arukh, Yoreh De'ah 116:2": {
+   "he": [
+    "צריך ליזהר שלא לאכול בשר ודג ביחד מפני שקשה לצרעת: הגה וכן אין לצלות בשר עם דג משום ריחא מיהו בדיעבד אינו אסור (ארוך כלל ל\"ט דין כ\"ה):"
+   ],
+   "fr": [
+    "Il faut se garder de manger viande et poisson ensemble, car cela cause une maladie (la « gale »). GLOSE : Il ne faut pas non plus les faire rôtir ensemble, à cause de l'odeur ; mais après coup, ce n'est pas interdit."
+   ],
+   "en": [
+    "Il faut se garder de ne pas manger de la viande et des poissons ensemble, parce que cela engendre la gale. GLOSE: Il ne faut pas non plus faire frire de la viande avec du poisson ensemble, à cause de l'odeur. Mais en cas de fait accompli, cela n’est pas défendu."
+   ],
+   "excerpt": false
+  },
+  "Shulchan Arukh, Yoreh De'ah 123:1": {
+   "he": [
+    "כמה דינין מיין נסך (ואיזו יין נאסור משום יין נסך). ובו כ\"ו סעיפים: סתם יינם של עממים עובדי כוכבים אסור בהנאה וה\"ה למגעם ביין שלנו: הגה משום גזרת יין שנתנסך לאלילים ובזמן הזה שאינו שכיח שהאומות מנסכים לעבודת כוכבים י\"א דמגע עובד כוכבים ביין שלנו אינו אסור בהנאה רק בשתייה וכן סתם יין שלהם אינו אסור ליהנות ממנו ולכן מותר לגבות בחובו מן עובד כוכבים סתם יינם מפני דהוי כמציל מידם (טור בשם רשב\"ם והרא\"ש ומרדכי) וה\"ה בשאר הפסד כגון אם עבר וקנה או מכר אבל לכתחלה אסור לקנותו ולמכרו כדי להשתכר בו (הגהות מיי' פ\"ח דמאכלות אסורות והגה' אשיר\"י ומהר\"ם פדואה סי' מ\"ו) ויש מקילין גם בזה וטוב להחמיר וע\"ל סימן קל\"ב (שם בשם סמ\"ג ואגור בשם הגאונים):"
+   ],
+   "fr": [
+    "Quelques lois du vin de libation (yayin nessekh) et du vin interdit à cause de lui (26 paragraphes). Le vin des non-Juifs est interdit même au profit, de même que notre vin qu'ils ont touché. REMA : C'est un décret, à cause du vin versé en libation aux idoles. Aujourd'hui que les nations n'ont plus l'habitude de faire des libations aux idoles, certains disent que le contact d'un non-Juif avec notre vin n'en interdit pas le profit, seulement la boisson ; de même leur vin ordinaire n'est pas interdit au profit. Il est donc permis de se faire rembourser une dette par un non-Juif avec du vin ordinaire, car c'est comme le sauver de ses mains. Mais au départ, il est interdit d'en acheter ou d'en vendre pour en tirer bénéfice. Certains sont indulgents même en cela, mais il est bon d'être strict."
+   ],
+   "en": [
+    "Several laws of 'Yayin Nesech' (and which wine is forbidden because of 'Yayin Nesech') and there are 26 paragraphs in it: The wine of the nations (non-Jews) is prohibited to derive pleasure from, and the same applies to their contact with our wine. RAMA: this is because of a decree regarding wine that was poured as a libation to idols. Nowadays, when it is not common for nations to make libations to idols, some say that the touch of a non-Jew to our wine does not prohibit its use for pleasure, only for drinking. Similarly, ordinary - non-sacramental - wine of theirs is not prohibited for deriving pleasure from it, and therefore it is permissible to collect a debt from a non-Jew with ordinary wine, as it is considered as saving it from their hands (Tur in the name of Rashbam, the Rosh and Mordechai). And the same applies to other losses, such as if he went ahead and bought or sold, but initially it is forbidden to buy it and sell it in order to profit from it (Commentaries of Maimonides, Chapter 8 of Forbidden Foods, and comments of Ashiri and Mahar\"m of Padua, Responsa 46). However, there are those who are lenient even in this, but it is good to be stringent. See Siman 132 (there in the name of Semag and Agur in the name of the Geonim)."
+   ],
+   "excerpt": false
+  },
+  "Shulchan Arukh, Yoreh De'ah 66:3": {
+   "he": [
+    "נמצא עליה קורט דם זורק את הדם ואוכל את השאר והוא שנמצא בחלבון. אבל אם נמצא בחלמון כל הביצה אסורה: הגה וי\"א דאם נמצא על קשר החלבון וגם מבחוץ דהיינו שנתפשט מן הקשר דכל הביצה אסורה (הרא\"ש ורשב\"א ורש\"י ותוס' וע\"פ. וכתב רא\"ש וטור ור' ירוחם שיש להחמיר כב' השיטות) ויש מחמירין עוד דכל שנמצא על הקשר של חלבון אפילו לא נתפשט כלל אסור (א\"ו הארוך ריש כלל מ\"ב ומהרא\"י ש\"ד) ומזה נתפשט המנהג במדינות אלו לאסור כל ביצה שיש בה דם ואין מחלקין בין חלמון לחלבון ובמקום דנוהגין להקל לזרוק הדם ולהתיר הביצה במקום דמותר צריך ליטול כדי קליפה עם הדם כשזורקו (ארוך שם בשם סמ\"ג):"
+   ],
+   "fr": [
+    "Si l'on trouve un peu de sang dans le blanc d'un œuf, on jette le sang et on mange le reste ; s'il est dans le jaune, tout l'œuf est interdit. REMA : Certains disent que le sang trouvé sur la membrane du jaune, ou qui s'en est répandu, interdit tout l'œuf, et d'autres sont encore plus stricts. De là s'est répandu dans nos pays l'usage d'interdire tout œuf où l'on trouve du sang, sans distinguer le blanc du jaune. Là où l'usage est indulgent et où l'on jette seulement le sang, il faut retirer avec lui un peu de blanc."
+   ],
+   "en": [
+    "If a pinch of blood is found, toss the blood and eat the rest, if it is found in the white. But if it is found in the yolk, the whole of the egg is forbidden, The Rema comments: And some say that blood found on the egg white lining and outside of it — that is, that has spread from the lining — makes all the egg forbidden (the Rosh, and Rashba, and Rashi, and the Tosafot, and more. And the Rosh and the Tur and R. Yeroḥam wrote that some are stringent on both measures) and some are more stringent that any that is found on the white linging, even if not spread, makes all the egg forbidden (Issur v-Heter ha-Arukh, Resh Klal 42, and the Maharai 304). And from this the custom of these lands has spread to forbid the entire egg that has blood, and not to distinguish between the white and the yolk. And in the place where the custom is to be lenient, to toss the blood and save the egg, in the place where it is permitted one must take a small amount of white (the thickness of a shell) with the blood when tossing it (Arukh there in the name of the Sefer Mitzvat Gadol)"
+   ],
+   "excerpt": false
+  },
+  "Shulchan Arukh, Yoreh De'ah 69:1": {
+   "he": [
+    "דיני מליחה והדחה. ובו כ\"א סעיפים: צריך להדיח הבשר קודם מליחה (ואם הדיחו הטבח אין צריך להדיחו בבית) (טור) ואם אחר שהדיח חתך כל נתח לשנים או לשלשה (או שהסיר טלפי הרגלים לאחר ההדחה) (ארוך כלל ד' וי\"ז) צריך לחזור ולהדיחם: הגה ואם לא עשה כן הוי כלא הודח כלל (שם) הדחת הבשר לכתחלה יזהר לשרותו נגד חצי שעה ולהדיחו היטב במי השרייה אבל אם לא שראו רק הדיחו היטב סגי ליה ואחר כך ימתין מעט שיטפטפו המים קודם שימלחנו שלא ימס המלח מן המים ולא יוציא דם (הגהות ש\"ד והגהות אשיר\"י פכ\"ה ובארוך כלל א') ונהגו שלא להשתמש בדברים אחרים בכלי ששורין בו בשר ואם נשתהה הבשר בשרייתו מעת לעת הבשר וגם הכלי אסורין ועיין לקמן סימן זה אבל פחות מעת לעת אין להקפיד ואף במקום שנאסר הכלי מותר לחזור ולשרות בו (בארוך) דין בשר שמלא קרח כיצד נוהגין עם שרייתו עיין לעיל סימן ס\"ח:"
+   ],
+   "fr": [
+    "Sur le salage et le lavage. La viande doit être lavée avant d'être salée. GLOSE : Si le boucher l'a déjà lavée, inutile de la laver de nouveau à la maison. Si, après le lavage, on coupe la viande en deux ou trois morceaux, il faut la laver de nouveau ; sinon, c'est comme si elle n'avait jamais été lavée. Il est bon de la faire tremper dans l'eau environ une demi-heure ; si l'on se contente de la laver soigneusement, cela suffit. On la laisse ensuite égoutter un moment, pour que l'eau ne dissolve pas le sel et ne l'empêche pas d'extraire le sang. On ne se sert pas du récipient de trempage pour autre chose. Si la viande a trempé vingt-quatre heures, la viande et le récipient sont interdits ; moins de vingt-quatre heures, il n'y a pas de mal."
+   ],
+   "en": [
+    "On Salting and Washing Meat must be washed before salting. (GLOSS I: If it has already been washed by the butcher, there is no need to wash it again at home.) If, after washing, the meat is cut into two or three pieces (GLOSS II: or if, after washing, the horns of the feet are removed), a second washing is required. GLOSS III: If, in such a case, the meat has not undergone a second washing, it is considered as if it has never been washed. Deliberately, it is advisable to soak the meat in water for about half an hour and then drain it with the same water. If, instead of soaking, the meat is thoroughly washed, that suffices. The meat is then allowed to drain for a few moments, so that the water does not dissolve the salt and thus paralyze its action on expelling the blood. It is customary not to use the vessel in which the meat is soaked for any other purpose. If the meat has soaked in water for twenty-four hours, both the meat and the vessel are forbidden. But if it has soaked for less than twenty-four hours, there is no harm in it. Even if the vessel is declared forbidden, it can be used to soak meat again. For the method of soaking frozen meat, see above, paragraph 68."
+   ],
+   "excerpt": false
+  },
+  "Shulchan Arukh, Yoreh De'ah 83:1": {
+   "he": [
+    "דין סימני דגים ודגים מלוחים. ובו י' סעיפים: סימני דגים מפורשים בתורה כל שיש לו סנפיר וקשקשת טהור וסנפיר הוא ששט בו וקשקשת הן הקליפות הקבועות בו: הגה ודוקא שהם נקלפים ביד או בכלי אבל אם אי אפשר לקלפן מעור הדג לא מקרי קשקשת (המ\"מ פ\"א דמ\"א): ואפילו אין לו אלא סנפיר אחד וקשקשת אחד מותר ואפילו אין לו עתה ועתיד לגדלם לאחר זמן או שהיה לו בעודו במים והשירן מיד בעלותו ליבשה מותר (רמב\"ם ספ\"א מהמ\"א ורי\"ף ור\"ן וה\"ה): הגה וי\"א דאין להתיר בקשקשת אחת רק כשהיא עומדת תחת לחייו או זנבו או סנפירו (הטור והרא\"ש לדעת ב\"י ור\"ן וה\"ה בשם רמב\"ן) וטוב להחמיר:"
+   ],
+   "fr": [
+    "Les signes des poissons sont explicites dans la Torah : tout ce qui a nageoires et écailles est pur. Les nageoires, c'est ce avec quoi il nage ; les écailles, ce sont les plaques dures qui le recouvrent. REMA : À condition qu'on puisse les enlever à la main ou avec un instrument ; si on ne peut pas les détacher de la peau du poisson, ce ne sont pas des écailles. Même s'il n'a qu'une nageoire et qu'une écaille, il est permis. S'il n'en a pas maintenant mais en aura en grandissant, ou s'il en a dans la mer et les perd quand on le sort de l'eau, il est permis. REMA : Certains disent qu'une seule écaille ne suffit que si elle se trouve sous la mâchoire, sur la queue ou sur une nageoire ; et il est bon d'être strict."
+   ],
+   "en": [
+    "The signs of fish are explicit in the Torah: All that have fins and scales, kosher. And fins, it is what it swims with. And scales, they are hardened skins on it. Rema: Specifically when they are peeled by hand or with a utensil, but if it is impossible to peel them from the skin of the fish, it is not called scales (HM''M 1:41) And even if it only has one fit and one scale, it is permitted. And if it does not not, and in the future when it grows after a time or when it has scales while in the sea, but when it emerges it sheds its scales, it is permitted. (Rambam Forbidden Foods Chapter 1 and the Rif and the Ran and this is the law) Rema: And there are those who say that one does not permit with one scale, only when it stands on its jaw or tail or fin (the Tur and the Rosh according to the Beit Yosef and the Ran and this is the law in the name of the Ramban), and it is good to be stringent."
+   ],
+   "excerpt": false
+  },
+  "Shulchan Arukh, Yoreh De'ah 84:8": {
+   "he": [
+    "כל מיני פירות שדרכן להתליע כשהם מחוברים לא יאכל עד שיבדוק הפרי מתוכן שמא יש בו תולעת ואם שהה הפרי אחר שנעקר י\"ב חדש אוכל בלא בדיקה שכל בריה שאין בה עצם אינו מתקיים י\"ב חדש ומכל מקום צריך לבדקן להשליך התולעים הנמצאים ביניהם בחוץ או על גבי הפרי ואף לאחר שישליך הנמצאים בחוץ יש לחוש שמא כשיתנם במים בתוך הקדירה יצאו לחוץ וירחשו (תרגום השרץ השורץ רחשא דרחיש) במים או בדופני הקדרה או על גבי הפרי הלכך הבא לבשל לאחר י\"ב חדש פירות שהתליעו יתנם לתוך מים צוננים המתולעים והמנוקבים יעלו למעלה ואחר כך יתנם בקדרת מים רותחים שאם נשאר בו תולעת ימות מיד. (ולא מהני בהם אם בדק הרוב אלא צריך לבדוק כולם דהוי מיעוט דשכיח) (רשב\"א בת\"ה ובתשובה סימן רע\"ד):"
+   ],
+   "fr": [
+    "On ne mange pas sans les examiner les fruits sujets aux vers tant qu'ils sont sur l'arbre. On peut les manger sans examen s'il s'est écoulé douze mois depuis la cueillette, car aucun ver ne vit douze mois ; il faut pourtant examiner les fruits et jeter les vers trouvés à l'extérieur. Celui qui veut cuire des fruits véreux cueillis depuis douze mois les met d'abord dans l'eau froide, pour que les fruits véreux remontent à la surface, puis dans l'eau bouillante, pour que les vers encore vivants meurent aussitôt. GLOSE : Il ne suffit pas d'examiner la plupart des fruits ; il faut les examiner tous, car les fruits véreux, même minoritaires, sont fréquents."
+   ],
+   "en": [
+    "On ne doit manger, sans examen préalable, aucun des fruits sujets à être vermoulus pendant qu'ils sont encore attachés à l’arbre. Mais on peut manger ces mêmes fruits, même sans examen préalable, si douze mois se sont déjà écoulés depuis qu’on les à cueillis, attendu que nul animal invertébré ne peut pas vivre douze mois. Il faut pourtant examiner les fruits, même en pareil cas, et jeter les vers qu'on trouve à l'extérieur du fruit. Et même quand on jette les vers trouvés à l’extérieur du fruit, il y a encore lieu de craindre qu’en mettant les fruits dans l’eau de la marmite, les vers ne les quittent et ne rampent ensuite dans l’eau, sur les parois de la marmite ou sur le fruit même; c’est pourquoi celui qui veut cuire des fruits piqués des vers et cueillis depuis douze mois, doit les mettre d’abord dans de l’eau froide, afin que les fruits vermoulus remontent à la surface, et les jeter ensuite dans de l'eau bouillante, de sorte que les vers vivants, s'il y en reste, périssent immédiatement. GLOSE: En l'occurrence, il ne suffit pas d'examiner la plupart des fruits, mais il faut les examiner tous; attendu que les fruits vermoulus, bien que ne formant qu'une minorité, se rencontrent très souvent."
+   ],
+   "excerpt": false
+  },
+  "Shulchan Arukh, Yoreh De'ah 87:3": {
+   "he": [
+    "אינו נוהג אלא בבשר בהמה טהורה בחלב בהמה טהורה אבל בשר טהורה בחלב טמאה או בשר טמאה בחלב טהורה מותרי' בבישול ובהנאה ובשר חיה ועוף אפילו בחלב טהורה מותר בבישול ובהנאה ואף באכילה אינו אסור אלא מדרבנן אבל דגים וחגבים אין בהם איסור אפילו מדרבנן: הגה ונהגו לעשות חלב משקדים ומניחים בה בשר עוף הואיל ואינו רק מדרבנן אבל בשר בהמה יש להניח אצל החלב שקדים משום מראית העין כמו שנתבאר לעיל סי' ס\"ו לענין דם (ד\"ע):"
+   ],
+   "fr": [
+    "L'interdit du mélange ne s'applique qu'à la viande et au lait d'un animal pur : si l'un des deux vient d'un animal impur, la cuisson et le profit sont permis. Si la viande vient d'un animal sauvage ou d'une volaille, la cuisson et le profit sont permis même si viande et lait viennent d'animaux purs, et en manger n'est interdit que par les Sages. La chair des poissons et des sauterelles n'est même pas interdite par les Sages. GLOSE : On a l'habitude de mettre de la volaille dans du lait d'amande, puisque même avec du vrai lait ce ne serait qu'un interdit des Sages ; mais avec de la viande de bœuf, il faut laisser quelques amandes dans le lait, pour éviter le soupçon."
+   ],
+   "en": [
+    "The prohibition of the mixture applies only to that of meat and milk from a pure animal: if one of the two comes from an impure animal, cooking as well as enjoyment is permitted. Cooking and enjoyment are permitted if the meat comes from a wild animal or poultry, even if both the meat and milk come from pure animals. Such a mixture is even prohibited to eat only by rabbinic ordinance. Whereas the flesh of fish and locusts is not even prohibited by rabbinic ordinance. GLOSS: It is customary to put poultry meat in almond milk, seeing that such a mixture, even if the milk were real, is only prohibited by rabbinic order; but when it comes to beef, a few almonds must be left in the milk to avoid suspicion, as stated earlier, § 66, regarding blood."
+   ],
+   "excerpt": false
+  },
+  "Shulchan Arukh, Yoreh De'ah 89:1": {
+   "he": [
+    "שלא לאכול גבינה אחר בשר. ובו ד' סעיפים: אכל בשר אפילו של חיה ועוף לא יאכל גבינה אחריו עד שישהה שש שעות ואפילו אם שהה כשיעור אם יש בשר בין השינים צריך להסירו והלועס לתינוק צריך להמתין: הגה ואם מצא אחר כך בשר שבין השינים ומסירו צריך להדיח פיו קודם שיאכל גבינה (הר\"ן פכ\"ה) ויש אומרים דאין צריכין להמתין שש שעות רק מיד אם סלק ובירך ברכת המזון מותר על ידי קנוח והדחה (תוס' ומרדכי פכ\"ה והגהות אשיר\"י והג\"ה מיימוני פ\"ט דמ\"א וראבי\"ה) והמנהג הפשוט במדינות אלו להמתין אחר אכילת הבשר שעה אחת ואוכלין אחר כך גבינה מיהו צריכים לברך גם כן ברכת המזון אחר הבשר (ע\"פ הארוך והגהות ש\"ד) דאז הוי כסעודה אחרת דמותר לאכול לדברי המקילין אבל בלא ברכת המזון לא מהני המתנת שעה ואין חילוק אם המתין השעה קודם ברכת המזון או אחר כך (ד\"ע ממהרא\"י ולאפוקי או\"ה) ואם מצא בשר בין שיניו אחר השעה צריך לנקרו ולהסירו (ד\"ע ממשמעות הר\"ן הנ\"ל) ויש אומרים דאין לברך ברכת המזון על מנת לאכול גבינה (ארוך בשם מהר\"ח) אבל אין נזהרין בזה ויש מדקדקים להמתין שש שעות אחר אכילת בשר לגבינה וכן נכון לעשות:"
+   ],
+   "fr": [
+    "Après avoir mangé de la viande, même d'animal sauvage ou de volaille, on ne mange pas de fromage avant six heures ; et même après ce délai, il faut retirer la viande coincée entre les dents. On attend de même si l'on a mâché de la viande pour un enfant. GLOSE : Après avoir nettoyé les dents, il faut se rincer la bouche. Certains disent que les six heures ne sont pas nécessaires : il suffit de débarrasser la table, de dire la bénédiction finale et de se nettoyer et rincer la bouche. Dans nos pays, l'usage est d'attendre une heure après la viande avant le fromage ; il faut cependant dire la bénédiction, car c'est elle qui sépare les deux repas. Certains attendent rigoureusement six heures, et il est bon de faire de même."
+   ],
+   "en": [
+    "Prohibition of Eating Cheese After Eating Meat After eating meat, even from a wild animal or poultry, one should not eat cheese before an interval of six hours; and even after this interval, one must clean the teeth if there are meat remnants in the gaps. The interval must also be observed when one has chewed the meat to give it to a child. GLOSS: After cleaning the teeth, one must rinse the mouth before eating the cheese. Some opine that the six-hour interval is not necessary, and one can eat the cheese after removing the dishes, reciting the blessing at the end of the meal, and cleaning and washing the mouth. In our countries, it is customary to wait one hour after the meat meal before eating the cheese; but the mentioned blessing must be recited; because only then are the two meals distinct, otherwise not. It makes no difference if the hour serving as an interval is observed before or after the blessing. Meat remnants found in the gaps must be removed, even after the interval. Some opine that the middle blessing should not be recited expressly to eat cheese afterward; this is generally not taken into account. Some rigorously observe the six-hour interval; it is advisable to do the same."
+   ],
+   "excerpt": false
+  },
+  "Shulchan Arukh, Yoreh De'ah 89:2": {
+   "he": [
+    "אכל גבינה מותר לאכול אחריו בשר מיד ובלבד שיעיין ידיו שלא יהא שום דבר מהגבינה נדבק בהם ואם הוא בלילה שאינו יכול לעיין אותם היטב צריך לרחצם וצריך לקנח פיו ולהדיחו והקינוח הוא שילעוס פת ויקנח בו פיו יפה וכן בכל דבר שירצה חוץ מקימחא ותמרי וירקא לפי שהם נדבקים בחניכין (פי' מקום למעלה מבית הבליעה קרוב לשינים) ואין מקנחים יפה ואחר כך ידיח פיו במים או ביין במה דברים אמורים בבשר בהמה וחיה אבל אם בא לאכול בשר עוף אחר גבינה אינו צריך לא קינוח ולא נטילה: הגה ויש מחמירין אפילו בבשר אחר גבינה (מרדכי בשם מהר\"ם וב\"י בא\"ח סי' קע\"ג) וכן נוהגין שכל שהגבינה קשה אין אוכלין אחריה אפילו בשר עוף כמו בגבינה אחר בשר (וכן הוא בזוהר) ויש מקילין ואין למחות רק שיעשו קנוח והדחה ונטילת ידים מיהו טוב להחמיר:"
+   ],
+   "fr": [
+    "Après le fromage, on peut manger de la viande aussitôt, à condition de vérifier que les mains ne portent pas de restes de fromage — la nuit, où l'on ne peut pas bien vérifier, il faut les laver — et de se nettoyer et rincer la bouche. On se nettoie la bouche en mâchant du pain ou un autre aliment, sauf la farine, les dattes et les légumes, qui collent aux gencives et nettoient mal ; puis on se rince avec de l'eau ou du vin. Cela ne vaut que pour la viande d'animal domestique ou sauvage ; la volaille peut se manger après le fromage sans nettoyer ni rincer. GLOSE : Certains interdisent aussi la viande après le fromage. L'usage est de ne pas manger de viande, même de volaille, après un fromage dur, comme dans l'autre sens. D'autres le permettent, si l'on se nettoie et se rince la bouche et les mains ; mais il est bon d'être strict."
+   ],
+   "en": [
+    "After cheese, one can immediately eat meat, provided one examines the hands to ensure no cheese remnants adhere to them; at night, when this examination is impractical, they must be washed, as well as cleaning and washing the mouth. Cleaning is done by chewing bread or any other food, except flour, dates, or vegetables, which adhere to the gums and do not clean well. The mouth is then washed with water or wine. This applies only to the meat of domestic or wild animals; but poultry meat can be eaten after cheese without prior cleaning or washing. GLOSS: Some also forbid eating meat after cheese. Indeed, it is customary not to eat meat, even poultry meat, after hard cheese, just as vice versa. Others permit it. It is not opposed, provided the mouth and hands are cleaned and washed. But it is advisable to be stringent on this matter."
+   ],
+   "excerpt": false
+  },
+  "Shulchan Arukh, Yoreh De'ah 97:1": {
+   "he": [
+    "שלא ללוש עיסה בחלב. ובו ג' סעיפים: אין לשין עיסה בחלב שמא יבוא לאכלה עם בשר ואם לש כל הפת אסור אפי' לאכלה לבדה ואם היה דבר מועט כדי אכילה בבת אחת או ששינה צורת הפת שתהא ניכרת שלא יאכל בה בשר מותר כיוצא בו אין אופין פת בתנור שטחו באליה ואם אפאו דינו כעיסה שנילושה בחלב: הגה ולכן נוהגין ללוש פת עם חלב בחג השבועות גם בשומן לכבוד שבת כי כל זה מחשב כדבר מועט גם כי צורתן משונה משאר פת וכ\"ש פלאד\"ן או פשטיד\"א דמותרין (הגהות ש\"ד) ואין לאפות שום פת עם פלאד\"ן או פשטיד\"א בתנור דחיישינן שמא יזוב מן השומן על הפת ואם זב תחתיו דינו כאלו נילוש עמו (ב\"י בשם הגהות אשיר\"י) ונוהגין לשום הטפילה בפי התנור (ב\"י בשם הגהת ש\"ד) ואפי' הוא במחבת נוהגין להחמיר לכתחלה:"
+   ],
+   "fr": [
+    "Il est interdit de pétrir du pain avec du lait, de peur qu'on ne mange ensuite ce pain avec de la viande. Si c'est déjà fait, ce pain est interdit, même seul. Mais si le pain est petit et prévu pour un seul repas, ou si on lui donne une forme inhabituelle qui rappelle de ne pas le manger avec de la viande, il est permis. Le pain cuit dans un four graissé de graisse de queue est comme le pain pétri avec du lait. GLOSE : C'est pourquoi on a l'habitude de pétrir le pain avec du lait à Chavouot, et avec de la graisse pour le Chabbat : la quantité est petite, et ces pains ont une forme distincte des pains ordinaires. C'est d'autant plus permis pour les tartes et les gâteaux."
+   ],
+   "en": [
+    "Prohibition of Kneading Bread with Milk It is forbidden to knead bread with milk, lest one later eat this bread with meat. If it is already done, it is forbidden to eat the bread, even alone. But if the bread is small and intended for one meal, or if it is given an unusual shape to mark that it should not be eaten with meat, it is permitted. Similarly, bread baked in an oven greased with tail fat is comparable to bread kneaded with milk. GLOSS: This is why it is customary to knead bread with milk during the Feast of Weeks, and with fat for Sabbath meals, firstly because the quantity is insignificant, and secondly because these breads are given a shape distinct from ordinary breads. This is all the more permitted for flans or pies. One should not bake bread in the oven together with flans or pies, lest the fat from these flows under the bread; if so, the bread is considered kneaded with fat. It is customary to place the bread near the oven's opening. Deliberately, one should refrain from such a procedure, even when baking them in a pan."
+   ],
+   "excerpt": false
+  }
  }
 }
