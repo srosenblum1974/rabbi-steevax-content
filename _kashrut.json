@@ -1,0 +1,3929 @@
+{
+ "version": 1,
+ "categories": [
+  {
+   "id": "poissons",
+   "emoji": "🐟",
+   "title": {
+    "fr": "Poissons",
+    "en": "Fish"
+   },
+   "color": "#3E6FB5",
+   "intro": {
+    "fr": "Nageoires et écailles : le test qui suffit.",
+    "en": "Fins and scales: the one test."
+   }
+  },
+  {
+   "id": "mer",
+   "emoji": "🦐",
+   "title": {
+    "fr": "Fruits de mer",
+    "en": "Seafood"
+   },
+   "color": "#C0392B",
+   "intro": {
+    "fr": "Crustacés et coquillages : tous interdits.",
+    "en": "Shellfish and molluscs: all forbidden."
+   }
+  },
+  {
+   "id": "viandes",
+   "emoji": "🥩",
+   "title": {
+    "fr": "Viandes",
+    "en": "Meat"
+   },
+   "color": "#8E3B2F",
+   "intro": {
+    "fr": "Le bon animal, abattu et préparé selon les règles.",
+    "en": "The right animal, slaughtered and prepared by the rules."
+   }
+  },
+  {
+   "id": "volailles",
+   "emoji": "🍗",
+   "title": {
+    "fr": "Volailles",
+    "en": "Poultry"
+   },
+   "color": "#B07A2A",
+   "intro": {
+    "fr": "Les oiseaux de tradition, abattus rituellement.",
+    "en": "Birds known by tradition, ritually slaughtered."
+   }
+  },
+  {
+   "id": "laitages",
+   "emoji": "🧀",
+   "title": {
+    "fr": "Lait et fromages",
+    "en": "Milk and cheese"
+   },
+   "color": "#5A8F6A",
+   "intro": {
+    "fr": "Le lait d'un animal permis, et le fromage surveillé.",
+    "en": "Milk from a permitted animal, and supervised cheese."
+   }
+  },
+  {
+   "id": "oeufs",
+   "emoji": "🥚",
+   "title": {
+    "fr": "Œufs",
+    "en": "Eggs"
+   },
+   "color": "#C9A227",
+   "intro": {
+    "fr": "Comme l'oiseau qui l'a pondu.",
+    "en": "As the bird that laid it."
+   }
+  },
+  {
+   "id": "vegetal",
+   "emoji": "🥬",
+   "title": {
+    "fr": "Fruits et légumes",
+    "en": "Fruit and vegetables"
+   },
+   "color": "#3D8B5A",
+   "intro": {
+    "fr": "Tous permis… s'ils sont sans insectes.",
+    "en": "All permitted… if free of insects."
+   }
+  },
+  {
+   "id": "pain",
+   "emoji": "🍞",
+   "title": {
+    "fr": "Pain et pâtisseries",
+    "en": "Bread and pastry"
+   },
+   "color": "#A0662B",
+   "intro": {
+    "fr": "Ce qu'il y a dedans compte.",
+    "en": "What goes into it matters."
+   }
+  },
+  {
+   "id": "boissons",
+   "emoji": "🍷",
+   "title": {
+    "fr": "Boissons",
+    "en": "Drinks"
+   },
+   "color": "#7B2D5B",
+   "intro": {
+    "fr": "Le vin a des règles à part.",
+    "en": "Wine has rules of its own."
+   }
+  },
+  {
+   "id": "additifs",
+   "emoji": "🧪",
+   "title": {
+    "fr": "Additifs et ingrédients",
+    "en": "Additives and ingredients"
+   },
+   "color": "#5E5A7A",
+   "intro": {
+    "fr": "Gélatine, carmin, E… : lire l'étiquette.",
+    "en": "Gelatin, carmine, E-numbers: read the label."
+   }
+  },
+  {
+   "id": "autres",
+   "emoji": "🐝",
+   "title": {
+    "fr": "Insectes, miel et curiosités",
+    "en": "Insects, honey and curiosities"
+   },
+   "color": "#8A6D1E",
+   "intro": {
+    "fr": "Pourquoi le miel est permis, et les sauterelles.",
+    "en": "Why honey is permitted, and locusts."
+   }
+  }
+ ],
+ "foods": [
+  {
+   "id": "saumon",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Saumon",
+    "en": "Salmon"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, poisson cachère. Fumé ou en conserve : avec une certification.",
+    "en": "Yes, a kosher fish. Smoked or canned: with a certification."
+   },
+   "why": {
+    "fr": "Le poisson a des nageoires et des écailles qu'on peut détacher sans arracher la peau : c'est le seul critère de la Torah. Pas de bénédiction ni d'abattage rituel pour les poissons.",
+    "en": "The fish has fins and scales that come off without tearing the skin: the Torah's only criterion. Fish need no ritual slaughter."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "salmon",
+    "saumon fumé",
+    "smoked salmon"
+   ]
+  },
+  {
+   "id": "thon",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Thon",
+    "en": "Tuna"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, poisson cachère. En boîte : avec une certification (même usine que d'autres produits).",
+    "en": "Yes, a kosher fish. Canned: with a certification (factories process other fish)."
+   },
+   "why": {
+    "fr": "Le poisson a des nageoires et des écailles qu'on peut détacher sans arracher la peau : c'est le seul critère de la Torah. Pas de bénédiction ni d'abattage rituel pour les poissons.",
+    "en": "The fish has fins and scales that come off without tearing the skin: the Torah's only criterion. Fish need no ritual slaughter."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "tuna",
+    "thon en boîte"
+   ]
+  },
+  {
+   "id": "cabillaud",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Cabillaud, morue",
+    "en": "Cod"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, poisson cachère.",
+    "en": "Yes, a kosher fish."
+   },
+   "why": {
+    "fr": "Le poisson a des nageoires et des écailles qu'on peut détacher sans arracher la peau : c'est le seul critère de la Torah. Pas de bénédiction ni d'abattage rituel pour les poissons.",
+    "en": "The fish has fins and scales that come off without tearing the skin: the Torah's only criterion. Fish need no ritual slaughter."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "morue",
+    "cod",
+    "dos de cabillaud"
+   ]
+  },
+  {
+   "id": "colin",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Colin, lieu, merlu",
+    "en": "Pollock, hake"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, poisson cachère.",
+    "en": "Yes, a kosher fish."
+   },
+   "why": {
+    "fr": "Le poisson a des nageoires et des écailles qu'on peut détacher sans arracher la peau : c'est le seul critère de la Torah. Pas de bénédiction ni d'abattage rituel pour les poissons.",
+    "en": "The fish has fins and scales that come off without tearing the skin: the Torah's only criterion. Fish need no ritual slaughter."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "lieu noir",
+    "merlu",
+    "hake",
+    "pollock",
+    "colin d'alaska"
+   ]
+  },
+  {
+   "id": "sole",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Sole, limande, plie",
+    "en": "Sole, plaice"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, poisson cachère.",
+    "en": "Yes, a kosher fish."
+   },
+   "why": {
+    "fr": "Le poisson a des nageoires et des écailles qu'on peut détacher sans arracher la peau : c'est le seul critère de la Torah. Pas de bénédiction ni d'abattage rituel pour les poissons.",
+    "en": "The fish has fins and scales that come off without tearing the skin: the Torah's only criterion. Fish need no ritual slaughter."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "limande",
+    "plie",
+    "plaice",
+    "carrelet"
+   ]
+  },
+  {
+   "id": "bar",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Bar, loup",
+    "en": "Sea bass"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, poisson cachère.",
+    "en": "Yes, a kosher fish."
+   },
+   "why": {
+    "fr": "Le poisson a des nageoires et des écailles qu'on peut détacher sans arracher la peau : c'est le seul critère de la Torah. Pas de bénédiction ni d'abattage rituel pour les poissons.",
+    "en": "The fish has fins and scales that come off without tearing the skin: the Torah's only criterion. Fish need no ritual slaughter."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "loup",
+    "sea bass",
+    "branzino"
+   ]
+  },
+  {
+   "id": "dorade",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Dorade, daurade",
+    "en": "Sea bream"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, poisson cachère.",
+    "en": "Yes, a kosher fish."
+   },
+   "why": {
+    "fr": "Le poisson a des nageoires et des écailles qu'on peut détacher sans arracher la peau : c'est le seul critère de la Torah. Pas de bénédiction ni d'abattage rituel pour les poissons.",
+    "en": "The fish has fins and scales that come off without tearing the skin: the Torah's only criterion. Fish need no ritual slaughter."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "daurade",
+    "sea bream",
+    "dorade royale"
+   ]
+  },
+  {
+   "id": "sardine",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Sardine, anchois",
+    "en": "Sardine, anchovy"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, poisson cachère.",
+    "en": "Yes, a kosher fish."
+   },
+   "why": {
+    "fr": "Le poisson a des nageoires et des écailles qu'on peut détacher sans arracher la peau : c'est le seul critère de la Torah. Pas de bénédiction ni d'abattage rituel pour les poissons.",
+    "en": "The fish has fins and scales that come off without tearing the skin: the Torah's only criterion. Fish need no ritual slaughter."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "anchois",
+    "anchovy",
+    "sardines"
+   ]
+  },
+  {
+   "id": "hareng",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Hareng",
+    "en": "Herring"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, poisson cachère.",
+    "en": "Yes, a kosher fish."
+   },
+   "why": {
+    "fr": "Le poisson a des nageoires et des écailles qu'on peut détacher sans arracher la peau : c'est le seul critère de la Torah. Pas de bénédiction ni d'abattage rituel pour les poissons.",
+    "en": "The fish has fins and scales that come off without tearing the skin: the Torah's only criterion. Fish need no ritual slaughter."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "herring",
+    "harengs"
+   ]
+  },
+  {
+   "id": "maquereau",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Maquereau",
+    "en": "Mackerel"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, poisson cachère. Ses écailles sont minuscules, mais bien là.",
+    "en": "Yes, a kosher fish. Its scales are tiny, but there."
+   },
+   "why": {
+    "fr": "Le poisson a des nageoires et des écailles qu'on peut détacher sans arracher la peau : c'est le seul critère de la Torah. Pas de bénédiction ni d'abattage rituel pour les poissons.",
+    "en": "The fish has fins and scales that come off without tearing the skin: the Torah's only criterion. Fish need no ritual slaughter."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "mackerel"
+   ]
+  },
+  {
+   "id": "truite",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Truite",
+    "en": "Trout"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, poisson cachère.",
+    "en": "Yes, a kosher fish."
+   },
+   "why": {
+    "fr": "Le poisson a des nageoires et des écailles qu'on peut détacher sans arracher la peau : c'est le seul critère de la Torah. Pas de bénédiction ni d'abattage rituel pour les poissons.",
+    "en": "The fish has fins and scales that come off without tearing the skin: the Torah's only criterion. Fish need no ritual slaughter."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "trout"
+   ]
+  },
+  {
+   "id": "carpe",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Carpe, brochet",
+    "en": "Carp, pike"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, poisson cachère. Le poisson du gefilte fish.",
+    "en": "Yes, a kosher fish. The gefilte-fish fish."
+   },
+   "why": {
+    "fr": "Le poisson a des nageoires et des écailles qu'on peut détacher sans arracher la peau : c'est le seul critère de la Torah. Pas de bénédiction ni d'abattage rituel pour les poissons.",
+    "en": "The fish has fins and scales that come off without tearing the skin: the Torah's only criterion. Fish need no ritual slaughter."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "brochet",
+    "pike",
+    "carp",
+    "gefilte"
+   ]
+  },
+  {
+   "id": "tilapia",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Tilapia, perche, sandre",
+    "en": "Tilapia, perch"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, poisson cachère.",
+    "en": "Yes, a kosher fish."
+   },
+   "why": {
+    "fr": "Le poisson a des nageoires et des écailles qu'on peut détacher sans arracher la peau : c'est le seul critère de la Torah. Pas de bénédiction ni d'abattage rituel pour les poissons.",
+    "en": "The fish has fins and scales that come off without tearing the skin: the Torah's only criterion. Fish need no ritual slaughter."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "perche",
+    "sandre",
+    "perch",
+    "zander"
+   ]
+  },
+  {
+   "id": "flétan",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Flétan",
+    "en": "Halibut"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, poisson cachère.",
+    "en": "Yes, a kosher fish."
+   },
+   "why": {
+    "fr": "Le poisson a des nageoires et des écailles qu'on peut détacher sans arracher la peau : c'est le seul critère de la Torah. Pas de bénédiction ni d'abattage rituel pour les poissons.",
+    "en": "The fish has fins and scales that come off without tearing the skin: the Torah's only criterion. Fish need no ritual slaughter."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "halibut",
+    "fletan"
+   ]
+  },
+  {
+   "id": "merlan",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Merlan, églefin",
+    "en": "Whiting, haddock"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, poisson cachère.",
+    "en": "Yes, a kosher fish."
+   },
+   "why": {
+    "fr": "Le poisson a des nageoires et des écailles qu'on peut détacher sans arracher la peau : c'est le seul critère de la Torah. Pas de bénédiction ni d'abattage rituel pour les poissons.",
+    "en": "The fish has fins and scales that come off without tearing the skin: the Torah's only criterion. Fish need no ritual slaughter."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "églefin",
+    "haddock",
+    "whiting",
+    "eglefin"
+   ]
+  },
+  {
+   "id": "mérou",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Mérou",
+    "en": "Grouper"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, poisson cachère.",
+    "en": "Yes, a kosher fish."
+   },
+   "why": {
+    "fr": "Le poisson a des nageoires et des écailles qu'on peut détacher sans arracher la peau : c'est le seul critère de la Torah. Pas de bénédiction ni d'abattage rituel pour les poissons.",
+    "en": "The fish has fins and scales that come off without tearing the skin: the Torah's only criterion. Fish need no ritual slaughter."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "grouper",
+    "merou"
+   ]
+  },
+  {
+   "id": "rouget",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Rouget, mulet",
+    "en": "Red mullet, mullet"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, poisson cachère.",
+    "en": "Yes, a kosher fish."
+   },
+   "why": {
+    "fr": "Le poisson a des nageoires et des écailles qu'on peut détacher sans arracher la peau : c'est le seul critère de la Torah. Pas de bénédiction ni d'abattage rituel pour les poissons.",
+    "en": "The fish has fins and scales that come off without tearing the skin: the Torah's only criterion. Fish need no ritual slaughter."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "mulet",
+    "mullet"
+   ]
+  },
+  {
+   "id": "lotte",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Lotte, baudroie",
+    "en": "Monkfish"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non, interdit.",
+    "en": "No, forbidden."
+   },
+   "why": {
+    "fr": "La lotte n'a pas d'écailles. La Torah ne permet que les poissons qui ont à la fois nageoires et écailles.",
+    "en": "Monkfish has no scales. The Torah permits only fish that have both fins and scales."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Deuteronomy 14:9-10",
+     "label": {
+      "fr": "Deutéronome 14:9-10",
+      "en": "Deuteronomy 14:9-10"
+     }
+    }
+   ],
+   "aka": [
+    "baudroie",
+    "monkfish"
+   ]
+  },
+  {
+   "id": "anguille",
+   "cat": "poissons",
+   "emoji": "🐍",
+   "name": {
+    "fr": "Anguille, congre, murène",
+    "en": "Eel"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non, interdit.",
+    "en": "No, forbidden."
+   },
+   "why": {
+    "fr": "L'anguille n'a pas d'écailles visibles qu'on puisse enlever. La Torah ne permet que les poissons qui ont à la fois nageoires et écailles.",
+    "en": "Eels have no removable scales. The Torah permits only fish that have both fins and scales."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Deuteronomy 14:9-10",
+     "label": {
+      "fr": "Deutéronome 14:9-10",
+      "en": "Deuteronomy 14:9-10"
+     }
+    }
+   ],
+   "aka": [
+    "congre",
+    "murène",
+    "eel"
+   ]
+  },
+  {
+   "id": "raie",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Raie",
+    "en": "Skate, ray"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non, interdit.",
+    "en": "No, forbidden."
+   },
+   "why": {
+    "fr": "La raie, comme le requin, a une peau sans écailles détachables. La Torah ne permet que les poissons qui ont à la fois nageoires et écailles.",
+    "en": "Rays, like sharks, have no removable scales. The Torah permits only fish that have both fins and scales."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Deuteronomy 14:9-10",
+     "label": {
+      "fr": "Deutéronome 14:9-10",
+      "en": "Deuteronomy 14:9-10"
+     }
+    }
+   ],
+   "aka": [
+    "skate",
+    "ray"
+   ]
+  },
+  {
+   "id": "requin",
+   "cat": "poissons",
+   "emoji": "🦈",
+   "name": {
+    "fr": "Requin, roussette",
+    "en": "Shark"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non, interdit.",
+    "en": "No, forbidden."
+   },
+   "why": {
+    "fr": "Le requin a des « denticules » soudés à la peau, pas des écailles qu'on détache. La Torah ne permet que les poissons qui ont à la fois nageoires et écailles.",
+    "en": "Sharks have denticles fused to the skin, not removable scales. The Torah permits only fish that have both fins and scales."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Deuteronomy 14:9-10",
+     "label": {
+      "fr": "Deutéronome 14:9-10",
+      "en": "Deuteronomy 14:9-10"
+     }
+    }
+   ],
+   "aka": [
+    "shark",
+    "roussette",
+    "saumonette"
+   ]
+  },
+  {
+   "id": "silure",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Poisson-chat, silure",
+    "en": "Catfish"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non, interdit.",
+    "en": "No, forbidden."
+   },
+   "why": {
+    "fr": "Le poisson-chat n'a pas d'écailles. La Torah ne permet que les poissons qui ont à la fois nageoires et écailles.",
+    "en": "Catfish has no scales. The Torah permits only fish that have both fins and scales."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Deuteronomy 14:9-10",
+     "label": {
+      "fr": "Deutéronome 14:9-10",
+      "en": "Deuteronomy 14:9-10"
+     }
+    }
+   ],
+   "aka": [
+    "poisson-chat",
+    "catfish",
+    "pangasius"
+   ]
+  },
+  {
+   "id": "esturgeon",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Esturgeon, caviar",
+    "en": "Sturgeon, caviar"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non pour la grande majorité des autorités ; le caviar d'esturgeon non plus.",
+    "en": "No for most authorities; sturgeon caviar neither."
+   },
+   "why": {
+    "fr": "Les plaques osseuses de l'esturgeon ne se détachent pas comme des écailles. Quelques autorités, surtout du judaïsme massorti, l'ont permis. Les œufs suivent le poisson : le caviar d'esturgeon est interdit, les œufs de saumon ou de truite (avec certification) sont permis.",
+    "en": "Sturgeon's bony plates do not come off like scales. A few authorities, mostly in Conservative Judaism, have permitted it. Roe follows the fish: sturgeon caviar is forbidden, salmon or trout roe (certified) is permitted."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    },
+    {
+     "ref": "Bekhorot 6b",
+     "label": {
+      "fr": "Talmud Bekhorot 6b · ce qui sort de l'impur est impur",
+      "en": "Talmud Bekhorot 6b · what comes from the impure is impure"
+     }
+    }
+   ],
+   "aka": [
+    "caviar",
+    "sturgeon",
+    "oeufs de poisson",
+    "œufs de saumon",
+    "roe"
+   ]
+  },
+  {
+   "id": "espadon",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Espadon",
+    "en": "Swordfish"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non selon l'usage orthodoxe ; débattu ailleurs.",
+    "en": "No in Orthodox practice; debated elsewhere."
+   },
+   "why": {
+    "fr": "L'espadon a des écailles quand il est jeune et les perd adulte. Les autorités orthodoxes le considèrent interdit ; une partie du judaïsme massorti l'a permis.",
+    "en": "Swordfish has scales when young and loses them as an adult. Orthodox authorities treat it as forbidden; part of Conservative Judaism has permitted it."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "swordfish"
+   ]
+  },
+  {
+   "id": "turbot",
+   "cat": "poissons",
+   "emoji": "🐟",
+   "name": {
+    "fr": "Turbot",
+    "en": "Turbot"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non selon la plupart des autorités.",
+    "en": "No according to most authorities."
+   },
+   "why": {
+    "fr": "Le turbot européen porte des tubercules osseux plutôt que de vraies écailles ; la plupart des autorités ne le permettent pas.",
+    "en": "European turbot carries bony tubercles rather than true scales; most authorities do not permit it."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 83:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 83:1 · écailles détachables",
+      "en": "Shulchan Arukh YD 83:1 · removable scales"
+     }
+    }
+   ],
+   "aka": [
+    "turbot"
+   ]
+  },
+  {
+   "id": "surimi",
+   "cat": "poissons",
+   "emoji": "🍥",
+   "name": {
+    "fr": "Surimi",
+    "en": "Surimi"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Seulement avec une certification.",
+    "en": "Only with a certification."
+   },
+   "why": {
+    "fr": "Le surimi mélange plusieurs poissons, souvent avec du crabe ou des arômes de crustacés. Sans certification on ne sait pas ce qu'il contient ; il existe du surimi cachère.",
+    "en": "Surimi blends several fish, often with crab or shellfish flavouring. Without a certification there is no way to know; kosher surimi exists."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    }
+   ],
+   "aka": [
+    "kani",
+    "bâtonnets de crabe",
+    "crab sticks"
+   ]
+  },
+  {
+   "id": "crevette",
+   "cat": "mer",
+   "emoji": "🦐",
+   "name": {
+    "fr": "Crevette, gambas",
+    "en": "Shrimp, prawn"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non, interdit.",
+    "en": "No, forbidden."
+   },
+   "why": {
+    "fr": "La crevette n'a ni nageoires ni écailles. Seuls les animaux aquatiques à nageoires et écailles sont permis.",
+    "en": "Shrimp have neither fins nor scales. Only water creatures with fins and scales are permitted."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Deuteronomy 14:9-10",
+     "label": {
+      "fr": "Deutéronome 14:9-10",
+      "en": "Deuteronomy 14:9-10"
+     }
+    }
+   ],
+   "aka": [
+    "gambas",
+    "shrimp",
+    "prawn",
+    "scampi"
+   ]
+  },
+  {
+   "id": "homard",
+   "cat": "mer",
+   "emoji": "🦞",
+   "name": {
+    "fr": "Homard, langouste, langoustine",
+    "en": "Lobster, crayfish"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non, interdit.",
+    "en": "No, forbidden."
+   },
+   "why": {
+    "fr": "Les crustacés n'ont ni nageoires ni écailles. Seuls les animaux aquatiques à nageoires et écailles sont permis.",
+    "en": "Crustaceans have neither fins nor scales. Only water creatures with fins and scales are permitted."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Deuteronomy 14:9-10",
+     "label": {
+      "fr": "Deutéronome 14:9-10",
+      "en": "Deuteronomy 14:9-10"
+     }
+    }
+   ],
+   "aka": [
+    "langouste",
+    "langoustine",
+    "lobster",
+    "écrevisse"
+   ]
+  },
+  {
+   "id": "crabe",
+   "cat": "mer",
+   "emoji": "🦀",
+   "name": {
+    "fr": "Crabe, tourteau",
+    "en": "Crab"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non, interdit.",
+    "en": "No, forbidden."
+   },
+   "why": {
+    "fr": "Le crabe est un crustacé. Seuls les animaux aquatiques à nageoires et écailles sont permis.",
+    "en": "Crab is a crustacean. Only water creatures with fins and scales are permitted."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Deuteronomy 14:9-10",
+     "label": {
+      "fr": "Deutéronome 14:9-10",
+      "en": "Deuteronomy 14:9-10"
+     }
+    }
+   ],
+   "aka": [
+    "tourteau",
+    "crab",
+    "araignée de mer"
+   ]
+  },
+  {
+   "id": "moule",
+   "cat": "mer",
+   "emoji": "🦪",
+   "name": {
+    "fr": "Moule, huître, coquille Saint-Jacques",
+    "en": "Mussel, oyster, scallop"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non, interdit.",
+    "en": "No, forbidden."
+   },
+   "why": {
+    "fr": "Les coquillages n'ont ni nageoires ni écailles. Seuls les animaux aquatiques à nageoires et écailles sont permis.",
+    "en": "Shellfish have neither fins nor scales. Only water creatures with fins and scales are permitted."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Deuteronomy 14:9-10",
+     "label": {
+      "fr": "Deutéronome 14:9-10",
+      "en": "Deuteronomy 14:9-10"
+     }
+    }
+   ],
+   "aka": [
+    "huître",
+    "huitre",
+    "saint-jacques",
+    "palourde",
+    "oyster",
+    "scallop",
+    "clam",
+    "bulot"
+   ]
+  },
+  {
+   "id": "calamar",
+   "cat": "mer",
+   "emoji": "🦑",
+   "name": {
+    "fr": "Calamar, seiche, poulpe",
+    "en": "Squid, octopus"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non, interdit.",
+    "en": "No, forbidden."
+   },
+   "why": {
+    "fr": "Les céphalopodes n'ont ni nageoires vraies ni écailles. Seuls les animaux aquatiques à nageoires et écailles sont permis.",
+    "en": "Cephalopods have neither true fins nor scales. Only water creatures with fins and scales are permitted."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:9-12",
+     "label": {
+      "fr": "Lévitique 11:9-12 · nageoires et écailles",
+      "en": "Leviticus 11:9-12 · fins and scales"
+     }
+    },
+    {
+     "ref": "Deuteronomy 14:9-10",
+     "label": {
+      "fr": "Deutéronome 14:9-10",
+      "en": "Deuteronomy 14:9-10"
+     }
+    }
+   ],
+   "aka": [
+    "seiche",
+    "poulpe",
+    "encornet",
+    "squid",
+    "octopus",
+    "chipiron"
+   ]
+  },
+  {
+   "id": "escargot",
+   "cat": "mer",
+   "emoji": "🐌",
+   "name": {
+    "fr": "Escargot, grenouille",
+    "en": "Snail, frog"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non, interdit.",
+    "en": "No, forbidden."
+   },
+   "why": {
+    "fr": "Escargots et grenouilles font partie des petits animaux qui rampent, interdits par la Torah.",
+    "en": "Snails and frogs are among the creeping creatures the Torah forbids."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:41-43",
+     "label": {
+      "fr": "Lévitique 11:41-43 · les petits animaux qui rampent",
+      "en": "Leviticus 11:41-43 · creeping creatures"
+     }
+    }
+   ],
+   "aka": [
+    "grenouille",
+    "cuisses de grenouille",
+    "snail",
+    "frog"
+   ]
+  },
+  {
+   "id": "boeuf",
+   "cat": "viandes",
+   "emoji": "🐄",
+   "name": {
+    "fr": "Bœuf, veau",
+    "en": "Beef, veal"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Oui, si l'animal a été abattu rituellement et la viande cachérisée.",
+    "en": "Yes, if ritually slaughtered and the meat koshered."
+   },
+   "why": {
+    "fr": "La vache a le sabot fendu et rumine : espèce permise. Il faut en plus la ché'hita (abattage rituel), le contrôle des organes, le retrait du sang (salage) et de certaines graisses : on achète donc la viande chez un boucher cachère certifié.",
+    "en": "Cattle have split hooves and chew the cud: a permitted species. It also needs shechita (ritual slaughter), inspection of the organs, removal of the blood (salting) and of certain fats: so buy from a certified kosher butcher."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:2-8",
+     "label": {
+      "fr": "Lévitique 11:2-8 · sabot fendu et rumination",
+      "en": "Leviticus 11:2-8 · split hooves and chewing the cud"
+     }
+    },
+    {
+     "ref": "Deuteronomy 12:21",
+     "label": {
+      "fr": "Deutéronome 12:21 · « tu abattras comme je te l'ai ordonné »",
+      "en": "Deuteronomy 12:21 · “slaughter as I have commanded you”"
+     }
+    },
+    {
+     "ref": "Leviticus 17:10-14",
+     "label": {
+      "fr": "Lévitique 17:10-14 · l'interdit du sang",
+      "en": "Leviticus 17:10-14 · the prohibition of blood"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 69:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 69 · le salage de la viande",
+      "en": "Shulchan Arukh YD 69 · salting meat"
+     }
+    }
+   ],
+   "aka": [
+    "veau",
+    "beef",
+    "veal",
+    "steak",
+    "viande hachée"
+   ]
+  },
+  {
+   "id": "agneau",
+   "cat": "viandes",
+   "emoji": "🐑",
+   "name": {
+    "fr": "Agneau, mouton",
+    "en": "Lamb, mutton"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Oui, si l'animal a été abattu rituellement et la viande cachérisée.",
+    "en": "Yes, if ritually slaughtered and the meat koshered."
+   },
+   "why": {
+    "fr": "Le mouton a le sabot fendu et rumine. Il faut en plus la ché'hita (abattage rituel), le contrôle des organes, le retrait du sang (salage) et de certaines graisses : on achète donc la viande chez un boucher cachère certifié.",
+    "en": "Sheep have split hooves and chew the cud. It also needs shechita (ritual slaughter), inspection of the organs, removal of the blood (salting) and of certain fats: so buy from a certified kosher butcher."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:2-8",
+     "label": {
+      "fr": "Lévitique 11:2-8 · sabot fendu et rumination",
+      "en": "Leviticus 11:2-8 · split hooves and chewing the cud"
+     }
+    },
+    {
+     "ref": "Deuteronomy 12:21",
+     "label": {
+      "fr": "Deutéronome 12:21 · « tu abattras comme je te l'ai ordonné »",
+      "en": "Deuteronomy 12:21 · “slaughter as I have commanded you”"
+     }
+    },
+    {
+     "ref": "Leviticus 17:10-14",
+     "label": {
+      "fr": "Lévitique 17:10-14 · l'interdit du sang",
+      "en": "Leviticus 17:10-14 · the prohibition of blood"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 69:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 69 · le salage de la viande",
+      "en": "Shulchan Arukh YD 69 · salting meat"
+     }
+    }
+   ],
+   "aka": [
+    "mouton",
+    "lamb",
+    "mutton"
+   ]
+  },
+  {
+   "id": "chevre",
+   "cat": "viandes",
+   "emoji": "🐐",
+   "name": {
+    "fr": "Chèvre, chevreau",
+    "en": "Goat"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Oui, si l'animal a été abattu rituellement et la viande cachérisée.",
+    "en": "Yes, if ritually slaughtered and the meat koshered."
+   },
+   "why": {
+    "fr": "La chèvre a le sabot fendu et rumine. Il faut en plus la ché'hita (abattage rituel), le contrôle des organes, le retrait du sang (salage) et de certaines graisses : on achète donc la viande chez un boucher cachère certifié.",
+    "en": "Goats have split hooves and chew the cud. It also needs shechita (ritual slaughter), inspection of the organs, removal of the blood (salting) and of certain fats: so buy from a certified kosher butcher."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:2-8",
+     "label": {
+      "fr": "Lévitique 11:2-8 · sabot fendu et rumination",
+      "en": "Leviticus 11:2-8 · split hooves and chewing the cud"
+     }
+    },
+    {
+     "ref": "Deuteronomy 12:21",
+     "label": {
+      "fr": "Deutéronome 12:21 · « tu abattras comme je te l'ai ordonné »",
+      "en": "Deuteronomy 12:21 · “slaughter as I have commanded you”"
+     }
+    },
+    {
+     "ref": "Leviticus 17:10-14",
+     "label": {
+      "fr": "Lévitique 17:10-14 · l'interdit du sang",
+      "en": "Leviticus 17:10-14 · the prohibition of blood"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 69:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 69 · le salage de la viande",
+      "en": "Shulchan Arukh YD 69 · salting meat"
+     }
+    }
+   ],
+   "aka": [
+    "chevreau",
+    "goat"
+   ]
+  },
+  {
+   "id": "cerf",
+   "cat": "viandes",
+   "emoji": "🦌",
+   "name": {
+    "fr": "Cerf, biche, chevreuil",
+    "en": "Deer, venison"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Oui, si l'animal a été abattu rituellement et la viande cachérisée.",
+    "en": "Yes, if ritually slaughtered and the meat koshered."
+   },
+   "why": {
+    "fr": "Le cerf est une espèce permise (Deutéronome 14:5), mais la viande abattue rituellement est rare. Il faut en plus la ché'hita (abattage rituel), le contrôle des organes, le retrait du sang (salage) et de certaines graisses : on achète donc la viande chez un boucher cachère certifié.",
+    "en": "Deer are a permitted species (Deuteronomy 14:5), but ritually slaughtered venison is rare. It also needs shechita (ritual slaughter), inspection of the organs, removal of the blood (salting) and of certain fats: so buy from a certified kosher butcher."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:2-8",
+     "label": {
+      "fr": "Lévitique 11:2-8 · sabot fendu et rumination",
+      "en": "Leviticus 11:2-8 · split hooves and chewing the cud"
+     }
+    },
+    {
+     "ref": "Deuteronomy 12:21",
+     "label": {
+      "fr": "Deutéronome 12:21 · « tu abattras comme je te l'ai ordonné »",
+      "en": "Deuteronomy 12:21 · “slaughter as I have commanded you”"
+     }
+    },
+    {
+     "ref": "Leviticus 17:10-14",
+     "label": {
+      "fr": "Lévitique 17:10-14 · l'interdit du sang",
+      "en": "Leviticus 17:10-14 · the prohibition of blood"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 69:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 69 · le salage de la viande",
+      "en": "Shulchan Arukh YD 69 · salting meat"
+     }
+    }
+   ],
+   "aka": [
+    "biche",
+    "chevreuil",
+    "venison",
+    "deer",
+    "gibier"
+   ]
+  },
+  {
+   "id": "arriere",
+   "cat": "viandes",
+   "emoji": "🥩",
+   "name": {
+    "fr": "Filet, faux-filet, gigot (quartier arrière)",
+    "en": "Sirloin, leg (hindquarter)"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Rarement en France : il faut retirer le nerf sciatique.",
+    "en": "Rarely in France: the sciatic nerve must be removed."
+   },
+   "why": {
+    "fr": "Depuis la lutte de Jacob avec l'ange, on ne mange pas le nerf sciatique. Le retirer (nikkour) demande un savoir-faire ; en France, on renonce le plus souvent à l'arrière de l'animal. En Israël, des bouchers le font.",
+    "en": "Since Jacob wrestled with the angel, the sciatic nerve is not eaten. Removing it (nikkur) takes skill; in France the hindquarter is usually not sold as kosher. In Israel, butchers do it."
+   },
+   "sources": [
+    {
+     "ref": "Genesis 32:33",
+     "label": {
+      "fr": "Genèse 32:33 · le nerf sciatique",
+      "en": "Genesis 32:33 · the sciatic nerve"
+     }
+    },
+    {
+     "ref": "Leviticus 7:23-25",
+     "label": {
+      "fr": "Lévitique 7:23-25 · certaines graisses",
+      "en": "Leviticus 7:23-25 · certain fats"
+     }
+    }
+   ],
+   "aka": [
+    "filet",
+    "faux-filet",
+    "gigot",
+    "rumsteck",
+    "sirloin",
+    "nerf sciatique"
+   ]
+  },
+  {
+   "id": "porc",
+   "cat": "viandes",
+   "emoji": "🐖",
+   "name": {
+    "fr": "Porc, jambon, sanglier",
+    "en": "Pork, ham, boar"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non, interdit.",
+    "en": "No, forbidden."
+   },
+   "why": {
+    "fr": "Le porc a le sabot fendu mais ne rumine pas : la Torah le cite explicitement.",
+    "en": "The pig has split hooves but does not chew the cud: the Torah names it explicitly."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:2-8",
+     "label": {
+      "fr": "Lévitique 11:2-8 · sabot fendu et rumination",
+      "en": "Leviticus 11:2-8 · split hooves and chewing the cud"
+     }
+    },
+    {
+     "ref": "Deuteronomy 14:4-8",
+     "label": {
+      "fr": "Deutéronome 14:4-8",
+      "en": "Deuteronomy 14:4-8"
+     }
+    }
+   ],
+   "aka": [
+    "jambon",
+    "lardons",
+    "bacon",
+    "saucisson",
+    "sanglier",
+    "pork",
+    "ham",
+    "chorizo"
+   ]
+  },
+  {
+   "id": "lapin",
+   "cat": "viandes",
+   "emoji": "🐇",
+   "name": {
+    "fr": "Lapin, lièvre",
+    "en": "Rabbit, hare"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non, interdit.",
+    "en": "No, forbidden."
+   },
+   "why": {
+    "fr": "Le lièvre semble ruminer mais n'a pas le sabot fendu : la Torah le cite.",
+    "en": "The hare seems to chew the cud but has no split hooves: the Torah names it."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:2-8",
+     "label": {
+      "fr": "Lévitique 11:2-8 · sabot fendu et rumination",
+      "en": "Leviticus 11:2-8 · split hooves and chewing the cud"
+     }
+    },
+    {
+     "ref": "Deuteronomy 14:4-8",
+     "label": {
+      "fr": "Deutéronome 14:4-8",
+      "en": "Deuteronomy 14:4-8"
+     }
+    }
+   ],
+   "aka": [
+    "lièvre",
+    "rabbit",
+    "hare"
+   ]
+  },
+  {
+   "id": "cheval",
+   "cat": "viandes",
+   "emoji": "🐎",
+   "name": {
+    "fr": "Cheval",
+    "en": "Horse"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non, interdit.",
+    "en": "No, forbidden."
+   },
+   "why": {
+    "fr": "Le cheval n'a pas le sabot fendu et ne rumine pas.",
+    "en": "Horses have no split hooves and do not chew the cud."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:2-8",
+     "label": {
+      "fr": "Lévitique 11:2-8 · sabot fendu et rumination",
+      "en": "Leviticus 11:2-8 · split hooves and chewing the cud"
+     }
+    },
+    {
+     "ref": "Deuteronomy 14:4-8",
+     "label": {
+      "fr": "Deutéronome 14:4-8",
+      "en": "Deuteronomy 14:4-8"
+     }
+    }
+   ],
+   "aka": [
+    "horse",
+    "viande chevaline"
+   ]
+  },
+  {
+   "id": "chameau",
+   "cat": "viandes",
+   "emoji": "🐪",
+   "name": {
+    "fr": "Chameau",
+    "en": "Camel"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non, interdit.",
+    "en": "No, forbidden."
+   },
+   "why": {
+    "fr": "Le chameau rumine mais n'a pas le sabot fendu : la Torah le cite.",
+    "en": "The camel chews the cud but has no split hooves: the Torah names it."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:2-8",
+     "label": {
+      "fr": "Lévitique 11:2-8 · sabot fendu et rumination",
+      "en": "Leviticus 11:2-8 · split hooves and chewing the cud"
+     }
+    },
+    {
+     "ref": "Deuteronomy 14:4-8",
+     "label": {
+      "fr": "Deutéronome 14:4-8",
+      "en": "Deuteronomy 14:4-8"
+     }
+    }
+   ],
+   "aka": [
+    "camel",
+    "dromadaire"
+   ]
+  },
+  {
+   "id": "poulet",
+   "cat": "volailles",
+   "emoji": "🐔",
+   "name": {
+    "fr": "Poulet, poule",
+    "en": "Chicken"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Oui, si elle a été abattue rituellement et cachérisée.",
+    "en": "Yes, if ritually slaughtered and koshered."
+   },
+   "why": {
+    "fr": "Le poulet est l'oiseau permis par excellence. La Torah liste les oiseaux interdits sans donner de critère ; on ne mange donc que les oiseaux connus par une tradition ininterrompue, et seulement après abattage rituel et salage.",
+    "en": "Chicken is the permitted bird par excellence. The Torah lists forbidden birds without giving a sign; so only birds known by unbroken tradition are eaten, and only after ritual slaughter and salting."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:13-19",
+     "label": {
+      "fr": "Lévitique 11:13-19 · les oiseaux interdits",
+      "en": "Leviticus 11:13-19 · the forbidden birds"
+     }
+    },
+    {
+     "ref": "Chullin 63b",
+     "label": {
+      "fr": "Talmud 'Houlin 63b · on ne mange un oiseau que par tradition",
+      "en": "Talmud Chullin 63b · birds are eaten only by tradition"
+     }
+    },
+    {
+     "ref": "Deuteronomy 12:21",
+     "label": {
+      "fr": "Deutéronome 12:21 · « tu abattras comme je te l'ai ordonné »",
+      "en": "Deuteronomy 12:21 · “slaughter as I have commanded you”"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 69:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 69 · le salage de la viande",
+      "en": "Shulchan Arukh YD 69 · salting meat"
+     }
+    }
+   ],
+   "aka": [
+    "poule",
+    "chicken",
+    "escalope de poulet",
+    "nuggets"
+   ]
+  },
+  {
+   "id": "dinde",
+   "cat": "volailles",
+   "emoji": "🦃",
+   "name": {
+    "fr": "Dinde",
+    "en": "Turkey"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Oui, si elle a été abattue rituellement et cachérisée.",
+    "en": "Yes, if ritually slaughtered and koshered."
+   },
+   "why": {
+    "fr": "La dinde, venue d'Amérique, a été adoptée par presque toutes les communautés. La Torah liste les oiseaux interdits sans donner de critère ; on ne mange donc que les oiseaux connus par une tradition ininterrompue, et seulement après abattage rituel et salage.",
+    "en": "Turkey, from the Americas, was adopted by nearly all communities. The Torah lists forbidden birds without giving a sign; so only birds known by unbroken tradition are eaten, and only after ritual slaughter and salting."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:13-19",
+     "label": {
+      "fr": "Lévitique 11:13-19 · les oiseaux interdits",
+      "en": "Leviticus 11:13-19 · the forbidden birds"
+     }
+    },
+    {
+     "ref": "Chullin 63b",
+     "label": {
+      "fr": "Talmud 'Houlin 63b · on ne mange un oiseau que par tradition",
+      "en": "Talmud Chullin 63b · birds are eaten only by tradition"
+     }
+    },
+    {
+     "ref": "Deuteronomy 12:21",
+     "label": {
+      "fr": "Deutéronome 12:21 · « tu abattras comme je te l'ai ordonné »",
+      "en": "Deuteronomy 12:21 · “slaughter as I have commanded you”"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 69:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 69 · le salage de la viande",
+      "en": "Shulchan Arukh YD 69 · salting meat"
+     }
+    }
+   ],
+   "aka": [
+    "turkey",
+    "dindonneau"
+   ]
+  },
+  {
+   "id": "canard",
+   "cat": "volailles",
+   "emoji": "🦆",
+   "name": {
+    "fr": "Canard, oie",
+    "en": "Duck, goose"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Oui, si elle a été abattue rituellement et cachérisée.",
+    "en": "Yes, if ritually slaughtered and koshered."
+   },
+   "why": {
+    "fr": "Le canard et l'oie ont une tradition ancienne. La Torah liste les oiseaux interdits sans donner de critère ; on ne mange donc que les oiseaux connus par une tradition ininterrompue, et seulement après abattage rituel et salage.",
+    "en": "Duck and goose have an ancient tradition. The Torah lists forbidden birds without giving a sign; so only birds known by unbroken tradition are eaten, and only after ritual slaughter and salting."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:13-19",
+     "label": {
+      "fr": "Lévitique 11:13-19 · les oiseaux interdits",
+      "en": "Leviticus 11:13-19 · the forbidden birds"
+     }
+    },
+    {
+     "ref": "Chullin 63b",
+     "label": {
+      "fr": "Talmud 'Houlin 63b · on ne mange un oiseau que par tradition",
+      "en": "Talmud Chullin 63b · birds are eaten only by tradition"
+     }
+    },
+    {
+     "ref": "Deuteronomy 12:21",
+     "label": {
+      "fr": "Deutéronome 12:21 · « tu abattras comme je te l'ai ordonné »",
+      "en": "Deuteronomy 12:21 · “slaughter as I have commanded you”"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 69:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 69 · le salage de la viande",
+      "en": "Shulchan Arukh YD 69 · salting meat"
+     }
+    }
+   ],
+   "aka": [
+    "oie",
+    "duck",
+    "goose",
+    "magret",
+    "confit"
+   ]
+  },
+  {
+   "id": "pigeon",
+   "cat": "volailles",
+   "emoji": "🕊️",
+   "name": {
+    "fr": "Pigeon, caille",
+    "en": "Pigeon, quail"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Oui, si elle a été abattue rituellement et cachérisée.",
+    "en": "Yes, if ritually slaughtered and koshered."
+   },
+   "why": {
+    "fr": "Le pigeon était offert au Temple ; la caille est la « slav » de la manne. La Torah liste les oiseaux interdits sans donner de critère ; on ne mange donc que les oiseaux connus par une tradition ininterrompue, et seulement après abattage rituel et salage.",
+    "en": "The pigeon was offered at the Temple; the quail is the “slav” of the manna. The Torah lists forbidden birds without giving a sign; so only birds known by unbroken tradition are eaten, and only after ritual slaughter and salting."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:13-19",
+     "label": {
+      "fr": "Lévitique 11:13-19 · les oiseaux interdits",
+      "en": "Leviticus 11:13-19 · the forbidden birds"
+     }
+    },
+    {
+     "ref": "Chullin 63b",
+     "label": {
+      "fr": "Talmud 'Houlin 63b · on ne mange un oiseau que par tradition",
+      "en": "Talmud Chullin 63b · birds are eaten only by tradition"
+     }
+    },
+    {
+     "ref": "Deuteronomy 12:21",
+     "label": {
+      "fr": "Deutéronome 12:21 · « tu abattras comme je te l'ai ordonné »",
+      "en": "Deuteronomy 12:21 · “slaughter as I have commanded you”"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 69:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 69 · le salage de la viande",
+      "en": "Shulchan Arukh YD 69 · salting meat"
+     }
+    }
+   ],
+   "aka": [
+    "caille",
+    "quail",
+    "pigeon"
+   ]
+  },
+  {
+   "id": "autruche",
+   "cat": "volailles",
+   "emoji": "🐦",
+   "name": {
+    "fr": "Autruche, rapaces",
+    "en": "Ostrich, birds of prey"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non, interdit.",
+    "en": "No, forbidden."
+   },
+   "why": {
+    "fr": "L'autruche (bat-haya'ana) et les rapaces figurent dans la liste des oiseaux interdits.",
+    "en": "The ostrich (bat ha-ya'ana) and birds of prey are in the list of forbidden birds."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:13-19",
+     "label": {
+      "fr": "Lévitique 11:13-19 · les oiseaux interdits",
+      "en": "Leviticus 11:13-19 · the forbidden birds"
+     }
+    }
+   ],
+   "aka": [
+    "ostrich",
+    "aigle",
+    "corbeau"
+   ]
+  },
+  {
+   "id": "lait",
+   "cat": "laitages",
+   "emoji": "🥛",
+   "name": {
+    "fr": "Lait de vache, de chèvre, de brebis",
+    "en": "Cow, goat, sheep milk"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui. Certains ne boivent que du lait surveillé (‘halav Israël).",
+    "en": "Yes. Some drink only supervised milk (chalav Yisrael)."
+   },
+   "why": {
+    "fr": "Le lait d'un animal permis est permis ; celui d'un animal interdit (jument, ânesse) est interdit. Les Sages ont exigé qu'un Juif surveille la traite, pour éviter le mélange avec un lait interdit ; beaucoup considèrent qu'aujourd'hui le contrôle sanitaire suffit, d'autres gardent le ‘halav Israël.",
+    "en": "Milk from a permitted animal is permitted; from a forbidden one (mare, donkey) it is forbidden. The Sages required a Jew to supervise milking, to avoid mixing with forbidden milk; many hold that today's health controls suffice, others keep chalav Yisrael."
+   },
+   "sources": [
+    {
+     "ref": "Bekhorot 6b",
+     "label": {
+      "fr": "Talmud Bekhorot 6b · ce qui sort de l'impur est impur",
+      "en": "Talmud Bekhorot 6b · what comes from the impure is impure"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 115:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 115:1 · lait surveillé (‘halav Israël)",
+      "en": "Shulchan Arukh YD 115:1 · supervised milk (chalav Yisrael)"
+     }
+    }
+   ],
+   "aka": [
+    "milk",
+    "lait de chèvre",
+    "halav israel",
+    "chalav yisrael"
+   ]
+  },
+  {
+   "id": "fromage",
+   "cat": "laitages",
+   "emoji": "🧀",
+   "name": {
+    "fr": "Fromage",
+    "en": "Cheese"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Avec une certification.",
+    "en": "With a certification."
+   },
+   "why": {
+    "fr": "Le fromage caille souvent grâce à la présure, tirée de l'estomac d'un veau (pas abattu rituellement). Les Sages ont en outre exigé une surveillance juive pour tout fromage, même à présure végétale. On achète donc du fromage certifié.",
+    "en": "Cheese is often set with rennet from a calf's stomach (not ritually slaughtered). The Sages also required Jewish supervision for all cheese, even with vegetable rennet. So buy certified cheese."
+   },
+   "sources": [
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 115:2",
+     "label": {
+      "fr": "Choul'han Aroukh YD 115:2 · le fromage",
+      "en": "Shulchan Arukh YD 115:2 · cheese"
+     }
+    }
+   ],
+   "aka": [
+    "cheese",
+    "présure",
+    "rennet",
+    "comté",
+    "camembert",
+    "parmesan",
+    "mozzarella"
+   ]
+  },
+  {
+   "id": "yaourt",
+   "cat": "laitages",
+   "emoji": "🍦",
+   "name": {
+    "fr": "Yaourt, crème dessert",
+    "en": "Yogurt, dairy dessert"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Avec une certification (gélatine, arômes).",
+    "en": "With a certification (gelatin, flavourings)."
+   },
+   "why": {
+    "fr": "Le lait est permis, mais beaucoup de desserts contiennent de la gélatine animale ou du carmin.",
+    "en": "The milk is permitted, but many desserts contain animal gelatin or carmine."
+   },
+   "sources": [
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 115:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 115:1 · lait surveillé (‘halav Israël)",
+      "en": "Shulchan Arukh YD 115:1 · supervised milk (chalav Yisrael)"
+     }
+    }
+   ],
+   "aka": [
+    "yogurt",
+    "yaourt",
+    "crème",
+    "flan",
+    "dessert lacté"
+   ]
+  },
+  {
+   "id": "beurre",
+   "cat": "laitages",
+   "emoji": "🧈",
+   "name": {
+    "fr": "Beurre, crème",
+    "en": "Butter, cream"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Oui en général, idéalement certifié.",
+    "en": "Usually yes, ideally certified."
+   },
+   "why": {
+    "fr": "Le beurre et la crème sont faits du lait seul ; on vérifie l'absence d'additifs et, pour certains, l'origine ‘halav Israël.",
+    "en": "Butter and cream are made from milk alone; check for additives and, for some, chalav Yisrael."
+   },
+   "sources": [
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 115:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 115:1 · lait surveillé (‘halav Israël)",
+      "en": "Shulchan Arukh YD 115:1 · supervised milk (chalav Yisrael)"
+     }
+    }
+   ],
+   "aka": [
+    "butter",
+    "crème fraîche",
+    "cream"
+   ]
+  },
+  {
+   "id": "oeuf",
+   "cat": "oeufs",
+   "emoji": "🥚",
+   "name": {
+    "fr": "Œuf de poule, de cane, de caille",
+    "en": "Hen, duck, quail egg"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui. On jette l'œuf s'il a une tache de sang.",
+    "en": "Yes. Discard the egg if it has a blood spot."
+   },
+   "why": {
+    "fr": "L'œuf suit l'oiseau : œuf d'oiseau permis, œuf permis. Une tache de sang peut indiquer un début d'embryon ; on casse donc les œufs un par un dans un verre avant de les utiliser.",
+    "en": "The egg follows the bird: a permitted bird's egg is permitted. A blood spot may indicate an embryo; so eggs are cracked one by one into a glass first."
+   },
+   "sources": [
+    {
+     "ref": "Bekhorot 6b",
+     "label": {
+      "fr": "Talmud Bekhorot 6b · ce qui sort de l'impur est impur",
+      "en": "Talmud Bekhorot 6b · what comes from the impure is impure"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 66:3",
+     "label": {
+      "fr": "Choul'han Aroukh YD 66:3 · la tache de sang",
+      "en": "Shulchan Arukh YD 66:3 · the blood spot"
+     }
+    }
+   ],
+   "aka": [
+    "egg",
+    "eggs",
+    "oeufs",
+    "œufs"
+   ]
+  },
+  {
+   "id": "oeuf_interdit",
+   "cat": "oeufs",
+   "emoji": "🥚",
+   "name": {
+    "fr": "Œuf d'autruche, d'oiseau interdit",
+    "en": "Ostrich egg, forbidden bird's egg"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non.",
+    "en": "No."
+   },
+   "why": {
+    "fr": "Ce qui provient d'un animal interdit est interdit, comme son lait ou ses œufs.",
+    "en": "What comes from a forbidden animal is forbidden, like its milk or eggs."
+   },
+   "sources": [
+    {
+     "ref": "Bekhorot 6b",
+     "label": {
+      "fr": "Talmud Bekhorot 6b · ce qui sort de l'impur est impur",
+      "en": "Talmud Bekhorot 6b · what comes from the impure is impure"
+     }
+    }
+   ],
+   "aka": [
+    "ostrich egg"
+   ]
+  },
+  {
+   "id": "legumes",
+   "cat": "vegetal",
+   "emoji": "🥕",
+   "name": {
+    "fr": "Fruits et légumes",
+    "en": "Fruit and vegetables"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, tous, après lavage.",
+    "en": "Yes, all, after washing."
+   },
+   "why": {
+    "fr": "Tout ce qui pousse est permis. La seule question est celle des petits insectes qui s'y cachent : ils sont interdits, même minuscules.",
+    "en": "Everything that grows is permitted. The only issue is the small insects hiding in it: they are forbidden, however tiny."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:41-43",
+     "label": {
+      "fr": "Lévitique 11:41-43 · les petits animaux qui rampent",
+      "en": "Leviticus 11:41-43 · creeping creatures"
+     }
+    }
+   ],
+   "aka": [
+    "fruits",
+    "légumes",
+    "vegetables",
+    "pomme",
+    "tomate",
+    "carotte"
+   ]
+  },
+  {
+   "id": "salade",
+   "cat": "vegetal",
+   "emoji": "🥬",
+   "name": {
+    "fr": "Salade, épinards, herbes",
+    "en": "Lettuce, spinach, herbs"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Oui, après vérification feuille à feuille.",
+    "en": "Yes, after checking leaf by leaf."
+   },
+   "why": {
+    "fr": "Les légumes à feuilles abritent souvent des pucerons et des thrips. On les trempe dans l'eau savonneuse, on rince et on vérifie à la lumière ; des salades « sans insectes » certifiées existent.",
+    "en": "Leafy greens often hide aphids and thrips. Soak in soapy water, rinse and check against the light; certified insect-free lettuce exists."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:41-43",
+     "label": {
+      "fr": "Lévitique 11:41-43 · les petits animaux qui rampent",
+      "en": "Leviticus 11:41-43 · creeping creatures"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 84:8",
+     "label": {
+      "fr": "Choul'han Aroukh YD 84:8 · vérifier les végétaux",
+      "en": "Shulchan Arukh YD 84:8 · checking produce"
+     }
+    }
+   ],
+   "aka": [
+    "laitue",
+    "épinards",
+    "persil",
+    "coriandre",
+    "menthe",
+    "lettuce",
+    "spinach",
+    "herbs",
+    "roquette"
+   ]
+  },
+  {
+   "id": "brocoli",
+   "cat": "vegetal",
+   "emoji": "🥦",
+   "name": {
+    "fr": "Brocoli, chou-fleur, artichaut",
+    "en": "Broccoli, cauliflower, artichoke"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Oui, après trempage et vérification.",
+    "en": "Yes, after soaking and checking."
+   },
+   "why": {
+    "fr": "Les fleurettes serrées sont difficiles à vérifier ; beaucoup les utilisent surgelées et certifiées, ou seulement les tiges.",
+    "en": "Tight florets are hard to check; many use them frozen and certified, or only the stems."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:41-43",
+     "label": {
+      "fr": "Lévitique 11:41-43 · les petits animaux qui rampent",
+      "en": "Leviticus 11:41-43 · creeping creatures"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 84:8",
+     "label": {
+      "fr": "Choul'han Aroukh YD 84:8 · vérifier les végétaux",
+      "en": "Shulchan Arukh YD 84:8 · checking produce"
+     }
+    }
+   ],
+   "aka": [
+    "chou-fleur",
+    "artichaut",
+    "broccoli",
+    "cauliflower",
+    "chou de bruxelles"
+   ]
+  },
+  {
+   "id": "fraises",
+   "cat": "vegetal",
+   "emoji": "🍓",
+   "name": {
+    "fr": "Fraises, framboises, mûres",
+    "en": "Strawberries, raspberries"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Fraises : retirer le haut et laver. Framboises : difficiles à vérifier.",
+    "en": "Strawberries: cut the top and wash. Raspberries: hard to check."
+   },
+   "why": {
+    "fr": "Les petits insectes se logent sous les feuilles des fraises et dans les cavités des framboises et des mûres.",
+    "en": "Small insects lodge under strawberry leaves and inside raspberries and blackberries."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:41-43",
+     "label": {
+      "fr": "Lévitique 11:41-43 · les petits animaux qui rampent",
+      "en": "Leviticus 11:41-43 · creeping creatures"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 84:8",
+     "label": {
+      "fr": "Choul'han Aroukh YD 84:8 · vérifier les végétaux",
+      "en": "Shulchan Arukh YD 84:8 · checking produce"
+     }
+    }
+   ],
+   "aka": [
+    "framboises",
+    "mûres",
+    "strawberry",
+    "raspberry"
+   ]
+  },
+  {
+   "id": "fruits_secs",
+   "cat": "vegetal",
+   "emoji": "🌰",
+   "name": {
+    "fr": "Figues, dattes, fruits secs",
+    "en": "Figs, dates, dried fruit"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Ouvrir et vérifier, ou acheter certifié.",
+    "en": "Open and check, or buy certified."
+   },
+   "why": {
+    "fr": "Les figues et les dattes séchées peuvent contenir des vers ; on les ouvre avant de les manger.",
+    "en": "Dried figs and dates may contain worms; open them before eating."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:41-43",
+     "label": {
+      "fr": "Lévitique 11:41-43 · les petits animaux qui rampent",
+      "en": "Leviticus 11:41-43 · creeping creatures"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 84:8",
+     "label": {
+      "fr": "Choul'han Aroukh YD 84:8 · vérifier les végétaux",
+      "en": "Shulchan Arukh YD 84:8 · checking produce"
+     }
+    }
+   ],
+   "aka": [
+    "figues",
+    "dattes",
+    "figs",
+    "dates",
+    "noix"
+   ]
+  },
+  {
+   "id": "israel",
+   "cat": "vegetal",
+   "emoji": "🇮🇱",
+   "name": {
+    "fr": "Fruits et légumes d'Israël",
+    "en": "Produce from Israel"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Avec certification : prélèvements et années de chemita.",
+    "en": "With certification: tithes and shemita years."
+   },
+   "why": {
+    "fr": "Les produits de la terre d'Israël ont des lois propres : prélèvements (troumot et maasserot), fruits des trois premières années d'un arbre (orla), année sabbatique (chemita).",
+    "en": "Produce of the Land of Israel has its own laws: tithes (terumot and maaserot), fruit of a tree's first three years (orla), the sabbatical year (shemita)."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 19:23-25",
+     "label": {
+      "fr": "Lévitique 19:23-25 · orla",
+      "en": "Leviticus 19:23-25 · orla"
+     }
+    },
+    {
+     "ref": "Leviticus 25:1-7",
+     "label": {
+      "fr": "Lévitique 25:1-7 · chemita",
+      "en": "Leviticus 25:1-7 · shemita"
+     }
+    }
+   ],
+   "aka": [
+    "israël",
+    "jaffa",
+    "avocat d'israël",
+    "israel"
+   ]
+  },
+  {
+   "id": "pain",
+   "cat": "pain",
+   "emoji": "🍞",
+   "name": {
+    "fr": "Pain",
+    "en": "Bread"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Avec une certification : ingrédients et four.",
+    "en": "With a certification: ingredients and oven."
+   },
+   "why": {
+    "fr": "Le pain peut contenir des matières grasses animales ou du lait. Les Sages ont interdit le pain laitier ou carné (sauf forme reconnaissable), pour ne pas le manger par erreur avec l'autre. Certains ne mangent que du pain fait par un Juif (pat Israël).",
+    "en": "Bread may contain animal fat or milk. The Sages forbade dairy or meat bread (unless it has a distinctive shape), so it is not eaten by mistake with the other. Some eat only bread baked by a Jew (pat Yisrael)."
+   },
+   "sources": [
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 97:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 97:1 · pas de pain laitier",
+      "en": "Shulchan Arukh YD 97:1 · no dairy bread"
+     }
+    }
+   ],
+   "aka": [
+    "bread",
+    "baguette",
+    "pain de mie",
+    "brioche",
+    "pat israel"
+   ]
+  },
+  {
+   "id": "patisserie",
+   "cat": "pain",
+   "emoji": "🥐",
+   "name": {
+    "fr": "Viennoiseries, gâteaux, biscuits",
+    "en": "Pastries, cakes, biscuits"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Avec une certification.",
+    "en": "With a certification."
+   },
+   "why": {
+    "fr": "Beurre, saindoux, gélatine, arômes : les ingrédients doivent être cachères et la pâtisserie dite laitière ou parvé.",
+    "en": "Butter, lard, gelatin, flavourings: ingredients must be kosher and the pastry labelled dairy or parve."
+   },
+   "sources": [
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 97:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 97:1 · pas de pain laitier",
+      "en": "Shulchan Arukh YD 97:1 · no dairy bread"
+     }
+    }
+   ],
+   "aka": [
+    "croissant",
+    "gâteau",
+    "biscuit",
+    "cookies",
+    "cake"
+   ]
+  },
+  {
+   "id": "pates",
+   "cat": "pain",
+   "emoji": "🍝",
+   "name": {
+    "fr": "Pâtes, riz, semoule",
+    "en": "Pasta, rice, semolina"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui pour les produits simples ; vérifier les plats préparés.",
+    "en": "Yes for plain products; check ready meals."
+   },
+   "why": {
+    "fr": "Les céréales sont permises ; on vérifie seulement les insectes (farine, riz) et les additifs des produits préparés.",
+    "en": "Grains are permitted; check only for insects (flour, rice) and additives in prepared products."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:41-43",
+     "label": {
+      "fr": "Lévitique 11:41-43 · les petits animaux qui rampent",
+      "en": "Leviticus 11:41-43 · creeping creatures"
+     }
+    }
+   ],
+   "aka": [
+    "pâtes",
+    "pasta",
+    "riz",
+    "rice",
+    "semoule",
+    "couscous",
+    "farine"
+   ]
+  },
+  {
+   "id": "vin",
+   "cat": "boissons",
+   "emoji": "🍷",
+   "name": {
+    "fr": "Vin, jus de raisin, champagne",
+    "en": "Wine, grape juice"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Uniquement cachère certifié.",
+    "en": "Only certified kosher."
+   },
+   "why": {
+    "fr": "Le vin servait aux libations des cultes idolâtres ; les Sages ont interdit le vin produit ou manipulé par un non-Juif. Le vin « mevoushal » (chauffé) reste cachère même servi par un non-Juif.",
+    "en": "Wine was used in idolatrous libations; the Sages forbade wine produced or handled by a non-Jew. “Mevushal” (heated) wine stays kosher even when served by a non-Jew."
+   },
+   "sources": [
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 123:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 123 · le vin",
+      "en": "Shulchan Arukh YD 123 · wine"
+     }
+    },
+    {
+     "ref": "Avodah Zarah 29b",
+     "label": {
+      "fr": "Talmud Avoda Zara 29b",
+      "en": "Talmud Avodah Zarah 29b"
+     }
+    }
+   ],
+   "aka": [
+    "wine",
+    "champagne",
+    "jus de raisin",
+    "grape juice",
+    "cognac",
+    "mevoushal"
+   ]
+  },
+  {
+   "id": "biere",
+   "cat": "boissons",
+   "emoji": "🍺",
+   "name": {
+    "fr": "Bière, café, thé, eau",
+    "en": "Beer, coffee, tea, water"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui pour les produits nature.",
+    "en": "Yes for plain products."
+   },
+   "why": {
+    "fr": "Bière nature, café, thé et eau ne posent pas de problème. Les versions aromatisées demandent une certification.",
+    "en": "Plain beer, coffee, tea and water pose no problem. Flavoured versions need a certification."
+   },
+   "sources": [],
+   "aka": [
+    "beer",
+    "coffee",
+    "tea",
+    "café",
+    "thé",
+    "eau",
+    "soda"
+   ]
+  },
+  {
+   "id": "whisky",
+   "cat": "boissons",
+   "emoji": "🥃",
+   "name": {
+    "fr": "Whisky, spiritueux",
+    "en": "Whisky, spirits"
+   },
+   "status": "trad",
+   "short": {
+    "fr": "Débattu : le whisky vieilli en fût de xérès ou de vin.",
+    "en": "Debated: whisky aged in sherry or wine casks."
+   },
+   "why": {
+    "fr": "Le whisky nature est généralement admis. S'il a vieilli dans un fût de xérès ou de vin non cachère, certaines autorités l'interdisent et d'autres le permettent.",
+    "en": "Plain whisky is generally accepted. Aged in a non-kosher sherry or wine cask, some authorities forbid it and others permit it."
+   },
+   "sources": [
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 123:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 123 · le vin",
+      "en": "Shulchan Arukh YD 123 · wine"
+     }
+    }
+   ],
+   "aka": [
+    "whisky",
+    "whiskey",
+    "vodka",
+    "rhum",
+    "liqueur",
+    "spirits"
+   ]
+  },
+  {
+   "id": "gelatine",
+   "cat": "additifs",
+   "emoji": "🍬",
+   "name": {
+    "fr": "Gélatine (E441), bonbons",
+    "en": "Gelatin (E441), sweets"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Seulement si elle est certifiée (poisson, bœuf cachère, végétale).",
+    "en": "Only if certified (fish, kosher beef, vegetable)."
+   },
+   "why": {
+    "fr": "La gélatine vient le plus souvent du porc ou de bovins non abattus rituellement. Il existe des gélatines de poisson ou végétales (agar-agar), et des bonbons certifiés.",
+    "en": "Gelatin usually comes from pork or non-kosher cattle. Fish or vegetable gelatin (agar-agar) and certified sweets exist."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:2-8",
+     "label": {
+      "fr": "Lévitique 11:2-8 · sabot fendu et rumination",
+      "en": "Leviticus 11:2-8 · split hooves and chewing the cud"
+     }
+    }
+   ],
+   "aka": [
+    "gélatine",
+    "gelatin",
+    "e441",
+    "bonbons",
+    "haribo",
+    "marshmallow",
+    "agar"
+   ]
+  },
+  {
+   "id": "carmin",
+   "cat": "additifs",
+   "emoji": "🐞",
+   "name": {
+    "fr": "Carmin, cochenille (E120)",
+    "en": "Carmine, cochineal (E120)"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non pour la plupart des autorités.",
+    "en": "No for most authorities."
+   },
+   "why": {
+    "fr": "Le colorant rouge E120 est extrait d'un insecte, la cochenille.",
+    "en": "The red dye E120 is extracted from an insect, the cochineal."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:41-43",
+     "label": {
+      "fr": "Lévitique 11:41-43 · les petits animaux qui rampent",
+      "en": "Leviticus 11:41-43 · creeping creatures"
+     }
+    }
+   ],
+   "aka": [
+    "e120",
+    "cochenille",
+    "carmine",
+    "cochineal",
+    "colorant rouge"
+   ]
+  },
+  {
+   "id": "shellac",
+   "cat": "additifs",
+   "emoji": "✨",
+   "name": {
+    "fr": "Gomme-laque (E904)",
+    "en": "Shellac (E904)"
+   },
+   "status": "trad",
+   "short": {
+    "fr": "Débattu ; beaucoup le permettent.",
+    "en": "Debated; many permit it."
+   },
+   "why": {
+    "fr": "La gomme-laque, qui fait briller bonbons et fruits, est une sécrétion d'insecte. Plusieurs autorités la permettent (comme le miel, ce n'est pas l'insecte lui-même), d'autres non.",
+    "en": "Shellac, used to glaze sweets and fruit, is an insect secretion. Several authorities permit it (like honey, it is not the insect itself), others do not."
+   },
+   "sources": [
+    {
+     "ref": "Bekhorot 7b",
+     "label": {
+      "fr": "Talmud Bekhorot 7b · pourquoi le miel est permis",
+      "en": "Talmud Bekhorot 7b · why honey is permitted"
+     }
+    }
+   ],
+   "aka": [
+    "e904",
+    "shellac",
+    "gomme laque",
+    "glazing"
+   ]
+  },
+  {
+   "id": "e471",
+   "cat": "additifs",
+   "emoji": "🧪",
+   "name": {
+    "fr": "Mono- et diglycérides (E471), glycérine (E422)",
+    "en": "Mono- and diglycerides (E471), glycerin (E422)"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Selon l'origine : végétale oui, animale non.",
+    "en": "Depends on the source: vegetable yes, animal no."
+   },
+   "why": {
+    "fr": "Ces émulsifiants peuvent être d'origine végétale ou animale ; l'étiquette ne le dit pas toujours. D'où l'utilité d'une certification.",
+    "en": "These emulsifiers can be vegetable or animal; labels don't always say. Hence certification."
+   },
+   "sources": [],
+   "aka": [
+    "e471",
+    "e422",
+    "glycérine",
+    "glycerin",
+    "émulsifiant",
+    "lécithine",
+    "e322"
+   ]
+  },
+  {
+   "id": "miel",
+   "cat": "autres",
+   "emoji": "🍯",
+   "name": {
+    "fr": "Miel",
+    "en": "Honey"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, alors que l'abeille est interdite.",
+    "en": "Yes, although the bee is forbidden."
+   },
+   "why": {
+    "fr": "Ce qui provient d'un animal interdit est interdit… sauf le miel : le Talmud explique que l'abeille ne le produit pas de son corps, elle le rapporte des fleurs et le stocke.",
+    "en": "What comes from a forbidden animal is forbidden… except honey: the Talmud explains the bee does not produce it from its body, it gathers it from flowers and stores it."
+   },
+   "sources": [
+    {
+     "ref": "Bekhorot 7b",
+     "label": {
+      "fr": "Talmud Bekhorot 7b · pourquoi le miel est permis",
+      "en": "Talmud Bekhorot 7b · why honey is permitted"
+     }
+    },
+    {
+     "ref": "Bekhorot 6b",
+     "label": {
+      "fr": "Talmud Bekhorot 6b · ce qui sort de l'impur est impur",
+      "en": "Talmud Bekhorot 6b · what comes from the impure is impure"
+     }
+    }
+   ],
+   "aka": [
+    "honey",
+    "abeille",
+    "bee"
+   ]
+  },
+  {
+   "id": "sauterelles",
+   "cat": "autres",
+   "emoji": "🦗",
+   "name": {
+    "fr": "Sauterelles",
+    "en": "Locusts"
+   },
+   "status": "trad",
+   "short": {
+    "fr": "Permises pour les communautés qui en ont la tradition (Yémen, Maroc).",
+    "en": "Permitted for communities with the tradition (Yemen, Morocco)."
+   },
+   "why": {
+    "fr": "La Torah permet quatre espèces de sauterelles. Faute de savoir les reconnaître, la plupart des communautés s'en abstiennent ; les Juifs du Yémen et d'une partie du Maroc ont gardé la tradition.",
+    "en": "The Torah permits four kinds of locust. Unable to identify them, most communities abstain; Jews of Yemen and parts of Morocco kept the tradition."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:21-22",
+     "label": {
+      "fr": "Lévitique 11:21-22 · les sauterelles permises",
+      "en": "Leviticus 11:21-22 · the permitted locusts"
+     }
+    }
+   ],
+   "aka": [
+    "locusts",
+    "criquets",
+    "grasshopper"
+   ],
+   "traditions": {
+    "sefarade": {
+     "status": "trad",
+     "note": "Selon la tradition familiale (Yémen, Maroc)."
+    },
+    "ashkenaze": {
+     "status": "no",
+     "note": "On s'abstient."
+    },
+    "allemand": {
+     "status": "no",
+     "note": "On s'abstient."
+    },
+    "neerlandais": {
+     "status": "no",
+     "note": "On s'abstient."
+    }
+   }
+  },
+  {
+   "id": "insectes",
+   "cat": "autres",
+   "emoji": "🐜",
+   "name": {
+    "fr": "Insectes, vers",
+    "en": "Insects, worms"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Non, interdits.",
+    "en": "No, forbidden."
+   },
+   "why": {
+    "fr": "Tous les petits animaux qui rampent sont interdits ; c'est pour cela qu'on vérifie les fruits, les légumes et la farine.",
+    "en": "All small creeping creatures are forbidden; that is why produce and flour are checked."
+   },
+   "sources": [
+    {
+     "ref": "Leviticus 11:41-43",
+     "label": {
+      "fr": "Lévitique 11:41-43 · les petits animaux qui rampent",
+      "en": "Leviticus 11:41-43 · creeping creatures"
+     }
+    }
+   ],
+   "aka": [
+    "insects",
+    "worms",
+    "farine d'insectes"
+   ]
+  },
+  {
+   "id": "p_hamets",
+   "cat": "pessah",
+   "emoji": "🍞",
+   "name": {
+    "fr": "Pain, pâtes, gâteaux, biscuits",
+    "en": "Bread, pasta, cakes"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Interdits pour tous : c'est le ‘hamets.",
+    "en": "Forbidden for all: this is chametz."
+   },
+   "why": {
+    "fr": "Le ‘hamets est tout produit des cinq céréales (blé, orge, épeautre, avoine, seigle) qui a fermenté au contact de l'eau. Pendant Pessa'h, on ne le mange pas, on n'en tire pas profit et on n'en possède pas.",
+    "en": "Chametz is any product of the five grains (wheat, barley, spelt, oats, rye) that has fermented in contact with water. During Pesach it may not be eaten, used or owned."
+   },
+   "sources": [
+    {
+     "ref": "Exodus 12:15-20",
+     "label": {
+      "fr": "Exode 12:15-20 · ni levain ni ‘hamets",
+      "en": "Exodus 12:15-20 · no leaven, no chametz"
+     }
+    },
+    {
+     "ref": "Exodus 13:7",
+     "label": {
+      "fr": "Exode 13:7 · « on ne verra pas chez toi de ‘hamets »",
+      "en": "Exodus 13:7 · “no chametz shall be seen with you”"
+     }
+    },
+    {
+     "ref": "Mishnah Pesachim 2:5",
+     "label": {
+      "fr": "Michna Pessa'him 2:5 · les cinq céréales",
+      "en": "Mishnah Pesachim 2:5 · the five grains"
+     }
+    }
+   ],
+   "aka": [
+    "hametz",
+    "chametz",
+    "pain",
+    "pâtes",
+    "farine",
+    "gâteau"
+   ],
+   "pessah": "all"
+  },
+  {
+   "id": "p_biere",
+   "cat": "pessah",
+   "emoji": "🍺",
+   "name": {
+    "fr": "Bière, whisky, vodka de grain",
+    "en": "Beer, whisky, grain vodka"
+   },
+   "status": "no",
+   "short": {
+    "fr": "Interdits pour tous.",
+    "en": "Forbidden for all."
+   },
+   "why": {
+    "fr": "Ces boissons sont faites de céréales fermentées : c'est du ‘hamets.",
+    "en": "These drinks are made from fermented grain: chametz."
+   },
+   "sources": [
+    {
+     "ref": "Exodus 12:15-20",
+     "label": {
+      "fr": "Exode 12:15-20 · ni levain ni ‘hamets",
+      "en": "Exodus 12:15-20 · no leaven, no chametz"
+     }
+    },
+    {
+     "ref": "Mishnah Pesachim 2:5",
+     "label": {
+      "fr": "Michna Pessa'him 2:5 · les cinq céréales",
+      "en": "Mishnah Pesachim 2:5 · the five grains"
+     }
+    }
+   ],
+   "aka": [
+    "beer",
+    "whisky",
+    "bière"
+   ],
+   "pessah": "all"
+  },
+  {
+   "id": "p_matsa",
+   "cat": "pessah",
+   "emoji": "🫓",
+   "name": {
+    "fr": "Matsa",
+    "en": "Matza"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui : c'est le pain de Pessa'h. Matsa « cachère lePessa'h ».",
+    "en": "Yes: the bread of Pesach. Kosher-for-Pesach matza."
+   },
+   "why": {
+    "fr": "La matsa est faite de farine et d'eau, cuite en moins de dix-huit minutes pour ne pas lever. Le premier soir, en manger est un commandement.",
+    "en": "Matza is flour and water baked within eighteen minutes so it does not rise. On the first night, eating it is a commandment."
+   },
+   "sources": [
+    {
+     "ref": "Exodus 12:18",
+     "label": {
+      "fr": "Exode 12:18 · manger de la matsa",
+      "en": "Exodus 12:18 · eating matza"
+     }
+    },
+    {
+     "ref": "Exodus 12:15-20",
+     "label": {
+      "fr": "Exode 12:15-20 · ni levain ni ‘hamets",
+      "en": "Exodus 12:15-20 · no leaven, no chametz"
+     }
+    }
+   ],
+   "aka": [
+    "matza",
+    "matzo",
+    "matsa",
+    "pain azyme"
+   ],
+   "pessah": "all"
+  },
+  {
+   "id": "p_riz",
+   "cat": "pessah",
+   "emoji": "🍚",
+   "name": {
+    "fr": "Riz",
+    "en": "Rice"
+   },
+   "status": "trad",
+   "short": {
+    "fr": "Séfarades : oui, après l'avoir trié. Achkénazes : non (kitniyot).",
+    "en": "Sephardim: yes, after sorting. Ashkenazim: no (kitniyot)."
+   },
+   "why": {
+    "fr": "Le Talmud mentionne du riz au Séder et le Choul'han Aroukh le permet. Les Achkénazes ont pris la coutume (kitniyot) de ne pas manger riz, maïs ni légumineuses, que l'on pouvait confondre avec les céréales ou qui y étaient mêlés. Certaines familles marocaines s'abstiennent aussi du riz ; les séfarades trient les grains trois fois.",
+    "en": "The Talmud mentions rice at the Seder and the Shulchan Arukh permits it. Ashkenazim adopted the custom (kitniyot) of not eating rice, corn or legumes, which could be confused or mixed with grain. Some Moroccan families also avoid rice; Sephardim sort the grains three times."
+   },
+   "sources": [
+    {
+     "ref": "Pesachim 114b",
+     "label": {
+      "fr": "Talmud Pessa'him 114b · du riz au Séder",
+      "en": "Talmud Pesachim 114b · rice at the Seder"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Orach Chayim 453:1",
+     "label": {
+      "fr": "Choul'han Aroukh OH 453:1 · le riz… et le Rema sur les kitniyot",
+      "en": "Shulchan Arukh OC 453:1 · rice… and the Rema on kitniyot"
+     }
+    }
+   ],
+   "aka": [
+    "rice",
+    "riz"
+   ],
+   "traditions": {
+    "sefarade": {
+     "status": "ok",
+     "note": "Trier trois fois les grains. Certaines familles marocaines s'en abstiennent."
+    },
+    "ashkenaze": {
+     "status": "no",
+     "note": "Coutume des kitniyot."
+    },
+    "allemand": {
+     "status": "no",
+     "note": "Coutume des kitniyot."
+    },
+    "neerlandais": {
+     "status": "no",
+     "note": "Coutume des kitniyot."
+    }
+   },
+   "pessah": "trad"
+  },
+  {
+   "id": "p_legumineuses",
+   "cat": "pessah",
+   "emoji": "🫘",
+   "name": {
+    "fr": "Pois chiches, lentilles, haricots, petits pois",
+    "en": "Chickpeas, lentils, beans, peas"
+   },
+   "status": "trad",
+   "short": {
+    "fr": "Séfarades : oui. Achkénazes : non (kitniyot).",
+    "en": "Sephardim: yes. Ashkenazim: no (kitniyot)."
+   },
+   "why": {
+    "fr": "Les légumineuses ne sont jamais du ‘hamets ; leur interdit à Pessa'h est une coutume achkénaze attestée depuis le XIIIe siècle en France.",
+    "en": "Legumes are never chametz; avoiding them on Pesach is an Ashkenazi custom attested since the 13th century in France."
+   },
+   "sources": [
+    {
+     "ref": "Shulchan Arukh, Orach Chayim 453:1",
+     "label": {
+      "fr": "Choul'han Aroukh OH 453:1 · le riz… et le Rema sur les kitniyot",
+      "en": "Shulchan Arukh OC 453:1 · rice… and the Rema on kitniyot"
+     }
+    }
+   ],
+   "aka": [
+    "pois chiches",
+    "lentilles",
+    "haricots",
+    "petits pois",
+    "houmous",
+    "falafel",
+    "legumes",
+    "beans"
+   ],
+   "traditions": {
+    "sefarade": {
+     "status": "ok"
+    },
+    "ashkenaze": {
+     "status": "no",
+     "note": "Coutume des kitniyot."
+    },
+    "allemand": {
+     "status": "no",
+     "note": "Coutume des kitniyot."
+    },
+    "neerlandais": {
+     "status": "no",
+     "note": "Coutume des kitniyot."
+    }
+   },
+   "pessah": "trad"
+  },
+  {
+   "id": "p_mais",
+   "cat": "pessah",
+   "emoji": "🌽",
+   "name": {
+    "fr": "Maïs, soja, sarrasin, moutarde",
+    "en": "Corn, soy, buckwheat, mustard"
+   },
+   "status": "trad",
+   "short": {
+    "fr": "Séfarades : oui. Achkénazes : non (kitniyot).",
+    "en": "Sephardim: yes. Ashkenazim: no (kitniyot)."
+   },
+   "why": {
+    "fr": "Tous rangés parmi les kitniyot chez les Achkénazes ; permis chez les séfarades avec certification.",
+    "en": "All counted as kitniyot by Ashkenazim; permitted for Sephardim with certification."
+   },
+   "sources": [
+    {
+     "ref": "Shulchan Arukh, Orach Chayim 453:1",
+     "label": {
+      "fr": "Choul'han Aroukh OH 453:1 · le riz… et le Rema sur les kitniyot",
+      "en": "Shulchan Arukh OC 453:1 · rice… and the Rema on kitniyot"
+     }
+    }
+   ],
+   "aka": [
+    "maïs",
+    "soja",
+    "sarrasin",
+    "moutarde",
+    "corn",
+    "soy",
+    "buckwheat",
+    "popcorn"
+   ],
+   "traditions": {
+    "sefarade": {
+     "status": "ok"
+    },
+    "ashkenaze": {
+     "status": "no",
+     "note": "Kitniyot."
+    },
+    "allemand": {
+     "status": "no",
+     "note": "Kitniyot."
+    },
+    "neerlandais": {
+     "status": "no",
+     "note": "Kitniyot."
+    }
+   },
+   "pessah": "trad"
+  },
+  {
+   "id": "p_huiles",
+   "cat": "pessah",
+   "emoji": "🫒",
+   "name": {
+    "fr": "Huiles de colza, tournesol, soja",
+    "en": "Canola, sunflower, soy oil"
+   },
+   "status": "trad",
+   "short": {
+    "fr": "Séfarades : oui. Achkénazes : souvent non ; huile d'olive pour tous.",
+    "en": "Sephardim: yes. Ashkenazim: often no; olive oil for all."
+   },
+   "why": {
+    "fr": "Ces huiles sont tirées de kitniyot. Beaucoup d'Achkénazes les évitent, certains les permettent ; l'huile d'olive certifiée convient à tous.",
+    "en": "These oils come from kitniyot. Many Ashkenazim avoid them, some permit them; certified olive oil suits everyone."
+   },
+   "sources": [
+    {
+     "ref": "Shulchan Arukh, Orach Chayim 453:1",
+     "label": {
+      "fr": "Choul'han Aroukh OH 453:1 · le riz… et le Rema sur les kitniyot",
+      "en": "Shulchan Arukh OC 453:1 · rice… and the Rema on kitniyot"
+     }
+    }
+   ],
+   "aka": [
+    "huile",
+    "colza",
+    "tournesol",
+    "oil"
+   ],
+   "traditions": {
+    "sefarade": {
+     "status": "ok"
+    },
+    "ashkenaze": {
+     "status": "trad",
+     "note": "Souvent évitées ; selon son rabbin."
+    },
+    "allemand": {
+     "status": "trad",
+     "note": "Souvent évitées ; selon son rabbin."
+    },
+    "neerlandais": {
+     "status": "trad",
+     "note": "Souvent évitées ; selon son rabbin."
+    }
+   },
+   "pessah": "trad"
+  },
+  {
+   "id": "p_cacahuetes",
+   "cat": "pessah",
+   "emoji": "🥜",
+   "name": {
+    "fr": "Cacahuètes",
+    "en": "Peanuts"
+   },
+   "status": "trad",
+   "short": {
+    "fr": "Séfarades : oui. Achkénazes : débattu, beaucoup s'en abstiennent.",
+    "en": "Sephardim: yes. Ashkenazim: debated, many abstain."
+   },
+   "why": {
+    "fr": "Inconnue à l'époque où la coutume des kitniyot est née, la cacahuète divise les autorités achkénazes.",
+    "en": "Unknown when the kitniyot custom arose, peanuts divide Ashkenazi authorities."
+   },
+   "sources": [
+    {
+     "ref": "Shulchan Arukh, Orach Chayim 453:1",
+     "label": {
+      "fr": "Choul'han Aroukh OH 453:1 · le riz… et le Rema sur les kitniyot",
+      "en": "Shulchan Arukh OC 453:1 · rice… and the Rema on kitniyot"
+     }
+    }
+   ],
+   "aka": [
+    "peanuts",
+    "arachide",
+    "cacahuète"
+   ],
+   "traditions": {
+    "sefarade": {
+     "status": "ok"
+    },
+    "ashkenaze": {
+     "status": "trad",
+     "note": "Débattu ; beaucoup s'abstiennent."
+    },
+    "allemand": {
+     "status": "trad",
+     "note": "Débattu ; beaucoup s'abstiennent."
+    },
+    "neerlandais": {
+     "status": "trad",
+     "note": "Débattu ; beaucoup s'abstiennent."
+    }
+   },
+   "pessah": "trad"
+  },
+  {
+   "id": "p_quinoa",
+   "cat": "pessah",
+   "emoji": "🌾",
+   "name": {
+    "fr": "Quinoa",
+    "en": "Quinoa"
+   },
+   "status": "trad",
+   "short": {
+    "fr": "Permis pour presque tous, avec certification.",
+    "en": "Permitted for nearly all, with certification."
+   },
+   "why": {
+    "fr": "Le quinoa n'est ni une céréale ni une légumineuse connue autrefois ; la plupart des autorités achkénazes le permettent s'il est certifié (pour éviter un mélange de céréales).",
+    "en": "Quinoa is neither a grain nor a legume known in the past; most Ashkenazi authorities permit it if certified (to avoid mixed grain)."
+   },
+   "sources": [
+    {
+     "ref": "Shulchan Arukh, Orach Chayim 453:1",
+     "label": {
+      "fr": "Choul'han Aroukh OH 453:1 · le riz… et le Rema sur les kitniyot",
+      "en": "Shulchan Arukh OC 453:1 · rice… and the Rema on kitniyot"
+     }
+    }
+   ],
+   "aka": [
+    "quinoa"
+   ],
+   "traditions": {
+    "sefarade": {
+     "status": "ok"
+    },
+    "ashkenaze": {
+     "status": "ok",
+     "note": "Avec certification ; quelques-uns s'abstiennent."
+    },
+    "allemand": {
+     "status": "ok",
+     "note": "Avec certification ; quelques-uns s'abstiennent."
+    },
+    "neerlandais": {
+     "status": "ok",
+     "note": "Avec certification ; quelques-uns s'abstiennent."
+    }
+   },
+   "pessah": "trad"
+  },
+  {
+   "id": "p_ashira",
+   "cat": "pessah",
+   "emoji": "🥚",
+   "name": {
+    "fr": "Matsa aux œufs ou au jus de fruit (matsa ‘ashira’)",
+    "en": "Egg matza (‘matza ashira’)"
+   },
+   "status": "trad",
+   "short": {
+    "fr": "Séfarades : oui. Achkénazes : seulement pour les malades et les personnes âgées.",
+    "en": "Sephardim: yes. Ashkenazim: only for the sick and elderly."
+   },
+   "why": {
+    "fr": "Une pâte pétrie avec des œufs ou du jus de fruit, sans eau, ne devient pas ‘hamets selon le Choul'han Aroukh. Le Rema, pour les Achkénazes, ne la permet qu'en cas de besoin. Elle ne compte jamais pour la matsa du Séder.",
+    "en": "Dough kneaded with eggs or fruit juice, without water, does not become chametz per the Shulchan Arukh. The Rema, for Ashkenazim, permits it only when needed. It never counts as Seder matza."
+   },
+   "sources": [
+    {
+     "ref": "Shulchan Arukh, Orach Chayim 462:1",
+     "label": {
+      "fr": "Choul'han Aroukh OH 462 · la matsa ‘ashira’ (et le Rema)",
+      "en": "Shulchan Arukh OC 462 · ‘enriched’ matza (and the Rema)"
+     }
+    }
+   ],
+   "aka": [
+    "egg matza",
+    "matsa aux oeufs"
+   ],
+   "traditions": {
+    "sefarade": {
+     "status": "ok",
+     "note": "Mais pas pour la matsa du Séder."
+    },
+    "ashkenaze": {
+     "status": "trad",
+     "note": "Seulement pour les malades et les personnes âgées."
+    },
+    "allemand": {
+     "status": "trad",
+     "note": "Seulement pour les malades et les personnes âgées."
+    },
+    "neerlandais": {
+     "status": "trad",
+     "note": "Seulement pour les malades et les personnes âgées."
+    }
+   },
+   "pessah": "trad"
+  },
+  {
+   "id": "p_gebrokts",
+   "cat": "pessah",
+   "emoji": "🥣",
+   "name": {
+    "fr": "Matsa trempée (gebrokts)",
+    "en": "Wetted matza (gebrokts)"
+   },
+   "status": "trad",
+   "short": {
+    "fr": "Une coutume : beaucoup de ‘hassidim ne mouillent pas la matsa.",
+    "en": "A custom: many Hasidim do not wet matza."
+   },
+   "why": {
+    "fr": "Par crainte qu'un reste de farine non cuite ne lève au contact de l'eau, de nombreuses familles ‘hassidiques évitent les boulettes de matsa et la matsa trempée, sauf le dernier jour. Les autres communautés mangent matsa brei et kneidlech.",
+    "en": "Fearing that leftover uncooked flour could rise on contact with water, many Hasidic families avoid matza balls and wetted matza, except on the last day. Other communities eat matza brei and kneidlach."
+   },
+   "sources": [],
+   "aka": [
+    "gebrokts",
+    "kneidlech",
+    "boulettes de matsa",
+    "matza balls",
+    "matza brei"
+   ],
+   "traditions": {
+    "sefarade": {
+     "status": "ok"
+    },
+    "ashkenaze": {
+     "status": "trad",
+     "note": "Selon la coutume familiale (‘hassidim : non)."
+    },
+    "allemand": {
+     "status": "trad",
+     "note": "Selon la coutume familiale (‘hassidim : non)."
+    },
+    "neerlandais": {
+     "status": "trad",
+     "note": "Selon la coutume familiale (‘hassidim : non)."
+    }
+   },
+   "pessah": "trad"
+  },
+  {
+   "id": "p_frais",
+   "cat": "pessah",
+   "emoji": "🥗",
+   "name": {
+    "fr": "Fruits, légumes, viande, poisson, œufs frais",
+    "en": "Fresh produce, meat, fish, eggs"
+   },
+   "status": "ok",
+   "short": {
+    "fr": "Oui, frais et non transformés.",
+    "en": "Yes, fresh and unprocessed."
+   },
+   "why": {
+    "fr": "Ces produits ne contiennent pas de céréales. Pour tout produit transformé (lait, fromage, sucre, épices, conserves), on cherche la mention « cachère lePessa'h ».",
+    "en": "These contain no grain. For any processed product (milk, cheese, sugar, spices, cans), look for “kosher for Pesach”."
+   },
+   "sources": [
+    {
+     "ref": "Exodus 13:7",
+     "label": {
+      "fr": "Exode 13:7 · « on ne verra pas chez toi de ‘hamets »",
+      "en": "Exodus 13:7 · “no chametz shall be seen with you”"
+     }
+    }
+   ],
+   "aka": [
+    "fresh",
+    "frais",
+    "fruits",
+    "légumes"
+   ],
+   "pessah": "all"
+  },
+  {
+   "id": "p_vinaigre",
+   "cat": "pessah",
+   "emoji": "🫙",
+   "name": {
+    "fr": "Vinaigre, levure, alcool",
+    "en": "Vinegar, yeast, alcohol"
+   },
+   "status": "cond",
+   "short": {
+    "fr": "Seulement certifiés cachère lePessa'h.",
+    "en": "Only certified kosher for Pesach."
+   },
+   "why": {
+    "fr": "Le vinaigre d'alcool et la levure de boulanger peuvent venir de céréales fermentées. Le vinaigre de vin cachère lePessa'h convient.",
+    "en": "Spirit vinegar and baker's yeast can come from fermented grain. Kosher-for-Pesach wine vinegar is fine."
+   },
+   "sources": [
+    {
+     "ref": "Exodus 12:15-20",
+     "label": {
+      "fr": "Exode 12:15-20 · ni levain ni ‘hamets",
+      "en": "Exodus 12:15-20 · no leaven, no chametz"
+     }
+    }
+   ],
+   "aka": [
+    "vinaigre",
+    "levure",
+    "vinegar",
+    "yeast"
+   ],
+   "pessah": "all"
+  }
+ ],
+ "guides": {
+  "principles": {
+   "title": {
+    "fr": "Les quatre principes",
+    "en": "The four principles"
+   },
+   "items": [
+    {
+     "emoji": "🐄",
+     "title": {
+      "fr": "Les bons animaux",
+      "en": "The right animals"
+     },
+     "body": {
+      "fr": "Mammifères : sabot fendu et rumination. Poissons : nageoires et écailles. Oiseaux : ceux qu'une tradition connaît. Ce qui en provient (lait, œufs) suit l'animal.",
+      "en": "Mammals: split hooves and chewing the cud. Fish: fins and scales. Birds: those known by tradition. What comes from them (milk, eggs) follows the animal."
+     },
+     "sources": [
+      {
+       "ref": "Leviticus 11:2-8",
+       "label": {
+        "fr": "Lévitique 11:2-8 · sabot fendu et rumination",
+        "en": "Leviticus 11:2-8 · split hooves and chewing the cud"
+       }
+      },
+      {
+       "ref": "Leviticus 11:9-12",
+       "label": {
+        "fr": "Lévitique 11:9-12 · nageoires et écailles",
+        "en": "Leviticus 11:9-12 · fins and scales"
+       }
+      },
+      {
+       "ref": "Chullin 63b",
+       "label": {
+        "fr": "Talmud 'Houlin 63b · on ne mange un oiseau que par tradition",
+        "en": "Talmud Chullin 63b · birds are eaten only by tradition"
+       }
+      }
+     ]
+    },
+    {
+     "emoji": "🔪",
+     "title": {
+      "fr": "Abattage et sang",
+      "en": "Slaughter and blood"
+     },
+     "body": {
+      "fr": "Mammifères et oiseaux sont abattus rituellement (ché'hita), examinés, puis salés pour retirer le sang, interdit par la Torah.",
+      "en": "Mammals and birds are ritually slaughtered (shechita), inspected, then salted to remove the blood the Torah forbids."
+     },
+     "sources": [
+      {
+       "ref": "Deuteronomy 12:21",
+       "label": {
+        "fr": "Deutéronome 12:21 · « tu abattras comme je te l'ai ordonné »",
+        "en": "Deuteronomy 12:21 · “slaughter as I have commanded you”"
+       }
+      },
+      {
+       "ref": "Leviticus 17:10-14",
+       "label": {
+        "fr": "Lévitique 17:10-14 · l'interdit du sang",
+        "en": "Leviticus 17:10-14 · the prohibition of blood"
+       }
+      },
+      {
+       "ref": "Shulchan Arukh, Yoreh De'ah 69:1",
+       "label": {
+        "fr": "Choul'han Aroukh YD 69 · le salage de la viande",
+        "en": "Shulchan Arukh YD 69 · salting meat"
+       }
+      }
+     ]
+    },
+    {
+     "emoji": "🥛",
+     "title": {
+      "fr": "Lait et viande",
+      "en": "Milk and meat"
+     },
+     "body": {
+      "fr": "Jamais ensemble : ni cuits, ni mangés, ni vendus pour profit. Vaisselle séparée, et une attente entre les deux.",
+      "en": "Never together: not cooked, eaten or sold for profit. Separate dishes, and a wait between the two."
+     },
+     "sources": [
+      {
+       "ref": "Exodus 23:19",
+       "label": {
+        "fr": "Exode 23:19 · « tu ne cuiras pas le chevreau dans le lait de sa mère »",
+        "en": "Exodus 23:19 · “you shall not boil a kid in its mother's milk”"
+       }
+      },
+      {
+       "ref": "Chullin 115b",
+       "label": {
+        "fr": "Talmud 'Houlin 115b · cuire, manger, en tirer profit",
+        "en": "Talmud Chullin 115b · cooking, eating, deriving benefit"
+       }
+      }
+     ]
+    },
+    {
+     "emoji": "🔎",
+     "title": {
+      "fr": "Les petites bêtes",
+      "en": "The tiny creatures"
+     },
+     "body": {
+      "fr": "Insectes et vers sont interdits, même minuscules : on vérifie fruits, légumes et farine.",
+      "en": "Insects and worms are forbidden, however tiny: produce and flour are checked."
+     },
+     "sources": [
+      {
+       "ref": "Leviticus 11:41-43",
+       "label": {
+        "fr": "Lévitique 11:41-43 · les petits animaux qui rampent",
+        "en": "Leviticus 11:41-43 · creeping creatures"
+       }
+      },
+      {
+       "ref": "Shulchan Arukh, Yoreh De'ah 84:8",
+       "label": {
+        "fr": "Choul'han Aroukh YD 84:8 · vérifier les végétaux",
+        "en": "Shulchan Arukh YD 84:8 · checking produce"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "meatmilk": {
+   "title": {
+    "fr": "Lait et viande",
+    "en": "Milk and meat"
+   },
+   "why": {
+    "fr": "La Torah le dit trois fois : « Tu ne cuiras pas le chevreau dans le lait de sa mère. » Le Talmud y lit trois interdits : cuire ensemble, manger, en tirer profit. Les Sages y ont ajouté la volaille et l'attente entre les repas, sur le modèle de Mar Oukva qui attendait d'un repas à l'autre.",
+    "en": "The Torah says it three times: “You shall not boil a kid in its mother's milk.” The Talmud reads three prohibitions: cooking together, eating, deriving benefit. The Sages added poultry and the wait between meals, after Mar Ukva who waited from one meal to the next."
+   },
+   "sources": [
+    {
+     "ref": "Exodus 23:19",
+     "label": {
+      "fr": "Exode 23:19 · « tu ne cuiras pas le chevreau dans le lait de sa mère »",
+      "en": "Exodus 23:19 · “you shall not boil a kid in its mother's milk”"
+     }
+    },
+    {
+     "ref": "Deuteronomy 14:21",
+     "label": {
+      "fr": "Deutéronome 14:21 · la 3e mention",
+      "en": "Deuteronomy 14:21 · the third mention"
+     }
+    },
+    {
+     "ref": "Chullin 115b",
+     "label": {
+      "fr": "Talmud 'Houlin 115b · cuire, manger, en tirer profit",
+      "en": "Talmud Chullin 115b · cooking, eating, deriving benefit"
+     }
+    },
+    {
+     "ref": "Chullin 104b",
+     "label": {
+      "fr": "Talmud 'Houlin 104b · volaille et lait, une règle des Sages",
+      "en": "Talmud Chullin 104b · poultry and milk, a rule of the Sages"
+     }
+    },
+    {
+     "ref": "Chullin 105a",
+     "label": {
+      "fr": "Talmud 'Houlin 105a · Mar Oukva attend d'un repas à l'autre",
+      "en": "Talmud Chullin 105a · Mar Ukva waits from one meal to the next"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 89:1",
+     "label": {
+      "fr": "Choul'han Aroukh YD 89:1 · six heures (et le Rema)",
+      "en": "Shulchan Arukh YD 89:1 · six hours (and the Rema)"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 89:2",
+     "label": {
+      "fr": "Choul'han Aroukh YD 89:2 · après le lait",
+      "en": "Shulchan Arukh YD 89:2 · after dairy"
+     }
+    }
+   ],
+   "afterMeat": {
+    "sefarade": 6,
+    "ashkenaze": 6,
+    "allemand": 3,
+    "neerlandais": 1
+   },
+   "afterDairy": {
+    "fr": "Se rincer la bouche, manger un peu de pain ou de pareve et se laver les mains suffit. Certains attendent 30 minutes à 1 heure.",
+    "en": "Rinse your mouth, eat a little bread or parve and wash your hands. Some wait 30 minutes to an hour."
+   },
+   "afterHardCheese": {
+    "fr": "Après un fromage affiné longtemps (parmesan, comté vieux…), beaucoup attendent comme après la viande.",
+    "en": "After a long-aged cheese (parmesan, aged comté…), many wait as after meat."
+   },
+   "fishMeat": {
+    "fr": "Poisson et viande ne se mangent pas dans la même bouchée ni le même plat : le Talmud y voit un danger pour la santé. On change d'assiette et on boit ou mange quelque chose entre les deux.",
+    "en": "Fish and meat are not eaten in the same bite or dish: the Talmud sees a health danger. Change plates and drink or eat something in between."
+   },
+   "fishMeatSources": [
+    {
+     "ref": "Pesachim 76b",
+     "label": {
+      "fr": "Talmud Pessa'him 76b · un danger pour la santé",
+      "en": "Talmud Pesachim 76b · a health danger"
+     }
+    },
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 116:2",
+     "label": {
+      "fr": "Choul'han Aroukh YD 116:2 · poisson et viande",
+      "en": "Shulchan Arukh YD 116:2 · fish and meat"
+     }
+    }
+   ],
+   "fishMilk": {
+    "fr": "Poisson et lait : permis selon le Choul'han Aroukh et la plupart des communautés. Certains séfarades, suivant une remarque du Beit Yossef, évitent le poisson cuit avec du lait (mais pas le beurre).",
+    "en": "Fish and milk: permitted per the Shulchan Arukh and most communities. Some Sephardim, following a remark of the Beit Yosef, avoid fish cooked with milk (but not butter)."
+   },
+   "fishMilkSources": [
+    {
+     "ref": "Shulchan Arukh, Yoreh De'ah 87:3",
+     "label": {
+      "fr": "Choul'han Aroukh YD 87:3 · poisson et lait",
+      "en": "Shulchan Arukh YD 87:3 · fish and milk"
+     }
+    }
+   ],
+   "parve": {
+    "fr": "Parvé : ni lait ni viande (légumes, fruits, céréales, œufs, poisson). Se mange avec l'un ou l'autre, et ne demande aucune attente.",
+    "en": "Parve: neither milk nor meat (produce, grains, eggs, fish). Eaten with either, no wait needed."
+   }
+  },
+  "traditions": {
+   "sefarade": {
+    "name": {
+     "fr": "Séfarade",
+     "en": "Sephardi"
+    },
+    "desc": {
+     "fr": "Afrique du Nord, Moyen-Orient, Espagne. 6 h après la viande ; kitniyot permis à Pessa'h.",
+     "en": "North Africa, Middle East, Spain. 6 h after meat; kitniyot permitted on Pesach."
+    }
+   },
+   "ashkenaze": {
+    "name": {
+     "fr": "Achkénaze",
+     "en": "Ashkenazi"
+    },
+    "desc": {
+     "fr": "Europe de l'Est. 6 h après la viande ; pas de kitniyot à Pessa'h.",
+     "en": "Eastern Europe. 6 h after meat; no kitniyot on Pesach."
+    }
+   },
+   "allemand": {
+    "name": {
+     "fr": "Allemand (yekke)",
+     "en": "German (Yekke)"
+    },
+    "desc": {
+     "fr": "Achkénaze d'Allemagne. 3 h après la viande.",
+     "en": "Ashkenazi from Germany. 3 h after meat."
+    }
+   },
+   "neerlandais": {
+    "name": {
+     "fr": "Néerlandais",
+     "en": "Dutch"
+    },
+    "desc": {
+     "fr": "Achkénaze des Pays-Bas. 1 h après la viande.",
+     "en": "Ashkenazi from the Netherlands. 1 h after meat."
+    }
+   }
+  },
+  "disclaimer": {
+   "fr": "Rabbi Steevax explique les règles et leurs sources. Pour un cas pratique ou un produit précis, demandez à votre rabbin, et cherchez la certification (Beth Din de Paris, KBDP, OU…).",
+   "en": "Rabbi Steevax explains the rules and their sources. For a practical case or a specific product, ask your rabbi, and look for the certification (Beth Din of Paris, OU…)."
+  },
+  "faq": [
+   {
+    "q": {
+     "fr": "Ce poisson est-il cachère ?",
+     "en": "Is this fish kosher?"
+    },
+    "to": "cat:poissons"
+   },
+   {
+    "q": {
+     "fr": "Combien de temps attendre après la viande ?",
+     "en": "How long to wait after meat?"
+    },
+    "to": "tool:meatmilk"
+   },
+   {
+    "q": {
+     "fr": "Poisson et viande ensemble ?",
+     "en": "Fish and meat together?"
+    },
+    "to": "tool:meatmilk"
+   },
+   {
+    "q": {
+     "fr": "Le riz à Pessa'h ?",
+     "en": "Rice on Pesach?"
+    },
+    "to": "food:p_riz"
+   },
+   {
+    "q": {
+     "fr": "Pourquoi le miel est-il cachère ?",
+     "en": "Why is honey kosher?"
+    },
+    "to": "food:miel"
+   },
+   {
+    "q": {
+     "fr": "Faut-il un fromage certifié ?",
+     "en": "Does cheese need certification?"
+    },
+    "to": "food:fromage"
+   },
+   {
+    "q": {
+     "fr": "Pourquoi vérifier la salade ?",
+     "en": "Why check lettuce?"
+    },
+    "to": "food:salade"
+   },
+   {
+    "q": {
+     "fr": "Le vin doit-il être cachère ?",
+     "en": "Must wine be kosher?"
+    },
+    "to": "food:vin"
+   }
+  ]
+ }
+}
