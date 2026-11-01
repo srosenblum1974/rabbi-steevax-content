@@ -1,0 +1,1682 @@
+{
+"version": 1,
+"diaspora": true,
+"holidays": [
+{
+"id": "rosh-hashana",
+"year": 5787,
+"start": "2026-09-12",
+"end": "2026-09-13",
+"eve": "2026-09-11",
+"kind": "festive",
+"name": {
+"fr": "Roch Hachana",
+"en": "Rosh Hashanah"
+},
+"he": "רֹאשׁ הַשָּׁנָה",
+"about": {
+"fr": "Le Nouvel An : on sonne le chofar et on trempe la pomme dans le miel.",
+"en": "The New Year: the shofar is blown and apples are dipped in honey."
+}
+},
+{
+"id": "tzom-guedalia",
+"year": 5787,
+"start": "2026-09-14",
+"end": "2026-09-14",
+"eve": "2026-09-13",
+"kind": "fast",
+"name": {
+"fr": "Jeûne de Guedalia",
+"en": "Fast of Gedaliah"
+},
+"he": "צוֹם גְּדַלְיָה",
+"about": {
+"fr": "Jeûne du lever au coucher du soleil, en souvenir de l'assassinat de Guedalia.",
+"en": "Dawn-to-dusk fast recalling the murder of Gedaliah."
+}
+},
+{
+"id": "yom-kippour",
+"year": 5787,
+"start": "2026-09-21",
+"end": "2026-09-21",
+"eve": "2026-09-20",
+"kind": "solemn",
+"name": {
+"fr": "Yom Kippour",
+"en": "Yom Kippur"
+},
+"he": "יוֹם כִּפּוּר",
+"about": {
+"fr": "Le jour du Grand Pardon : jeûne de 25 heures et prière.",
+"en": "The Day of Atonement: a 25-hour fast and prayer."
+}
+},
+{
+"id": "souccot",
+"year": 5787,
+"start": "2026-09-26",
+"end": "2026-10-02",
+"eve": "2026-09-25",
+"kind": "festive",
+"name": {
+"fr": "Souccot",
+"en": "Sukkot"
+},
+"he": "סֻכּוֹת",
+"about": {
+"fr": "La fête des cabanes : on mange sous la souccah et on agite le loulav.",
+"en": "The Feast of Booths: meals in the sukkah and the waving of the lulav."
+}
+},
+{
+"id": "chemini-atseret",
+"year": 5787,
+"start": "2026-10-03",
+"end": "2026-10-03",
+"eve": "2026-10-02",
+"kind": "festive",
+"name": {
+"fr": "Chemini Atseret",
+"en": "Shemini Atzeret"
+},
+"he": "שְׁמִינִי עֲצֶרֶת",
+"about": {
+"fr": "Le huitième jour de clôture, avec la prière pour la pluie.",
+"en": "The eighth day of assembly, with the prayer for rain."
+}
+},
+{
+"id": "simhat-torah",
+"year": 5787,
+"start": "2026-10-04",
+"end": "2026-10-04",
+"eve": "2026-10-03",
+"kind": "festive",
+"name": {
+"fr": "Simhat Torah",
+"en": "Simchat Torah"
+},
+"he": "שִׂמְחַת תּוֹרָה",
+"about": {
+"fr": "On danse avec la Torah : on finit Devarim et on recommence Bereshit.",
+"en": "Dancing with the Torah: Deuteronomy ends and Genesis begins again."
+}
+},
+{
+"id": "hanoukka",
+"year": 5787,
+"start": "2026-12-05",
+"end": "2026-12-12",
+"eve": "2026-12-04",
+"kind": "festive",
+"name": {
+"fr": "Hanoukka",
+"en": "Hanukkah"
+},
+"he": "חֲנֻכָּה",
+"about": {
+"fr": "Huit soirs de lumières, en souvenir de la réinauguration du Temple.",
+"en": "Eight nights of lights, recalling the rededication of the Temple."
+}
+},
+{
+"id": "10-tevet",
+"year": 5787,
+"start": "2026-12-20",
+"end": "2026-12-20",
+"eve": "2026-12-19",
+"kind": "fast",
+"name": {
+"fr": "Jeûne du 10 Tevet",
+"en": "Fast of 10 Tevet"
+},
+"he": "עֲשָׂרָה בְּטֵבֵת",
+"about": {
+"fr": "Jeûne en souvenir du début du siège de Jérusalem.",
+"en": "Fast recalling the start of the siege of Jerusalem."
+}
+},
+{
+"id": "tou-bichvat",
+"year": 5787,
+"start": "2027-01-23",
+"end": "2027-01-23",
+"eve": "2027-01-22",
+"kind": "minor",
+"name": {
+"fr": "Tou Bichvat",
+"en": "Tu BiShvat"
+},
+"he": "ט״ו בִּשְׁבָט",
+"about": {
+"fr": "Le Nouvel An des arbres : on goûte les fruits d'Israël.",
+"en": "The New Year of the trees: fruits of the Land of Israel are tasted."
+}
+},
+{
+"id": "jeune-esther",
+"year": 5787,
+"start": "2027-03-22",
+"end": "2027-03-22",
+"eve": "2027-03-21",
+"kind": "fast",
+"name": {
+"fr": "Jeûne d'Esther",
+"en": "Fast of Esther"
+},
+"he": "תַּעֲנִית אֶסְתֵּר",
+"about": {
+"fr": "Jeûne de la veille de Pourim.",
+"en": "Fast on the eve of Purim."
+}
+},
+{
+"id": "pourim",
+"year": 5787,
+"start": "2027-03-23",
+"end": "2027-03-23",
+"eve": "2027-03-22",
+"kind": "festive",
+"name": {
+"fr": "Pourim",
+"en": "Purim"
+},
+"he": "פּוּרִים",
+"about": {
+"fr": "On lit la Méguila d'Esther, on se déguise et on offre des mets.",
+"en": "The Scroll of Esther is read, people dress up and send gifts of food."
+}
+},
+{
+"id": "chouchan-pourim",
+"year": 5787,
+"start": "2027-03-24",
+"end": "2027-03-24",
+"eve": "2027-03-23",
+"kind": "minor",
+"name": {
+"fr": "Chouchan Pourim",
+"en": "Shushan Purim"
+},
+"he": "שׁוּשַׁן פּוּרִים",
+"about": {
+"fr": "Pourim des villes fortifiées, comme Jérusalem.",
+"en": "Purim in walled cities such as Jerusalem."
+}
+},
+{
+"id": "pessah",
+"year": 5787,
+"start": "2027-04-22",
+"end": "2027-04-29",
+"eve": "2027-04-21",
+"kind": "festive",
+"name": {
+"fr": "Pessah",
+"en": "Passover"
+},
+"he": "פֶּסַח",
+"about": {
+"fr": "La sortie d'Égypte : le Séder, la matsa et quatre coupes de vin.",
+"en": "The Exodus: the Seder, matzah and four cups of wine."
+}
+},
+{
+"id": "yom-hashoah",
+"year": 5787,
+"start": "2027-05-04",
+"end": "2027-05-04",
+"eve": "2027-05-03",
+"kind": "memorial",
+"name": {
+"fr": "Yom HaShoah",
+"en": "Yom HaShoah"
+},
+"he": "יוֹם הַשּׁוֹאָה",
+"about": {
+"fr": "Jour du souvenir de la Shoah.",
+"en": "Holocaust Remembrance Day."
+}
+},
+{
+"id": "yom-hazikaron",
+"year": 5787,
+"start": "2027-05-11",
+"end": "2027-05-11",
+"eve": "2027-05-10",
+"kind": "memorial",
+"name": {
+"fr": "Yom HaZikaron",
+"en": "Yom HaZikaron"
+},
+"he": "יוֹם הַזִּכָּרוֹן",
+"about": {
+"fr": "Jour du souvenir des soldats et des victimes du terrorisme.",
+"en": "Memorial Day for fallen soldiers and victims of terror."
+}
+},
+{
+"id": "yom-haatsmaout",
+"year": 5787,
+"start": "2027-05-12",
+"end": "2027-05-12",
+"eve": "2027-05-11",
+"kind": "festive",
+"name": {
+"fr": "Yom Haatsmaout",
+"en": "Yom Ha'atzmaut"
+},
+"he": "יוֹם הָעַצְמָאוּת",
+"about": {
+"fr": "Fête de l'indépendance d'Israël.",
+"en": "Israel's Independence Day."
+}
+},
+{
+"id": "lag-baomer",
+"year": 5787,
+"start": "2027-05-25",
+"end": "2027-05-25",
+"eve": "2027-05-24",
+"kind": "minor",
+"name": {
+"fr": "Lag Baomer",
+"en": "Lag BaOmer"
+},
+"he": "ל״ג בָּעֹמֶר",
+"about": {
+"fr": "33e jour de l'Omer : feux de joie et fin du deuil.",
+"en": "33rd day of the Omer: bonfires and a break in the mourning."
+}
+},
+{
+"id": "yom-yeroushalayim",
+"year": 5787,
+"start": "2027-06-04",
+"end": "2027-06-04",
+"eve": "2027-06-03",
+"kind": "minor",
+"name": {
+"fr": "Yom Yeroushalayim",
+"en": "Yom Yerushalayim"
+},
+"he": "יוֹם יְרוּשָׁלַיִם",
+"about": {
+"fr": "Jour de Jérusalem.",
+"en": "Jerusalem Day."
+}
+},
+{
+"id": "chavouot",
+"year": 5787,
+"start": "2027-06-11",
+"end": "2027-06-12",
+"eve": "2027-06-10",
+"kind": "festive",
+"name": {
+"fr": "Chavouot",
+"en": "Shavuot"
+},
+"he": "שָׁבוּעוֹת",
+"about": {
+"fr": "Le don de la Torah au Sinaï : on veille pour étudier et on mange laitier.",
+"en": "The giving of the Torah at Sinai: all-night study and dairy foods."
+}
+},
+{
+"id": "17-tamouz",
+"year": 5787,
+"start": "2027-07-22",
+"end": "2027-07-22",
+"eve": "2027-07-21",
+"kind": "fast",
+"name": {
+"fr": "Jeûne du 17 Tamouz",
+"en": "Fast of 17 Tammuz"
+},
+"he": "שִׁבְעָה עָשָׂר בְּתַמּוּז",
+"about": {
+"fr": "Début des trois semaines : brèche dans les murailles de Jérusalem.",
+"en": "Start of the Three Weeks: the walls of Jerusalem were breached."
+}
+},
+{
+"id": "9-av",
+"year": 5787,
+"start": "2027-08-12",
+"end": "2027-08-12",
+"eve": "2027-08-11",
+"kind": "solemn",
+"name": {
+"fr": "Tisha Beav",
+"en": "Tisha B'Av"
+},
+"he": "תִּשְׁעָה בְּאָב",
+"about": {
+"fr": "Jour de deuil pour la destruction des deux Temples.",
+"en": "Day of mourning for the destruction of both Temples."
+}
+},
+{
+"id": "tou-beav",
+"year": 5787,
+"start": "2027-08-18",
+"end": "2027-08-18",
+"eve": "2027-08-17",
+"kind": "minor",
+"name": {
+"fr": "Tou Beav",
+"en": "Tu B'Av"
+},
+"he": "ט״ו בְּאָב",
+"about": {
+"fr": "La fête de l'amour.",
+"en": "The festival of love."
+}
+},
+{
+"id": "rosh-hashana",
+"year": 5788,
+"start": "2027-10-02",
+"end": "2027-10-03",
+"eve": "2027-10-01",
+"kind": "festive",
+"name": {
+"fr": "Roch Hachana",
+"en": "Rosh Hashanah"
+},
+"he": "רֹאשׁ הַשָּׁנָה",
+"about": {
+"fr": "Le Nouvel An : on sonne le chofar et on trempe la pomme dans le miel.",
+"en": "The New Year: the shofar is blown and apples are dipped in honey."
+}
+},
+{
+"id": "tzom-guedalia",
+"year": 5788,
+"start": "2027-10-04",
+"end": "2027-10-04",
+"eve": "2027-10-03",
+"kind": "fast",
+"name": {
+"fr": "Jeûne de Guedalia",
+"en": "Fast of Gedaliah"
+},
+"he": "צוֹם גְּדַלְיָה",
+"about": {
+"fr": "Jeûne du lever au coucher du soleil, en souvenir de l'assassinat de Guedalia.",
+"en": "Dawn-to-dusk fast recalling the murder of Gedaliah."
+}
+},
+{
+"id": "yom-kippour",
+"year": 5788,
+"start": "2027-10-11",
+"end": "2027-10-11",
+"eve": "2027-10-10",
+"kind": "solemn",
+"name": {
+"fr": "Yom Kippour",
+"en": "Yom Kippur"
+},
+"he": "יוֹם כִּפּוּר",
+"about": {
+"fr": "Le jour du Grand Pardon : jeûne de 25 heures et prière.",
+"en": "The Day of Atonement: a 25-hour fast and prayer."
+}
+},
+{
+"id": "souccot",
+"year": 5788,
+"start": "2027-10-16",
+"end": "2027-10-22",
+"eve": "2027-10-15",
+"kind": "festive",
+"name": {
+"fr": "Souccot",
+"en": "Sukkot"
+},
+"he": "סֻכּוֹת",
+"about": {
+"fr": "La fête des cabanes : on mange sous la souccah et on agite le loulav.",
+"en": "The Feast of Booths: meals in the sukkah and the waving of the lulav."
+}
+},
+{
+"id": "chemini-atseret",
+"year": 5788,
+"start": "2027-10-23",
+"end": "2027-10-23",
+"eve": "2027-10-22",
+"kind": "festive",
+"name": {
+"fr": "Chemini Atseret",
+"en": "Shemini Atzeret"
+},
+"he": "שְׁמִינִי עֲצֶרֶת",
+"about": {
+"fr": "Le huitième jour de clôture, avec la prière pour la pluie.",
+"en": "The eighth day of assembly, with the prayer for rain."
+}
+},
+{
+"id": "simhat-torah",
+"year": 5788,
+"start": "2027-10-24",
+"end": "2027-10-24",
+"eve": "2027-10-23",
+"kind": "festive",
+"name": {
+"fr": "Simhat Torah",
+"en": "Simchat Torah"
+},
+"he": "שִׂמְחַת תּוֹרָה",
+"about": {
+"fr": "On danse avec la Torah : on finit Devarim et on recommence Bereshit.",
+"en": "Dancing with the Torah: Deuteronomy ends and Genesis begins again."
+}
+},
+{
+"id": "hanoukka",
+"year": 5788,
+"start": "2027-12-25",
+"end": "2028-01-01",
+"eve": "2027-12-24",
+"kind": "festive",
+"name": {
+"fr": "Hanoukka",
+"en": "Hanukkah"
+},
+"he": "חֲנֻכָּה",
+"about": {
+"fr": "Huit soirs de lumières, en souvenir de la réinauguration du Temple.",
+"en": "Eight nights of lights, recalling the rededication of the Temple."
+}
+},
+{
+"id": "10-tevet",
+"year": 5788,
+"start": "2028-01-09",
+"end": "2028-01-09",
+"eve": "2028-01-08",
+"kind": "fast",
+"name": {
+"fr": "Jeûne du 10 Tevet",
+"en": "Fast of 10 Tevet"
+},
+"he": "עֲשָׂרָה בְּטֵבֵת",
+"about": {
+"fr": "Jeûne en souvenir du début du siège de Jérusalem.",
+"en": "Fast recalling the start of the siege of Jerusalem."
+}
+},
+{
+"id": "tou-bichvat",
+"year": 5788,
+"start": "2028-02-12",
+"end": "2028-02-12",
+"eve": "2028-02-11",
+"kind": "minor",
+"name": {
+"fr": "Tou Bichvat",
+"en": "Tu BiShvat"
+},
+"he": "ט״ו בִּשְׁבָט",
+"about": {
+"fr": "Le Nouvel An des arbres : on goûte les fruits d'Israël.",
+"en": "The New Year of the trees: fruits of the Land of Israel are tasted."
+}
+},
+{
+"id": "jeune-esther",
+"year": 5788,
+"start": "2028-03-09",
+"end": "2028-03-09",
+"eve": "2028-03-08",
+"kind": "fast",
+"name": {
+"fr": "Jeûne d'Esther",
+"en": "Fast of Esther"
+},
+"he": "תַּעֲנִית אֶסְתֵּר",
+"about": {
+"fr": "Jeûne de la veille de Pourim.",
+"en": "Fast on the eve of Purim."
+}
+},
+{
+"id": "pourim",
+"year": 5788,
+"start": "2028-03-12",
+"end": "2028-03-12",
+"eve": "2028-03-11",
+"kind": "festive",
+"name": {
+"fr": "Pourim",
+"en": "Purim"
+},
+"he": "פּוּרִים",
+"about": {
+"fr": "On lit la Méguila d'Esther, on se déguise et on offre des mets.",
+"en": "The Scroll of Esther is read, people dress up and send gifts of food."
+}
+},
+{
+"id": "chouchan-pourim",
+"year": 5788,
+"start": "2028-03-13",
+"end": "2028-03-13",
+"eve": "2028-03-12",
+"kind": "minor",
+"name": {
+"fr": "Chouchan Pourim",
+"en": "Shushan Purim"
+},
+"he": "שׁוּשַׁן פּוּרִים",
+"about": {
+"fr": "Pourim des villes fortifiées, comme Jérusalem.",
+"en": "Purim in walled cities such as Jerusalem."
+}
+},
+{
+"id": "pessah",
+"year": 5788,
+"start": "2028-04-11",
+"end": "2028-04-18",
+"eve": "2028-04-10",
+"kind": "festive",
+"name": {
+"fr": "Pessah",
+"en": "Passover"
+},
+"he": "פֶּסַח",
+"about": {
+"fr": "La sortie d'Égypte : le Séder, la matsa et quatre coupes de vin.",
+"en": "The Exodus: the Seder, matzah and four cups of wine."
+}
+},
+{
+"id": "yom-hashoah",
+"year": 5788,
+"start": "2028-04-24",
+"end": "2028-04-24",
+"eve": "2028-04-23",
+"kind": "memorial",
+"name": {
+"fr": "Yom HaShoah",
+"en": "Yom HaShoah"
+},
+"he": "יוֹם הַשּׁוֹאָה",
+"about": {
+"fr": "Jour du souvenir de la Shoah.",
+"en": "Holocaust Remembrance Day."
+}
+},
+{
+"id": "yom-hazikaron",
+"year": 5788,
+"start": "2028-05-01",
+"end": "2028-05-01",
+"eve": "2028-04-30",
+"kind": "memorial",
+"name": {
+"fr": "Yom HaZikaron",
+"en": "Yom HaZikaron"
+},
+"he": "יוֹם הַזִּכָּרוֹן",
+"about": {
+"fr": "Jour du souvenir des soldats et des victimes du terrorisme.",
+"en": "Memorial Day for fallen soldiers and victims of terror."
+}
+},
+{
+"id": "yom-haatsmaout",
+"year": 5788,
+"start": "2028-05-02",
+"end": "2028-05-02",
+"eve": "2028-05-01",
+"kind": "festive",
+"name": {
+"fr": "Yom Haatsmaout",
+"en": "Yom Ha'atzmaut"
+},
+"he": "יוֹם הָעַצְמָאוּת",
+"about": {
+"fr": "Fête de l'indépendance d'Israël.",
+"en": "Israel's Independence Day."
+}
+},
+{
+"id": "lag-baomer",
+"year": 5788,
+"start": "2028-05-14",
+"end": "2028-05-14",
+"eve": "2028-05-13",
+"kind": "minor",
+"name": {
+"fr": "Lag Baomer",
+"en": "Lag BaOmer"
+},
+"he": "ל״ג בָּעֹמֶר",
+"about": {
+"fr": "33e jour de l'Omer : feux de joie et fin du deuil.",
+"en": "33rd day of the Omer: bonfires and a break in the mourning."
+}
+},
+{
+"id": "yom-yeroushalayim",
+"year": 5788,
+"start": "2028-05-24",
+"end": "2028-05-24",
+"eve": "2028-05-23",
+"kind": "minor",
+"name": {
+"fr": "Yom Yeroushalayim",
+"en": "Yom Yerushalayim"
+},
+"he": "יוֹם יְרוּשָׁלַיִם",
+"about": {
+"fr": "Jour de Jérusalem.",
+"en": "Jerusalem Day."
+}
+},
+{
+"id": "chavouot",
+"year": 5788,
+"start": "2028-05-31",
+"end": "2028-06-01",
+"eve": "2028-05-30",
+"kind": "festive",
+"name": {
+"fr": "Chavouot",
+"en": "Shavuot"
+},
+"he": "שָׁבוּעוֹת",
+"about": {
+"fr": "Le don de la Torah au Sinaï : on veille pour étudier et on mange laitier.",
+"en": "The giving of the Torah at Sinai: all-night study and dairy foods."
+}
+},
+{
+"id": "17-tamouz",
+"year": 5788,
+"start": "2028-07-11",
+"end": "2028-07-11",
+"eve": "2028-07-10",
+"kind": "fast",
+"name": {
+"fr": "Jeûne du 17 Tamouz",
+"en": "Fast of 17 Tammuz"
+},
+"he": "שִׁבְעָה עָשָׂר בְּתַמּוּז",
+"about": {
+"fr": "Début des trois semaines : brèche dans les murailles de Jérusalem.",
+"en": "Start of the Three Weeks: the walls of Jerusalem were breached."
+}
+},
+{
+"id": "9-av",
+"year": 5788,
+"start": "2028-08-01",
+"end": "2028-08-01",
+"eve": "2028-07-31",
+"kind": "solemn",
+"name": {
+"fr": "Tisha Beav",
+"en": "Tisha B'Av"
+},
+"he": "תִּשְׁעָה בְּאָב",
+"about": {
+"fr": "Jour de deuil pour la destruction des deux Temples.",
+"en": "Day of mourning for the destruction of both Temples."
+}
+},
+{
+"id": "tou-beav",
+"year": 5788,
+"start": "2028-08-07",
+"end": "2028-08-07",
+"eve": "2028-08-06",
+"kind": "minor",
+"name": {
+"fr": "Tou Beav",
+"en": "Tu B'Av"
+},
+"he": "ט״ו בְּאָב",
+"about": {
+"fr": "La fête de l'amour.",
+"en": "The festival of love."
+}
+},
+{
+"id": "rosh-hashana",
+"year": 5789,
+"start": "2028-09-21",
+"end": "2028-09-22",
+"eve": "2028-09-20",
+"kind": "festive",
+"name": {
+"fr": "Roch Hachana",
+"en": "Rosh Hashanah"
+},
+"he": "רֹאשׁ הַשָּׁנָה",
+"about": {
+"fr": "Le Nouvel An : on sonne le chofar et on trempe la pomme dans le miel.",
+"en": "The New Year: the shofar is blown and apples are dipped in honey."
+}
+},
+{
+"id": "tzom-guedalia",
+"year": 5789,
+"start": "2028-09-24",
+"end": "2028-09-24",
+"eve": "2028-09-23",
+"kind": "fast",
+"name": {
+"fr": "Jeûne de Guedalia",
+"en": "Fast of Gedaliah"
+},
+"he": "צוֹם גְּדַלְיָה",
+"about": {
+"fr": "Jeûne du lever au coucher du soleil, en souvenir de l'assassinat de Guedalia.",
+"en": "Dawn-to-dusk fast recalling the murder of Gedaliah."
+}
+},
+{
+"id": "yom-kippour",
+"year": 5789,
+"start": "2028-09-30",
+"end": "2028-09-30",
+"eve": "2028-09-29",
+"kind": "solemn",
+"name": {
+"fr": "Yom Kippour",
+"en": "Yom Kippur"
+},
+"he": "יוֹם כִּפּוּר",
+"about": {
+"fr": "Le jour du Grand Pardon : jeûne de 25 heures et prière.",
+"en": "The Day of Atonement: a 25-hour fast and prayer."
+}
+},
+{
+"id": "souccot",
+"year": 5789,
+"start": "2028-10-05",
+"end": "2028-10-11",
+"eve": "2028-10-04",
+"kind": "festive",
+"name": {
+"fr": "Souccot",
+"en": "Sukkot"
+},
+"he": "סֻכּוֹת",
+"about": {
+"fr": "La fête des cabanes : on mange sous la souccah et on agite le loulav.",
+"en": "The Feast of Booths: meals in the sukkah and the waving of the lulav."
+}
+},
+{
+"id": "chemini-atseret",
+"year": 5789,
+"start": "2028-10-12",
+"end": "2028-10-12",
+"eve": "2028-10-11",
+"kind": "festive",
+"name": {
+"fr": "Chemini Atseret",
+"en": "Shemini Atzeret"
+},
+"he": "שְׁמִינִי עֲצֶרֶת",
+"about": {
+"fr": "Le huitième jour de clôture, avec la prière pour la pluie.",
+"en": "The eighth day of assembly, with the prayer for rain."
+}
+},
+{
+"id": "simhat-torah",
+"year": 5789,
+"start": "2028-10-13",
+"end": "2028-10-13",
+"eve": "2028-10-12",
+"kind": "festive",
+"name": {
+"fr": "Simhat Torah",
+"en": "Simchat Torah"
+},
+"he": "שִׂמְחַת תּוֹרָה",
+"about": {
+"fr": "On danse avec la Torah : on finit Devarim et on recommence Bereshit.",
+"en": "Dancing with the Torah: Deuteronomy ends and Genesis begins again."
+}
+},
+{
+"id": "hanoukka",
+"year": 5789,
+"start": "2028-12-13",
+"end": "2028-12-20",
+"eve": "2028-12-12",
+"kind": "festive",
+"name": {
+"fr": "Hanoukka",
+"en": "Hanukkah"
+},
+"he": "חֲנֻכָּה",
+"about": {
+"fr": "Huit soirs de lumières, en souvenir de la réinauguration du Temple.",
+"en": "Eight nights of lights, recalling the rededication of the Temple."
+}
+},
+{
+"id": "10-tevet",
+"year": 5789,
+"start": "2028-12-28",
+"end": "2028-12-28",
+"eve": "2028-12-27",
+"kind": "fast",
+"name": {
+"fr": "Jeûne du 10 Tevet",
+"en": "Fast of 10 Tevet"
+},
+"he": "עֲשָׂרָה בְּטֵבֵת",
+"about": {
+"fr": "Jeûne en souvenir du début du siège de Jérusalem.",
+"en": "Fast recalling the start of the siege of Jerusalem."
+}
+},
+{
+"id": "tou-bichvat",
+"year": 5789,
+"start": "2029-01-31",
+"end": "2029-01-31",
+"eve": "2029-01-30",
+"kind": "minor",
+"name": {
+"fr": "Tou Bichvat",
+"en": "Tu BiShvat"
+},
+"he": "ט״ו בִּשְׁבָט",
+"about": {
+"fr": "Le Nouvel An des arbres : on goûte les fruits d'Israël.",
+"en": "The New Year of the trees: fruits of the Land of Israel are tasted."
+}
+},
+{
+"id": "jeune-esther",
+"year": 5789,
+"start": "2029-02-28",
+"end": "2029-02-28",
+"eve": "2029-02-27",
+"kind": "fast",
+"name": {
+"fr": "Jeûne d'Esther",
+"en": "Fast of Esther"
+},
+"he": "תַּעֲנִית אֶסְתֵּר",
+"about": {
+"fr": "Jeûne de la veille de Pourim.",
+"en": "Fast on the eve of Purim."
+}
+},
+{
+"id": "pourim",
+"year": 5789,
+"start": "2029-03-01",
+"end": "2029-03-01",
+"eve": "2029-02-28",
+"kind": "festive",
+"name": {
+"fr": "Pourim",
+"en": "Purim"
+},
+"he": "פּוּרִים",
+"about": {
+"fr": "On lit la Méguila d'Esther, on se déguise et on offre des mets.",
+"en": "The Scroll of Esther is read, people dress up and send gifts of food."
+}
+},
+{
+"id": "chouchan-pourim",
+"year": 5789,
+"start": "2029-03-02",
+"end": "2029-03-02",
+"eve": "2029-03-01",
+"kind": "minor",
+"name": {
+"fr": "Chouchan Pourim",
+"en": "Shushan Purim"
+},
+"he": "שׁוּשַׁן פּוּרִים",
+"about": {
+"fr": "Pourim des villes fortifiées, comme Jérusalem.",
+"en": "Purim in walled cities such as Jerusalem."
+}
+},
+{
+"id": "pessah",
+"year": 5789,
+"start": "2029-03-31",
+"end": "2029-04-07",
+"eve": "2029-03-30",
+"kind": "festive",
+"name": {
+"fr": "Pessah",
+"en": "Passover"
+},
+"he": "פֶּסַח",
+"about": {
+"fr": "La sortie d'Égypte : le Séder, la matsa et quatre coupes de vin.",
+"en": "The Exodus: the Seder, matzah and four cups of wine."
+}
+},
+{
+"id": "yom-hashoah",
+"year": 5789,
+"start": "2029-04-12",
+"end": "2029-04-12",
+"eve": "2029-04-11",
+"kind": "memorial",
+"name": {
+"fr": "Yom HaShoah",
+"en": "Yom HaShoah"
+},
+"he": "יוֹם הַשּׁוֹאָה",
+"about": {
+"fr": "Jour du souvenir de la Shoah.",
+"en": "Holocaust Remembrance Day."
+}
+},
+{
+"id": "yom-hazikaron",
+"year": 5789,
+"start": "2029-04-18",
+"end": "2029-04-18",
+"eve": "2029-04-17",
+"kind": "memorial",
+"name": {
+"fr": "Yom HaZikaron",
+"en": "Yom HaZikaron"
+},
+"he": "יוֹם הַזִּכָּרוֹן",
+"about": {
+"fr": "Jour du souvenir des soldats et des victimes du terrorisme.",
+"en": "Memorial Day for fallen soldiers and victims of terror."
+}
+},
+{
+"id": "yom-haatsmaout",
+"year": 5789,
+"start": "2029-04-19",
+"end": "2029-04-19",
+"eve": "2029-04-18",
+"kind": "festive",
+"name": {
+"fr": "Yom Haatsmaout",
+"en": "Yom Ha'atzmaut"
+},
+"he": "יוֹם הָעַצְמָאוּת",
+"about": {
+"fr": "Fête de l'indépendance d'Israël.",
+"en": "Israel's Independence Day."
+}
+},
+{
+"id": "lag-baomer",
+"year": 5789,
+"start": "2029-05-03",
+"end": "2029-05-03",
+"eve": "2029-05-02",
+"kind": "minor",
+"name": {
+"fr": "Lag Baomer",
+"en": "Lag BaOmer"
+},
+"he": "ל״ג בָּעֹמֶר",
+"about": {
+"fr": "33e jour de l'Omer : feux de joie et fin du deuil.",
+"en": "33rd day of the Omer: bonfires and a break in the mourning."
+}
+},
+{
+"id": "yom-yeroushalayim",
+"year": 5789,
+"start": "2029-05-13",
+"end": "2029-05-13",
+"eve": "2029-05-12",
+"kind": "minor",
+"name": {
+"fr": "Yom Yeroushalayim",
+"en": "Yom Yerushalayim"
+},
+"he": "יוֹם יְרוּשָׁלַיִם",
+"about": {
+"fr": "Jour de Jérusalem.",
+"en": "Jerusalem Day."
+}
+},
+{
+"id": "chavouot",
+"year": 5789,
+"start": "2029-05-20",
+"end": "2029-05-21",
+"eve": "2029-05-19",
+"kind": "festive",
+"name": {
+"fr": "Chavouot",
+"en": "Shavuot"
+},
+"he": "שָׁבוּעוֹת",
+"about": {
+"fr": "Le don de la Torah au Sinaï : on veille pour étudier et on mange laitier.",
+"en": "The giving of the Torah at Sinai: all-night study and dairy foods."
+}
+},
+{
+"id": "17-tamouz",
+"year": 5789,
+"start": "2029-07-01",
+"end": "2029-07-01",
+"eve": "2029-06-30",
+"kind": "fast",
+"name": {
+"fr": "Jeûne du 17 Tamouz",
+"en": "Fast of 17 Tammuz"
+},
+"he": "שִׁבְעָה עָשָׂר בְּתַמּוּז",
+"about": {
+"fr": "Début des trois semaines : brèche dans les murailles de Jérusalem.",
+"en": "Start of the Three Weeks: the walls of Jerusalem were breached."
+}
+},
+{
+"id": "9-av",
+"year": 5789,
+"start": "2029-07-22",
+"end": "2029-07-22",
+"eve": "2029-07-21",
+"kind": "solemn",
+"name": {
+"fr": "Tisha Beav",
+"en": "Tisha B'Av"
+},
+"he": "תִּשְׁעָה בְּאָב",
+"about": {
+"fr": "Jour de deuil pour la destruction des deux Temples.",
+"en": "Day of mourning for the destruction of both Temples."
+}
+},
+{
+"id": "tou-beav",
+"year": 5789,
+"start": "2029-07-27",
+"end": "2029-07-27",
+"eve": "2029-07-26",
+"kind": "minor",
+"name": {
+"fr": "Tou Beav",
+"en": "Tu B'Av"
+},
+"he": "ט״ו בְּאָב",
+"about": {
+"fr": "La fête de l'amour.",
+"en": "The festival of love."
+}
+},
+{
+"id": "rosh-hashana",
+"year": 5790,
+"start": "2029-09-10",
+"end": "2029-09-11",
+"eve": "2029-09-09",
+"kind": "festive",
+"name": {
+"fr": "Roch Hachana",
+"en": "Rosh Hashanah"
+},
+"he": "רֹאשׁ הַשָּׁנָה",
+"about": {
+"fr": "Le Nouvel An : on sonne le chofar et on trempe la pomme dans le miel.",
+"en": "The New Year: the shofar is blown and apples are dipped in honey."
+}
+},
+{
+"id": "tzom-guedalia",
+"year": 5790,
+"start": "2029-09-12",
+"end": "2029-09-12",
+"eve": "2029-09-11",
+"kind": "fast",
+"name": {
+"fr": "Jeûne de Guedalia",
+"en": "Fast of Gedaliah"
+},
+"he": "צוֹם גְּדַלְיָה",
+"about": {
+"fr": "Jeûne du lever au coucher du soleil, en souvenir de l'assassinat de Guedalia.",
+"en": "Dawn-to-dusk fast recalling the murder of Gedaliah."
+}
+},
+{
+"id": "yom-kippour",
+"year": 5790,
+"start": "2029-09-19",
+"end": "2029-09-19",
+"eve": "2029-09-18",
+"kind": "solemn",
+"name": {
+"fr": "Yom Kippour",
+"en": "Yom Kippur"
+},
+"he": "יוֹם כִּפּוּר",
+"about": {
+"fr": "Le jour du Grand Pardon : jeûne de 25 heures et prière.",
+"en": "The Day of Atonement: a 25-hour fast and prayer."
+}
+},
+{
+"id": "souccot",
+"year": 5790,
+"start": "2029-09-24",
+"end": "2029-09-30",
+"eve": "2029-09-23",
+"kind": "festive",
+"name": {
+"fr": "Souccot",
+"en": "Sukkot"
+},
+"he": "סֻכּוֹת",
+"about": {
+"fr": "La fête des cabanes : on mange sous la souccah et on agite le loulav.",
+"en": "The Feast of Booths: meals in the sukkah and the waving of the lulav."
+}
+},
+{
+"id": "chemini-atseret",
+"year": 5790,
+"start": "2029-10-01",
+"end": "2029-10-01",
+"eve": "2029-09-30",
+"kind": "festive",
+"name": {
+"fr": "Chemini Atseret",
+"en": "Shemini Atzeret"
+},
+"he": "שְׁמִינִי עֲצֶרֶת",
+"about": {
+"fr": "Le huitième jour de clôture, avec la prière pour la pluie.",
+"en": "The eighth day of assembly, with the prayer for rain."
+}
+},
+{
+"id": "simhat-torah",
+"year": 5790,
+"start": "2029-10-02",
+"end": "2029-10-02",
+"eve": "2029-10-01",
+"kind": "festive",
+"name": {
+"fr": "Simhat Torah",
+"en": "Simchat Torah"
+},
+"he": "שִׂמְחַת תּוֹרָה",
+"about": {
+"fr": "On danse avec la Torah : on finit Devarim et on recommence Bereshit.",
+"en": "Dancing with the Torah: Deuteronomy ends and Genesis begins again."
+}
+},
+{
+"id": "hanoukka",
+"year": 5790,
+"start": "2029-12-02",
+"end": "2029-12-09",
+"eve": "2029-12-01",
+"kind": "festive",
+"name": {
+"fr": "Hanoukka",
+"en": "Hanukkah"
+},
+"he": "חֲנֻכָּה",
+"about": {
+"fr": "Huit soirs de lumières, en souvenir de la réinauguration du Temple.",
+"en": "Eight nights of lights, recalling the rededication of the Temple."
+}
+},
+{
+"id": "10-tevet",
+"year": 5790,
+"start": "2029-12-16",
+"end": "2029-12-16",
+"eve": "2029-12-15",
+"kind": "fast",
+"name": {
+"fr": "Jeûne du 10 Tevet",
+"en": "Fast of 10 Tevet"
+},
+"he": "עֲשָׂרָה בְּטֵבֵת",
+"about": {
+"fr": "Jeûne en souvenir du début du siège de Jérusalem.",
+"en": "Fast recalling the start of the siege of Jerusalem."
+}
+},
+{
+"id": "tou-bichvat",
+"year": 5790,
+"start": "2030-01-19",
+"end": "2030-01-19",
+"eve": "2030-01-18",
+"kind": "minor",
+"name": {
+"fr": "Tou Bichvat",
+"en": "Tu BiShvat"
+},
+"he": "ט״ו בִּשְׁבָט",
+"about": {
+"fr": "Le Nouvel An des arbres : on goûte les fruits d'Israël.",
+"en": "The New Year of the trees: fruits of the Land of Israel are tasted."
+}
+},
+{
+"id": "jeune-esther",
+"year": 5790,
+"start": "2030-03-18",
+"end": "2030-03-18",
+"eve": "2030-03-17",
+"kind": "fast",
+"name": {
+"fr": "Jeûne d'Esther",
+"en": "Fast of Esther"
+},
+"he": "תַּעֲנִית אֶסְתֵּר",
+"about": {
+"fr": "Jeûne de la veille de Pourim.",
+"en": "Fast on the eve of Purim."
+}
+},
+{
+"id": "pourim",
+"year": 5790,
+"start": "2030-03-19",
+"end": "2030-03-19",
+"eve": "2030-03-18",
+"kind": "festive",
+"name": {
+"fr": "Pourim",
+"en": "Purim"
+},
+"he": "פּוּרִים",
+"about": {
+"fr": "On lit la Méguila d'Esther, on se déguise et on offre des mets.",
+"en": "The Scroll of Esther is read, people dress up and send gifts of food."
+}
+},
+{
+"id": "chouchan-pourim",
+"year": 5790,
+"start": "2030-03-20",
+"end": "2030-03-20",
+"eve": "2030-03-19",
+"kind": "minor",
+"name": {
+"fr": "Chouchan Pourim",
+"en": "Shushan Purim"
+},
+"he": "שׁוּשַׁן פּוּרִים",
+"about": {
+"fr": "Pourim des villes fortifiées, comme Jérusalem.",
+"en": "Purim in walled cities such as Jerusalem."
+}
+},
+{
+"id": "pessah",
+"year": 5790,
+"start": "2030-04-18",
+"end": "2030-04-25",
+"eve": "2030-04-17",
+"kind": "festive",
+"name": {
+"fr": "Pessah",
+"en": "Passover"
+},
+"he": "פֶּסַח",
+"about": {
+"fr": "La sortie d'Égypte : le Séder, la matsa et quatre coupes de vin.",
+"en": "The Exodus: the Seder, matzah and four cups of wine."
+}
+},
+{
+"id": "yom-hashoah",
+"year": 5790,
+"start": "2030-04-30",
+"end": "2030-04-30",
+"eve": "2030-04-29",
+"kind": "memorial",
+"name": {
+"fr": "Yom HaShoah",
+"en": "Yom HaShoah"
+},
+"he": "יוֹם הַשּׁוֹאָה",
+"about": {
+"fr": "Jour du souvenir de la Shoah.",
+"en": "Holocaust Remembrance Day."
+}
+},
+{
+"id": "yom-hazikaron",
+"year": 5790,
+"start": "2030-05-07",
+"end": "2030-05-07",
+"eve": "2030-05-06",
+"kind": "memorial",
+"name": {
+"fr": "Yom HaZikaron",
+"en": "Yom HaZikaron"
+},
+"he": "יוֹם הַזִּכָּרוֹן",
+"about": {
+"fr": "Jour du souvenir des soldats et des victimes du terrorisme.",
+"en": "Memorial Day for fallen soldiers and victims of terror."
+}
+},
+{
+"id": "yom-haatsmaout",
+"year": 5790,
+"start": "2030-05-08",
+"end": "2030-05-08",
+"eve": "2030-05-07",
+"kind": "festive",
+"name": {
+"fr": "Yom Haatsmaout",
+"en": "Yom Ha'atzmaut"
+},
+"he": "יוֹם הָעַצְמָאוּת",
+"about": {
+"fr": "Fête de l'indépendance d'Israël.",
+"en": "Israel's Independence Day."
+}
+},
+{
+"id": "lag-baomer",
+"year": 5790,
+"start": "2030-05-21",
+"end": "2030-05-21",
+"eve": "2030-05-20",
+"kind": "minor",
+"name": {
+"fr": "Lag Baomer",
+"en": "Lag BaOmer"
+},
+"he": "ל״ג בָּעֹמֶר",
+"about": {
+"fr": "33e jour de l'Omer : feux de joie et fin du deuil.",
+"en": "33rd day of the Omer: bonfires and a break in the mourning."
+}
+},
+{
+"id": "yom-yeroushalayim",
+"year": 5790,
+"start": "2030-05-31",
+"end": "2030-05-31",
+"eve": "2030-05-30",
+"kind": "minor",
+"name": {
+"fr": "Yom Yeroushalayim",
+"en": "Yom Yerushalayim"
+},
+"he": "יוֹם יְרוּשָׁלַיִם",
+"about": {
+"fr": "Jour de Jérusalem.",
+"en": "Jerusalem Day."
+}
+},
+{
+"id": "chavouot",
+"year": 5790,
+"start": "2030-06-07",
+"end": "2030-06-08",
+"eve": "2030-06-06",
+"kind": "festive",
+"name": {
+"fr": "Chavouot",
+"en": "Shavuot"
+},
+"he": "שָׁבוּעוֹת",
+"about": {
+"fr": "Le don de la Torah au Sinaï : on veille pour étudier et on mange laitier.",
+"en": "The giving of the Torah at Sinai: all-night study and dairy foods."
+}
+},
+{
+"id": "17-tamouz",
+"year": 5790,
+"start": "2030-07-18",
+"end": "2030-07-18",
+"eve": "2030-07-17",
+"kind": "fast",
+"name": {
+"fr": "Jeûne du 17 Tamouz",
+"en": "Fast of 17 Tammuz"
+},
+"he": "שִׁבְעָה עָשָׂר בְּתַמּוּז",
+"about": {
+"fr": "Début des trois semaines : brèche dans les murailles de Jérusalem.",
+"en": "Start of the Three Weeks: the walls of Jerusalem were breached."
+}
+},
+{
+"id": "9-av",
+"year": 5790,
+"start": "2030-08-08",
+"end": "2030-08-08",
+"eve": "2030-08-07",
+"kind": "solemn",
+"name": {
+"fr": "Tisha Beav",
+"en": "Tisha B'Av"
+},
+"he": "תִּשְׁעָה בְּאָב",
+"about": {
+"fr": "Jour de deuil pour la destruction des deux Temples.",
+"en": "Day of mourning for the destruction of both Temples."
+}
+},
+{
+"id": "tou-beav",
+"year": 5790,
+"start": "2030-08-14",
+"end": "2030-08-14",
+"eve": "2030-08-13",
+"kind": "minor",
+"name": {
+"fr": "Tou Beav",
+"en": "Tu B'Av"
+},
+"he": "ט״ו בְּאָב",
+"about": {
+"fr": "La fête de l'amour.",
+"en": "The festival of love."
+}
+},
+{
+"id": "rosh-hashana",
+"year": 5791,
+"start": "2030-09-28",
+"end": "2030-09-29",
+"eve": "2030-09-27",
+"kind": "festive",
+"name": {
+"fr": "Roch Hachana",
+"en": "Rosh Hashanah"
+},
+"he": "רֹאשׁ הַשָּׁנָה",
+"about": {
+"fr": "Le Nouvel An : on sonne le chofar et on trempe la pomme dans le miel.",
+"en": "The New Year: the shofar is blown and apples are dipped in honey."
+}
+},
+{
+"id": "tzom-guedalia",
+"year": 5791,
+"start": "2030-09-30",
+"end": "2030-09-30",
+"eve": "2030-09-29",
+"kind": "fast",
+"name": {
+"fr": "Jeûne de Guedalia",
+"en": "Fast of Gedaliah"
+},
+"he": "צוֹם גְּדַלְיָה",
+"about": {
+"fr": "Jeûne du lever au coucher du soleil, en souvenir de l'assassinat de Guedalia.",
+"en": "Dawn-to-dusk fast recalling the murder of Gedaliah."
+}
+},
+{
+"id": "yom-kippour",
+"year": 5791,
+"start": "2030-10-07",
+"end": "2030-10-07",
+"eve": "2030-10-06",
+"kind": "solemn",
+"name": {
+"fr": "Yom Kippour",
+"en": "Yom Kippur"
+},
+"he": "יוֹם כִּפּוּר",
+"about": {
+"fr": "Le jour du Grand Pardon : jeûne de 25 heures et prière.",
+"en": "The Day of Atonement: a 25-hour fast and prayer."
+}
+},
+{
+"id": "souccot",
+"year": 5791,
+"start": "2030-10-12",
+"end": "2030-10-18",
+"eve": "2030-10-11",
+"kind": "festive",
+"name": {
+"fr": "Souccot",
+"en": "Sukkot"
+},
+"he": "סֻכּוֹת",
+"about": {
+"fr": "La fête des cabanes : on mange sous la souccah et on agite le loulav.",
+"en": "The Feast of Booths: meals in the sukkah and the waving of the lulav."
+}
+},
+{
+"id": "chemini-atseret",
+"year": 5791,
+"start": "2030-10-19",
+"end": "2030-10-19",
+"eve": "2030-10-18",
+"kind": "festive",
+"name": {
+"fr": "Chemini Atseret",
+"en": "Shemini Atzeret"
+},
+"he": "שְׁמִינִי עֲצֶרֶת",
+"about": {
+"fr": "Le huitième jour de clôture, avec la prière pour la pluie.",
+"en": "The eighth day of assembly, with the prayer for rain."
+}
+},
+{
+"id": "simhat-torah",
+"year": 5791,
+"start": "2030-10-20",
+"end": "2030-10-20",
+"eve": "2030-10-19",
+"kind": "festive",
+"name": {
+"fr": "Simhat Torah",
+"en": "Simchat Torah"
+},
+"he": "שִׂמְחַת תּוֹרָה",
+"about": {
+"fr": "On danse avec la Torah : on finit Devarim et on recommence Bereshit.",
+"en": "Dancing with the Torah: Deuteronomy ends and Genesis begins again."
+}
+},
+{
+"id": "hanoukka",
+"year": 5791,
+"start": "2030-12-21",
+"end": "2030-12-28",
+"eve": "2030-12-20",
+"kind": "festive",
+"name": {
+"fr": "Hanoukka",
+"en": "Hanukkah"
+},
+"he": "חֲנֻכָּה",
+"about": {
+"fr": "Huit soirs de lumières, en souvenir de la réinauguration du Temple.",
+"en": "Eight nights of lights, recalling the rededication of the Temple."
+}
+}
+],
+"yomtov": [
+"2026-09-12",
+"2026-09-13",
+"2026-09-21",
+"2026-09-26",
+"2026-09-27",
+"2026-10-03",
+"2026-10-04",
+"2027-04-22",
+"2027-04-23",
+"2027-04-28",
+"2027-04-29",
+"2027-06-11",
+"2027-06-12",
+"2027-10-02",
+"2027-10-03",
+"2027-10-11",
+"2027-10-16",
+"2027-10-17",
+"2027-10-23",
+"2027-10-24",
+"2028-04-11",
+"2028-04-12",
+"2028-04-17",
+"2028-04-18",
+"2028-05-31",
+"2028-06-01",
+"2028-09-21",
+"2028-09-22",
+"2028-09-30",
+"2028-10-05",
+"2028-10-06",
+"2028-10-12",
+"2028-10-13",
+"2029-03-31",
+"2029-04-01",
+"2029-04-06",
+"2029-04-07",
+"2029-05-20",
+"2029-05-21",
+"2029-09-10",
+"2029-09-11",
+"2029-09-19",
+"2029-09-24",
+"2029-09-25",
+"2029-10-01",
+"2029-10-02",
+"2030-04-18",
+"2030-04-19",
+"2030-04-24",
+"2030-04-25",
+"2030-06-07",
+"2030-06-08",
+"2030-09-28",
+"2030-09-29",
+"2030-10-07",
+"2030-10-12",
+"2030-10-13",
+"2030-10-19",
+"2030-10-20"
+]
+}

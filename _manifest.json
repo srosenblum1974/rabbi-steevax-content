@@ -1,15 +1,16 @@
 {
- "version": 1793525221,
+ "version": 1793527760,
  "files": {
+  "_calendar.json": "47acfd13acaa87d2",
   "_index.json": "7e71339548d99031",
   "_library.json": "c1835264840570e1",
   "_podcast.json": "ba6b4c18f53d3230",
   "_sages.json": "377532747cb02012",
   "_torah.json": "0d5e13caf095ba9a",
-  "bereshit.json": "ad0e7bc12dadbd3d",
-  "lekh-lekha.json": "16b606f3d77c3c12",
-  "miketz.json": "fec3c96bd1ca6fb8",
-  "noach.json": "6417a9983784e348",
-  "vayera.json": "dd3d425856307337"
+  "bereshit.json": "45c50c3ba9a1dc3b",
+  "lekh-lekha.json": "cc8a4a3137026001",
+  "miketz.json": "e3ab90d023cdbfa7",
+  "noach.json": "91b141b750e6af65",
+  "vayera.json": "d5531761334752b8"
  }
 }
