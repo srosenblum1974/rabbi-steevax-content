@@ -1,5 +1,5 @@
 {
- "version": 1793528413,
+ "version": 1793529241,
  "skins": [
   {
    "id": "rosh-hashana",
@@ -141,7 +141,7 @@
    "palette": {
     "paper": "#F4F7FC",
     "card": "#FFFFFF",
-    "accent": "#2F6BC2",
+    "accent": "#6FA3E8",
     "accentText": "#23518F",
     "accentSoft": "#DCE7F7",
     "gradient": [
@@ -282,7 +282,7 @@
    "palette": {
     "paper": "#F8F4FC",
     "card": "#FFFFFF",
-    "accent": "#8A6BB0",
+    "accent": "#A88BD0",
     "accentText": "#5B3F86",
     "accentSoft": "#E9E0F5",
     "gradient": [
@@ -336,7 +336,7 @@
    "palette": {
     "paper": "#FBF5EC",
     "card": "#FFFFFF",
-    "accent": "#8E1F3A",
+    "accent": "#E39AAB",
     "accentText": "#7A1A32",
     "accentSoft": "#F4DDD0",
     "gradient": [
@@ -384,7 +384,7 @@
    "palette": {
     "paper": "#F1F0EE",
     "card": "#FAFAF9",
-    "accent": "#6E6A64",
+    "accent": "#A9A49C",
     "accentText": "#45413C",
     "accentSoft": "#E2E0DC",
     "gradient": [
@@ -415,7 +415,7 @@
    "palette": {
     "paper": "#F1F2F4",
     "card": "#FAFAFB",
-    "accent": "#6B7686",
+    "accent": "#9CA6B4",
     "accentText": "#3F4957",
     "accentSoft": "#E0E4EA",
     "gradient": [
@@ -447,7 +447,7 @@
    "palette": {
     "paper": "#F3F7FD",
     "card": "#FFFFFF",
-    "accent": "#2F6BC2",
+    "accent": "#6FA3E8",
     "accentText": "#23518F",
     "accentSoft": "#DCE7F7",
     "gradient": [
