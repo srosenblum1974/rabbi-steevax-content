@@ -32,6 +32,7 @@ html[lang=fr] .rsnav [data-l=en],html[lang=en] .rsnav [data-l=fr]{display:none}
 .rssub a[aria-current=page]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 html[lang=fr] .rssub [data-l=en],html[lang=en] .rssub [data-l=fr]{display:none}
 .rssub[hidden]{display:none}.bar .lang{display:none}#aidebtn,#torahbtn,#podsbtn,#bibbtn,#progbtn,#profbtn{display:none!important}#pform-slot{display:none!important}.wrap>.bar{justify-content:flex-start;margin-top:14px}.wrap>.bar[hidden]{display:none}.wrap>.bar label{font-weight:600}body.rs-loading .wrap>.bar{visibility:hidden}.rsnav{margin:0 calc(-1 * max(16px, env(safe-area-inset-left, 0px)))}
+.pod-sp.pod-ap{background:linear-gradient(180deg,#F452FF,#832BC1)!important;margin-left:6px}.pod-sp.pod-ap:hover{background:linear-gradient(180deg,#f76bff,#9238d1)!important}
 html,body{overflow-x:clip}
 /* Full-bleed painting under the top menu, title over it (same as the home page) */
 .illhero{position:relative;margin:-20px 0 0;width:100vw;margin-left:calc(50% - 50vw);min-height:min(74vh,620px);display:flex;align-items:flex-end;overflow:hidden;background:#120d06;color:#fff}
@@ -2784,8 +2785,8 @@ const VIEWS = {
     const by = Object.fromEntries(PLACES.map(p=>[p.id,p]));
     const M = D.map;
     const lines = a => !a ? [] : (Array.isArray(a[0]) ? a : [a]);
-    const route = M.route ? M.route.map(i=>P(...by[i].ll).join(",")).join(" ") : "";
-    const raids = lines(M.raid).map(l=>l.map(i=>P(...by[i].ll).join(",")).join(" "));
+    const routes = lines(M.route).map(l=>l.filter(i=>by[i]).map(i=>P(...by[i].ll).join(",")).join(" ")).filter(Boolean);
+    const raids = lines(M.raid).map(l=>l.filter(i=>by[i]).map(i=>P(...by[i].ll).join(",")).join(" ")).filter(Boolean);
     const euph = [[38.0,37.4],[38.6,36.6],[39.6,35.9],[40.6,35.0],[42.0,34.4],[43.4,33.3],[44.6,32.4],[46.4,31.0],[47.4,30.3]].map(a=>P(...a).join(",")).join(" ");
     const tig  = [[42.2,37.3],[43.2,36.3],[43.8,35.0],[44.4,33.4],[45.6,32.4],[46.8,31.4],[47.4,30.3]].map(a=>P(...a).join(",")).join(" ");
     const nile = [[31.3,31.4],[31.25,30.2],[31.1,29.0],[30.9,28.0]].map(a=>P(...a).join(",")).join(" ");
@@ -2819,7 +2820,7 @@ const VIEWS = {
       <polyline points="${euph}" class="riv"></polyline>
       <polyline points="${tig}" class="riv"></polyline>
       <polyline points="${nile}" class="riv"></polyline>
-      ${showOld&&route?`<polyline points="${route}" class="rt"></polyline>`:""}${showOld?raids.map(r=>`<polyline points="${r}" class="rd"></polyline>`).join(""):""}
+      ${showOld?routes.map(r=>`<polyline points="${r}" class="rt"></polyline>`).join(""):""}${showOld?raids.map(r=>`<polyline points="${r}" class="rd"></polyline>`).join(""):""}
       ${mcities}
       ${pts}
       ${M.zoom?`<rect x="${P(34.0,34.0)[0]}" y="${P(34.0,34.0)[1]}" width="${2.8*40}" height="${3.4*40}" class="zbox"></rect>`:""}
@@ -4071,7 +4072,7 @@ setTimeout(rsReady, 6000);
 
 /* ================= EXPORT PDF DE LA PARACHA ================= */
 let pdfBusy = false;
-function loadH2P(){ return new Promise((ok,ko)=>{ if(window.html2pdf) return ok(); const s = document.createElement("script"); s.src = "https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"; s.onload = ()=>ok(); s.onerror = ()=>ko(new Error("lib")); document.head.appendChild(s); }); }
+function loadH2P(){ return new Promise((ok,ko)=>{ if(window.html2pdf) return ok(); const s = document.createElement("script"); s.src = "web/lib/html2pdf.bundle.min.js"; s.onload = ()=>ok(); s.onerror = ()=>ko(new Error("lib")); document.head.appendChild(s); }); }
 function printDoc(){
   const fr = S.lang==="fr";
   const keep = {tab, selPerson, selPlace, lens, srcView, mapMode: typeof mapMode!=="undefined"?mapMode:null};
@@ -4112,6 +4113,19 @@ function inlineSvg(root){
     const r = svg.getBoundingClientRect(); if(r.width){ const vb = svg.viewBox && svg.viewBox.baseVal; const w = Math.min(r.width, (svg.parentElement && svg.parentElement.clientWidth) || 700, 700); const h = (vb && vb.width) ? w*vb.height/vb.width : r.height*w/r.width; svg.setAttribute("width", Math.round(w)); svg.setAttribute("height", Math.round(h)); svg.style.width = Math.round(w)+"px"; svg.style.height = Math.round(h)+"px"; }
   });
 }
+
+function rsPdfColors(cdoc){
+  const cv = cdoc.createElement("canvas"); cv.width = cv.height = 1; const cx = cv.getContext("2d", {willReadFrequently:true});
+  const memo = {};
+  const rgba = c=>{ if(memo[c]) return memo[c]; cx.clearRect(0,0,1,1); cx.fillStyle = "#000"; cx.fillStyle = c; cx.fillRect(0,0,1,1);
+    const d = cx.getImageData(0,0,1,1).data; return memo[c] = `rgba(${d[0]},${d[1]},${d[2]},${+(d[3]/255).toFixed(3)})`; };
+  const RX = /(?:color|oklch|oklab|lch|lab)\((?:[^()]|\([^()]*\))*\)/g;
+  const PROPS = ["color","background-color","background-image","border-top-color","border-right-color","border-bottom-color","border-left-color",
+                 "outline-color","text-decoration-color","box-shadow","text-shadow","fill","stroke","caret-color","column-rule-color"];
+  const win = cdoc.defaultView;
+  cdoc.querySelectorAll("*").forEach(el=>{ const cs = win.getComputedStyle(el);
+    for(const p of PROPS){ const v = cs.getPropertyValue(p); if(v && RX.test(v)){ RX.lastIndex = 0; el.style.setProperty(p, v.replace(RX, rgba), "important"); } RX.lastIndex = 0; } });
+}
 async function exportPDF(){
   if(pdfBusy) return; pdfBusy = true;
   const fr = S.lang==="fr"; const st = $("pdfst"); const say = t=>{ if(st) st.textContent = t; };
@@ -4134,7 +4148,7 @@ async function exportPDF(){
     say(fr?"Création du PDF (quelques secondes)…":"Building the PDF (a few seconds)…");
     const name = `${(PDATES&&PDATES[PARASHA]||"").slice(0,4)||"5787"}-${String(D.num||0).padStart(2,"0")}-${PARASHA}_etude-complete_${S.lang}.pdf`;
     const opt = {margin:[12,12,14,12], filename:name, image:{type:"jpeg",quality:0.85},
-      html2canvas:{scale:1.7, useCORS:true, backgroundColor:"#ffffff"},
+      html2canvas:{scale:1.7, useCORS:true, backgroundColor:"#ffffff", onclone: rsPdfColors, scrollX:0, scrollY:0},
       jsPDF:{unit:"mm", format:"a4", orientation:"portrait"},
       pagebreak:{mode:["css","legacy"], before:".pd-sec[data-sec]", avoid:["p","li",".pd-step h3",".step",".contra",".deb",".tc",".ch",".hi",".lens",".figure",".pd-p","tr",".stop",".lg",".note",".split",".chwrap > div > h3","h3","h4",".pd-verse"]}};
     const worker = html2pdf().set(opt).from(doc);
@@ -4215,7 +4229,7 @@ function renderPod(){
   $("pod-pn").textContent = c.n || "";
   $("pod-ey").textContent = fr ? "Podcast · nouvel épisode" : "Podcast · new episode";
   $("pod-t").textContent = (fr ? "Étudier " : "Study ") + (c.n || "") + (fr ? " en 2 voix" : " in two voices");
-  $("pod-m").innerHTML = [`Léa & David`, `${P.min} min`, `${P.ch.length} ${fr?"chapitres":"chapters"}`, fr?"Verset par verset":(P.lang==="en"?"Verse by verse · in English":"Verse by verse · in French")].map(x=>`<span>${x}</span>`).join("") + `<a class="pod-sp" href="https://open.spotify.com/show/5vvSsCRthgkb5BTZZMLbnF" target="_blank" rel="noopener">▶ Spotify</a>`;
+  $("pod-m").innerHTML = [`Léa & David`, `${P.min} min`, `${P.ch.length} ${fr?"chapitres":"chapters"}`, fr?"Verset par verset":(P.lang==="en"?"Verse by verse · in English":"Verse by verse · in French")].map(x=>`<span>${x}</span>`).join("") + `<a class="pod-sp" href="${fr?"https://open.spotify.com/show/5vvSsCRthgkb5BTZZMLbnF":"https://open.spotify.com/show/7dpVbYSXo3oBo10HAawNFy"}" target="_blank" rel="noopener">▶ Spotify</a><a class="pod-sp pod-ap" href="${fr?"https://podcasts.apple.com/us/podcast/rabbi-steevax-la-torah-en-deux-voix/id6829199363":"https://podcasts.apple.com/us/podcast/rabbi-steevax-the-torah-in-two-voices/id6829401802"}" target="_blank" rel="noopener"><svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.6 19.33c.2-.9.35-1.9.35-2.6 0-1.1-.3-1.7-.3-2.9a3.55 3.55 0 1 1 7.1 0c0 1.2-.3 1.8-.3 2.9 0 .7.15 1.7.35 2.6A10 10 0 0 0 12 2zm0 3.2a6.8 6.8 0 0 1 4.86 11.56c-.04-.4-.08-.8-.13-1.15a5.4 5.4 0 1 0-9.46 0c-.05.35-.1.75-.13 1.15A6.8 6.8 0 0 1 12 5.2zM12 10a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/></svg> Apple Podcasts</a>`;
   $("pod-d").textContent = P.d ? T(P.d) : (fr ? "Toute la paracha racontée à deux voix, avec des questions à se poser en chemin." : "The whole parasha told by two voices, with questions to ask yourself along the way.");
   if(a.getAttribute("src")!==P.src){ a.pause(); a.setAttribute("src",P.src); }
   $("pod-ch").innerHTML = P.ch.map(([t,l],i)=>`<button type="button" data-t="${t}"><i>${String(i+1).padStart(2,"0")} · ${podFmt(t)}</i>${T(l)}</button>`).join("");
