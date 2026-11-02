@@ -36,7 +36,7 @@ input[type=text]{font:inherit;font-size:18px;padding:10px 16px;border-radius:12p
 .ev.past{opacity:.55}
 .dishes{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr));gap:14px}
 .dish{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;text-align:center;position:relative}
-.dish .e{font-size:46px;line-height:1.1;filter:grayscale(1) opacity(.35)}.dish.on .e{filter:none}
+.dish .e{font-size:46px;line-height:1.1;opacity:.55}.dish.on .e{opacity:1}
 .dish b{display:block;font-size:17px;margin-top:6px}.dish small{display:block;color:var(--ink2);font-size:13.5px;margin-top:4px}
 .dish i{display:block;margin-top:8px;font-size:14px;color:var(--goldtx)}
 .dish .dt{position:absolute;top:10px;right:12px;font:600 11px -apple-system,BlinkMacSystemFont,sans-serif;color:var(--ok,#4F7D5B)}
@@ -206,10 +206,10 @@ function render(){
     <div class="plate"><span class="n">${c.got}/${c.tot}</span><div><b>${L("plats sur la table","dishes on the table")}</b>
       <p>${next ? L("Prochain : ","Next: ") + RS.T(next.step) : L("Tout est servi. Mazal tov !","Everything is served. Mazal tov!")}</p>
       <p><a href="reglages/" style="color:#E7B868">${L("Cuisine : séfarade, ashkénaze ou les deux →","Cuisine: Sephardi, Ashkenazi or both →")}</a></p></div></div>
-    <div class="dishes" style="margin-top:18px">${RS.BADGES.map(b => { const on = !!e[b.id], d = RS.dishes(b);
-      return `<div class="dish${on ? " on" : ""}${APP_ONLY.indexOf(b.id) >= 0 ? " app" : ""}">${on ? `<span class="dt">✓ ${e[b.id]}</span>` : ""}
-        <div class="e">${d.map(x => x.e).join(" ")}</div><b>${d.map(x => RS.T(x)).join(" · ")}</b><small>${RS.T(b.step)}</small>
-        ${on ? `<i>« ${RS.T(b.quip)} »</i>` : ""}</div>`; }).join("")}</div>`;
+    <div class="dishes" style="margin-top:18px">${RS.BADGES.map(b => { const on = !!e[b.id];
+      return RS.dishes(b).map(x => `<div class="dish${on ? " on" : ""}${APP_ONLY.indexOf(b.id) >= 0 ? " app" : ""}">${on ? `<span class="dt">✓ ${e[b.id]}</span>` : ""}
+        <div class="e">${on ? x.e : "🛎️"}</div><b>${on ? RS.T(x) : "?"}</b><small>${RS.T(b.step)}</small>
+        ${on ? `<i>« ${RS.T(b.quip)} »</i>` : ""}</div>`).join(""); }).join("")}</div>`;
 }
 render(); document.addEventListener("click", e => { if(e.target.closest("#rsnav .lng button")) setTimeout(render, 0); });
 </script></body></html>
