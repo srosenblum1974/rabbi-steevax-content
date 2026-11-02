@@ -4332,6 +4332,82 @@ RS.studied = function(){
     RS.streak = n;
   }).catch(function(){});
 };
+/* ---- iCloud: the same progress as the app, through CloudKit JS and the visitor's Apple ID ----
+   Record RSProgress/progress in the private database: payload = JSON of the app's keys (prog.read.<id>,
+   prog.steps.<id>, prog.days, badges.*). Merge rules as in the app: sets → union, dishes → earliest date,
+   counters → max. Nothing leaves the visitor's own iCloud. */
+var CK = {"containerIdentifier": "iCloud.com.rosenblum.rabbisteevax", "apiTokenAuth": {"apiToken": "a0a5e3e7dd5a9220946871f9501295dd059c3c507cd4740c3823579cae231e90", "persist": true, "signInButton": {"id": "ck-sign-in", "theme": "black"}, "signOutButton": {"id": "ck-sign-out", "theme": "black"}}, "environment": "development"};
+var WEBKEY = "atelier-torah-v1";
+function webState(){ try{ var S = JSON.parse(localStorage.getItem(WEBKEY)); if(S && S.profiles && S.profiles[S.active]) return S; }catch(e){}
+  return {lang: RS.lang(), active: "moi", profiles: {moi: {name: "", lang: RS.lang(), done: {}, notes: {}, by: {}}}}; }
+function toKeys(){
+  var S = webState(), by = S.profiles[S.active].by || {}, out = {};
+  Object.keys(by).forEach(function(pid){ var b = by[pid] || {};
+    var r = Object.keys(b.read || {}).filter(function(k){ return b.read[k]; }); if(r.length) out["prog.read." + pid] = r;
+    var d = Object.keys(b.done || {}).filter(function(k){ return b.done[k]; }); if(d.length) out["prog.steps." + pid] = d; });
+  var days = RS.days(); if(days.length) out["prog.days"] = days;
+  var e = RS.earned(); if(Object.keys(e).length) out["badges.earned"] = e;
+  return out;
+}
+function mergeVal(k, a, b){
+  if(a == null) return b; if(b == null) return a;
+  if(k === "badges.earned"){ var o = Object.assign({}, a); Object.keys(b).forEach(function(i){ o[i] = o[i] && o[i] < b[i] ? o[i] : b[i]; }); return o; }
+  if(k === "badges.asked") return Math.max(+a || 0, +b || 0);
+  var s = {}; [].concat(a, b).forEach(function(x){ s[String(x)] = 1; }); return Object.keys(s).sort();
+}
+function fromKeys(p){
+  var S = webState(), prof = S.profiles[S.active]; prof.by = prof.by || {};
+  Object.keys(p).forEach(function(k){
+    var m = /^prog\.(read|steps)\.(.+)$/.exec(k);
+    if(m){ var b = prof.by[m[2]] = prof.by[m[2]] || {}; var f = m[1] === "read" ? "read" : "done"; b[f] = b[f] || {};
+      (p[k] || []).forEach(function(x){ b[f][x] = true; }); }
+  });
+  try{ localStorage.setItem(WEBKEY, JSON.stringify(S)); }catch(e){}
+  if(p["prog.days"]) ls.set("rs-web-days", mergeVal("prog.days", RS.days(), p["prog.days"]).slice(-400));
+  if(p["badges.earned"]) ls.set("rs-web-badges", mergeVal("badges.earned", RS.earned(), p["badges.earned"]));
+}
+RS.icloud = { container: null, user: null, status: "off" };
+RS.icloud.load = function(){
+  if(RS.icloud.ready) return RS.icloud.ready;
+  RS.icloud.ready = new Promise(function(ok, ko){
+    var go = function(){ try{ CloudKit.configure({containers: [{containerIdentifier: CK.containerIdentifier, apiTokenAuth: CK.apiTokenAuth, environment: CK.environment}]});
+      RS.icloud.container = CloudKit.getDefaultContainer(); ok(RS.icloud.container); }catch(e){ ko(e); } };
+    if(window.CloudKit) return go();
+    var sc = document.createElement("script"); sc.src = "https://cdn.apple-cloudkit.com/ck/2/cloudkit.js"; sc.async = true;
+    sc.onload = go; sc.onerror = function(){ ko(new Error("cloudkit.js")); }; document.head.appendChild(sc);
+  });
+  return RS.icloud.ready;
+};
+/* Renders Apple's sign-in button into #ck-sign-in (settings page); resolves with the user when signed in. */
+RS.icloud.auth = function(){
+  return RS.icloud.load().then(function(c){ return c.setUpAuth().then(function(user){
+    RS.icloud.user = user || null; RS.icloud.status = user ? "on" : "off";
+    if(user){ ls.set("rs-icloud", 1); c.whenUserSignsOut().then(function(){ ls.set("rs-icloud", 0); RS.icloud.user = null; RS.icloud.status = "off"; document.dispatchEvent(new Event("rs-icloud")); }); }
+    else c.whenUserSignsIn().then(function(u){ RS.icloud.user = u; RS.icloud.status = "on"; ls.set("rs-icloud", 1); RS.icloud.sync().then(function(){ document.dispatchEvent(new Event("rs-icloud")); }); });
+    return user; }); });
+};
+RS.icloud.sync = function(){
+  if(!RS.icloud.container) return Promise.resolve(null);
+  var db = RS.icloud.container.privateCloudDatabase, local = toKeys();
+  RS.icloud.status = "syncing"; document.dispatchEvent(new Event("rs-icloud"));
+  return db.fetchRecords(["progress"]).then(function(r){
+    var rec = r.records && r.records[0], remote = {};
+    if(rec && rec.fields && rec.fields.payload){ try{ remote = JSON.parse(rec.fields.payload.value); }catch(e){} }
+    var out = {}; Object.keys(remote).concat(Object.keys(local)).forEach(function(k){ out[k] = mergeVal(k, remote[k], local[k]); });
+    fromKeys(out);
+    var save = {recordType: "RSProgress", recordName: "progress", fields: {payload: {value: JSON.stringify(out)}, updated: {value: Date.now()}}};
+    if(rec && rec.recordChangeTag) save.recordChangeTag = rec.recordChangeTag;
+    return JSON.stringify(out) === (rec && rec.fields && rec.fields.payload && rec.fields.payload.value) ? r : db.saveRecords([save]);
+  }).then(function(){ RS.icloud.status = "on"; RS.icloud.last = new Date(); ls.set("rs-icloud-last", Date.now());
+    document.dispatchEvent(new Event("rs-icloud")); if(window.rsNavBadge) rsNavBadge(); return true; })
+    .catch(function(e){ RS.icloud.status = "error"; RS.icloud.error = (e && (e.reason || e.message)) || String(e); document.dispatchEvent(new Event("rs-icloud")); return false; });
+};
+/* Linked before: sign in silently and sync on every page; then again after each study activity. */
+if(ls.get("rs-icloud", 0) && CK.apiTokenAuth && CK.apiTokenAuth.apiToken){
+  RS.icloud.auth().then(function(u){ if(u) RS.icloud.sync(); }).catch(function(){});
+  var _studied = RS.studied, t = null;
+  RS.studied = function(){ _studied(); clearTimeout(t); t = setTimeout(function(){ if(RS.icloud.user) RS.icloud.sync(); }, 3000); };
+}
 RS.skinNow();
 })();
 
