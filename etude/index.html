@@ -627,17 +627,25 @@ body.torahmode .mast,body.torahmode #tline,body.torahmode #listen,body.torahmode
 .pl-ep.cur{box-shadow:0 0 0 2px var(--gold) inset}
 /* Podcast page: the paintings, as in the app's Listen tab */
 .pl-hero{background-size:cover;background-position:center;min-height:300px;display:flex;flex-direction:column;justify-content:flex-end}
-.pl-ep{grid-template-columns:220px 1fr;border-radius:16px}
-.pl-cv{width:220px;height:auto;aspect-ratio:16/10;background-size:cover;background-position:center;position:relative;overflow:hidden;color:#fff;justify-content:space-between}
-.pl-cv::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,8,27,.15),rgba(20,8,27,.75))}
-.pl-cv small,.pl-cv b{position:relative;z-index:1;text-shadow:0 1px 6px rgba(0,0,0,.6)}
-.pl-cv b{color:#F3D9A4}
+.pl-ep{position:relative;display:block;border:0;border-radius:20px;overflow:hidden;color:#fff;padding:140px 24px 22px;margin:16px 0;
+  background:#120d06 var(--img) center 35%/cover no-repeat;box-shadow:0 10px 30px -14px rgba(0,0,0,.6)}
+.pl-ep::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,10,6,.6) 0%,rgba(18,10,6,.15) 70%),linear-gradient(180deg,rgba(18,10,6,0) 0%,rgba(18,10,6,.65) 30%,rgba(18,10,6,.93) 62%)}
+.pl-ep>*{position:relative;z-index:1}
+.pl-ep .pl-cv{display:none}
+.pl-ep h4{font-size:clamp(26px,3.4vw,34px);color:#fff;margin:0 0 4px;text-shadow:0 2px 10px rgba(0,0,0,.5)}
+.pl-ep .pl-meta{color:#F3D9A4;opacity:1}
+.pl-ep p{color:#F3EBDD;max-width:78ch;text-shadow:0 1px 4px rgba(0,0,0,.6)}
+.pl-ep audio{color-scheme:dark;border-radius:999px}
+.pl-ep .pl-ch button{border-color:rgba(255,255,255,.28);background:rgba(0,0,0,.25);color:#fff;backdrop-filter:blur(4px)}
+.pl-ep .pl-ch button i{color:#F3D9A4;opacity:.9}
+.pl-ep .pl-ch button:hover{background:rgba(231,184,104,.25);border-color:var(--gold)}
+.pl-ep.cur{box-shadow:0 0 0 3px var(--gold),0 10px 30px -14px rgba(0,0,0,.6)}
 .pod-cv{background-size:cover;background-position:center;color:#fff;overflow:hidden}
 .pod-cv::before{content:"";position:absolute;inset:0;border-radius:inherit;background:linear-gradient(180deg,rgba(20,8,27,.1),rgba(20,8,27,.78))}
 .pod-cv>*{position:relative;z-index:1;text-shadow:0 1px 6px rgba(0,0,0,.6)}
 .pod-cv b{color:#F3D9A4}.pod-cv .pod-eq i{background:#F3D9A4}
 .pl-plat a{font-size:12.5px;border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:5px 12px;color:#fff;text-decoration:none}
-@media (max-width:640px){.pl-ep{grid-template-columns:1fr}.pl-cv{width:100%;height:auto;aspect-ratio:16/9}}
+@media (max-width:640px){.pl-ep{padding:110px 16px 18px}}
 </style>
 
 <div class="wrap">
@@ -4071,8 +4079,8 @@ function viewPods(){
   let PC; try{ PC = PODCAST; }catch(_){ return ""; }
   const eps = Object.keys(PC).filter(id=>REG[id]).map(id=>({id, r:REG[id], P:podGet(id)})).sort((a,b)=>a.r.num-b.r.num);
   const total = eps.reduce((t,e)=>t+e.P.min,0);
-  const card = e => { const nm = T(e.r.name); return `<article class="pl-ep ${e.id===PARASHA?"cur":""}" id="pl-${e.id}">
-    <div class="pl-cv" aria-hidden="true" style="background-image:url(illus/${e.id}.jpg)"><small>${fr?"PARACHA":"PORTION"} ${e.r.num}</small><b>${e.r.he}</b></div>
+  const card = e => { const nm = T(e.r.name); return `<article class="pl-ep ${e.id===PARASHA?"cur":""}" id="pl-${e.id}" style="--img:url(illus/${e.id}.jpg)">
+    <div class="pl-cv" aria-hidden="true"><small>${fr?"PARACHA":"PORTION"} ${e.r.num}</small><b>${e.r.he}</b></div>
     <div><h4>${esc(nm)}</h4><div class="pl-meta">${T(e.r.refLabel)} · ${e.P.min} min · ${e.P.ch.length} ${fr?"chapitres":"chapters"} · Léa & David</div>
     <p>${esc(T(e.P.d))}</p>
     <audio class="pl-a" controls preload="none" src="${e.P.src}"></audio>
