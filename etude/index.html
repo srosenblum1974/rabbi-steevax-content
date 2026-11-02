@@ -1,4 +1,12 @@
-<!doctype html><html><head><base href="../"><link rel="icon" href="web/logo.jpg"><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body><div style="max-width:1040px;margin:0 auto"><a href="./" aria-label="Accueil" style="display:inline-flex;align-items:center;gap:10px;margin:14px 0 0;text-decoration:none;color:#A8711F;font:700 13px/1 -apple-system,BlinkMacSystemFont,sans-serif;letter-spacing:.14em;text-transform:uppercase"><img src="web/logo.jpg" alt="" style="width:40px;height:40px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px #E7B868">Rabbi Steevax</a></div>
+<!doctype html><html><head><base href="../"><link rel="icon" href="web/logo.jpg"><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}
+.illhero{position:relative;margin:18px 0 0;border-radius:18px;overflow:hidden;width:100%;height:clamp(220px,36vw,420px);background:var(--soft)}
+.illhero img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.02);transition:opacity .5s}
+.illhero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.45))}
+.illhero .cap{position:absolute;left:18px;bottom:14px;z-index:1;color:#fff;font:600 12px/1.2 "IBM Plex Mono",monospace;letter-spacing:.14em;text-transform:uppercase;text-shadow:0 1px 6px rgba(0,0,0,.5)}
+.illhero[hidden]{display:none}
+@media (max-width:640px){.illhero{height:56vw;border-radius:14px;margin-top:12px}}
+body.torahmode .illhero{display:none}
+</style></head><body><div style="max-width:1040px;margin:0 auto"><a href="./" aria-label="Accueil" style="display:inline-flex;align-items:center;gap:10px;margin:14px 0 0;text-decoration:none;color:#A8711F;font:700 13px/1 -apple-system,BlinkMacSystemFont,sans-serif;letter-spacing:.14em;text-transform:uppercase"><img src="web/logo.jpg" alt="" style="width:40px;height:40px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px #E7B868">Rabbi Steevax</a></div>
 <title>Rabbi Steevax · étude</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400;1,6..72,500&family=IBM+Plex+Mono:wght@400;500&family=Frank+Ruhl+Libre:wght@400;500&display=swap">
@@ -3879,6 +3887,19 @@ function upcoming(){
   const built = PARSHIYOT.map(r=>r[0]).filter(id=>REG[id] && PDATES && PDATES[id] && PDATES[id] <= lim);
   return built.length ? built[built.length-1] : Object.keys(REG)[0];
 }
+/* Portion painting (illus/<id>.jpg, the same as the app) above the masthead */
+function setHero(id){
+  let h = document.getElementById("illhero");
+  if(!h){ const m = document.querySelector("header.mast"); if(!m) return;
+    h = document.createElement("div"); h.id = "illhero"; h.className = "illhero";
+    h.innerHTML = '<img alt=""><span class="cap"></span>'; m.parentNode.insertBefore(h, m); }
+  const img = h.querySelector("img"), cap = h.querySelector(".cap");
+  img.onerror = ()=>{ h.hidden = true; }; img.onload = ()=>{ h.hidden = false; };
+  img.src = "illus/" + id + ".jpg";
+  const r = (PARSHIYOT||[]).find(x=>x[0]===id); cap.textContent = r ? r[1] + " · " + r[2] : "";
+}
+{ const _lp = loadParasha; loadParasha = function(id){ const out = _lp.apply(this, arguments); try{ setHero(id); }catch(_){ } return out; }; }
+
 (async ()=>{
   try{
     const get = async p => { const r = await fetch(p, {cache:"no-cache"}); if(!r.ok) throw new Error(p+" "+r.status); return r.json(); };
