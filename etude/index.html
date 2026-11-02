@@ -31,9 +31,11 @@ html[lang=fr] .rsnav [data-l=en],html[lang=en] .rsnav [data-l=fr]{display:none}
 .rssub a{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:8px 16px;text-decoration:none;font:600 15px/1 -apple-system,BlinkMacSystemFont,sans-serif}
 .rssub a[aria-current=page]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 html[lang=fr] .rssub [data-l=en],html[lang=en] .rssub [data-l=fr]{display:none}
-.rssub[hidden]{display:none}.bar .lang{display:none}#aidebtn,#torahbtn,#podsbtn,#bibbtn{display:none!important}.wrap>.bar,#pform-slot{display:none!important}.rsnav{margin:0 calc(-1 * max(16px, env(safe-area-inset-left, 0px)))}
+.rssub[hidden]{display:none}.bar .lang{display:none}#aidebtn,#torahbtn,#podsbtn,#bibbtn,#progbtn,#profbtn{display:none!important}#pform-slot{display:none!important}.wrap>.bar{justify-content:flex-start;margin-top:14px}.wrap>.bar[hidden]{display:none}.wrap>.bar label{font-weight:600}body.rs-loading .wrap>.bar{visibility:hidden}.rsnav{margin:0 calc(-1 * max(16px, env(safe-area-inset-left, 0px)))}
 .illhero{position:relative;margin:18px 0 0;border-radius:18px;overflow:hidden;width:100%;height:clamp(220px,36vw,420px);background:var(--soft)}
-.illhero img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.02);transition:opacity .5s}
+.illhero img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.02);transition:opacity .5s;opacity:0}
+.illhero img.on{opacity:1}
+body.rs-loading .wrap>header.mast,body.rs-loading #pod,body.rs-loading #panel{visibility:hidden}
 .illhero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.45))}
 .illhero .cap{position:absolute;left:18px;bottom:14px;z-index:1;color:#fff;font:600 12px/1.2 "IBM Plex Mono",monospace;letter-spacing:.14em;text-transform:uppercase;text-shadow:0 1px 6px rgba(0,0,0,.5)}
 .illhero[hidden]{display:none}
@@ -3967,19 +3969,32 @@ function upcoming(){
   return built.length ? built[built.length-1] : Object.keys(REG)[0];
 }
 /* Portion painting (illus/<id>.jpg, the same as the app) above the masthead */
-function setHero(id){
+function heroFrame(){
   let h = document.getElementById("illhero");
   if(!h){ const m = document.querySelector("header.mast"); if(!m) return;
     h = document.createElement("div"); h.id = "illhero"; h.className = "illhero";
     h.innerHTML = '<img alt=""><span class="cap"></span>'; m.parentNode.insertBefore(h, m); }
+  return h;
+}
+function setHero(id){
+  const h = heroFrame(); if(!h) return;
   const img = h.querySelector("img"), cap = h.querySelector(".cap");
-  img.onerror = ()=>{ h.hidden = true; }; img.onload = ()=>{ h.hidden = false; };
-  img.src = "illus/" + id + ".jpg";
+  const src = "illus/" + id + ".jpg";
+  if(img.getAttribute("src") !== src){ img.classList.remove("on"); h.hidden = false;
+    img.onerror = ()=>{ h.hidden = true; }; img.onload = ()=>{ img.classList.add("on"); };
+    img.src = src; }
   const r = (PARSHIYOT||[]).find(x=>x[0]===id); cap.textContent = r ? r[1] + " · " + r[2] : "";
   const pc = document.querySelector(".pod-cv"); if(pc) pc.style.backgroundImage = "url(illus/" + id + ".jpg)";
 }
 { const _lp = loadParasha; loadParasha = function(id){ const out = _lp.apply(this, arguments); try{ setHero(id); }catch(_){ } return out; }; }
 
+/* Until the portion is ready: the painting's frame is shown at once and the page below stays hidden,
+   so the podcast block never appears before the hero and the title. */
+document.body.classList.add("rs-loading");
+const rsReady = ()=>document.body.classList.remove("rs-loading");
+setTimeout(rsReady, 6000);
+{ const h0 = location.hash.slice(1); const known = (PARSHIYOT||[]).some(r=>r[0]===h0);
+  try{ if(known) setHero(h0); else heroFrame(); }catch(_){ } }
 (async ()=>{
   try{
     const get = async p => { const r = await fetch(p, {cache:"no-cache"}); if(!r.ok) throw new Error(p+" "+r.status); return r.json(); };
@@ -3997,13 +4012,14 @@ function setHero(id){
     }));
     try{ podFromEpisodes(await get("web/episodes.json")); }catch(e){ console.warn("podcast list", e.message); }
   }catch(e){ console.warn("live content unavailable, embedded copy used:", e.message); }
-  { const h = location.hash.slice(1); loadParasha(REG[h] ? h : upcoming()); }
-  renderAll();
+  try{ { const h = location.hash.slice(1); loadParasha(REG[h] ? h : upcoming()); }
+  renderAll(); } finally { rsReady(); }
   // Same language as the page, and deep links from the top menu: #pods (Écouter), #torah (Torah)
   const navSync = ()=>{ document.documentElement.lang = S.lang; if(window.rsNavMark) rsNavMark();
     const v = (typeof tab !== "undefined" && tab) || location.hash.slice(1);       // the study page's current view
     const cur = (v === "pods" || location.hash.startsWith("#pods")) ? "listen" : (v === "bib" || v === "torah") ? "torah" : "study";
     const sub = document.getElementById("rssub"); if(sub) sub.hidden = cur !== "torah";
+    const bar = document.querySelector(".wrap>.bar"); if(bar) bar.hidden = cur !== "study";   // portion picker: study view only
     document.querySelectorAll("#rsnav nav a").forEach(a=>{ if(a.dataset.nav===cur) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); }); };
   document.addEventListener("click", e=>{ const b = e.target.closest("#rsnav .lng button");
     if(b){ const t = document.getElementById("lang-"+b.dataset.set); if(t) t.click(); }
