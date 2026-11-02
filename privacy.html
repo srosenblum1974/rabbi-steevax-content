@@ -21,13 +21,24 @@ footer{max-width:720px;margin:0 auto;padding:0 16px 40px;color:var(--ink2);font-
 .rsnav nav a svg{width:18px;height:18px;flex:none}
 .rsnav nav a:hover{background:var(--soft)}
 .rsnav nav a[aria-current=page]{background:var(--ink);color:var(--paper)}
+.rsnav .rsside{display:flex;gap:8px;align-items:center;flex:none}
+.rsnav .dishc{display:flex;align-items:center;gap:4px;text-decoration:none;color:var(--ink);font:600 14px -apple-system,BlinkMacSystemFont,sans-serif;border:1px solid var(--line);border-radius:999px;padding:5px 10px}
+.rsnav .gear{display:flex;color:var(--ink);padding:6px;border-radius:999px}.rsnav .gear svg{width:20px;height:20px}
+.rsnav .dishc[aria-current=page],.rsnav .gear[aria-current=page]{background:var(--ink);color:var(--paper)}
 .rsnav .lng{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;flex:none}
 .rsnav .lng button{border:0;background:transparent;color:var(--ink);padding:5px 11px;font:600 12px ui-monospace,Menlo,monospace;cursor:pointer}
 .rsnav .lng button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
 html[lang=fr] .rsnav [data-l=en],html[lang=en] .rsnav [data-l=fr]{display:none}
-@media (max-width:760px){.rsnav .logo span{display:none}.rsnav .logo img{width:72px;height:72px}.rsnav nav a{padding:7px 9px;font-size:13px}.rsnav nav a svg{display:none}.rsnav .in{gap:8px}}
+@media (max-width:760px){
+  .rsnav .in{flex-wrap:wrap;gap:6px 10px;padding:6px 12px}
+  .rsnav .logo span{display:none}.rsnav .logo img{width:72px;height:72px}
+  .rsnav .rsside{margin-left:auto}
+  .rsnav nav{order:3;flex:1 1 100%;flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;scrollbar-width:none;margin:0 -12px;padding:0 12px 4px}
+  .rsnav nav::-webkit-scrollbar{display:none}
+  .rsnav nav a{padding:7px 11px;font-size:14px;white-space:nowrap;flex:none}.rsnav nav a svg{width:16px;height:16px}
+}
 </style></head><body>
-<header class="rsnav" id="rsnav"><div class="in"><a class="logo" href="./" aria-label="Rabbi Steevax"><img src="web/logo.jpg" alt=""><span>Rabbi Steevax</span></a><nav><a href="./" data-nav="today"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><span data-l="fr">Aujourd’hui</span><span data-l="en">Today</span></a><a href="etude/" data-nav="study"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/><path d="M9 7h6M9 11h6"/></svg><span data-l="fr">Étude</span><span data-l="en">Study</span></a><a href="./#torah" data-nav="torah"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3v18M18 3v18"/><rect x="6" y="5" width="12" height="14" rx="1"/><path d="M9 9h6M9 12h6M9 15h4"/></svg><span data-l="fr">Torah</span><span data-l="en">Torah</span></a><a href="cachere/" data-nav="kosher"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 2v8a2 2 0 0 0 4 0V2M9 10v12M17 2c-2 2-3 5-3 8h3v12"/></svg><span data-l="fr">Cachère</span><span data-l="en">Kosher</span></a><a href="etude/#pods" data-nav="listen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1v-6h3zM3 19a2 2 0 0 0 2 2h1v-6H3z"/></svg><span data-l="fr">Écouter</span><span data-l="en">Listen</span></a><a href="./#app" data-nav="app"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg><span data-l="fr">L’app</span><span data-l="en">The app</span></a></nav><div class="lng"><button data-set="fr">FR</button><button data-set="en">EN</button></div></div></header>
+<header class="rsnav" id="rsnav"><div class="in"><a class="logo" href="./" aria-label="Rabbi Steevax"><img src="web/logo.jpg" alt=""><span>Rabbi Steevax</span></a><nav><a href="./" data-nav="today"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><span data-l="fr">Aujourd’hui</span><span data-l="en">Today</span></a><a href="etude/" data-nav="study"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/><path d="M9 7h6M9 11h6"/></svg><span data-l="fr">Étude</span><span data-l="en">Study</span></a><a href="./#torah" data-nav="torah"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3v18M18 3v18"/><rect x="6" y="5" width="12" height="14" rx="1"/><path d="M9 9h6M9 12h6M9 15h4"/></svg><span data-l="fr">Torah</span><span data-l="en">Torah</span></a><a href="cachere/" data-nav="kosher"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 2v8a2 2 0 0 0 4 0V2M9 10v12M17 2c-2 2-3 5-3 8h3v12"/></svg><span data-l="fr">Cachère</span><span data-l="en">Kosher</span></a><a href="etude/#pods" data-nav="listen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1v-6h3zM3 19a2 2 0 0 0 2 2h1v-6H3z"/></svg><span data-l="fr">Écouter</span><span data-l="en">Listen</span></a><a href="calendrier/" data-nav="calendar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span data-l="fr">Fêtes</span><span data-l="en">Holidays</span></a></nav><div class="rsside"><a class="dishc" href="table/" title="La table du Rav">🍽️ <span id="rsdish">0</span></a><a class="gear" href="reglages/" aria-label="Réglages"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></a><div class="lng"><button data-set="fr">FR</button><button data-set="en">EN</button></div></div></div></header>
 <main><section lang="fr"><h1>Politique de confidentialité</h1>
 <p><em>Rabbi Steevax · en vigueur le 1er novembre 2026</em></p>
 <p>Rabbi Steevax est une application gratuite d'étude de la Torah, publiée par Steve Rosenblum (développeur indépendant). Cette page explique simplement quelles données l'application utilise, et pourquoi.</p>
@@ -97,11 +108,125 @@ html[lang=fr] .rsnav [data-l=en],html[lang=en] .rsnav [data-l=fr]{display:none}
 <p>If this policy changes, the new version will be published on this page with its effective date.</p></section></main>
 <footer><a href="./">Rabbi Steevax</a><a href="privacy.html">Confidentialité · Privacy</a><a href="terms.html">Conditions · Terms</a><a href="mailto:s.rosenblum@me.com">s.rosenblum@me.com</a></footer>
 <script>
+(function(){
+var RS = window.RS = window.RS || {};
+var ls = { get: function(k, d){ try{ var v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); }catch(e){ return d; } },
+           set: function(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} } };
+RS.ls = ls;
+RS.settings = function(){ return Object.assign({skin: "auto", cuisine: "both"}, ls.get("rs-settings", {})); };
+RS.saveSettings = function(p){ var s = Object.assign(RS.settings(), p); ls.set("rs-settings", s); return s; };
+RS.lang = function(){ try{ return localStorage.getItem("rs-home-lang") || document.documentElement.lang || "fr"; }catch(e){ return "fr"; } };
+RS.T = function(o){ if(o == null) return ""; if(typeof o === "string") return o; var l = RS.lang(); return o[l] || o.fr || o.en || ""; };
+var day = function(d){ d = d || new Date(); return d.getFullYear() + "-" + String(d.getMonth()+1).padStart(2,"0") + "-" + String(d.getDate()).padStart(2,"0"); };
+RS.day = day;
+var shift = function(s, n){ var d = new Date(s + "T12:00:00"); d.setDate(d.getDate() + n); return day(d); };
+var J = {};
+RS.json = function(p){ if(!J[p]) J[p] = fetch(p, {cache:"no-cache"}).then(function(r){ return r.json(); }); return J[p]; };
+
+/* ---- holiday skins (same rules as the app's ThemeStore.match) ---- */
+RS.match = function(themes, cal, date){
+  var today = day(date), hs = (cal && cal.holidays) || [];
+  for(var i=0;i<themes.skins.length;i++){ var s = themes.skins[i]; if(!s.holiday) continue;
+    for(var j=0;j<hs.length;j++){ var h = hs[j]; if(h.id !== s.holiday) continue;
+      if(today >= shift(h.start, s.from == null ? -1 : s.from) && today <= shift(h.end, s.to == null ? 0 : s.to)) return {skin:s, holiday:h}; } }
+  for(var k=0;k<themes.skins.length;k++){ var t = themes.skins[k]; if(t.dates && today >= t.dates[0] && today <= t.dates[1]) return {skin:t}; }
+  var wd = (date || new Date()).getDay() + 1;
+  for(var m=0;m<themes.skins.length;m++){ var w = themes.skins[m]; if(w.weekdays && w.weekdays.indexOf(wd) >= 0) return {skin:w}; }
+  return null;
+};
+RS.applySkin = function(skin, opts){
+  opts = opts || {};
+  var old = document.getElementById("rs-skin"); if(old) old.remove();
+  var ob = document.getElementById("rs-greet"); if(ob) ob.remove();
+  document.querySelectorAll(".rs-fx").forEach(function(e){ e.remove(); });
+  if(!skin) return;
+  var p = skin.palette || {}, dark = matchMedia("(prefers-color-scheme: dark)").matches;
+  var v = dark ? {paper:p.paperDark, card:p.cardDark, goldtx:p.accentTextDark, soft:p.accentSoftDark, tekhelet:p.accentTextDark}
+               : {paper:p.paper, card:p.card, goldtx:p.accentText, soft:p.accentSoft, tekhelet:p.accentText, sand:p.accentText};
+  var css = ":root:root{" + Object.keys(v).filter(function(k){ return v[k]; }).map(function(k){ return "--" + k + ":" + v[k]; }).join(";")
+          + (p.accent ? ";--gold:" + p.accent : "") + "}";
+  if(skin.font && skin.font.file) css += "@font-face{font-family:RSSkin;src:url(" + skin.font.file + ")}h1{font-family:RSSkin,inherit!important;font-weight:400!important}";
+  var st = document.createElement("style"); st.id = "rs-skin"; st.textContent = css; document.head.appendChild(st);
+  if(opts.banner !== false && skin.greeting){
+    var g = skin.palette && skin.palette.gradient ? skin.palette.gradient : ["#E7B868","#C08A3E"];
+    var b = document.createElement("div"); b.id = "rs-greet";
+    b.style.cssText = "display:flex;align-items:center;gap:14px;justify-content:center;padding:8px 16px;color:" + (p.gradientText || "#1A1306")
+      + ";background:linear-gradient(90deg," + g.join(",") + ");font:600 15px/1.3 -apple-system,BlinkMacSystemFont,sans-serif";
+    b.innerHTML = (skin.hero ? '<img src="' + skin.hero + '" alt="" style="height:38px;width:auto">' : "") + "<span>" + RS.T(skin.greeting)
+      + (opts.holiday ? " · " + RS.T(opts.holiday.name) : "") + "</span>"
+      + '<a href="calendrier/" style="color:inherit;opacity:.8;font-weight:500">' + (RS.lang()==="fr" ? "Calendrier →" : "Calendar →") + "</a>";
+    var nav = document.getElementById("rsnav"); if(nav && nav.parentNode) nav.parentNode.insertBefore(b, nav.nextSibling);
+  }
+  var fx = skin.particles;
+  if(fx && fx.glyphs && !matchMedia("(prefers-reduced-motion: reduce)").matches && !sessionStorage.getItem("rs-fx-" + skin.id)){
+    try{ sessionStorage.setItem("rs-fx-" + skin.id, "1"); }catch(e){}
+    var n = Math.min(fx.count || 20, 30), dur = (fx.duration || 7) * 1000;
+    var kf = document.createElement("style"); kf.className = "rs-fx";
+    kf.textContent = "@keyframes rsfall{from{transform:translateY(-10vh) rotate(0)}to{transform:translateY(110vh) rotate(360deg)}}"
+      + "@keyframes rsrise{from{transform:translateY(110vh)}to{transform:translateY(-10vh)}}";
+    document.head.appendChild(kf);
+    for(var i=0;i<n;i++){ var e = document.createElement("span"); e.className = "rs-fx"; e.textContent = fx.glyphs[i % fx.glyphs.length];
+      e.style.cssText = "position:fixed;z-index:60;pointer-events:none;top:0;left:" + (Math.random()*100) + "vw;font-size:" + (18 + Math.random()*18)
+        + "px;animation:" + (fx.direction === "rise" ? "rsrise" : "rsfall") + " " + (dur*(.7+Math.random()*.6)) + "ms linear " + (Math.random()*dur*.6) + "ms forwards";
+      document.body.appendChild(e); }
+    setTimeout(function(){ document.querySelectorAll(".rs-fx").forEach(function(x){ if(x.tagName === "SPAN") x.remove(); }); }, dur * 2.2);
+  }
+};
+RS.skinNow = function(){
+  var s = RS.settings();
+  if(s.skin === "off") return;
+  Promise.all([RS.json("_themes.json"), RS.json("_calendar.json")]).then(function(r){
+    var m = s.skin && s.skin !== "auto" ? {skin: r[0].skins.find(function(x){ return x.id === s.skin; })} : RS.match(r[0], r[1], new Date());
+    if(m && m.skin) RS.applySkin(m.skin, {holiday: m.holiday});
+  }).catch(function(){});
+};
+
+/* ---- La table du Rav: dishes earned on this browser ---- */
+RS.BADGES = [{"id": "first", "step": {"fr": "Lis ton premier passage", "en": "Read your first passage"}, "seph": {"e": "🍵", "fr": "Thé à la menthe", "en": "Mint tea"}, "ash": {"e": "🥯", "fr": "Bagel", "en": "Bagel"}, "quip": {"fr": "Bienvenue. Le reste de la famille arrive en retard, comme d'habitude.", "en": "Welcome. The rest of the family is running late, as usual."}}, {"id": "streak3", "step": {"fr": "Étudie 3 jours d'affilée", "en": "Study 3 days in a row"}, "seph": {"e": "🍳", "fr": "Chakchouka", "en": "Shakshuka"}, "ash": {"e": "🥔", "fr": "Latkes", "en": "Latkes"}, "quip": {"fr": "Trois jours ! On peut commencer à parler de mariage ?", "en": "Three days! Can we start talking about marriage?"}}, {"id": "streak7", "step": {"fr": "Étudie 7 jours d'affilée (Chabbat et fêtes ne cassent pas la série)", "en": "Study 7 days in a row (Shabbat and holidays don't break it)"}, "seph": {"e": "🍲", "fr": "Dafina", "en": "Dafina"}, "ash": {"e": "🫕", "fr": "Tcholent", "en": "Cholent"}, "quip": {"fr": "Une semaine qui a mijoté toute la nuit.", "en": "A week that simmered all night."}}, {"id": "parasha", "step": {"fr": "Lis une paracha en entier", "en": "Read a whole portion"}, "seph": {"e": "🥘", "fr": "Couscous du vendredi", "en": "Friday couscous"}, "ash": {"e": "🐟", "fr": "Carpe farcie", "en": "Gefilte fish"}, "quip": {"fr": "Personne ne sort de table avant le dessert.", "en": "Nobody leaves the table before dessert."}}, {"id": "quiz", "step": {"fr": "Réussis un quiz sans faute", "en": "Ace a quiz with no mistakes"}, "seph": {"e": "🍯", "fr": "Makrout au miel", "en": "Honey makrout"}, "ash": {"e": "🥐", "fr": "Rugelach", "en": "Rugelach"}, "quip": {"fr": "Même Rachi aurait demandé ta copie.", "en": "Even Rashi would have asked to see your answers."}}, {"id": "recover", "step": {"fr": "Rattrape toutes tes erreurs d'un quiz", "en": "Fix every mistake from a quiz"}, "seph": {"e": "🥟", "fr": "Bourekas", "en": "Bourekas"}, "ash": {"e": "🥟", "fr": "Knishes", "en": "Knishes"}, "quip": {"fr": "Tombé, relevé. Comme la pâte feuilletée.", "en": "Down, then up again. Like puff pastry."}}, {"id": "ask10", "step": {"fr": "Pose 10 questions au Rav (dans l'app)", "en": "Ask the Rav 10 questions (in the app)"}, "seph": {"e": "🌶️", "fr": "Harissa", "en": "Harissa"}, "ash": {"e": "🫚", "fr": "Raifort (chrein)", "en": "Horseradish (chrain)"}, "quip": {"fr": "Tu poses des questions qui piquent. J'aime ça.", "en": "Your questions sting. I like that."}}, {"id": "podcast", "step": {"fr": "Écoute un podcast jusqu'au bout", "en": "Listen to a podcast to the end"}, "seph": {"e": "🍞", "fr": "Mouna", "en": "Mouna"}, "ash": {"e": "🍫", "fr": "Babka", "en": "Babka"}, "quip": {"fr": "35 minutes sans zapper. Ta mère n'y croit pas.", "en": "35 minutes without skipping. Your mother can't believe it."}}, {"id": "challenge", "step": {"fr": "Relève un défi de la semaine (Enseignements)", "en": "Take on a weekly challenge (Teachings)"}, "seph": {"e": "🥮", "fr": "Briouates", "en": "Briouats"}, "ash": {"e": "🔺", "fr": "Oreilles d'Haman", "en": "Hamantaschen"}, "quip": {"fr": "Tu l'as vraiment fait, ou tu as juste coché ?", "en": "Did you really do it, or just tick the box?"}}, {"id": "debates", "step": {"fr": "Dévoile 5 débats jusqu'à la réponse (dans l'app)", "en": "Reveal 5 debates down to the reply (in the app)"}, "seph": {"e": "🍪", "fr": "Boulou", "en": "Boulou"}, "ash": {"e": "🍮", "fr": "Kugel", "en": "Kugel"}, "quip": {"fr": "Deux Juifs, trois avis. Toi, tu les as écoutés tous les trois.", "en": "Two Jews, three opinions. You listened to all three."}}, {"id": "holiday", "step": {"fr": "Étudie pendant une fête", "en": "Study during a holiday"}, "seph": {"e": "🍩", "fr": "Sfenj", "en": "Sfenj"}, "ash": {"e": "🍩", "fr": "Soufganiya", "en": "Sufganiyah"}, "quip": {"fr": "Étudier un jour de fête : bonus sucré.", "en": "Studying on a holiday: sweet bonus."}}, {"id": "night", "step": {"fr": "Étudie après 23 h", "en": "Study after 11 pm"}, "seph": {"e": "☕", "fr": "Café turc", "en": "Turkish coffee"}, "ash": {"e": "🫖", "fr": "Thé du samovar", "en": "Samovar tea"}, "quip": {"fr": "Le Talmud approuve. Ton médecin, moins.", "en": "The Talmud approves. Your doctor, less so."}}, {"id": "book", "step": {"fr": "Termine un livre entier de la Torah", "en": "Finish a whole book of the Torah"}, "seph": {"e": "🍖", "fr": "Méchoui", "en": "Mechoui"}, "ash": {"e": "🥩", "fr": "Brisket", "en": "Brisket"}, "quip": {"fr": "Un livre entier ! On sort le grand plat.", "en": "A whole book! Bring out the big platter."}}, {"id": "streak30", "step": {"fr": "Étudie 30 jours d'affilée", "en": "Study 30 days in a row"}, "seph": {"e": "🍽️", "fr": "La table de fête complète", "en": "The full holiday table"}, "ash": null, "quip": {"fr": "Mazal tov. Tu es officiellement de la famille.", "en": "Mazal tov. You're officially family."}}];
+RS.earned = function(){ return ls.get("rs-web-badges", {}); };
+RS.days = function(){ return ls.get("rs-web-days", []); };
+RS.earn = function(id){
+  var e = RS.earned(); if(e[id]) return false;
+  e[id] = day(); ls.set("rs-web-badges", e);
+  var b = RS.BADGES.find(function(x){ return x.id === id; }); if(b) RS.toast(b);
+  if(window.rsNavBadge) rsNavBadge();
+  return true;
+};
+RS.dishes = function(b){ var c = RS.settings().cuisine; if(!b.ash) return [b.seph]; return c === "seph" ? [b.seph] : c === "ash" ? [b.ash] : [b.seph, b.ash]; };
+RS.count = function(){ var e = RS.earned(), got = 0, tot = 0; RS.BADGES.forEach(function(b){ var n = RS.dishes(b).length; tot += n; if(e[b.id]) got += n; }); return {got:got, tot:tot}; };
+RS.toast = function(b){
+  var t = document.createElement("div"); var d = RS.dishes(b);
+  t.style.cssText = "position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:80;background:#1A1306;color:#F8F3E9;border-radius:18px;padding:14px 20px;box-shadow:0 12px 40px rgba(0,0,0,.35);display:flex;gap:14px;align-items:center;max-width:min(560px,92vw);font:15px/1.35 -apple-system,BlinkMacSystemFont,sans-serif";
+  t.innerHTML = '<span style="font-size:34px">' + d.map(function(x){ return x.e; }).join(" ") + '</span><span><b style="color:#E7B868">'
+    + (RS.lang()==="fr" ? "Nouveau plat sur la table du Rav" : "New dish on the Rav's table") + "</b><br>" + d.map(function(x){ return RS.T(x); }).join(" · ")
+    + '<br><i style="opacity:.8">« ' + RS.T(b.quip) + ' »</i></span>';
+  document.body.appendChild(t); setTimeout(function(){ t.style.transition = "opacity .6s"; t.style.opacity = "0"; }, 5200); setTimeout(function(){ t.remove(); }, 6000);
+};
+/* A study activity happened: log the day, then everything computable from the day log and the calendar. */
+RS.studied = function(){
+  var d = day(), ds = RS.days(); if(ds.indexOf(d) < 0){ ds.push(d); ds.sort(); ls.set("rs-web-days", ds.slice(-400)); }
+  var h = new Date().getHours(); if(h >= 23 || h < 4) RS.earn("night");
+  RS.json("_calendar.json").then(function(cal){
+    var hs = cal.holidays || [], yt = cal.yomtov || [];
+    if(hs.some(function(x){ return (x.kind === "festive" || x.kind === "minor") && d >= x.start && d <= x.end; })) RS.earn("holiday");
+    var set = {}; ds.forEach(function(x){ set[x] = 1; });
+    var n = 0, cur = new Date(); for(var i=0;i<400;i++){ var k = day(cur);
+      if(set[k]) n++; else if(!(cur.getDay() === 6 || yt.indexOf(k) >= 0) && i > 0) break; else if(i === 0 && !set[k]) break;
+      cur.setDate(cur.getDate() - 1); }
+    if(n >= 3) RS.earn("streak3"); if(n >= 7) RS.earn("streak7"); if(n >= 30) RS.earn("streak30");
+    RS.streak = n;
+  }).catch(function(){});
+};
+RS.skinNow();
+})();
+
 (function(){ var n=document.getElementById('rsnav'); if(!n) return;
   addEventListener('scroll', function(){ n.classList.toggle('small', scrollY > 60); }, {passive:true});
   function mark(){ var l = document.documentElement.lang || 'fr';
     n.querySelectorAll('.lng button').forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.set===l); }); }
   window.rsNavMark = mark; mark();
+  window.rsNavBadge = function(){ var e = document.getElementById('rsdish'); if(e && window.RS && RS.count){ var c = RS.count(); e.textContent = c.got + '/' + c.tot; } };
+  rsNavBadge();
 })();
 </script><script>
 function show(l){document.querySelectorAll('section[lang]').forEach(s=>s.classList.toggle('show',s.lang===l));
