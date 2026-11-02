@@ -284,6 +284,20 @@ RS.skinNow();
   rsNavBadge();
 })();
 
+(function(){
+  if(!/(^|\.)rabbisteevax\.com$/.test(location.hostname)) return;   // not the local previews
+  window.goatcounter = {no_onload: true};
+  var last = "";
+  function hit(){ if(!window.goatcounter || !window.goatcounter.count) return;
+    var h = location.hash.replace(/^#/, "").replace(/^pods-.*/, "pods"), path = location.pathname + h;
+    if(path === last) return; last = path;
+    window.goatcounter.count({path: path, title: document.title}); }
+  var s = document.createElement("script"); s.async = true; s.src = "https://gc.zgo.at/count.js";
+  s.setAttribute("data-goatcounter", "https://rabbisteevax.goatcounter.com/count");
+  s.onload = hit; document.head.appendChild(s);
+  addEventListener("hashchange", function(){ setTimeout(hit, 0); });
+})();
+
 (function(){ var l = RS.lang(); document.documentElement.lang = l; if(window.rsNavMark) rsNavMark(); })();
 
 const $ = s => document.querySelector(s), L = (fr, en) => RS.lang() === "fr" ? fr : en;
