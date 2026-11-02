@@ -294,18 +294,25 @@ RS.icloud.auth = function(){
 RS.icloud.sync = function(){
   if(!RS.icloud.container) return Promise.resolve(null);
   var db = RS.icloud.container.privateCloudDatabase, local = toKeys();
+  var fail = function(r, what){ var e = r && r.errors && r.errors[0];
+    if(e && !(what === "fetch" && e.ckErrorCode === "NOT_FOUND")) throw new Error(what + " · " + (e.ckErrorCode || "") + " " + (e.reason || e.serverErrorCode || "")); };
   RS.icloud.status = "syncing"; document.dispatchEvent(new Event("rs-icloud"));
   return db.fetchRecords(["progress"]).then(function(r){
+    if(r && r.hasErrors) fail(r, "fetch");
     var rec = r.records && r.records[0], remote = {};
     if(rec && rec.fields && rec.fields.payload){ try{ remote = JSON.parse(rec.fields.payload.value); }catch(e){} }
     var out = {}; Object.keys(remote).concat(Object.keys(local)).forEach(function(k){ out[k] = mergeVal(k, remote[k], local[k]); });
     fromKeys(out);
-    var save = {recordType: "RSProgress", recordName: "progress", fields: {payload: {value: JSON.stringify(out)}, updated: {value: Date.now()}}};
+    RS.icloud.info = {local: Object.keys(local).length, remote: Object.keys(remote).length, merged: Object.keys(out).length};
+    var json = JSON.stringify(out);
+    if(rec && rec.fields && rec.fields.payload && rec.fields.payload.value === json) return null;
+    var save = {recordType: "RSProgress", recordName: "progress", fields: {payload: {value: json}, updated: {value: Date.now()}}};
     if(rec && rec.recordChangeTag) save.recordChangeTag = rec.recordChangeTag;
-    return JSON.stringify(out) === (rec && rec.fields && rec.fields.payload && rec.fields.payload.value) ? r : db.saveRecords([save]);
-  }).then(function(){ RS.icloud.status = "on"; RS.icloud.last = new Date(); ls.set("rs-icloud-last", Date.now());
+    return db.saveRecords([save]).then(function(w){ if(w && w.hasErrors) fail(w, "save"); return w; });
+  }).then(function(){ RS.icloud.status = "on"; RS.icloud.error = null; ls.set("rs-icloud-last", Date.now());
     document.dispatchEvent(new Event("rs-icloud")); if(window.rsNavBadge) rsNavBadge(); return true; })
-    .catch(function(e){ RS.icloud.status = "error"; RS.icloud.error = (e && (e.reason || e.message)) || String(e); document.dispatchEvent(new Event("rs-icloud")); return false; });
+    .catch(function(e){ RS.icloud.status = "error"; RS.icloud.error = (e && (e.ckErrorCode || "") + " " + (e.reason || e.message || "")) || String(e);
+      try{ console.warn("iCloud sync", e); }catch(_){} document.dispatchEvent(new Event("rs-icloud")); return false; });
 };
 /* Linked before: sign in silently and sync on every page; then again after each study activity. */
 if(ls.get("rs-icloud", 0) && CK.apiTokenAuth && CK.apiTokenAuth.apiToken){
