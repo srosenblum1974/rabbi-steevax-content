@@ -1,4 +1,4 @@
-<!doctype html><html><head><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap"><base href="../"><link rel="icon" href="web/logo.jpg"><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}
+<!doctype html><html><head><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap"><base href="../"><link rel="icon" href="web/logo.jpg"><meta name="apple-itunes-app" content="app-id=6829267081"><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}
 .illhero{position:relative;margin:18px 0 0;border-radius:18px;overflow:hidden;width:100%;height:clamp(220px,36vw,420px);background:var(--soft)}
 .illhero img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.02);transition:opacity .5s}
 .illhero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.45))}
@@ -6,7 +6,7 @@
 .illhero[hidden]{display:none}
 @media (max-width:640px){.illhero{height:56vw;border-radius:14px;margin-top:12px}}
 body.torahmode .illhero{display:none}
-</style></head><body><div style="max-width:1040px;margin:0 auto"><a href="./" aria-label="Accueil" style="display:inline-flex;align-items:center;gap:10px;margin:14px 0 0;text-decoration:none;color:#A8711F;font:700 13px/1 -apple-system,BlinkMacSystemFont,sans-serif;letter-spacing:.14em;text-transform:uppercase"><img src="web/logo.jpg" alt="" style="width:40px;height:40px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px #E7B868">Rabbi Steevax</a></div>
+</style></head><body><div style="max-width:1040px;margin:0 auto"><a href="./" aria-label="Accueil" style="display:inline-flex;align-items:center;gap:10px;margin:14px 0 0;text-decoration:none;color:#A8711F;font:700 13px/1 -apple-system,BlinkMacSystemFont,sans-serif;letter-spacing:.14em;text-transform:uppercase"><img src="web/logo.jpg" alt="" style="width:40px;height:40px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px #E7B868">Rabbi Steevax</a><a href="./#app" style="float:right;margin-top:24px;font:600 14px -apple-system,BlinkMacSystemFont,sans-serif;color:#8A5A12;text-decoration:none">📱 Suivre sa progression dans l’app</a></div>
 <title>Rabbi Steevax · étude</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400;1,6..72,500&family=IBM+Plex+Mono:wght@400;500&family=Frank+Ruhl+Libre:wght@400;500&display=swap">
@@ -609,6 +609,19 @@ body.torahmode .mast,body.torahmode #tline,body.torahmode #listen,body.torahmode
 .pod,.pl-hero{background:radial-gradient(120% 140% at 0% 0%,#5A2C7A 0%,#24102F 55%,#14081B 100%);box-shadow:0 10px 30px -12px rgba(36,16,47,.6)}
 .pod-bar>b{background:linear-gradient(90deg,var(--pg),#F6DDA9)}
 .pl-ep.cur{box-shadow:0 0 0 2px var(--gold) inset}
+/* Podcast page: the paintings, as in the app's Listen tab */
+.pl-hero{background-size:cover;background-position:center;min-height:300px;display:flex;flex-direction:column;justify-content:flex-end}
+.pl-ep{grid-template-columns:220px 1fr;border-radius:16px}
+.pl-cv{width:220px;height:auto;aspect-ratio:16/10;background-size:cover;background-position:center;position:relative;overflow:hidden;color:#fff;justify-content:space-between}
+.pl-cv::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,8,27,.15),rgba(20,8,27,.75))}
+.pl-cv small,.pl-cv b{position:relative;z-index:1;text-shadow:0 1px 6px rgba(0,0,0,.6)}
+.pl-cv b{color:#F3D9A4}
+.pod-cv{background-size:cover;background-position:center;color:#fff;overflow:hidden}
+.pod-cv::before{content:"";position:absolute;inset:0;border-radius:inherit;background:linear-gradient(180deg,rgba(20,8,27,.1),rgba(20,8,27,.78))}
+.pod-cv>*{position:relative;z-index:1;text-shadow:0 1px 6px rgba(0,0,0,.6)}
+.pod-cv b{color:#F3D9A4}.pod-cv .pod-eq i{background:#F3D9A4}
+.pl-plat a{font-size:12.5px;border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:5px 12px;color:#fff;text-decoration:none}
+@media (max-width:640px){.pl-ep{grid-template-columns:1fr}.pl-cv{width:100%;height:auto;aspect-ratio:16/9}}
 </style>
 
 <div class="wrap">
@@ -3916,6 +3929,7 @@ function setHero(id){
   img.onerror = ()=>{ h.hidden = true; }; img.onload = ()=>{ h.hidden = false; };
   img.src = "illus/" + id + ".jpg";
   const r = (PARSHIYOT||[]).find(x=>x[0]===id); cap.textContent = r ? r[1] + " · " + r[2] : "";
+  const pc = document.querySelector(".pod-cv"); if(pc) pc.style.backgroundImage = "url(illus/" + id + ".jpg)";
 }
 { const _lp = loadParasha; loadParasha = function(id){ const out = _lp.apply(this, arguments); try{ setHero(id); }catch(_){ } return out; }; }
 
@@ -4032,15 +4046,16 @@ function viewPods(){
   const eps = Object.keys(PC).filter(id=>REG[id]).map(id=>({id, r:REG[id], P:podGet(id)})).sort((a,b)=>a.r.num-b.r.num);
   const total = eps.reduce((t,e)=>t+e.P.min,0);
   const card = e => { const nm = T(e.r.name); return `<article class="pl-ep ${e.id===PARASHA?"cur":""}" id="pl-${e.id}">
-    <div class="pl-cv" aria-hidden="true"><small>${fr?"PARACHA":"PORTION"} ${e.r.num}</small><b>${e.r.he}</b></div>
+    <div class="pl-cv" aria-hidden="true" style="background-image:url(illus/${e.id}.jpg)"><small>${fr?"PARACHA":"PORTION"} ${e.r.num}</small><b>${e.r.he}</b></div>
     <div><h4>${esc(nm)}</h4><div class="pl-meta">${T(e.r.refLabel)} · ${e.P.min} min · ${e.P.ch.length} ${fr?"chapitres":"chapters"} · Léa & David</div>
     <p>${esc(T(e.P.d))}</p>
     <audio class="pl-a" controls preload="none" src="${e.P.src}"></audio>
     <div class="pl-ch">${e.P.ch.map(([t,l])=>`<button type="button" data-plt="${t}" data-plid="${e.id}"><i>${podFmt(t)}</i>${esc(T(l))}</button>`).join("")}</div>
     <div class="pl-ch"><button type="button" data-openp="${e.id}">${fr?"Ouvrir l'étude de":"Open the study of"} ${esc(nm)} →</button></div></div></article>`; };
-  return `<section class="pl-hero"><div class="pod-ey">Rabbi Stevax · Podcast</div><h2>${fr?"La Torah en deux voix":"The Torah in two voices"}</h2>
+  const lastEp = eps.some(e=>e.id===PARASHA) ? PARASHA : (eps.length ? eps[eps.length-1].id : PARASHA);
+  return `<section class="pl-hero" style="background-image:linear-gradient(100deg,rgba(20,8,27,.9) 0%,rgba(36,16,47,.55) 55%,rgba(36,16,47,.15) 100%),url(illus/${lastEp}.jpg)"><div class="pod-ey">Rabbi Stevax · Podcast</div><h2>${fr?"La Torah en deux voix":"The Torah in two voices"}</h2>
     <p>${fr?`Chaque semaine, Léa et David lisent la paracha verset par verset : géographie, sages et désaccords, contradictions, six lectures et une application concrète. ${eps.length} épisodes · ${(Math.round(total/6)/10).toLocaleString("fr-FR")} h d'écoute.`:`Each week, Léa and David read the portion verse by verse: geography, the sages and their disagreements, contradictions, six readings and a practical takeaway. ${eps.length} episodes · ${Math.round(total/6)/10} h of listening. In French, with English episodes being added.`}</p>
-    <div class="pl-plat"><a class="pl-sp" href="https://open.spotify.com/show/5vvSsCRthgkb5BTZZMLbnF" target="_blank" rel="noopener">▶ ${fr?"Écouter sur Spotify":"Listen on Spotify"}</a><span>Apple Podcasts<i>${fr?"bientôt":"soon"}</i></span><span>Deezer<i>${fr?"bientôt":"soon"}</i></span><span>Amazon Music<i>${fr?"bientôt":"soon"}</i></span></div></section>`
+    <div class="pl-plat"><a class="pl-sp" href="${fr?"https://open.spotify.com/show/5vvSsCRthgkb5BTZZMLbnF":"https://open.spotify.com/show/7dpVbYSXo3oBo10HAawNFy"}" target="_blank" rel="noopener">▶ Spotify</a><a href="${fr?"https://podcasts.apple.com/us/podcast/rabbi-steevax-la-torah-en-deux-voix/id6829199363":"https://podcasts.apple.com/us/podcast/rabbi-steevax-the-torah-in-two-voices/id6829401802"}" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://podcast.rosenblum.ai/${fr?"fr":"en"}/feed.xml" target="_blank" rel="noopener">RSS</a></div></section>`
   + BOOKS.map(([b,n,he])=>{ const list = eps.filter(e=>e.r.book===b); return `<div class="pl-book"><h3>${T(n)}</h3><small>${list.length} ${fr?"épisode"+(list.length>1?"s":""):"episode"+(list.length>1?"s":"")}</small><span class="he">${he}</span></div>` + (list.length ? list.map(card).join("") : `<div class="pl-soon">${fr?"Épisodes à venir, au fil du calendrier.":"Episodes coming, following the calendar."}</div>`); }).join("");
 }
 document.addEventListener("click",e=>{ const b=e.target.closest("[data-plt]"); if(!b) return; const a=document.querySelector(`#pl-${b.dataset.plid} audio`); if(!a) return; document.querySelectorAll("audio.pl-a").forEach(x=>{ if(x!==a) x.pause(); }); a.currentTime=+b.dataset.plt; a.play().catch(()=>{}); });
