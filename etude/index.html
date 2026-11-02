@@ -25,7 +25,7 @@ html[lang=fr] .rsnav [data-l=en],html[lang=en] .rsnav [data-l=fr]{display:none}
   .rsnav nav::-webkit-scrollbar{display:none}
   .rsnav nav a{padding:7px 11px;font-size:14px;white-space:nowrap;flex:none}.rsnav nav a svg{width:16px;height:16px}
 }
-.bar .lang{display:none}.rsnav{margin:0 calc(-1 * max(16px, env(safe-area-inset-left, 0px)))}
+.bar .lang{display:none}#aidebtn{display:none!important}.rsnav{margin:0 calc(-1 * max(16px, env(safe-area-inset-left, 0px)))}
 .illhero{position:relative;margin:18px 0 0;border-radius:18px;overflow:hidden;width:100%;height:clamp(220px,36vw,420px);background:var(--soft)}
 .illhero img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.02);transition:opacity .5s}
 .illhero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.45))}
@@ -3999,6 +3999,8 @@ function setHero(id){
   document.addEventListener("click", e=>{ const b = e.target.closest("#rsnav .lng button");
     if(b){ const t = document.getElementById("lang-"+b.dataset.set); if(t) t.click(); }
     setTimeout(navSync, 0); });
+  // « Mode d'emploi » explained the claude.ai artifact (sharing, Claude, notes): not shown on the site
+  if (location.hash === "#aide") { location.hash = ""; }
   // #pods opens the Podcasts view; #pods-<id> also scrolls to that episode
   const go = h=>{ if(h==="pods" || h.startsWith("pods-")){ const b=document.getElementById("podsbtn"); if(b) b.click();
     const id = h.slice(5); if(id) setTimeout(()=>{ const el = document.getElementById("pl-"+id); if(el) el.scrollIntoView({behavior:"smooth", block:"start"}); }, 250); } };
