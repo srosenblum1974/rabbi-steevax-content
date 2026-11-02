@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /reglages/
+Disallow: /table/
+
+Sitemap: https://rabbisteevax.com/sitemap.xml
