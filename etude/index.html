@@ -3939,7 +3939,8 @@ REG["lekh-lekha"] = buildLL(); REG["bereshit"] = BR; REG["noach"] = NO; REG["mik
 for (const k of ["replaceState", "pushState"]) { const f = history[k].bind(history);
   history[k] = (st, t, u) => f(st, t, (typeof u === "string" && u.startsWith("#")) ? location.pathname + location.search + u : u); }
 document.addEventListener("click", e => { const a = e.target.closest && e.target.closest('a[href^="#"]');
-  if (a && !e.defaultPrevented) { e.preventDefault(); location.hash = a.getAttribute("href"); } }, true);
+  if (a && !e.defaultPrevented) { e.preventDefault(); const h = a.getAttribute("href"), el = h.length > 1 && document.getElementById(h.slice(1));
+    if (el) el.scrollIntoView({behavior: "smooth", block: "start"}); else location.hash = h; } }, true);
 /* ================= LIVE CONTENT (GitHub Pages) =================
    Same files as the app: every portion in _manifest.json overrides the copy embedded above. */
 function srcFromRanges(r){
@@ -4000,7 +4001,8 @@ function setHero(id){
   renderAll();
   // Same language as the page, and deep links from the top menu: #pods (Écouter), #torah (Torah)
   const navSync = ()=>{ document.documentElement.lang = S.lang; if(window.rsNavMark) rsNavMark();
-    const cur = location.hash.startsWith("#pods") ? "listen" : (location.hash === "#bib" || location.hash === "#torah") ? "torah" : "study";
+    const v = (typeof tab !== "undefined" && tab) || location.hash.slice(1);       // the study page's current view
+    const cur = (v === "pods" || location.hash.startsWith("#pods")) ? "listen" : (v === "bib" || v === "torah") ? "torah" : "study";
     const sub = document.getElementById("rssub"); if(sub) sub.hidden = cur !== "torah";
     document.querySelectorAll("#rsnav nav a").forEach(a=>{ if(a.dataset.nav===cur) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); }); };
   document.addEventListener("click", e=>{ const b = e.target.closest("#rsnav .lng button");
