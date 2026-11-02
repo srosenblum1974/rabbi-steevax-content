@@ -155,7 +155,7 @@ RS.studied = function(){
    Record RSProgress/progress in the private database: payload = JSON of the app's keys (prog.read.<id>,
    prog.steps.<id>, prog.days, badges.*). Merge rules as in the app: sets → union, dishes → earliest date,
    counters → max. Nothing leaves the visitor's own iCloud. */
-var CK = {"containerIdentifier": "iCloud.com.rosenblum.rabbisteevax", "apiTokenAuth": {"apiToken": "a0a5e3e7dd5a9220946871f9501295dd059c3c507cd4740c3823579cae231e90", "persist": true, "signInButton": {"id": "ck-sign-in", "theme": "black"}, "signOutButton": {"id": "ck-sign-out", "theme": "black"}}, "environment": "development"};
+var CK = {"containerIdentifier": "iCloud.com.rosenblum.rabbisteevax", "apiTokenAuth": {"apiToken": "24efc853e422268b15ccc2f78f28eac432577062b53768e21ccc9b4cd7d8fbf0", "persist": true, "signInButton": {"id": "ck-sign-in", "theme": "black"}, "signOutButton": {"id": "ck-sign-out", "theme": "black"}}, "environment": "production"};
 var WEBKEY = "atelier-torah-v1";
 function webState(){ try{ var S = JSON.parse(localStorage.getItem(WEBKEY)); if(S && S.profiles && S.profiles[S.active]) return S; }catch(e){}
   return {lang: RS.lang(), active: "moi", profiles: {moi: {name: "", lang: RS.lang(), done: {}, notes: {}, by: {}}}}; }
