@@ -298,6 +298,59 @@ RS.skinNow();
   addEventListener("hashchange", function(){ setTimeout(hit, 0); });
 })();
 
+(function(){
+  var K = "rs-onboarded"; try{ if(localStorage.getItem(K)) return; }catch(e){ return; }
+  if(location.pathname.indexOf("/reglages") >= 0) return;
+  var root = /\/(etude|torah|cachere|calendrier|table|reglages|app)\//.test(location.pathname) ? "../" : "";
+  var fr = function(){ return (document.documentElement.lang || "fr") !== "en"; };
+  var T = function(a, b){ return fr() ? a : b; };
+  var css = document.createElement("style");
+  css.textContent = ".rsob-bar{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:60;display:flex;align-items:center;gap:12px;background:#1a1306;color:#F3D9A4;border-radius:999px;padding:8px 8px 8px 8px;box-shadow:0 12px 34px rgba(0,0,0,.3);font:600 15px system-ui;max-width:calc(100% - 24px)}"
+   + ".rsob-bar img{width:38px;height:38px;border-radius:50%;object-fit:cover}.rsob-bar button{border:0;border-radius:999px;font:700 14px system-ui;cursor:pointer;padding:9px 16px}"
+   + ".rsob-go{background:#E7B868;color:#1a1306}.rsob-x{background:transparent;color:#cdbf9f;padding:9px 10px!important}"
+   + "dialog.rsob{border:0;border-radius:24px;padding:0;max-width:560px;width:calc(100% - 24px);background:#f6f0e4;color:#1a1306}dialog.rsob::backdrop{background:rgba(10,6,2,.65)}"
+   + ".rsob .pg{padding:28px 26px 10px}.rsob h2{font:600 30px/1.15 'Source Serif 4',Georgia,serif;margin:6px 0 10px}.rsob .k{font:700 12px 'IBM Plex Mono',monospace;letter-spacing:.12em;text-transform:uppercase;color:#8a5a12}"
+   + ".rsob p{color:#5b4c33;font-size:16px;line-height:1.5;margin:0 0 12px}.rsob .ph{display:block;margin:0 auto 14px;width:170px;aspect-ratio:3/4;border-radius:18px;overflow:hidden;position:relative;border:0;padding:0;cursor:pointer}"
+   + ".rsob .ph img{width:100%;height:100%;object-fit:cover}.rsob .ph i{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:54px;height:54px;border-radius:50%;background:#E7B868;font:normal 20px/54px sans-serif;text-align:center;font-style:normal}"
+   + ".rsob .g{display:flex;gap:12px;background:#fff;border-radius:16px;padding:12px 14px;margin:0 0 10px}.rsob .g b{display:block}.rsob .g small{display:block;font:700 11px system-ui;text-transform:uppercase;color:#8a5a12}"
+   + ".rsob .g span.i{flex:0 0 40px;height:40px;border-radius:50%;background:#f3e3c0;text-align:center;line-height:40px;font-size:20px}"
+   + ".rsob .ft{display:flex;justify-content:space-between;align-items:center;padding:12px 26px 22px}.rsob .dots i{display:inline-block;width:8px;height:8px;border-radius:50%;background:#d8c9a8;margin-right:6px}.rsob .dots i.on{background:#8a5a12}"
+   + ".rsob .nx{border:0;border-radius:999px;background:#E7B868;color:#1a1306;font:700 15px system-ui;padding:11px 22px;cursor:pointer}.rsob .sk{border:0;background:none;color:#8a7a5c;font:600 14px system-ui;cursor:pointer}"
+   + ".rsob video{width:100%;max-height:70vh;border-radius:16px;background:#000;display:block}";
+  document.head.appendChild(css);
+  var done = function(){ try{ localStorage.setItem(K, "1"); }catch(e){} bar.remove(); };
+  var bar = document.createElement("div"); bar.className = "rsob-bar";
+  bar.innerHTML = '<img src="' + root + 'web/logo.jpg" alt=""><span></span><button class="rsob-go" type="button"></button><button class="rsob-x" type="button" aria-label="Fermer">×</button>';
+  var label = function(){ bar.querySelector("span").textContent = T("Nouveau ici ?", "New here?"); bar.querySelector(".rsob-go").textContent = T("Découvrir en 1 minute", "Discover in 1 minute"); };
+  label(); document.body.appendChild(bar);
+  bar.querySelector(".rsob-x").onclick = done;
+  var page = 0, dlg;
+  var pages = function(){ return [
+    '<div class="k">' + T("Bienvenue", "Welcome") + '</div><button class="ph" type="button" data-wv><img src="' + root + 'web/portrait.jpg" alt=""><i>▶</i></button><h2>Rabbi Steevax</h2><p>' + T("Chaque semaine, la paracha étudiée avec la logique et le doute, et ce qu’elle peut changer dans une vie. Une minute pour faire connaissance.", "Every week, the Torah portion studied with logic and doubt, and what it can change in a life. One minute to get acquainted.") + '</p>',
+    '<div class="k">' + T("Ta semaine", "Your week") + '</div><h2>' + T("Ta semaine en 3 gestes", "Your week in 3 steps") + '</h2>'
+      + '<div class="g"><span class="i">✨</span><div><small>' + T("Lundi · 5 minutes", "Monday · 5 minutes") + '</small><b>' + T("L’essentiel", "Essentials") + '</b>' + T("La paracha en 3 phrases, l’idée à garder, une question, et le mot du rabbin en vidéo.", "The portion in 3 sentences, the idea to keep, a question, and the rabbi’s word on video.") + '</div></div>'
+      + '<div class="g"><span class="i">🕯️</span><div><small>' + T("Vendredi · à table", "Friday · at the table") + '</small><b>' + T("La table du Shabbat", "The Shabbat table") + '</b>' + T("L’histoire à raconter en famille, des liens avec aujourd’hui, une question par âge.", "The story to tell your family, links to today, one question per age.") + '</div></div>'
+      + '<div class="g"><span class="i">📚</span><div><small>' + T("Quand tu veux", "Whenever you like") + '</small><b>' + T("Approfondir", "Go deeper") + '</b>' + T("Le texte, les sages, les contradictions, la carte, le podcast et le quiz.", "The text, the sages, the contradictions, the map, the podcast and the quiz.") + '</div></div>',
+    '<div class="k">' + T("Pour finir", "Last step") + '</div><h2>' + T("À ta façon", "Your way") + '</h2><p>' + T("Choisis ta langue, l’habillage du site et lie ton compte iCloud pour retrouver ta progression dans l’app.", "Choose your language, the site’s look, and link iCloud to find your progress in the app.") + '</p>'
+      + '<p><a href="' + root + 'reglages/" style="color:#8a5a12;font-weight:700">' + T("Ouvrir les réglages →", "Open the settings →") + '</a></p><p><a href="' + root + 'app/" style="color:#8a5a12;font-weight:700">' + T("L’app iPhone et iPad →", "The iPhone and iPad app →") + '</a></p>'
+  ]; };
+  var render = function(){
+    var p = pages();
+    dlg.innerHTML = '<div class="pg">' + p[page] + '</div><div class="ft"><span class="dots">' + p.map(function(_, i){ return '<i class="' + (i === page ? "on" : "") + '"></i>'; }).join("") + '</span>'
+      + '<span><button class="sk" type="button" data-end>' + T("Passer", "Skip") + '</button> <button class="nx" type="button" data-next>' + (page < 2 ? T("Continuer", "Continue") : T("Commencer", "Start")) + '</button></span></div>';
+  };
+  bar.querySelector(".rsob-go").onclick = function(){
+    dlg = document.createElement("dialog"); dlg.className = "rsob"; document.body.appendChild(dlg); page = 0; render(); dlg.showModal(); done();
+    dlg.addEventListener("click", function(e){
+      if(e.target.closest("[data-next]")){ if(page < 2){ page++; render(); } else dlg.close(); }
+      else if(e.target.closest("[data-end]")) dlg.close();
+      else if(e.target.closest("[data-wv]")){ var l = fr() ? "fr" : "en";
+        dlg.querySelector(".pg").innerHTML = '<video controls autoplay playsinline src="https://podcast.rosenblum.ai/rabbi-' + l + '.mp4" poster="' + root + 'web/portrait.jpg"></video>'; }
+    });
+    dlg.addEventListener("close", function(){ dlg.remove(); });
+  };
+})();
+
 (function(){ var l = RS.lang(); document.documentElement.lang = l; if(window.rsNavMark) rsNavMark(); })();
 
 const $ = s => document.querySelector(s), L = (fr, en) => RS.lang() === "fr" ? fr : en;
