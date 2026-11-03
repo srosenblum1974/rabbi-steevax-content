@@ -321,24 +321,29 @@ RS.skinNow();
   bar.querySelector(".rsob-x").onclick = done;
   var page = 0, dlg;
   var pages = function(){ return [
+    '<div style="text-align:center"><img src="' + root + 'web/logo.jpg" alt="" style="width:88px;height:88px;border-radius:50%;object-fit:cover"><h2>Rabbi Steevax</h2><p>Choisis ta langue · Choose your language</p>'
+      + '<div class="g" style="cursor:pointer;justify-content:center" data-pick="fr"><b>🇫🇷 Français</b></div><div class="g" style="cursor:pointer;justify-content:center" data-pick="en"><b>🇬🇧 English</b></div></div>',
     '<div class="k">' + T("Bienvenue", "Welcome") + '</div><button class="ph" type="button" data-wv><img src="' + root + 'web/portrait.jpg" alt=""><i>▶</i></button><h2>Rabbi Steevax</h2><p>' + T("Chaque semaine, la paracha étudiée avec la logique et le doute, et ce qu’elle peut changer dans une vie. Une minute pour faire connaissance.", "Every week, the Torah portion studied with logic and doubt, and what it can change in a life. One minute to get acquainted.") + '</p>',
     '<div class="k">' + T("Ta semaine", "Your week") + '</div><h2>' + T("Ta semaine en 3 gestes", "Your week in 3 steps") + '</h2>'
       + '<div class="g"><span class="i">✨</span><div><small>' + T("Lundi · 5 minutes", "Monday · 5 minutes") + '</small><b>' + T("L’essentiel", "Essentials") + '</b>' + T("La paracha en 3 phrases, l’idée à garder, une question, et le mot du rabbin en vidéo.", "The portion in 3 sentences, the idea to keep, a question, and the rabbi’s word on video.") + '</div></div>'
       + '<div class="g"><span class="i">🕯️</span><div><small>' + T("Vendredi · à table", "Friday · at the table") + '</small><b>' + T("La table du Shabbat", "The Shabbat table") + '</b>' + T("L’histoire à raconter en famille, des liens avec aujourd’hui, une question par âge.", "The story to tell your family, links to today, one question per age.") + '</div></div>'
       + '<div class="g"><span class="i">📚</span><div><small>' + T("Quand tu veux", "Whenever you like") + '</small><b>' + T("Approfondir", "Go deeper") + '</b>' + T("Le texte, les sages, les contradictions, la carte, le podcast et le quiz.", "The text, the sages, the contradictions, the map, the podcast and the quiz.") + '</div></div>',
-    '<div class="k">' + T("Pour finir", "Last step") + '</div><h2>' + T("À ta façon", "Your way") + '</h2><p>' + T("Choisis ta langue, l’habillage du site et lie ton compte iCloud pour retrouver ta progression dans l’app.", "Choose your language, the site’s look, and link iCloud to find your progress in the app.") + '</p>'
+    '<div class="k">' + T("Pour finir", "Last step") + '</div><h2>' + T("À ta façon", "Your way") + '</h2><p>' + T("Choisis l’habillage du site et lie ton compte iCloud pour retrouver ta progression dans l’app.", "Choose the site’s look, and link iCloud to find your progress in the app.") + '</p>'
       + '<p><a href="' + root + 'reglages/" style="color:#8a5a12;font-weight:700">' + T("Ouvrir les réglages →", "Open the settings →") + '</a></p><p><a href="' + root + 'app/" style="color:#8a5a12;font-weight:700">' + T("L’app iPhone et iPad →", "The iPhone and iPad app →") + '</a></p>'
   ]; };
   var render = function(){
     var p = pages();
     dlg.innerHTML = '<div class="pg">' + p[page] + '</div><div class="ft"><span class="dots">' + p.map(function(_, i){ return '<i class="' + (i === page ? "on" : "") + '"></i>'; }).join("") + '</span>'
-      + '<span><button class="sk" type="button" data-end>' + T("Passer", "Skip") + '</button> <button class="nx" type="button" data-next>' + (page < 2 ? T("Continuer", "Continue") : T("Commencer", "Start")) + '</button></span></div>';
+      + '<span><button class="sk" type="button" data-end>' + T("Passer", "Skip") + '</button> <button class="nx" type="button" data-next>' + (page < 3 ? T("Continuer", "Continue") : T("Commencer", "Start")) + '</button></span></div>';
   };
   // Replay: the settings page button calls rsOnboard(), and any page opens it with ?intro
   var open = function(){
     dlg = document.createElement("dialog"); dlg.className = "rsob"; document.body.appendChild(dlg); page = 0; render(); dlg.showModal(); done();
     dlg.addEventListener("click", function(e){
-      if(e.target.closest("[data-next]")){ if(page < 2){ page++; render(); } else dlg.close(); }
+      var pk = e.target.closest("[data-pick]");
+      if(pk){ var b = document.querySelector('.rsnav .lng button[data-set="' + pk.dataset.pick + '"]'); if(b) b.click();
+        document.documentElement.lang = pk.dataset.pick; label(); page = 1; render(); return; }
+      if(e.target.closest("[data-next]")){ if(page < 3){ page++; render(); } else dlg.close(); }
       else if(e.target.closest("[data-end]")) dlg.close();
       else if(e.target.closest("[data-wv]")){ var l = fr() ? "fr" : "en";
         dlg.querySelector(".pg").innerHTML = '<video controls autoplay playsinline src="https://podcast.rosenblum.ai/mot/rabbi-intro_' + l + '.mp4" poster="' + root + 'web/portrait.jpg"></video>'; }
