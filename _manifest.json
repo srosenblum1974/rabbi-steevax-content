@@ -1,5 +1,5 @@
 {
- "version": 1793618696,
+ "version": 1793716955,
  "files": {
   "_calendar.json": "47acfd13acaa87d2",
   "_index.json": "7e71339548d99031",
@@ -9,11 +9,11 @@
   "_sages.json": "377532747cb02012",
   "_themes.json": "9f81ba93c55615f8",
   "_torah.json": "0d5e13caf095ba9a",
-  "bereshit.json": "45c50c3ba9a1dc3b",
-  "chayei-sara.json": "4e53122238c6b473",
-  "lekh-lekha.json": "cc8a4a3137026001",
-  "miketz.json": "e3ab90d023cdbfa7",
-  "noach.json": "91b141b750e6af65",
-  "vayera.json": "d5531761334752b8"
+  "bereshit.json": "42b0e79d1a3a81d7",
+  "chayei-sara.json": "94be00a1b44d5cc4",
+  "lekh-lekha.json": "2bddf0b0d7ec9c62",
+  "miketz.json": "b417f5ecc8c5b150",
+  "noach.json": "3cc1aff0ae58a97b",
+  "vayera.json": "1f12be78c2f15b79"
  }
 }

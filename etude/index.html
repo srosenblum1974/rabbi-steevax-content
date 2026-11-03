@@ -32,6 +32,44 @@ html[lang=fr] .rsnav [data-l=en],html[lang=en] .rsnav [data-l=fr]{display:none}
 .rssub a[aria-current=page]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 html[lang=fr] .rssub [data-l=en],html[lang=en] .rssub [data-l=fr]{display:none}
 .rssub[hidden]{display:none}.bar .lang{display:none}#aidebtn,#torahbtn,#podsbtn,#bibbtn,#progbtn,#profbtn{display:none!important}#pform-slot{display:none!important}.wrap>.bar{justify-content:flex-start;margin-top:14px}.wrap>.bar[hidden]{display:none}.wrap>.bar label{font-weight:600}body.rs-loading .wrap>.bar{visibility:hidden}.rsnav{margin:0 calc(-1 * max(16px, env(safe-area-inset-left, 0px)))}
+
+/* L'essentiel and the Shabbat table */
+#rs-ess{margin:6px 0 22px}
+#rs-ess .ess{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px 24px}
+#rs-ess .ey{display:flex;justify-content:space-between;align-items:center;gap:12px;font:600 12px/1.3 "IBM Plex Mono",monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--sand)}
+#rs-ess ol{margin:14px 0 16px;padding:0;list-style:none;counter-reset:e}
+#rs-ess ol li{counter-increment:e;display:flex;gap:12px;margin:0 0 8px;font-size:18px;line-height:1.5}
+#rs-ess ol li::before{content:counter(e);flex:0 0 26px;height:26px;border-radius:50%;background:color-mix(in srgb,var(--sand) 22%,transparent);color:var(--sand);font:700 13px/26px system-ui;text-align:center;margin-top:2px}
+#rs-ess .idee{background:color-mix(in srgb,var(--sand) 12%,var(--card));border-radius:14px;padding:14px 16px;margin:0 0 14px}
+#rs-ess .idee small{display:block;font:600 12px system-ui;color:var(--muted);margin-bottom:4px}
+#rs-ess .idee b{display:block;font-size:24px;line-height:1.25;font-weight:600}
+#rs-ess .idee p{margin:6px 0 0;color:var(--muted)}
+#rs-ess .q{font-style:italic;font-size:18px;margin:0}
+#rs-ess .acts{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+#rs-ess .acts button,#rs-ess .acts a,.shb .acts button,.shb .acts a{border:0;border-radius:999px;padding:10px 18px;font:600 15px system-ui;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+.rs-gold{background:#E7B868;color:#1a1306}.rs-soft{background:color-mix(in srgb,var(--sand) 18%,transparent);color:inherit}
+#rs-ess .mot{display:inline-flex;align-items:center;gap:8px;background:color-mix(in srgb,var(--sand) 20%,transparent);border:0;border-radius:999px;padding:3px 12px 3px 3px;font:600 12px system-ui;color:inherit;cursor:pointer;letter-spacing:0;text-transform:none}
+#rs-ess .mot img{width:26px;height:26px;border-radius:50%;object-fit:cover}
+dialog.shb{max-width:760px;width:calc(100% - 24px);max-height:calc(100dvh - 24px);overflow:auto;border:0;border-radius:22px;padding:0;background:var(--paper);color:var(--ink)}
+dialog.shb::backdrop{background:rgba(10,6,2,.6)}
+.shb .art{height:220px;background:#120d06 center/cover;border-radius:22px 22px 0 0;position:relative}
+.shb .x{position:absolute;top:12px;right:12px;width:38px;height:38px;border-radius:50%;border:0;background:rgba(0,0,0,.5);color:#fff;font-size:20px;cursor:pointer}
+.shb .in{padding:22px 24px 26px}
+.shb h2{font-size:34px;margin:2px 0 18px;font-weight:600}
+.shb .ey{font:600 12px "IBM Plex Mono",monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--sand)}
+.shb section{background:var(--card);border-radius:18px;padding:18px 20px;margin:0 0 14px}
+.shb h3{font-size:20px;margin:0 0 4px}.shb .sub{color:var(--muted);font-size:14px;margin:0 0 10px}
+.shb .recit p{font-size:18px;line-height:1.65;margin:0 0 12px}
+.shb .pont b{display:block;margin:10px 0 2px}.shb .pont p{margin:0;color:var(--muted)}
+.shb details{background:var(--paper);border-radius:14px;padding:12px 14px;margin:0 0 10px}
+.shb summary{cursor:pointer;list-style:none;font-size:17px}.shb summary::-webkit-details-marker{display:none}
+.shb summary small{display:block;font:700 11px system-ui;letter-spacing:.08em;text-transform:uppercase;color:var(--sand);margin-bottom:4px}
+.shb details p{margin:8px 0 0;color:var(--muted)}
+.shb .fin{font-style:italic;font-size:21px;text-align:center;margin:18px 0}
+.shb .acts{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+@media print{body.shb-print>*:not(dialog.shb){display:none!important}body.shb-print dialog.shb{position:static;display:block;max-width:none;width:auto;box-shadow:none}
+  body.shb-print .shb .x,body.shb-print .shb .acts{display:none}body.shb-print .shb details{display:block}body.shb-print .shb details>p{display:block}
+  body.shb-print .shb section{break-inside:avoid;border:1px solid #ddd}}
 .pod-sp.pod-ap{background:linear-gradient(180deg,#F452FF,#832BC1)!important;margin-left:6px}.pod-sp.pod-ap:hover{background:linear-gradient(180deg,#f76bff,#9238d1)!important}
 html,body{overflow-x:clip}
 /* Full-bleed painting under the top menu, title over it (same as the home page) */
@@ -4005,7 +4043,49 @@ function setHero(id){
     img.src = src; }
   const pc = document.querySelector(".pod-cv"); if(pc) pc.style.backgroundImage = "url(illus/" + id + ".jpg)";
 }
-{ const _lp = loadParasha; loadParasha = function(id){ const out = _lp.apply(this, arguments); try{ setHero(id); }catch(_){ } return out; }; }
+
+/* « L'essentiel » (5 minutes) at the top of each study, and « À la table du Shabbat » (the family guide) */
+function rsEss(id){
+  const d = REG[id], fr = S.lang === "fr", L = o => o ? (o[S.lang] || o.fr || o.en || "") : "", esc = t => String(t).replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+  let box = document.getElementById("rs-ess");
+  if(!d || !d.ESSENTIEL){ if(box) box.remove(); return; }
+  if(!box){ const m = document.querySelector("header.mast"); if(!m) return; box = document.createElement("div"); box.id = "rs-ess"; }
+  { const pod = document.getElementById("pod"), m = document.querySelector("header.mast");      // right under the masthead, before the podcast
+    if(pod) pod.before(box); else m.after(box); }
+  const e = d.ESSENTIEL, mot = d.MOT && (d.MOT[S.lang] || d.MOT.fr);
+  const trois = (e.trois[S.lang] || e.trois.fr || []).map(t=>`<li>${esc(t)}</li>`).join("");
+  box.innerHTML = `<div class="ess"><div class="ey"><span>${fr?"L'essentiel · 5 min":"Essentials · 5 min"}</span>${mot?`<button class="mot" type="button" data-mot="${esc(mot)}"><img src="web/logo.jpg" alt="">${fr?"Le mot du rabbin":"The rabbi's word"} ▶</button>`:""}</div>
+    <ol>${trois}</ol><div class="idee"><small>${fr?"L'idée à garder":"The idea to keep"}</small><b>${esc(L(e.idee))}</b><p>${esc(L(e.pourquoi))}</p></div>
+    <p class="q">❓ ${esc(L(e.question))}</p>
+    <div class="acts">${d.SHABBAT?`<button class="rs-gold" type="button" data-shb>🕯️ ${fr?"À la table du Shabbat":"At the Shabbat table"}</button>`:""}<a class="rs-soft" href="#" data-deeper>${fr?"Approfondir la paracha ↓":"Go deeper ↓"}</a></div></div>`;
+}
+function rsShabbat(id){
+  const d = REG[id]; if(!d || !d.SHABBAT) return;
+  const g = d.SHABBAT, fr = S.lang === "fr", L = o => o ? (o[S.lang] || o.fr || o.en || "") : "", esc = t => String(t).replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+  const age = {enfants: fr?"Pour les enfants":"For children", ados: fr?"Pour les ados":"For teens", adultes: fr?"Pour les adultes":"For adults"};
+  const url = "https://rabbisteevax.com/etude/" + id + "/";
+  const wa = (fr?"Ce Shabbat, ":"This Shabbat, ") + L(d.name) + (fr?". Quelques questions pour la table :\n":". A few questions for the table:\n") + g.questions.map(q=>"• " + L(q.q)).join("\n") + "\n\n" + url;
+  let dlg = document.getElementById("shb"); if(!dlg){ dlg = document.createElement("dialog"); dlg.id = "shb"; dlg.className = "shb"; document.body.appendChild(dlg); }
+  dlg.innerHTML = `<div class="art" style="background-image:url(illus/${id}.jpg)"><button class="x" type="button" data-close aria-label="${fr?"Fermer":"Close"}">×</button></div><div class="in">
+    <div class="ey">${fr?"À la table du Shabbat":"At the Shabbat table"}</div><h2>${esc(L(d.name))} <span lang="he" style="color:var(--sand)">${esc(d.he||"")}</span></h2>
+    <section class="recit"><h3>${fr?"1 · Raconter l'histoire":"1 · Tell the story"}</h3><p class="sub">${fr?"≈ 3 minutes, à lire ou à raconter avec tes mots":"≈ 3 minutes, read it or tell it in your own words"}</p>${L(g.recit).split(/\n\s*\n/).map(p=>`<p>${esc(p)}</p>`).join("")}</section>
+    <section><h3>${fr?"2 · Et aujourd'hui ?":"2 · And today?"}</h3>${g.ponts.map(b=>`<div class="pont"><b>${esc(L(b.t))}</b><p>${esc(L(b.p))}</p></div>`).join("")}</section>
+    <section><h3>${fr?"3 · Une question par âge":"3 · One question per age"}</h3><p class="sub">${fr?"Ouvre une question pour une piste si la conversation cale":"Open a question for a hint if the conversation stalls"}</p>
+      ${g.questions.map(q=>`<details><summary><small>${age[q.age]||q.age}</small>${esc(L(q.q))}</summary><p>${esc(L(q.aide))}</p></details>`).join("")}</section>
+    <p class="fin">${esc(L(g.fin))}</p>
+    <div class="acts"><a class="rs-gold" href="https://wa.me/?text=${encodeURIComponent(wa)}" target="_blank" rel="noopener">${fr?"Envoyer sur WhatsApp":"Send on WhatsApp"}</a><button class="rs-soft" type="button" data-print>${fr?"Imprimer la fiche":"Print the sheet"}</button></div></div>`;
+  dlg.showModal();
+}
+document.addEventListener("click", e=>{
+  const t = e.target.closest("[data-shb],[data-close],[data-print],[data-deeper],[data-mot]"); if(!t) return;
+  if(t.matches("[data-shb]")) rsShabbat(PARASHA);
+  else if(t.matches("[data-close]")) document.getElementById("shb").close();
+  else if(t.matches("[data-print]")){ document.querySelectorAll("#shb details").forEach(x=>x.open = true); document.body.classList.add("shb-print"); window.print(); document.body.classList.remove("shb-print"); }
+  else if(t.matches("[data-deeper]")){ e.preventDefault(); const el = document.getElementById("rs-ess"); const n = el && el.nextElementSibling; (n || el).scrollIntoView({behavior:"smooth", block:"start"}); }
+  else if(t.matches("[data-mot]")){ const v = document.createElement("dialog"); v.className = "shb"; v.innerHTML = `<div style="position:relative;background:#000;border-radius:22px;overflow:hidden"><button class="x" type="button" aria-label="Fermer">×</button><video src="${t.dataset.mot}" controls autoplay playsinline style="width:100%;display:block;max-height:80vh"></video></div>`;
+    document.body.appendChild(v); v.querySelector(".x").onclick = ()=>{ v.close(); v.remove(); }; v.addEventListener("close", ()=>v.remove()); v.showModal(); }
+});
+{ const _lp = loadParasha; loadParasha = function(id){ const out = _lp.apply(this, arguments); try{ setHero(id); }catch(_){ } try{ rsEss(id); }catch(e){ console.warn("essentiel", e); } return out; }; }
 
 /* Until the portion is ready: the painting's frame is shown at once and the page below stays hidden,
    so the podcast block never appears before the hero and the title. */
@@ -4041,7 +4121,7 @@ setTimeout(rsReady, 6000);
     const bar = document.querySelector(".wrap>.bar"); if(bar) bar.hidden = cur !== "study";   // portion picker: study view only
     document.querySelectorAll("#rsnav nav a").forEach(a=>{ if(a.dataset.nav===cur) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); }); };
   document.addEventListener("click", e=>{ const b = e.target.closest("#rsnav .lng button");
-    if(b){ const t = document.getElementById("lang-"+b.dataset.set); if(t) t.click(); }
+    if(b){ const t = document.getElementById("lang-"+b.dataset.set); if(t) t.click(); setTimeout(()=>{ try{ rsEss(PARASHA); }catch(_){} }, 0); }
     setTimeout(navSync, 0); });
   // « Mode d'emploi » explained the claude.ai artifact (sharing, Claude, notes): not shown on the site
   if (location.hash === "#aide") { location.hash = ""; }
