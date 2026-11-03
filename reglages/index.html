@@ -293,8 +293,8 @@ RS.skinNow();
 })();
 
 (function(){
-  var K = "rs-onboarded"; try{ if(localStorage.getItem(K)) return; }catch(e){ return; }
-  if(location.pathname.indexOf("/reglages") >= 0) return;
+  var K = "rs-onboarded", seen = true; try{ seen = !!localStorage.getItem(K); }catch(e){}
+  var force = /[?&]intro\b/.test(location.search);
   var root = /\/(etude|torah|cachere|calendrier|table|reglages|app)\//.test(location.pathname) ? "../" : "";
   var fr = function(){ return (document.documentElement.lang || "fr") !== "en"; };
   var T = function(a, b){ return fr() ? a : b; };
@@ -316,7 +316,8 @@ RS.skinNow();
   var bar = document.createElement("div"); bar.className = "rsob-bar";
   bar.innerHTML = '<img src="' + root + 'web/logo.jpg" alt=""><span></span><button class="rsob-go" type="button"></button><button class="rsob-x" type="button" aria-label="Fermer">×</button>';
   var label = function(){ bar.querySelector("span").textContent = T("Nouveau ici ?", "New here?"); bar.querySelector(".rsob-go").textContent = T("Découvrir en 1 minute", "Discover in 1 minute"); };
-  label(); document.body.appendChild(bar);
+  label();
+  if(!seen && !force && location.pathname.indexOf("/reglages") < 0) document.body.appendChild(bar);
   bar.querySelector(".rsob-x").onclick = done;
   var page = 0, dlg;
   var pages = function(){ return [
@@ -333,7 +334,8 @@ RS.skinNow();
     dlg.innerHTML = '<div class="pg">' + p[page] + '</div><div class="ft"><span class="dots">' + p.map(function(_, i){ return '<i class="' + (i === page ? "on" : "") + '"></i>'; }).join("") + '</span>'
       + '<span><button class="sk" type="button" data-end>' + T("Passer", "Skip") + '</button> <button class="nx" type="button" data-next>' + (page < 2 ? T("Continuer", "Continue") : T("Commencer", "Start")) + '</button></span></div>';
   };
-  bar.querySelector(".rsob-go").onclick = function(){
+  // Replay: the settings page button calls rsOnboard(), and any page opens it with ?intro
+  var open = function(){
     dlg = document.createElement("dialog"); dlg.className = "rsob"; document.body.appendChild(dlg); page = 0; render(); dlg.showModal(); done();
     dlg.addEventListener("click", function(e){
       if(e.target.closest("[data-next]")){ if(page < 2){ page++; render(); } else dlg.close(); }
@@ -343,6 +345,9 @@ RS.skinNow();
     });
     dlg.addEventListener("close", function(){ dlg.remove(); });
   };
+  bar.querySelector(".rsob-go").onclick = open;
+  window.rsOnboard = open;
+  if(force) setTimeout(open, 300);
 })();
 
 (function(){ var l = RS.lang(); document.documentElement.lang = l; if(window.rsNavMark) rsNavMark(); })();
@@ -371,6 +376,8 @@ function render(themes){
     <p>${L("Lie ton compte iCloud pour retrouver ici la progression et les plats de ton iPhone, et inversement. Les données restent dans ton iCloud, rien ne passe par nos serveurs.","Link your iCloud account to see your iPhone progress and dishes here, and the other way round. The data stays in your iCloud; nothing goes through our servers.")}</p>
     <div class="row"><span id="ckst" class="muted"></span></div>
     <div class="row"><div id="ck-sign-in"></div><div id="ck-sign-out"></div><button class="btn sec" id="cksync" hidden>${L("Synchroniser maintenant","Sync now")}</button></div></div>
+  <div class="box"><h3>✨ ${L("Présentation","Introduction")}</h3><p>${L("La découverte en une minute : qui est Rabbi Steevax et ta semaine en 3 gestes.","The one-minute tour: who Rabbi Steevax is and your week in 3 steps.")}</p>
+    <div class="row"><button class="btn sec" type="button" onclick="window.rsOnboard && rsOnboard()">${L("Revoir la présentation","Replay the introduction")}</button></div></div>
   <div class="box"><h3>📱 ${L("L'app","The app")}</h3><p>${L("Progression synchronisée, hors ligne, lecteur audio verset par verset.","Synced progress, offline, verse-by-verse audio player.")}</p>
     <div class="row"><a class="btn" href="app/">${L("Télécharger sur l'App Store","Download on the App Store")}</a></div></div>
   <div class="box"><h3>🗂️ ${L("Mes données","My data")}</h3><p>${L("Tout est gardé dans ce navigateur, rien n'est envoyé.","Everything stays in this browser; nothing is sent.")}</p>
