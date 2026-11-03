@@ -347,7 +347,7 @@ RS.skinNow();
       if(e.target.closest("[data-next]")){ if(page < 2){ page++; render(); } else dlg.close(); }
       else if(e.target.closest("[data-end]")) dlg.close();
       else if(e.target.closest("[data-wv]")){ var l = fr() ? "fr" : "en";
-        dlg.querySelector(".pg").innerHTML = '<video controls autoplay playsinline src="https://podcast.rosenblum.ai/rabbi-' + l + '.mp4" poster="' + root + 'web/portrait.jpg"></video>'; }
+        dlg.querySelector(".pg").innerHTML = '<video controls autoplay playsinline src="https://podcast.rosenblum.ai/mot/rabbi-intro_' + l + '.mp4" poster="' + root + 'web/portrait.jpg"></video>'; }
     });
     dlg.addEventListener("close", function(){ dlg.remove(); });
   };
