@@ -299,6 +299,47 @@ RS.skinNow();
 })();
 
 (function(){
+  var K = "rs-trailer", seen = true; try{ seen = !!localStorage.getItem(K); }catch(e){}
+  var root = /\/(etude|torah|cachere|calendrier|table|reglages|app)\//.test(location.pathname) ? "../" : "";
+  var T = function(a, b){ return (document.documentElement.lang || "fr") !== "en" ? a : b; };
+  var css = document.createElement("style");
+  css.textContent = ".rstr{position:fixed;inset:0;z-index:100;background:#000;display:flex;align-items:center;justify-content:center;animation:rstrin .4s ease}"
+   + "@keyframes rstrin{from{opacity:0}to{opacity:1}}.rstr video{width:100%;height:100%;object-fit:contain;background:#000}"
+   + ".rstr .bt{position:absolute;display:flex;gap:10px;top:max(16px,env(safe-area-inset-top));right:16px}"
+   + ".rstr button{border:0;border-radius:999px;font:700 15px system-ui;cursor:pointer;padding:11px 18px;background:rgba(255,255,255,.16);color:#fff;backdrop-filter:blur(6px)}"
+   + ".rstr button.snd{background:#E7B868;color:#1a1306}.rstr .end{position:absolute;bottom:max(28px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);display:none}"
+   + ".rstr.over .end{display:block}.rstr .end button{background:#E7B868;color:#1a1306;font-size:17px;padding:14px 26px}";
+  document.head.appendChild(css);
+  var open = function(){
+    var o = document.createElement("div"); o.className = "rstr"; o.setAttribute("role", "dialog"); o.setAttribute("aria-label", T("Bande-annonce", "Trailer"));
+    o.innerHTML = '<video playsinline autoplay muted preload="auto" poster="' + root + 'web/trailer_en.jpg" src="' + root + 'web/trailer_en.mp4"></video>'
+      + '<div class="bt"><button class="snd" type="button">🔊 ' + T("Activer le son", "Sound on") + '</button><button class="sh" type="button">↗ ' + T("Partager", "Share") + '</button><button class="x" type="button">' + T("Passer", "Skip") + ' ✕</button></div>'
+      + '<div class="end"><button type="button" class="go">' + T("Découvrir le site", "Discover the site") + ' →</button></div>';
+    document.body.appendChild(o); document.documentElement.style.overflow = "hidden";
+    var v = o.querySelector("video"), snd = o.querySelector(".snd");
+    var close = function(){ try{ localStorage.setItem(K, "1"); }catch(e){} v.pause(); o.remove(); document.documentElement.style.overflow = "";
+      document.dispatchEvent(new Event("rs-trailer-closed")); };
+    snd.onclick = function(){ v.muted = !v.muted; if(!v.muted){ v.play().catch(function(){}); } snd.textContent = v.muted ? "🔊 " + T("Activer le son", "Sound on") : "🔇 " + T("Couper le son", "Mute"); };
+    o.querySelector(".x").onclick = close; o.querySelector(".go").onclick = close;
+    o.querySelector(".sh").onclick = function(){ rsShareTrailer(this); };
+    v.addEventListener("ended", function(){ o.classList.add("over"); });
+    document.addEventListener("keydown", function k(e){ if(e.key === "Escape"){ close(); document.removeEventListener("keydown", k); } });
+    v.play().catch(function(){});
+  };
+  window.rsTrailer = open;
+  // Share: the trailer's own page (its preview image on WhatsApp, iMessage…), which opens the trailer
+  window.rsShareTrailer = function(btn){
+    var url = "https://rabbisteevax.com/bande-annonce/", text = T("Rabbi Steevax · la Torah en deux voix. La bande-annonce :", "Rabbi Steevax · the Torah in two voices. The trailer:");
+    if(navigator.share){ navigator.share({title: "Rabbi Steevax", text: text, url: url}).catch(function(){}); return; }
+    var done = function(){ if(btn){ var t = btn.textContent; btn.textContent = "✓ " + T("Lien copié", "Link copied"); setTimeout(function(){ btn.textContent = t; }, 1800); } };
+    if(navigator.clipboard) navigator.clipboard.writeText(text + " " + url).then(done, function(){ window.open("https://wa.me/?text=" + encodeURIComponent(text + " " + url), "_blank"); });
+    else window.open("https://wa.me/?text=" + encodeURIComponent(text + " " + url), "_blank");
+  };
+  window.rsTrailerPending = !seen && location.pathname.indexOf("/reglages") < 0;
+  if(/[?&]trailer\b/.test(location.search) || window.rsTrailerPending) open();
+})();
+
+(function(){
   var K = "rs-onboarded", seen = true; try{ seen = !!localStorage.getItem(K); }catch(e){}
   var force = /[?&]intro\b/.test(location.search);
   var root = /\/(etude|torah|cachere|calendrier|table|reglages|app)\//.test(location.pathname) ? "../" : "";
@@ -323,7 +364,10 @@ RS.skinNow();
   bar.innerHTML = '<img src="' + root + 'web/logo.jpg" alt=""><span></span><button class="rsob-go" type="button"></button><button class="rsob-x" type="button" aria-label="Fermer">×</button>';
   var label = function(){ bar.querySelector("span").textContent = T("Nouveau ici ?", "New here?"); bar.querySelector(".rsob-go").textContent = T("Découvrir en 1 minute", "Discover in 1 minute"); };
   label();
-  if(!seen && !force && location.pathname.indexOf("/reglages") < 0) document.body.appendChild(bar);
+  if(!seen && !force && location.pathname.indexOf("/reglages") < 0){
+    if(window.rsTrailerPending) document.addEventListener("rs-trailer-closed", function(){ document.body.appendChild(bar); }, {once: true});
+    else document.body.appendChild(bar);
+  }
   bar.querySelector(".rsob-x").onclick = done;
   var page = 0, dlg;
   var pages = function(){ return [
