@@ -357,7 +357,9 @@ RS.skinNow();
   var pages = function(){ return [
     '<div style="text-align:center"><img src="' + root + 'web/logo.jpg" alt="" style="width:88px;height:88px;border-radius:50%;object-fit:cover"><h2>Rabbi Steevax</h2><p>Choisis ta langue · Choose your language</p>'
       + '<div class="g" style="cursor:pointer;justify-content:center" data-pick="fr"><b>🇫🇷 Français</b></div><div class="g" style="cursor:pointer;justify-content:center" data-pick="en"><b>🇬🇧 English</b></div></div>',
-    '<div class="k">' + T("Bienvenue", "Welcome") + '</div><button class="ph" type="button" data-wv><img src="' + root + 'web/portrait.jpg" alt=""><i>▶</i></button><h2>Rabbi Steevax</h2><p>' + T("Chaque semaine, la paracha étudiée avec la logique et le doute, et ce qu’elle peut changer dans une vie. Une minute pour faire connaissance.", "Every week, the Torah portion studied with logic and doubt, and what it can change in a life. One minute to get acquainted.") + '</p>',
+    '<div class="k">' + T("Bienvenue", "Welcome") + '</div><button class="ph" type="button" data-wv="face-a-face" style="width:260px;aspect-ratio:16/10"><img src="https://podcast.rosenblum.ai/mot/face-a-face_' + (fr() ? "fr" : "en") + '.jpg" alt="" onerror="this.src=\'' + root + 'web/portrait.jpg\'"><i>▶</i></button>'
+      + '<h2>' + T("Deux visages, une même question", "Two faces, one question") + '</h2><p>' + T("Le jour, Steeve crée des entreprises. Le soir, Rabbi Steevax ouvre la Torah. Le même homme, la même curiosité : comprendre avant d’agir.", "By day, Steeve builds companies. By night, Rabbi Steevax opens the Torah. The same man, the same curiosity: understand before acting.") + '</p>'
+      + '<p style="font-size:14px"><a href="#" data-wv="rabbi-intro" style="color:#8a5a12;font-weight:700">' + T("Le message du rabbin", "The rabbi’s message") + '</a> · <a href="#" data-wv="steeve-intro" style="color:#8a5a12;font-weight:700">' + T("Steeve, l’entrepreneur", "Steeve, the entrepreneur") + '</a></p>',
     '<div class="k">' + T("Ta semaine", "Your week") + '</div><h2>' + T("Ta semaine en 3 gestes", "Your week in 3 steps") + '</h2>'
       + '<div class="g"><span class="i">✨</span><div><small>' + T("Lundi · 5 minutes", "Monday · 5 minutes") + '</small><b>' + T("L’essentiel", "Essentials") + '</b>' + T("La paracha en 3 phrases, l’idée à garder, une question, et le mot du rabbin en vidéo.", "The portion in 3 sentences, the idea to keep, a question, and the rabbi’s word on video.") + '</div></div>'
       + '<div class="g"><span class="i">🕯️</span><div><small>' + T("Vendredi · à table", "Friday · at the table") + '</small><b>' + T("La table du Shabbat", "The Shabbat table") + '</b>' + T("L’histoire à raconter en famille, des liens avec aujourd’hui, une question par âge.", "The story to tell your family, links to today, one question per age.") + '</div></div>'
@@ -379,8 +381,8 @@ RS.skinNow();
         document.documentElement.lang = pk.dataset.pick; label(); page = 1; render(); return; }
       if(e.target.closest("[data-next]")){ if(page < 3){ page++; render(); } else dlg.close(); }
       else if(e.target.closest("[data-end]")) dlg.close();
-      else if(e.target.closest("[data-wv]")){ var l = fr() ? "fr" : "en";
-        dlg.querySelector(".pg").innerHTML = '<video controls autoplay playsinline src="https://podcast.rosenblum.ai/mot/rabbi-intro_' + l + '.mp4" poster="' + root + 'web/portrait.jpg"></video>'; }
+      else if(e.target.closest("[data-wv]")){ e.preventDefault(); var l = fr() ? "fr" : "en";
+        dlg.querySelector(".pg").innerHTML = '<video controls autoplay playsinline src="https://podcast.rosenblum.ai/mot/' + (e.target.closest("[data-wv]").dataset.wv || "face-a-face") + '_' + l + '.mp4"></video>'; }
     });
     dlg.addEventListener("close", function(){ dlg.remove(); });
   };
