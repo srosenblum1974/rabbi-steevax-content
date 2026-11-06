@@ -56,8 +56,8 @@
   "en": "Friday night",
   "cover": "illus/prieres/album-vendredi-soir.jpg",
   "about": {
-   "fr": "Dix chants pour accompagner la préparation du Shabbat et la table du vendredi soir. Rite séfarade, jazz intime et deux titres en swing.",
-   "en": "Ten songs for the Shabbat preparations and the Friday night table. Sephardic rite, intimate jazz and two swing tracks."
+   "fr": "Dix chants pour accompagner la préparation du Shabbat et la table du vendredi soir. Rite séfarade, entre jazz intime, bossa soul et deux titres en swing.",
+   "en": "Ten songs for the Shabbat preparations and the Friday night table. Sephardic rite, intimate jazz, bossa soul and two swing tracks."
   },
   "tracks": [
    {
@@ -81,7 +81,7 @@
    {
     "id": "04-mizmor-chir",
     "title": "Mizmor Chir léyom haChabbat",
-    "style": "Jazz intime",
+    "style": "Bossa soul",
     "url": "https://podcast.rosenblum.ai/album/vendredi-soir/04-mizmor-chir.mp3"
    },
    {
@@ -99,13 +99,13 @@
    {
     "id": "07-birkat-habanim",
     "title": "Birkat Habanim",
-    "style": "Jazz intime",
+    "style": "Bossa soul",
     "url": "https://podcast.rosenblum.ai/album/vendredi-soir/07-birkat-habanim.mp3"
    },
    {
     "id": "08-kiddouch",
     "title": "Kiddouch",
-    "style": "Jazz intime",
+    "style": "Bossa soul",
     "url": "https://podcast.rosenblum.ai/album/vendredi-soir/08-kiddouch.mp3"
    },
    {
@@ -117,7 +117,7 @@
    {
     "id": "10-chir-hamaalot",
     "title": "Chir Hamaalot",
-    "style": "Jazz intime",
+    "style": "Bossa soul",
     "url": "https://podcast.rosenblum.ai/album/vendredi-soir/10-chir-hamaalot.mp3"
    }
   ]
@@ -2365,6 +2365,16 @@
      "style": "Crooner",
      "url": "prieres/audio/adon-olam_crooner.mp3",
      "source": "suno"
+    },
+    {
+     "style": "Jazz intime",
+     "url": "https://podcast.rosenblum.ai/album/chansons/adon-olam_jazz.mp3",
+     "source": "elevenlabs"
+    },
+    {
+     "style": "Reggae",
+     "url": "https://podcast.rosenblum.ai/album/chansons/adon-olam_reggae.mp3",
+     "source": "elevenlabs"
     }
    ]
   },
@@ -4809,7 +4819,7 @@
    "focus": 45,
    "songs": [
     {
-     "style": "Jazz intime",
+     "style": "Bossa soul",
      "url": "https://podcast.rosenblum.ai/album/vendredi-soir/08-kiddouch.mp3",
      "source": "album"
     }
