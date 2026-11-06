@@ -1,0 +1,7125 @@
+{
+ "rite": "Séfarade (Siddour Edot HaMizrah, Sefaria)",
+ "hero": "illus/prieres/prieres.jpg",
+ "groups": [
+  {
+   "id": "reveil",
+   "fr": "Au réveil",
+   "en": "On waking",
+   "ids": [
+    "mode-ani",
+    "chema",
+    "adon-olam"
+   ]
+  },
+  {
+   "id": "synagogue",
+   "fr": "À la synagogue",
+   "en": "At the synagogue",
+   "ids": [
+    "amida",
+    "kaddich"
+   ]
+  },
+  {
+   "id": "repas",
+   "fr": "Au repas",
+   "en": "At meals",
+   "ids": [
+    "hamotsi"
+   ]
+  },
+  {
+   "id": "shabbat",
+   "fr": "Shabbat",
+   "en": "Shabbat",
+   "ids": [
+    "chalom-aleikhem",
+    "kiddouch",
+    "lekha-dodi",
+    "havdala"
+   ]
+  },
+  {
+   "id": "moments",
+   "fr": "Les grands moments",
+   "en": "Milestones",
+   "ids": [
+    "chehecheyanou"
+   ]
+  }
+ ],
+ "album": {
+  "id": "vendredi-soir",
+  "fr": "Vendredi soir",
+  "en": "Friday night",
+  "cover": "illus/prieres/album-vendredi-soir.jpg",
+  "about": {
+   "fr": "Dix chants pour accompagner la préparation du Shabbat et la table du vendredi soir. Rite séfarade, jazz intime et deux titres en swing.",
+   "en": "Ten songs for the Shabbat preparations and the Friday night table. Sephardic rite, intimate jazz and two swing tracks."
+  },
+  "tracks": [
+   {
+    "id": "01-hadlakat-nerot",
+    "title": "Hadlakat Nérot",
+    "style": "Jazz intime",
+    "url": "https://podcast.rosenblum.ai/album/vendredi-soir/01-hadlakat-nerot.mp3"
+   },
+   {
+    "id": "02-yedid-nefech",
+    "title": "Yedid Néfech",
+    "style": "Jazz intime",
+    "url": "https://podcast.rosenblum.ai/album/vendredi-soir/02-yedid-nefech.mp3"
+   },
+   {
+    "id": "03-lekha-dodi",
+    "title": "Lekha Dodi",
+    "style": "Jazz intime",
+    "url": "https://podcast.rosenblum.ai/album/vendredi-soir/03-lekha-dodi.mp3"
+   },
+   {
+    "id": "04-mizmor-chir",
+    "title": "Mizmor Chir léyom haChabbat",
+    "style": "Jazz intime",
+    "url": "https://podcast.rosenblum.ai/album/vendredi-soir/04-mizmor-chir.mp3"
+   },
+   {
+    "id": "05-chalom-aleikhem",
+    "title": "Chalom Aleikhem",
+    "style": "Jazz intime",
+    "url": "https://podcast.rosenblum.ai/album/vendredi-soir/05-chalom-aleikhem.mp3"
+   },
+   {
+    "id": "06-echet-hayil",
+    "title": "Échet ’Hayil",
+    "style": "Swing",
+    "url": "https://podcast.rosenblum.ai/album/vendredi-soir/06-echet-hayil.mp3"
+   },
+   {
+    "id": "07-birkat-habanim",
+    "title": "Birkat Habanim",
+    "style": "Jazz intime",
+    "url": "https://podcast.rosenblum.ai/album/vendredi-soir/07-birkat-habanim.mp3"
+   },
+   {
+    "id": "08-kiddouch",
+    "title": "Kiddouch",
+    "style": "Jazz intime",
+    "url": "https://podcast.rosenblum.ai/album/vendredi-soir/08-kiddouch.mp3"
+   },
+   {
+    "id": "09-ya-ribon",
+    "title": "Ya Ribon",
+    "style": "Swing",
+    "url": "https://podcast.rosenblum.ai/album/vendredi-soir/09-ya-ribon.mp3"
+   },
+   {
+    "id": "10-chir-hamaalot",
+    "title": "Chir Hamaalot",
+    "style": "Jazz intime",
+    "url": "https://podcast.rosenblum.ai/album/vendredi-soir/10-chir-hamaalot.mp3"
+   }
+  ]
+ },
+ "prayers": [
+  {
+   "name": "Modé Ani",
+   "he": "מוֹדֶה אֲנִי",
+   "ic": "🌅",
+   "when": [
+    "Au réveil",
+    "Texte complet",
+    "Sans nom divin"
+   ],
+   "dur": "12 mots · 1 min",
+   "origin": "<b>Seder Hayom, Moïse ben Makhir (Safed, 1599).</b> C’est la plus jeune des prières du matin. Elle ne contient pas le nom divin : on peut la dire dès le réveil, avant même de se laver les mains.",
+   "why": "La première pensée de la journée est un merci : je suis vivant, mon âme m’a été rendue. Pour une femme : « Moda ani ».",
+   "lines": [
+    {
+     "w": [
+      [
+       "מוֹדֶה",
+       "modé"
+      ],
+      [
+       "אֲנִי",
+       "ani"
+      ],
+      [
+       "לְפָנֶיךָ",
+       "léfanékha"
+      ]
+     ],
+     "fr": "Je te rends grâce,"
+    },
+    {
+     "w": [
+      [
+       "מֶלֶךְ",
+       "mélekh"
+      ],
+      [
+       "חַי",
+       "’haï"
+      ],
+      [
+       "וְקַיָּם",
+       "vékayam"
+      ]
+     ],
+     "fr": "Roi vivant et éternel,"
+    },
+    {
+     "w": [
+      [
+       "שֶׁהֶחֱזַרְתָּ",
+       "chéhé’hézarta"
+      ],
+      [
+       "בִּי",
+       "bi"
+      ],
+      [
+       "נִשְׁמָתִי",
+       "nichmati"
+      ],
+      [
+       "בְּחֶמְלָה",
+       "bé’hemla"
+      ]
+     ],
+     "fr": "de m’avoir rendu mon âme avec compassion :"
+    },
+    {
+     "w": [
+      [
+       "רַבָּה",
+       "raba"
+      ],
+      [
+       "אֱמוּנָתֶךָ",
+       "émounatékha"
+      ]
+     ],
+     "fr": "grande est ta fidélité."
+    }
+   ],
+   "words": {
+    "מוֹדֶה": [
+     "je reconnais, je remercie",
+     "י־ד־ה · reconnaître, louer",
+     "toda (merci), Yehouda"
+    ],
+    "אֲנִי": [
+     "moi, je",
+     "—",
+     "ani"
+    ],
+    "לְפָנֶיךָ": [
+     "devant toi",
+     "פ־נ־ה · se tourner",
+     "panim (le visage)"
+    ],
+    "מֶלֶךְ": [
+     "roi",
+     "מ־ל־ך · régner",
+     "malkhout (royaume)"
+    ],
+    "חַי": [
+     "vivant",
+     "ח־י־ה · vivre",
+     "lé’haïm (à la vie)"
+    ],
+    "וְקַיָּם": [
+     "et qui subsiste, éternel",
+     "ק־ו־ם · se lever, tenir debout",
+     "kima (se lever)"
+    ],
+    "שֶׁהֶחֱזַרְתָּ": [
+     "que tu as rendu",
+     "ח־ז־ר · revenir",
+     "hazara (retour)"
+    ],
+    "בִּי": [
+     "en moi",
+     "—",
+     "—"
+    ],
+    "נִשְׁמָתִי": [
+     "mon âme",
+     "נ־ש־ם · respirer",
+     "nichma (souffle), Genèse 2:7"
+    ],
+    "בְּחֶמְלָה": [
+     "avec compassion",
+     "ח־מ־ל · avoir pitié",
+     "—"
+    ],
+    "רַבָּה": [
+     "grande",
+     "ר־ב־ב · être nombreux",
+     "rav (maître)"
+    ],
+    "אֱמוּנָתֶךָ": [
+     "ta fidélité",
+     "א־מ־ן · être sûr",
+     "amen, émouna (foi)"
+    ]
+   },
+   "echo": {
+    "word": "רַבָּה",
+    "text": "Les derniers mots reprennent les Lamentations 3:23 :",
+    "he": "חֲדָשִׁים לַבְּקָרִים רַבָּה אֱמוּנָתֶךָ",
+    "fr": "« Elles se renouvellent chaque matin : grande est ta fidélité. »"
+   },
+   "order": [
+    "מוֹדֶה אֲנִי",
+    "לְפָנֶיךָ",
+    "מֶלֶךְ חַי וְקַיָּם",
+    "שֶׁהֶחֱזַרְתָּ בִּי נִשְׁמָתִי",
+    "בְּחֶמְלָה",
+    "רַבָּה אֱמוּנָתֶךָ"
+   ],
+   "id": "mode-ani",
+   "group": "reveil",
+   "image": "illus/prieres/mode-ani.jpg",
+   "songs": []
+  },
+  {
+   "name": "Chéma Israël",
+   "he": "שְׁמַע יִשְׂרָאֵל",
+   "ic": "👂",
+   "when": [
+    "Matin et soir",
+    "Texte complet · 3 paragraphes",
+    "Et au coucher"
+   ],
+   "dur": "3 paragraphes · 4 min",
+   "origin": "<b>Trois passages de la Torah</b> : Deutéronome 6:4-9, Deutéronome 11:13-21 et Nombres 15:37-41. La Michna (Berakhot, chapitres 1 et 2) fixe leur lecture matin et soir. La phrase « Baroukh Chem », dite à voix basse, vient de la liturgie du Temple (Pessa’him 56a).",
+   "why": "C’est la déclaration de foi juive : Dieu est un. Puis viennent l’amour de Dieu, la transmission aux enfants, la mezouza, les tsitsit. On couvre ses yeux au premier verset pour se concentrer.",
+   "parts": [
+    {
+     "at": 0,
+     "t": "Le premier verset",
+     "n": "On couvre ses yeux de la main droite."
+    },
+    {
+     "at": 1,
+     "t": "À voix basse",
+     "n": "Une réponse de la liturgie du Temple, pas un verset de la Torah."
+    },
+    {
+     "at": 2,
+     "t": "Véahavta · Deutéronome 6:5-9",
+     "n": "L’amour, la transmission, les téfilines, la mezouza."
+    },
+    {
+     "at": 11,
+     "t": "Véhaya · Deutéronome 11:13-21",
+     "n": "Au pluriel : la responsabilité du peuple, la pluie et la récolte."
+    },
+    {
+     "at": 32,
+     "t": "Vayomer · Nombres 15:37-41",
+     "n": "Les tsitsit et la sortie d’Égypte. On ajoute « émet », vrai, à la fin."
+    }
+   ],
+   "lines": [
+    {
+     "w": [
+      [
+       "שְׁמַע",
+       "Chéma"
+      ],
+      [
+       "יִשְׂרָאֵל",
+       "Israël"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "אֱלֹהֵינוּ",
+       "Élohénou"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "אֶחָד",
+       "é’had"
+      ]
+     ],
+     "fr": "Écoute, Israël : l’Éternel est notre Dieu, l’Éternel est un."
+    },
+    {
+     "w": [
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "שֵׁם",
+       "chem"
+      ],
+      [
+       "כְּבוֹד",
+       "kévod"
+      ],
+      [
+       "מַלְכוּתוֹ",
+       "malkhouto"
+      ],
+      [
+       "לְעוֹלָם",
+       "léolam"
+      ],
+      [
+       "וָעֶד",
+       "va’ed"
+      ]
+     ],
+     "fr": "Béni soit le nom de la gloire de son règne, pour toujours."
+    },
+    {
+     "w": [
+      [
+       "וְאָהַבְתָּ",
+       "véahavta"
+      ],
+      [
+       "אֵת",
+       "et"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "אֱלֹהֶיךָ",
+       "Élohékha"
+      ]
+     ],
+     "fr": "Tu aimeras l’Éternel ton Dieu"
+    },
+    {
+     "w": [
+      [
+       "בְּכָל",
+       "békhol"
+      ],
+      [
+       "לְבָבְךָ",
+       "lévavkha"
+      ],
+      [
+       "וּבְכָל",
+       "ouvkhol"
+      ],
+      [
+       "נַפְשְׁךָ",
+       "nafchékha"
+      ],
+      [
+       "וּבְכָל",
+       "ouvkhol"
+      ],
+      [
+       "מְאֹדֶךָ",
+       "méodékha"
+      ]
+     ],
+     "fr": "de tout ton cœur, de toute ton âme et de toute ta force."
+    },
+    {
+     "w": [
+      [
+       "וְהָיוּ",
+       "véhayou"
+      ],
+      [
+       "הַדְּבָרִים",
+       "hadévarim"
+      ],
+      [
+       "הָאֵלֶּה",
+       "haélé"
+      ],
+      [
+       "אֲשֶׁר",
+       "achèr"
+      ],
+      [
+       "אָנֹכִי",
+       "anokhi"
+      ],
+      [
+       "מְצַוְּךָ",
+       "métsavékha"
+      ],
+      [
+       "הַיּוֹם",
+       "hayom"
+      ],
+      [
+       "עַל",
+       "al"
+      ],
+      [
+       "לְבָבֶךָ",
+       "lévavékha"
+      ]
+     ],
+     "fr": "Ces paroles que je te prescris aujourd’hui seront sur ton cœur."
+    },
+    {
+     "w": [
+      [
+       "וְשִׁנַּנְתָּם",
+       "véchinantam"
+      ],
+      [
+       "לְבָנֶיךָ",
+       "lévanékha"
+      ],
+      [
+       "וְדִבַּרְתָּ",
+       "védibarta"
+      ],
+      [
+       "בָּם",
+       "bam"
+      ]
+     ],
+     "fr": "Tu les enseigneras à tes enfants, tu en parleras"
+    },
+    {
+     "w": [
+      [
+       "בְּשִׁבְתְּךָ",
+       "béchivtékha"
+      ],
+      [
+       "בְּבֵיתֶךָ",
+       "bévétékha"
+      ],
+      [
+       "וּבְלֶכְתְּךָ",
+       "ouvlekhtékha"
+      ],
+      [
+       "בַדֶּרֶךְ",
+       "vadérekh"
+      ]
+     ],
+     "fr": "quand tu es assis dans ta maison et quand tu marches en chemin,"
+    },
+    {
+     "w": [
+      [
+       "וּבְשָׁכְבְּךָ",
+       "ouvchokhbékha"
+      ],
+      [
+       "וּבְקוּמֶךָ",
+       "ouvkoumékha"
+      ]
+     ],
+     "fr": "quand tu te couches et quand tu te lèves."
+    },
+    {
+     "w": [
+      [
+       "וּקְשַׁרְתָּם",
+       "oukchartam"
+      ],
+      [
+       "לְאוֹת",
+       "léot"
+      ],
+      [
+       "עַל",
+       "al"
+      ],
+      [
+       "יָדֶךָ",
+       "yadékha"
+      ]
+     ],
+     "fr": "Tu les attacheras comme un signe sur ton bras,"
+    },
+    {
+     "w": [
+      [
+       "וְהָיוּ",
+       "véhayou"
+      ],
+      [
+       "לְטֹטָפֹת",
+       "létotafot"
+      ],
+      [
+       "בֵּין",
+       "bèn"
+      ],
+      [
+       "עֵינֶיךָ",
+       "énékha"
+      ]
+     ],
+     "fr": "elles seront un fronteau entre tes yeux."
+    },
+    {
+     "w": [
+      [
+       "וּכְתַבְתָּם",
+       "oukhtavtam"
+      ],
+      [
+       "עַל",
+       "al"
+      ],
+      [
+       "מְזֻזוֹת",
+       "mézouzot"
+      ],
+      [
+       "בֵּיתֶךָ",
+       "bétékha"
+      ],
+      [
+       "וּבִשְׁעָרֶיךָ",
+       "ouvich’arékha"
+      ]
+     ],
+     "fr": "Tu les écriras sur les montants de ta maison et sur tes portes."
+    },
+    {
+     "w": [
+      [
+       "וְהָיָה",
+       "véhaya"
+      ],
+      [
+       "אִם",
+       "im"
+      ],
+      [
+       "שָׁמֹעַ",
+       "chamo’a"
+      ],
+      [
+       "תִּשְׁמְעוּ",
+       "tichm’ou"
+      ],
+      [
+       "אֶל",
+       "el"
+      ],
+      [
+       "מִצְוֹתַי",
+       "mitsvotaï"
+      ]
+     ],
+     "fr": "Si vous écoutez bien mes commandements"
+    },
+    {
+     "w": [
+      [
+       "אֲשֶׁר",
+       "achèr"
+      ],
+      [
+       "אָנֹכִי",
+       "anokhi"
+      ],
+      [
+       "מְצַוֶּה",
+       "métsavé"
+      ],
+      [
+       "אֶתְכֶם",
+       "etkhem"
+      ],
+      [
+       "הַיּוֹם",
+       "hayom"
+      ]
+     ],
+     "fr": "que je vous prescris aujourd’hui :"
+    },
+    {
+     "w": [
+      [
+       "לְאַהֲבָה",
+       "léahava"
+      ],
+      [
+       "אֶת",
+       "et"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "אֱלֹהֵיכֶם",
+       "Élohékhem"
+      ],
+      [
+       "וּלְעָבְדוֹ",
+       "oul’ovdo"
+      ]
+     ],
+     "fr": "aimer l’Éternel votre Dieu et le servir"
+    },
+    {
+     "w": [
+      [
+       "בְּכָל",
+       "békhol"
+      ],
+      [
+       "לְבַבְכֶם",
+       "lévavkhem"
+      ],
+      [
+       "וּבְכָל",
+       "ouvkhol"
+      ],
+      [
+       "נַפְשְׁכֶם",
+       "nafchékhem"
+      ]
+     ],
+     "fr": "de tout votre cœur et de toute votre âme,"
+    },
+    {
+     "w": [
+      [
+       "וְנָתַתִּי",
+       "vénatati"
+      ],
+      [
+       "מְטַר",
+       "métar"
+      ],
+      [
+       "אַרְצְכֶם",
+       "artsékhem"
+      ],
+      [
+       "בְּעִתּוֹ",
+       "bé’ito"
+      ],
+      [
+       "יוֹרֶה",
+       "yoré"
+      ],
+      [
+       "וּמַלְקוֹשׁ",
+       "oumalkoch"
+      ]
+     ],
+     "fr": "je donnerai la pluie à votre terre en son temps, pluie d’automne et pluie de printemps,"
+    },
+    {
+     "w": [
+      [
+       "וְאָסַפְתָּ",
+       "véassafta"
+      ],
+      [
+       "דְגָנֶךָ",
+       "déganékha"
+      ],
+      [
+       "וְתִירֹשְׁךָ",
+       "vétirochkha"
+      ],
+      [
+       "וְיִצְהָרֶךָ",
+       "véyits’harékha"
+      ]
+     ],
+     "fr": "et tu récolteras ton blé, ton vin et ton huile."
+    },
+    {
+     "w": [
+      [
+       "וְנָתַתִּי",
+       "vénatati"
+      ],
+      [
+       "עֵשֶׂב",
+       "éssev"
+      ],
+      [
+       "בְּשָׂדְךָ",
+       "béssadkha"
+      ],
+      [
+       "לִבְהֶמְתֶּךָ",
+       "livhemtékha"
+      ]
+     ],
+     "fr": "Je mettrai de l’herbe dans ton champ pour ton bétail ;"
+    },
+    {
+     "w": [
+      [
+       "וְאָכַלְתָּ",
+       "véakhalta"
+      ],
+      [
+       "וְשָׂבָעְתָּ",
+       "véssava’ta"
+      ]
+     ],
+     "fr": "tu mangeras et tu seras rassasié."
+    },
+    {
+     "w": [
+      [
+       "הִשָּׁמְרוּ",
+       "hichamérou"
+      ],
+      [
+       "לָכֶם",
+       "lakhem"
+      ],
+      [
+       "פֶּן",
+       "pen"
+      ],
+      [
+       "יִפְתֶּה",
+       "yifté"
+      ],
+      [
+       "לְבַבְכֶם",
+       "lévavkhem"
+      ]
+     ],
+     "fr": "Prenez garde que votre cœur ne se laisse séduire,"
+    },
+    {
+     "w": [
+      [
+       "וְסַרְתֶּם",
+       "vésartem"
+      ],
+      [
+       "וַעֲבַדְתֶּם",
+       "va’avadtem"
+      ],
+      [
+       "אֱלֹהִים",
+       "élohim"
+      ],
+      [
+       "אֲחֵרִים",
+       "a’hérim"
+      ],
+      [
+       "וְהִשְׁתַּחֲוִיתֶם",
+       "véhichta’havitem"
+      ],
+      [
+       "לָהֶם",
+       "lahem"
+      ]
+     ],
+     "fr": "que vous ne vous détourniez pour servir d’autres dieux et vous prosterner devant eux."
+    },
+    {
+     "w": [
+      [
+       "וְחָרָה",
+       "vé’hara"
+      ],
+      [
+       "אַף",
+       "af"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "בָּכֶם",
+       "bakhem"
+      ],
+      [
+       "וְעָצַר",
+       "vé’atsar"
+      ],
+      [
+       "אֶת",
+       "et"
+      ],
+      [
+       "הַשָּׁמַיִם",
+       "hachamayim"
+      ]
+     ],
+     "fr": "La colère de l’Éternel s’enflammerait contre vous ; il fermerait le ciel,"
+    },
+    {
+     "w": [
+      [
+       "וְלֹא",
+       "vélo"
+      ],
+      [
+       "יִהְיֶה",
+       "yihyé"
+      ],
+      [
+       "מָטָר",
+       "matar"
+      ],
+      [
+       "וְהָאֲדָמָה",
+       "véhaadama"
+      ],
+      [
+       "לֹא",
+       "lo"
+      ],
+      [
+       "תִתֵּן",
+       "titen"
+      ],
+      [
+       "אֶת",
+       "et"
+      ],
+      [
+       "יְבוּלָהּ",
+       "yévoulah"
+      ]
+     ],
+     "fr": "il n’y aurait plus de pluie, la terre ne donnerait plus ses fruits,"
+    },
+    {
+     "w": [
+      [
+       "וַאֲבַדְתֶּם",
+       "vaavadtem"
+      ],
+      [
+       "מְהֵרָה",
+       "méhéra"
+      ],
+      [
+       "מֵעַל",
+       "mé’al"
+      ],
+      [
+       "הָאָרֶץ",
+       "haaréts"
+      ],
+      [
+       "הַטֹּבָה",
+       "hatova"
+      ],
+      [
+       "אֲשֶׁר",
+       "achèr"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "נֹתֵן",
+       "notèn"
+      ],
+      [
+       "לָכֶם",
+       "lakhem"
+      ]
+     ],
+     "fr": "et vous disparaîtriez vite de la bonne terre que l’Éternel vous donne."
+    },
+    {
+     "w": [
+      [
+       "וְשַׂמְתֶּם",
+       "véssamtem"
+      ],
+      [
+       "אֶת",
+       "et"
+      ],
+      [
+       "דְּבָרַי",
+       "dévaraï"
+      ],
+      [
+       "אֵלֶּה",
+       "élé"
+      ],
+      [
+       "עַל",
+       "al"
+      ],
+      [
+       "לְבַבְכֶם",
+       "lévavkhem"
+      ],
+      [
+       "וְעַל",
+       "vé’al"
+      ],
+      [
+       "נַפְשְׁכֶם",
+       "nafchékhem"
+      ]
+     ],
+     "fr": "Mettez mes paroles sur votre cœur et dans votre âme ;"
+    },
+    {
+     "w": [
+      [
+       "וּקְשַׁרְתֶּם",
+       "oukchartem"
+      ],
+      [
+       "אֹתָם",
+       "otam"
+      ],
+      [
+       "לְאוֹת",
+       "léot"
+      ],
+      [
+       "עַל",
+       "al"
+      ],
+      [
+       "יֶדְכֶם",
+       "yedkhem"
+      ],
+      [
+       "וְהָיוּ",
+       "véhayou"
+      ],
+      [
+       "לְטוֹטָפֹת",
+       "létotafot"
+      ],
+      [
+       "בֵּין",
+       "bèn"
+      ],
+      [
+       "עֵינֵיכֶם",
+       "énékhem"
+      ]
+     ],
+     "fr": "attachez-les comme un signe sur votre bras, qu’elles soient un fronteau entre vos yeux."
+    },
+    {
+     "w": [
+      [
+       "וְלִמַּדְתֶּם",
+       "vélimadtem"
+      ],
+      [
+       "אֹתָם",
+       "otam"
+      ],
+      [
+       "אֶת",
+       "et"
+      ],
+      [
+       "בְּנֵיכֶם",
+       "bénékhem"
+      ],
+      [
+       "לְדַבֵּר",
+       "lédaber"
+      ],
+      [
+       "בָּם",
+       "bam"
+      ]
+     ],
+     "fr": "Enseignez-les à vos enfants pour qu’ils en parlent,"
+    },
+    {
+     "w": [
+      [
+       "בְּשִׁבְתְּךָ",
+       "béchivtékha"
+      ],
+      [
+       "בְּבֵיתֶךָ",
+       "bévétékha"
+      ],
+      [
+       "וּבְלֶכְתְּךָ",
+       "ouvlekhtékha"
+      ],
+      [
+       "בַדֶּרֶךְ",
+       "vadérekh"
+      ],
+      [
+       "וּבְשָׁכְבְּךָ",
+       "ouvchokhbékha"
+      ],
+      [
+       "וּבְקוּמֶךָ",
+       "ouvkoumékha"
+      ]
+     ],
+     "fr": "quand tu es assis dans ta maison, quand tu marches en chemin, quand tu te couches et quand tu te lèves."
+    },
+    {
+     "w": [
+      [
+       "וּכְתַבְתָּם",
+       "oukhtavtam"
+      ],
+      [
+       "עַל",
+       "al"
+      ],
+      [
+       "מְזוּזוֹת",
+       "mézouzot"
+      ],
+      [
+       "בֵּיתֶךָ",
+       "bétékha"
+      ],
+      [
+       "וּבִשְׁעָרֶיךָ",
+       "ouvich’arékha"
+      ]
+     ],
+     "fr": "Écris-les sur les montants de ta maison et sur tes portes,"
+    },
+    {
+     "w": [
+      [
+       "לְמַעַן",
+       "léma’an"
+      ],
+      [
+       "יִרְבּוּ",
+       "yirbou"
+      ],
+      [
+       "יְמֵיכֶם",
+       "yémékhem"
+      ],
+      [
+       "וִימֵי",
+       "vimé"
+      ],
+      [
+       "בְנֵיכֶם",
+       "vénékhem"
+      ],
+      [
+       "עַל",
+       "al"
+      ],
+      [
+       "הָאֲדָמָה",
+       "haadama"
+      ]
+     ],
+     "fr": "afin que vos jours et ceux de vos enfants se multiplient sur la terre"
+    },
+    {
+     "w": [
+      [
+       "אֲשֶׁר",
+       "achèr"
+      ],
+      [
+       "נִשְׁבַּע",
+       "nichba"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "לַאֲבֹתֵיכֶם",
+       "laavotékhem"
+      ],
+      [
+       "לָתֵת",
+       "latèt"
+      ],
+      [
+       "לָהֶם",
+       "lahem"
+      ]
+     ],
+     "fr": "que l’Éternel a juré à vos pères de leur donner,"
+    },
+    {
+     "w": [
+      [
+       "כִּימֵי",
+       "kimé"
+      ],
+      [
+       "הַשָּׁמַיִם",
+       "hachamayim"
+      ],
+      [
+       "עַל",
+       "al"
+      ],
+      [
+       "הָאָרֶץ",
+       "haaréts"
+      ]
+     ],
+     "fr": "aussi longtemps que le ciel sera au-dessus de la terre."
+    },
+    {
+     "w": [
+      [
+       "וַיֹּאמֶר",
+       "vayomer"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "אֶל",
+       "el"
+      ],
+      [
+       "מֹשֶׁה",
+       "Moché"
+      ],
+      [
+       "לֵּאמֹר",
+       "lémor"
+      ]
+     ],
+     "fr": "L’Éternel parla à Moïse en disant :"
+    },
+    {
+     "w": [
+      [
+       "דַּבֵּר",
+       "daber"
+      ],
+      [
+       "אֶל",
+       "el"
+      ],
+      [
+       "בְּנֵי",
+       "béné"
+      ],
+      [
+       "יִשְׂרָאֵל",
+       "Israël"
+      ],
+      [
+       "וְאָמַרְתָּ",
+       "véamarta"
+      ],
+      [
+       "אֲלֵהֶם",
+       "alèhem"
+      ]
+     ],
+     "fr": "Parle aux enfants d’Israël et dis-leur"
+    },
+    {
+     "w": [
+      [
+       "וְעָשׂוּ",
+       "vé’assou"
+      ],
+      [
+       "לָהֶם",
+       "lahem"
+      ],
+      [
+       "צִיצִת",
+       "tsitsit"
+      ],
+      [
+       "עַל",
+       "al"
+      ],
+      [
+       "כַּנְפֵי",
+       "kanfé"
+      ],
+      [
+       "בִגְדֵיהֶם",
+       "vigdéhem"
+      ],
+      [
+       "לְדֹרֹתָם",
+       "lédorotam"
+      ]
+     ],
+     "fr": "de se faire des franges aux coins de leurs vêtements, de génération en génération,"
+    },
+    {
+     "w": [
+      [
+       "וְנָתְנוּ",
+       "vénatnou"
+      ],
+      [
+       "עַל",
+       "al"
+      ],
+      [
+       "צִיצִת",
+       "tsitsit"
+      ],
+      [
+       "הַכָּנָף",
+       "hakanaf"
+      ],
+      [
+       "פְּתִיל",
+       "pétil"
+      ],
+      [
+       "תְּכֵלֶת",
+       "tékhélèt"
+      ]
+     ],
+     "fr": "et de mettre à la frange de chaque coin un fil d’azur."
+    },
+    {
+     "w": [
+      [
+       "וְהָיָה",
+       "véhaya"
+      ],
+      [
+       "לָכֶם",
+       "lakhem"
+      ],
+      [
+       "לְצִיצִת",
+       "létsitsit"
+      ],
+      [
+       "וּרְאִיתֶם",
+       "ouréitem"
+      ],
+      [
+       "אֹתוֹ",
+       "oto"
+      ]
+     ],
+     "fr": "Ce sera pour vous une frange : vous la verrez"
+    },
+    {
+     "w": [
+      [
+       "וּזְכַרְתֶּם",
+       "ouzkhartem"
+      ],
+      [
+       "אֶת",
+       "et"
+      ],
+      [
+       "כָּל",
+       "kol"
+      ],
+      [
+       "מִצְוֹת",
+       "mitsvot"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "וַעֲשִׂיתֶם",
+       "va’assitem"
+      ],
+      [
+       "אֹתָם",
+       "otam"
+      ]
+     ],
+     "fr": "et vous vous souviendrez de tous les commandements de l’Éternel pour les accomplir ;"
+    },
+    {
+     "w": [
+      [
+       "וְלֹא",
+       "vélo"
+      ],
+      [
+       "תָתוּרוּ",
+       "tatourou"
+      ],
+      [
+       "אַחֲרֵי",
+       "a’haré"
+      ],
+      [
+       "לְבַבְכֶם",
+       "lévavkhem"
+      ],
+      [
+       "וְאַחֲרֵי",
+       "véa’haré"
+      ],
+      [
+       "עֵינֵיכֶם",
+       "énékhem"
+      ]
+     ],
+     "fr": "vous ne suivrez pas votre cœur et vos yeux"
+    },
+    {
+     "w": [
+      [
+       "אֲשֶׁר",
+       "achèr"
+      ],
+      [
+       "אַתֶּם",
+       "atem"
+      ],
+      [
+       "זֹנִים",
+       "zonim"
+      ],
+      [
+       "אַחֲרֵיהֶם",
+       "a’haréhem"
+      ]
+     ],
+     "fr": "qui vous entraînent à vous égarer."
+    },
+    {
+     "w": [
+      [
+       "לְמַעַן",
+       "léma’an"
+      ],
+      [
+       "תִּזְכְּרוּ",
+       "tizkérou"
+      ],
+      [
+       "וַעֲשִׂיתֶם",
+       "va’assitem"
+      ],
+      [
+       "אֶת",
+       "et"
+      ],
+      [
+       "כָּל",
+       "kol"
+      ],
+      [
+       "מִצְוֹתָי",
+       "mitsvotaï"
+      ]
+     ],
+     "fr": "Ainsi vous vous souviendrez de tous mes commandements et les accomplirez,"
+    },
+    {
+     "w": [
+      [
+       "וִהְיִיתֶם",
+       "vihyitem"
+      ],
+      [
+       "קְדֹשִׁים",
+       "kédochim"
+      ],
+      [
+       "לֵאלֹהֵיכֶם",
+       "lélohékhem"
+      ]
+     ],
+     "fr": "et vous serez saints pour votre Dieu."
+    },
+    {
+     "w": [
+      [
+       "אֲנִי",
+       "ani"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "אֱלֹהֵיכֶם",
+       "Élohékhem"
+      ],
+      [
+       "אֲשֶׁר",
+       "achèr"
+      ],
+      [
+       "הוֹצֵאתִי",
+       "hotséti"
+      ],
+      [
+       "אֶתְכֶם",
+       "etkhem"
+      ],
+      [
+       "מֵאֶרֶץ",
+       "méérets"
+      ],
+      [
+       "מִצְרַיִם",
+       "Mitsrayim"
+      ]
+     ],
+     "fr": "Je suis l’Éternel votre Dieu, qui vous ai fait sortir du pays d’Égypte"
+    },
+    {
+     "w": [
+      [
+       "לִהְיוֹת",
+       "lihyot"
+      ],
+      [
+       "לָכֶם",
+       "lakhem"
+      ],
+      [
+       "לֵאלֹהִים",
+       "lélohim"
+      ],
+      [
+       "אֲנִי",
+       "ani"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "אֱלֹהֵיכֶם",
+       "Élohékhem"
+      ],
+      [
+       "אֱמֶת",
+       "émet"
+      ]
+     ],
+     "fr": "pour être votre Dieu : je suis l’Éternel votre Dieu. C’est vrai."
+    }
+   ],
+   "words": {
+    "שְׁמַע": [
+     "écoute",
+     "שׁ־מ־ע · entendre, comprendre",
+     "michma’at (discipline : « ce qu’on écoute »)"
+    ],
+    "יִשְׂרָאֵל": [
+     "Israël",
+     "שׂ־ר־ה · lutter",
+     "le nom reçu par Jacob après sa lutte avec l’ange (Genèse 32:29)"
+    ],
+    "אֱלֹהֵינוּ": [
+     "notre Dieu",
+     "אֱלֹהִים · Dieu",
+     "Élohim"
+    ],
+    "אֶחָד": [
+     "un, unique",
+     "א־ח־ד · un",
+     "é’had (le chiffre un)"
+    ],
+    "מַלְכוּתוֹ": [
+     "son règne",
+     "מ־ל־ך · régner",
+     "malkhout (royaume)"
+    ],
+    "וְאָהַבְתָּ": [
+     "et tu aimeras",
+     "א־ה־ב · aimer",
+     "ahava (l’amour)"
+    ],
+    "לְבָבְךָ": [
+     "ton cœur",
+     "לֵב · cœur",
+     "lev (cœur)"
+    ],
+    "נַפְשְׁךָ": [
+     "ton âme, ta vie",
+     "נֶפֶשׁ · souffle, vie",
+     "néfech"
+    ],
+    "מְאֹדֶךָ": [
+     "ta force, tes moyens",
+     "מְאֹד · beaucoup",
+     "méod (très)"
+    ],
+    "הַדְּבָרִים": [
+     "les paroles",
+     "ד־ב־ר · parler",
+     "dibour (parole)"
+    ],
+    "וְשִׁנַּנְתָּם": [
+     "tu les enseigneras (avec insistance)",
+     "שׁ־נ־ן · aiguiser, répéter",
+     "chinoun (révision), Michna"
+    ],
+    "לְבָנֶיךָ": [
+     "à tes enfants",
+     "בֵּן · fils",
+     "Bné Israël (les enfants d’Israël)"
+    ],
+    "בַדֶּרֶךְ": [
+     "en chemin",
+     "דֶּרֶךְ · chemin",
+     "dérekh érets (le savoir-vivre)"
+    ],
+    "לְאוֹת": [
+     "comme signe",
+     "אוֹת · signe, lettre",
+     "ot (lettre de l’alphabet)"
+    ],
+    "מְזֻזוֹת": [
+     "les montants de porte",
+     "מְזוּזָה · montant",
+     "mezouza"
+    ],
+    "מִצְוֹתַי": [
+     "mes commandements",
+     "צ־ו־ה · ordonner",
+     "mitsva"
+    ],
+    "מְטַר": [
+     "la pluie",
+     "מָטָר · pluie",
+     "—"
+    ],
+    "וְשָׂבָעְתָּ": [
+     "et tu seras rassasié",
+     "שׂ־ב־ע · se rassasier",
+     "sova (satiété)"
+    ],
+    "צִיצִת": [
+     "frange",
+     "צִיץ · fleur, pointe",
+     "tsitsit"
+    ],
+    "תְּכֵלֶת": [
+     "bleu azur",
+     "תְּכֵלֶת · bleu",
+     "tékhélèt, le bleu du drapeau d’Israël"
+    ],
+    "קְדֹשִׁים": [
+     "saints",
+     "ק־ד־שׁ · être saint",
+     "Kiddouch, Kaddich"
+    ],
+    "מִצְרַיִם": [
+     "l’Égypte",
+     "מֵצַר · lieu étroit",
+     "Mitsrayim, « les étroitesses »"
+    ],
+    "אֱמֶת": [
+     "vrai, vérité",
+     "א־מ־ן · être fidèle",
+     "amen"
+    ],
+    "ה׳": [
+     "l’Éternel",
+     "Le nom divin, écrit ainsi par respect",
+     "on lit « Adonaï » dans la prière, « Hachem » sinon"
+    ]
+   },
+   "echo": {
+    "word": "שְׁמַע",
+    "text": "Dans le rouleau de la Torah, le ע de שמע et le ד de אחד sont écrits en grand. Ensemble ils forment :",
+    "he": "עֵד",
+    "fr": "« Témoin » : celui qui dit le Chéma témoigne."
+   },
+   "order": [
+    "שְׁמַע יִשְׂרָאֵל",
+    "בָּרוּךְ שֵׁם",
+    "וְאָהַבְתָּ",
+    "וְשִׁנַּנְתָּם לְבָנֶיךָ",
+    "וּקְשַׁרְתָּם לְאוֹת",
+    "וּכְתַבְתָּם עַל מְזֻזוֹת"
+   ],
+   "orderHint": "Remets le début dans l’ordre : écouter, bénir, aimer, transmettre, attacher, écrire sur la porte.",
+   "id": "chema",
+   "group": "reveil",
+   "image": "illus/prieres/chema.jpg",
+   "songs": [
+    {
+     "style": "Pop",
+     "url": "prieres/audio/chema_pop.mp3",
+     "source": "suno"
+    },
+    {
+     "style": "Reggae",
+     "url": "prieres/audio/chema_reggae.mp3",
+     "source": "suno"
+    },
+    {
+     "style": "Rap",
+     "url": "prieres/audio/chema_rap.mp3",
+     "source": "suno"
+    },
+    {
+     "style": "Metal",
+     "url": "prieres/audio/chema_metal-rock.mp3",
+     "source": "suno"
+    }
+   ]
+  },
+  {
+   "name": "Adon Olam",
+   "he": "אֲדוֹן עוֹלָם",
+   "ic": "🌌",
+   "when": [
+    "Début de l’office du matin",
+    "Texte complet · 15 vers",
+    "Fin de l’office de Shabbat"
+   ],
+   "dur": "15 vers · 3 min",
+   "origin": "<b>Un poème de 15 vers</b> dans le rite séfarade (10 chez les Ashkénazes), au mètre de la poésie hébraïque d’Espagne. On l’attribue à Salomon ibn Gabirol (XIe s.), mais l’attribution n’est pas prouvée.",
+   "why": "Le poème part de l’éternité de Dieu, avant et après le monde, et finit dans l’intimité : « je confie mon esprit quand je m’endors ». Il se chante sur des centaines de mélodies : c’est le meilleur terrain pour de nouvelles versions.",
+   "parts": [
+    {
+     "at": 0,
+     "t": "Dieu hors du temps",
+     "n": "Avant la Création, après la fin de toute chose."
+    },
+    {
+     "at": 8,
+     "t": "Dieu près de moi",
+     "n": "Le poème passe à « je » : mon rocher, mon médecin, ma nuit."
+    },
+    {
+     "at": 13,
+     "t": "L’espérance",
+     "n": "Les deux vers séfarades de la fin : le Temple et la délivrance."
+    }
+   ],
+   "lines": [
+    {
+     "w": [
+      [
+       "אֲדוֹן",
+       "adon"
+      ],
+      [
+       "עוֹלָם",
+       "olam"
+      ],
+      [
+       "אֲשֶׁר",
+       "achèr"
+      ],
+      [
+       "מָלַךְ",
+       "malakh"
+      ],
+      [
+       "בְּטֶרֶם",
+       "bétérem"
+      ],
+      [
+       "כָּל",
+       "kol"
+      ],
+      [
+       "יְצִיר",
+       "yétsir"
+      ],
+      [
+       "נִבְרָא",
+       "nivra"
+      ]
+     ],
+     "fr": "Maître du monde, qui régnait avant que rien ne fût créé ;"
+    },
+    {
+     "w": [
+      [
+       "לְעֵת",
+       "lé’èt"
+      ],
+      [
+       "נַעֲשָׂה",
+       "na’assa"
+      ],
+      [
+       "בְחֶפְצוֹ",
+       "vé’heftso"
+      ],
+      [
+       "כֹּל",
+       "kol"
+      ],
+      [
+       "אֲזַי",
+       "azaï"
+      ],
+      [
+       "מֶלֶךְ",
+       "mélekh"
+      ],
+      [
+       "שְׁמוֹ",
+       "chémo"
+      ],
+      [
+       "נִקְרָא",
+       "nikra"
+      ]
+     ],
+     "fr": "quand tout fut fait selon sa volonté, alors on l’appela Roi."
+    },
+    {
+     "w": [
+      [
+       "וְאַחֲרֵי",
+       "véa’haré"
+      ],
+      [
+       "כִּכְלוֹת",
+       "kikhlot"
+      ],
+      [
+       "הַכֹּל",
+       "hakol"
+      ],
+      [
+       "לְבַדּוֹ",
+       "lévado"
+      ],
+      [
+       "יִמְלֹךְ",
+       "yimlokh"
+      ],
+      [
+       "נוֹרָא",
+       "nora"
+      ]
+     ],
+     "fr": "Et quand tout aura pris fin, lui seul, le Redoutable, régnera."
+    },
+    {
+     "w": [
+      [
+       "וְהוּא",
+       "véhou"
+      ],
+      [
+       "הָיָה",
+       "haya"
+      ],
+      [
+       "וְהוּא",
+       "véhou"
+      ],
+      [
+       "הֹוֶה",
+       "hové"
+      ],
+      [
+       "וְהוּא",
+       "véhou"
+      ],
+      [
+       "יִהְיֶה",
+       "yihyé"
+      ],
+      [
+       "בְּתִפְאָרָה",
+       "bétif’ara"
+      ]
+     ],
+     "fr": "Il était, il est, et il sera dans sa splendeur."
+    },
+    {
+     "w": [
+      [
+       "וְהוּא",
+       "véhou"
+      ],
+      [
+       "אֶחָד",
+       "é’had"
+      ],
+      [
+       "וְאֵין",
+       "véèn"
+      ],
+      [
+       "שֵׁנִי",
+       "chéni"
+      ],
+      [
+       "לְהַמְשִׁיל",
+       "léhamchil"
+      ],
+      [
+       "לוֹ",
+       "lo"
+      ],
+      [
+       "לְהַחְבִּירָה",
+       "léha’hbira"
+      ]
+     ],
+     "fr": "Il est un, et nul second ne peut lui être comparé ou associé ;"
+    },
+    {
+     "w": [
+      [
+       "בְּלִי",
+       "béli"
+      ],
+      [
+       "רֵאשִׁית",
+       "réchit"
+      ],
+      [
+       "בְּלִי",
+       "béli"
+      ],
+      [
+       "תַכְלִית",
+       "takhlit"
+      ],
+      [
+       "וְלוֹ",
+       "vélo"
+      ],
+      [
+       "הָעֹז",
+       "ha’oz"
+      ],
+      [
+       "וְהַמִּשְׂרָה",
+       "véhamisra"
+      ]
+     ],
+     "fr": "sans commencement, sans fin : à lui la force et le pouvoir."
+    },
+    {
+     "w": [
+      [
+       "בְּלִי",
+       "béli"
+      ],
+      [
+       "עֵרֶךְ",
+       "’érekh"
+      ],
+      [
+       "בְּלִי",
+       "béli"
+      ],
+      [
+       "דִמְיוֹן",
+       "dimyon"
+      ],
+      [
+       "בְּלִי",
+       "béli"
+      ],
+      [
+       "שִׁנּוּי",
+       "chinouï"
+      ],
+      [
+       "וּתְמוּרָה",
+       "outmoura"
+      ]
+     ],
+     "fr": "Sans égal ni image, sans changement ni substitution ;"
+    },
+    {
+     "w": [
+      [
+       "בְּלִי",
+       "béli"
+      ],
+      [
+       "חִבּוּר",
+       "’hibour"
+      ],
+      [
+       "בְּלִי",
+       "béli"
+      ],
+      [
+       "פִּרוּד",
+       "péroud"
+      ],
+      [
+       "גְּדוֹל",
+       "guédol"
+      ],
+      [
+       "כֹּחַ",
+       "koa’h"
+      ],
+      [
+       "וּגְבוּרָה",
+       "ouguévoura"
+      ]
+     ],
+     "fr": "sans union ni séparation, grand en force et en puissance."
+    },
+    {
+     "w": [
+      [
+       "וְהוּא",
+       "véhou"
+      ],
+      [
+       "אֵלִי",
+       "éli"
+      ],
+      [
+       "וְחַי",
+       "vé’haï"
+      ],
+      [
+       "גֹּאֲלִי",
+       "goali"
+      ],
+      [
+       "וְצוּר",
+       "vétsour"
+      ],
+      [
+       "חֶבְלִי",
+       "’hevli"
+      ],
+      [
+       "בְּעֵת",
+       "bé’èt"
+      ],
+      [
+       "צָרָה",
+       "tsara"
+      ]
+     ],
+     "fr": "Il est mon Dieu, mon rédempteur vivant, mon rocher dans la douleur, au temps de la détresse."
+    },
+    {
+     "w": [
+      [
+       "וְהוּא",
+       "véhou"
+      ],
+      [
+       "נִסִּי",
+       "nissi"
+      ],
+      [
+       "וּמָנוֹס",
+       "oumanos"
+      ],
+      [
+       "לִי",
+       "li"
+      ],
+      [
+       "מְנָת",
+       "ménat"
+      ],
+      [
+       "כּוֹסִי",
+       "kossi"
+      ],
+      [
+       "בְּיוֹם",
+       "béyom"
+      ],
+      [
+       "אֶקְרָא",
+       "ekra"
+      ]
+     ],
+     "fr": "Il est mon étendard et mon refuge, la part de ma coupe le jour où j’appelle."
+    },
+    {
+     "w": [
+      [
+       "וְהוּא",
+       "véhou"
+      ],
+      [
+       "רוֹפֵא",
+       "rofé"
+      ],
+      [
+       "וְהוּא",
+       "véhou"
+      ],
+      [
+       "מַרְפֵּא",
+       "marpé"
+      ],
+      [
+       "וְהוּא",
+       "véhou"
+      ],
+      [
+       "צוֹפֶה",
+       "tsofé"
+      ],
+      [
+       "וְהוּא",
+       "véhou"
+      ],
+      [
+       "עֶזְרָה",
+       "’ezra"
+      ]
+     ],
+     "fr": "Il est le médecin et le remède, il veille et il secourt."
+    },
+    {
+     "w": [
+      [
+       "בְּיָדוֹ",
+       "béyado"
+      ],
+      [
+       "אַפְקִיד",
+       "afkid"
+      ],
+      [
+       "רוּחִי",
+       "rou’hi"
+      ],
+      [
+       "בְּעֵת",
+       "bé’èt"
+      ],
+      [
+       "אִישַׁן",
+       "ichan"
+      ],
+      [
+       "וְאָעִירָה",
+       "véa’ira"
+      ]
+     ],
+     "fr": "Entre ses mains je confie mon esprit, quand je m’endors et quand je m’éveille ;"
+    },
+    {
+     "w": [
+      [
+       "וְעִם",
+       "vé’im"
+      ],
+      [
+       "רוּחִי",
+       "rou’hi"
+      ],
+      [
+       "גְּוִיָּתִי",
+       "guéviyati"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "לִי",
+       "li"
+      ],
+      [
+       "וְלֹא",
+       "vélo"
+      ],
+      [
+       "אִירָא",
+       "ira"
+      ]
+     ],
+     "fr": "et avec mon esprit, mon corps : l’Éternel est avec moi, je ne crains rien."
+    },
+    {
+     "w": [
+      [
+       "בְּמִקְדָּשׁוֹ",
+       "bémikdacho"
+      ],
+      [
+       "תָגֵל",
+       "taguel"
+      ],
+      [
+       "נַפְשִׁי",
+       "nafchi"
+      ],
+      [
+       "מְשִׁיחֵנוּ",
+       "méchi’hénou"
+      ],
+      [
+       "יִשְׁלַח",
+       "yichla’h"
+      ],
+      [
+       "מְהֵרָה",
+       "méhéra"
+      ]
+     ],
+     "fr": "En son sanctuaire mon âme exultera ; qu’il envoie vite notre Messie."
+    },
+    {
+     "w": [
+      [
+       "וְאָז",
+       "véaz"
+      ],
+      [
+       "נָשִׁיר",
+       "nachir"
+      ],
+      [
+       "בְּבֵית",
+       "bévèt"
+      ],
+      [
+       "קָדְשִׁי",
+       "kodchi"
+      ],
+      [
+       "אָמֵן",
+       "amen"
+      ],
+      [
+       "אָמֵן",
+       "amen"
+      ],
+      [
+       "שֵׁם",
+       "chem"
+      ],
+      [
+       "הַנּוֹרָא",
+       "hanora"
+      ]
+     ],
+     "fr": "Alors nous chanterons dans ma maison sainte : amen, amen, Nom redoutable !"
+    }
+   ],
+   "words": {
+    "אֲדוֹן": [
+     "maître",
+     "אָדוֹן · seigneur",
+     "Adonaï (« mes maîtres »)"
+    ],
+    "עוֹלָם": [
+     "le monde, l’éternité",
+     "ע־ל־ם · caché, éternel",
+     "olam haba (le monde futur)"
+    ],
+    "מָלַךְ": [
+     "a régné",
+     "מ־ל־ך · régner",
+     "mélekh (roi)"
+    ],
+    "נִבְרָא": [
+     "fut créé",
+     "ב־ר־א · créer",
+     "Béréchit bara (« au commencement, il créa »)"
+    ],
+    "בְחֶפְצוֹ": [
+     "par sa volonté",
+     "ח־פ־ץ · désirer",
+     "’héfets (un objet, ce que l’on désire)"
+    ],
+    "לְבַדּוֹ": [
+     "lui seul",
+     "בַּד · seul, à part",
+     "—"
+    ],
+    "נוֹרָא": [
+     "redoutable",
+     "י־ר־א · craindre",
+     "Yamim Noraïm (les jours redoutables)"
+    ],
+    "בְּתִפְאָרָה": [
+     "dans la splendeur",
+     "פ־א־ר · glorifier",
+     "tif’éret"
+    ],
+    "שֵׁנִי": [
+     "un second",
+     "שׁ־נ־ה · deux, répéter",
+     "Michna (« répétition »)"
+    ],
+    "רֵאשִׁית": [
+     "commencement",
+     "רֹאשׁ · tête",
+     "Béréchit, Roch Hachana"
+    ],
+    "תַכְלִית": [
+     "fin, but",
+     "כ־ל־ה · achever",
+     "takhlit (le but)"
+    ],
+    "גֹּאֲלִי": [
+     "mon rédempteur",
+     "ג־א־ל · délivrer",
+     "guéoula (la délivrance)"
+    ],
+    "צוּר": [
+     "rocher",
+     "צוּר · roc",
+     "Tsour Israël (le Rocher d’Israël)"
+    ],
+    "נִסִּי": [
+     "mon étendard",
+     "נֵס · bannière, miracle",
+     "nes (miracle), Exode 17:15"
+    ],
+    "כּוֹסִי": [
+     "ma coupe",
+     "כּוֹס · coupe",
+     "la coupe du Kiddouch"
+    ],
+    "רוּחִי": [
+     "mon esprit, mon souffle",
+     "רוּחַ · vent, esprit",
+     "roua’h"
+    ],
+    "אִישַׁן": [
+     "je m’endors",
+     "י־שׁ־ן · dormir",
+     "chéna (le sommeil)"
+    ],
+    "אִירָא": [
+     "je crains",
+     "י־ר־א · craindre",
+     "yirat chamayim (la crainte du ciel)"
+    ]
+   },
+   "echo": {
+    "word": "רוּחִי",
+    "text": "Le vers reprend le Psaume 31:6 :",
+    "he": "בְּיָדְךָ אַפְקִיד רוּחִי",
+    "fr": "« Entre tes mains je confie mon esprit. »"
+   },
+   "order": [
+    "אֲדוֹן עוֹלָם",
+    "לְעֵת נַעֲשָׂה",
+    "וְאַחֲרֵי כִּכְלוֹת",
+    "וְהוּא הָיָה",
+    "וְהוּא אֶחָד",
+    "בְּלִי רֵאשִׁית",
+    "בְּלִי עֵרֶךְ",
+    "בְּלִי חִבּוּר",
+    "וְהוּא אֵלִי",
+    "וְהוּא נִסִּי",
+    "וְהוּא רוֹפֵא",
+    "בְּיָדוֹ אַפְקִיד",
+    "וְעִם רוּחִי",
+    "בְּמִקְדָּשׁוֹ",
+    "וְאָז נָשִׁיר"
+   ],
+   "orderHint": "Remets les 15 vers dans l’ordre : de l’éternité de Dieu jusqu’à l’espérance.",
+   "id": "adon-olam",
+   "group": "reveil",
+   "image": "illus/prieres/adon-olam.jpg",
+   "songs": []
+  },
+  {
+   "name": "Amida",
+   "he": "עֲמִידָה",
+   "ic": "🧍",
+   "when": [
+    "Trois fois par jour",
+    "Les 3 premières bénédictions",
+    "Debout, à voix basse"
+   ],
+   "dur": "3 bénédictions · 3 min",
+   "origin": "<b>Fixée à Yavné sous Rabban Gamliel</b>, après la destruction du Temple (Berakhot 28b) ; Méguila 17b l’attribue aux 120 Sages de la Grande Assemblée. On la dit à voix basse comme Hanna, la mère du prophète Samuel : « seules ses lèvres bougeaient » (1 Samuel 1:13, Berakhot 31a).",
+   "why": "C’est « la » prière, la Tefila. On la dit debout, pieds joints, tourné vers Jérusalem. Les trois premières bénédictions louent : le Dieu des pères, le Dieu qui donne la vie, le Dieu saint. La version complète en compte dix-neuf en semaine.",
+   "parts": [
+    {
+     "at": 0,
+     "t": "Avant de commencer",
+     "n": "Psaume 51:17. On fait trois pas en avant."
+    },
+    {
+     "at": 1,
+     "t": "1 · Avot, les pères",
+     "n": "On s’incline à « baroukh » et à « ata », au début et à la fin."
+    },
+    {
+     "at": 9,
+     "t": "2 · Guévourot, la puissance",
+     "n": "En hiver on dit « machiv harouah » ; en été « morid hatal », tu fais descendre la rosée."
+    },
+    {
+     "at": 19,
+     "t": "3 · Kédoucha, la sainteté",
+     "n": "Entre Roch Hachana et Kippour, on termine par « hamélekh hakadoch »."
+    }
+   ],
+   "lines": [
+    {
+     "w": [
+      [
+       "אֲדֹנָי",
+       "Adonaï"
+      ],
+      [
+       "שְׂפָתַי",
+       "séfataï"
+      ],
+      [
+       "תִּפְתָּח",
+       "tifta’h"
+      ],
+      [
+       "וּפִי",
+       "oufi"
+      ],
+      [
+       "יַגִּיד",
+       "yaguid"
+      ],
+      [
+       "תְּהִלָּתֶךָ",
+       "téhilatékha"
+      ]
+     ],
+     "fr": "Seigneur, ouvre mes lèvres, et ma bouche dira ta louange."
+    },
+    {
+     "w": [
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "אַתָּה",
+       "ata"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "אֱלֹהֵינוּ",
+       "Élohénou"
+      ],
+      [
+       "וֵאלֹהֵי",
+       "vélohé"
+      ],
+      [
+       "אֲבוֹתֵינוּ",
+       "avoténou"
+      ]
+     ],
+     "fr": "Béni sois-Tu, Éternel, notre Dieu et Dieu de nos pères,"
+    },
+    {
+     "w": [
+      [
+       "אֱלֹהֵי",
+       "Élohé"
+      ],
+      [
+       "אַבְרָהָם",
+       "Avraham"
+      ],
+      [
+       "אֱלֹהֵי",
+       "Élohé"
+      ],
+      [
+       "יִצְחָק",
+       "Yits’hak"
+      ],
+      [
+       "וֵאלֹהֵי",
+       "vélohé"
+      ],
+      [
+       "יַעֲקֹב",
+       "Ya’akov"
+      ]
+     ],
+     "fr": "Dieu d’Abraham, Dieu d’Isaac et Dieu de Jacob,"
+    },
+    {
+     "w": [
+      [
+       "הָאֵל",
+       "haEl"
+      ],
+      [
+       "הַגָּדוֹל",
+       "hagadol"
+      ],
+      [
+       "הַגִּבּוֹר",
+       "haguibor"
+      ],
+      [
+       "וְהַנּוֹרָא",
+       "véhanora"
+      ],
+      [
+       "אֵל",
+       "El"
+      ],
+      [
+       "עֶלְיוֹן",
+       "’elyon"
+      ]
+     ],
+     "fr": "Dieu grand, puissant et redoutable, Dieu suprême,"
+    },
+    {
+     "w": [
+      [
+       "גּוֹמֵל",
+       "gomel"
+      ],
+      [
+       "חֲסָדִים",
+       "’hassadim"
+      ],
+      [
+       "טוֹבִים",
+       "tovim"
+      ],
+      [
+       "וְקוֹנֵה",
+       "vékoné"
+      ],
+      [
+       "הַכֹּל",
+       "hakol"
+      ]
+     ],
+     "fr": "qui accorde de bons bienfaits et possède tout,"
+    },
+    {
+     "w": [
+      [
+       "וְזוֹכֵר",
+       "vézokher"
+      ],
+      [
+       "חַסְדֵי",
+       "’hasdé"
+      ],
+      [
+       "אָבוֹת",
+       "avot"
+      ]
+     ],
+     "fr": "qui se souvient de la bonté des pères"
+    },
+    {
+     "w": [
+      [
+       "וּמֵבִיא",
+       "oumévi"
+      ],
+      [
+       "גוֹאֵל",
+       "goèl"
+      ],
+      [
+       "לִבְנֵי",
+       "livné"
+      ],
+      [
+       "בְנֵיהֶם",
+       "vénéhem"
+      ],
+      [
+       "לְמַעַן",
+       "léma’an"
+      ],
+      [
+       "שְׁמוֹ",
+       "chémo"
+      ],
+      [
+       "בְּאַהֲבָה",
+       "béahava"
+      ]
+     ],
+     "fr": "et amène un rédempteur aux enfants de leurs enfants, pour son nom, avec amour."
+    },
+    {
+     "w": [
+      [
+       "מֶלֶךְ",
+       "mélekh"
+      ],
+      [
+       "עוֹזֵר",
+       "ozèr"
+      ],
+      [
+       "וּמוֹשִׁיעַ",
+       "oumochi’a"
+      ],
+      [
+       "וּמָגֵן",
+       "oumaguèn"
+      ]
+     ],
+     "fr": "Roi qui aide, sauve et protège :"
+    },
+    {
+     "w": [
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "אַתָּה",
+       "ata"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "מָגֵן",
+       "maguèn"
+      ],
+      [
+       "אַבְרָהָם",
+       "Avraham"
+      ]
+     ],
+     "fr": "béni sois-Tu, Éternel, bouclier d’Abraham."
+    },
+    {
+     "w": [
+      [
+       "אַתָּה",
+       "ata"
+      ],
+      [
+       "גִּבּוֹר",
+       "guibor"
+      ],
+      [
+       "לְעוֹלָם",
+       "léolam"
+      ],
+      [
+       "אֲדֹנָי",
+       "Adonaï"
+      ]
+     ],
+     "fr": "Tu es puissant pour toujours, Seigneur ;"
+    },
+    {
+     "w": [
+      [
+       "מְחַיֵּה",
+       "mé’hayé"
+      ],
+      [
+       "מֵתִים",
+       "métim"
+      ],
+      [
+       "אַתָּה",
+       "ata"
+      ],
+      [
+       "רַב",
+       "rav"
+      ],
+      [
+       "לְהוֹשִׁיעַ",
+       "léhochi’a"
+      ]
+     ],
+     "fr": "tu fais revivre les morts, tu es grand pour sauver."
+    },
+    {
+     "w": [
+      [
+       "מַשִּׁיב",
+       "machiv"
+      ],
+      [
+       "הָרוּחַ",
+       "harouah"
+      ],
+      [
+       "וּמוֹרִיד",
+       "oumorid"
+      ],
+      [
+       "הַגֶּשֶׁם",
+       "haguéchem"
+      ]
+     ],
+     "fr": "Tu fais souffler le vent et tomber la pluie."
+    },
+    {
+     "w": [
+      [
+       "מְכַלְכֵּל",
+       "mékhalkel"
+      ],
+      [
+       "חַיִּים",
+       "’haïm"
+      ],
+      [
+       "בְּחֶסֶד",
+       "bé’héssed"
+      ],
+      [
+       "מְחַיֵּה",
+       "mé’hayé"
+      ],
+      [
+       "מֵתִים",
+       "métim"
+      ],
+      [
+       "בְּרַחֲמִים",
+       "béra’hamim"
+      ],
+      [
+       "רַבִּים",
+       "rabim"
+      ]
+     ],
+     "fr": "Tu nourris les vivants avec bonté, tu fais revivre les morts avec grande miséricorde,"
+    },
+    {
+     "w": [
+      [
+       "סוֹמֵךְ",
+       "somekh"
+      ],
+      [
+       "נוֹפְלִים",
+       "noflim"
+      ],
+      [
+       "וְרוֹפֵא",
+       "vérofé"
+      ],
+      [
+       "חוֹלִים",
+       "’holim"
+      ],
+      [
+       "וּמַתִּיר",
+       "oumatir"
+      ],
+      [
+       "אֲסוּרִים",
+       "assourim"
+      ]
+     ],
+     "fr": "tu soutiens ceux qui tombent, tu guéris les malades, tu libères les captifs,"
+    },
+    {
+     "w": [
+      [
+       "וּמְקַיֵּם",
+       "oumékayèm"
+      ],
+      [
+       "אֱמוּנָתוֹ",
+       "émounato"
+      ],
+      [
+       "לִישֵׁנֵי",
+       "lichéné"
+      ],
+      [
+       "עָפָר",
+       "’afar"
+      ]
+     ],
+     "fr": "et tu tiens ta parole envers ceux qui dorment dans la poussière."
+    },
+    {
+     "w": [
+      [
+       "מִי",
+       "mi"
+      ],
+      [
+       "כָמוֹךָ",
+       "khamokha"
+      ],
+      [
+       "בַּעַל",
+       "ba’al"
+      ],
+      [
+       "גְּבוּרוֹת",
+       "guévourot"
+      ],
+      [
+       "וּמִי",
+       "oumi"
+      ],
+      [
+       "דּוֹמֶה",
+       "domé"
+      ],
+      [
+       "לָּךְ",
+       "lakh"
+      ]
+     ],
+     "fr": "Qui est comme toi, maître des puissances, qui te ressemble,"
+    },
+    {
+     "w": [
+      [
+       "מֶלֶךְ",
+       "mélekh"
+      ],
+      [
+       "מֵמִית",
+       "mémit"
+      ],
+      [
+       "וּמְחַיֵּה",
+       "oumé’hayé"
+      ],
+      [
+       "וּמַצְמִיחַ",
+       "oumatsmia’h"
+      ],
+      [
+       "יְשׁוּעָה",
+       "yéchou’a"
+      ]
+     ],
+     "fr": "Roi qui fait mourir et revivre, et fait germer le salut ?"
+    },
+    {
+     "w": [
+      [
+       "וְנֶאֱמָן",
+       "vénéèman"
+      ],
+      [
+       "אַתָּה",
+       "ata"
+      ],
+      [
+       "לְהַחֲיוֹת",
+       "léha’hayot"
+      ],
+      [
+       "מֵתִים",
+       "métim"
+      ]
+     ],
+     "fr": "Tu es fidèle pour ramener les morts à la vie."
+    },
+    {
+     "w": [
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "אַתָּה",
+       "ata"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "מְחַיֵּה",
+       "mé’hayé"
+      ],
+      [
+       "הַמֵּתִים",
+       "hamétim"
+      ]
+     ],
+     "fr": "Béni sois-Tu, Éternel, qui fais revivre les morts."
+    },
+    {
+     "w": [
+      [
+       "אַתָּה",
+       "ata"
+      ],
+      [
+       "קָדוֹשׁ",
+       "kadoch"
+      ],
+      [
+       "וְשִׁמְךָ",
+       "véchimkha"
+      ],
+      [
+       "קָדוֹשׁ",
+       "kadoch"
+      ]
+     ],
+     "fr": "Tu es saint, ton nom est saint,"
+    },
+    {
+     "w": [
+      [
+       "וּקְדוֹשִׁים",
+       "oukdochim"
+      ],
+      [
+       "בְּכָל",
+       "békhol"
+      ],
+      [
+       "יוֹם",
+       "yom"
+      ],
+      [
+       "יְהַלְלוּךָ",
+       "yéhaléloukha"
+      ],
+      [
+       "סֶּלָה",
+       "sela"
+      ]
+     ],
+     "fr": "et les saints te louent chaque jour, séla."
+    },
+    {
+     "w": [
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "אַתָּה",
+       "ata"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "הָאֵל",
+       "haEl"
+      ],
+      [
+       "הַקָּדוֹשׁ",
+       "hakadoch"
+      ]
+     ],
+     "fr": "Béni sois-Tu, Éternel, le Dieu saint."
+    }
+   ],
+   "words": {
+    "שְׂפָתַי": [
+     "mes lèvres",
+     "שָׂפָה · lèvre, langue",
+     "safa (une langue)"
+    ],
+    "תְּהִלָּתֶךָ": [
+     "ta louange",
+     "ה־ל־ל · louer",
+     "Tehilim (les Psaumes), Hallel"
+    ],
+    "אֲבוֹתֵינוּ": [
+     "nos pères",
+     "אָב · père",
+     "Pirké Avot"
+    ],
+    "הַגִּבּוֹר": [
+     "le puissant",
+     "ג־ב־ר · être fort",
+     "guibor (héros)"
+    ],
+    "חֲסָדִים": [
+     "bienfaits",
+     "חֶסֶד · bonté",
+     "’hessed"
+    ],
+    "גוֹאֵל": [
+     "un rédempteur",
+     "ג־א־ל · délivrer",
+     "guéoula"
+    ],
+    "מָגֵן": [
+     "bouclier",
+     "ג־נ־ן · protéger",
+     "Maguen David (l’étoile, « bouclier de David »)"
+    ],
+    "מְחַיֵּה": [
+     "qui fait revivre",
+     "ח־י־ה · vivre",
+     "’haïm (la vie), lé’haïm"
+    ],
+    "מֵתִים": [
+     "les morts",
+     "מ־ו־ת · mourir",
+     "—"
+    ],
+    "הַגֶּשֶׁם": [
+     "la pluie",
+     "גֶּשֶׁם · pluie",
+     "—"
+    ],
+    "חוֹלִים": [
+     "les malades",
+     "ח־ל־ה · être malade",
+     "beit ’holim (l’hôpital)"
+    ],
+    "יְשׁוּעָה": [
+     "le salut",
+     "י־שׁ־ע · sauver",
+     "Yéhochoua (Josué)"
+    ],
+    "קָדוֹשׁ": [
+     "saint",
+     "ק־ד־שׁ · être saint, mis à part",
+     "Kiddouch, Kaddich"
+    ],
+    "סֶּלָה": [
+     "séla",
+     "mot des Psaumes, sens incertain",
+     "« pour toujours » selon la tradition"
+    ]
+   },
+   "echo": {
+    "word": "שְׂפָתַי",
+    "text": "Le verset d’ouverture vient du Psaume 51:17 :",
+    "he": "אֲדֹנָי שְׂפָתַי תִּפְתָּח וּפִי יַגִּיד תְּהִלָּתֶךָ",
+    "fr": "« Seigneur, ouvre mes lèvres, et ma bouche dira ta louange. »"
+   },
+   "order": [
+    "אֲדֹנָי שְׂפָתַי",
+    "מָגֵן אַבְרָהָם",
+    "אַתָּה גִּבּוֹר",
+    "מְחַיֵּה הַמֵּתִים",
+    "אַתָּה קָדוֹשׁ",
+    "הָאֵל הַקָּדוֹשׁ"
+   ],
+   "orderHint": "Ouvrir les lèvres, puis les trois bénédictions : les pères, la vie, la sainteté.",
+   "noSong": "L’Amida se dit debout, à voix basse : pas de version chantée.",
+   "id": "amida",
+   "group": "synagogue",
+   "image": "illus/prieres/amida.jpg",
+   "songs": []
+  },
+  {
+   "name": "Kaddich",
+   "he": "קַדִּישׁ",
+   "ic": "🕯️",
+   "when": [
+    "À l’office, avec un minyan",
+    "Kaddich des endeuillés · complet",
+    "Pour comprendre"
+   ],
+   "dur": "En araméen · 2 min",
+   "origin": "<b>Né dans les maisons d’étude</b>, en araméen, la langue parlée. Sa réponse centrale, « Yéhé chémé raba », est déjà citée dans le Talmud (Berakhot 3a). Ses premiers mots font écho à Ézéchiel 38:23. Le Kaddich dit par les endeuillés est attesté en Europe au XIIIe siècle.",
+   "why": "Il ne parle jamais de la mort : c’est une louange. L’endeuillé le dit pour que la communauté réponde « Amen, yéhé chémé raba » ; il faut un minyan de dix. La dernière phrase, « Ossé chalom », est en hébreu : on recule de trois pas.",
+   "parts": [
+    {
+     "at": 0,
+     "t": "La sanctification",
+     "n": "Dite par l’endeuillé ; l’assemblée répond « Amen »."
+    },
+    {
+     "at": 6,
+     "t": "La réponse de tous",
+     "n": "Le cœur du Kaddich, dit ensemble."
+    },
+    {
+     "at": 7,
+     "t": "Huit louanges",
+     "n": "Huit verbes de louange à la suite."
+    },
+    {
+     "at": 11,
+     "t": "La paix",
+     "n": "On termine en hébreu, en reculant de trois pas."
+    }
+   ],
+   "lines": [
+    {
+     "w": [
+      [
+       "יִתְגַּדַּל",
+       "yitgadal"
+      ],
+      [
+       "וְיִתְקַדַּשׁ",
+       "véyitkadach"
+      ],
+      [
+       "שְׁמֵהּ",
+       "chémé"
+      ],
+      [
+       "רַבָּא",
+       "raba"
+      ]
+     ],
+     "fr": "Que soit magnifié et sanctifié son grand nom"
+    },
+    {
+     "w": [
+      [
+       "בְּעָלְמָא",
+       "bé’alma"
+      ],
+      [
+       "דִּי",
+       "di"
+      ],
+      [
+       "בְרָא",
+       "véra"
+      ],
+      [
+       "כִרְעוּתֵהּ",
+       "khir’outé"
+      ]
+     ],
+     "fr": "dans le monde qu’il a créé selon sa volonté ;"
+    },
+    {
+     "w": [
+      [
+       "וְיַמְלִיךְ",
+       "véyamlikh"
+      ],
+      [
+       "מַלְכוּתֵהּ",
+       "malkhouté"
+      ],
+      [
+       "וְיַצְמַח",
+       "véyatsma’h"
+      ],
+      [
+       "פּוּרְקָנֵהּ",
+       "pourkané"
+      ],
+      [
+       "וִיקָרֵב",
+       "vikarev"
+      ],
+      [
+       "מְשִׁיחֵהּ",
+       "méchi’hé"
+      ]
+     ],
+     "fr": "qu’il établisse son règne, fasse germer sa délivrance et rapproche son Messie,"
+    },
+    {
+     "w": [
+      [
+       "בְּחַיֵּיכוֹן",
+       "bé’hayékhon"
+      ],
+      [
+       "וּבְיוֹמֵיכוֹן",
+       "ouvyomékhon"
+      ]
+     ],
+     "fr": "de votre vivant, de vos jours"
+    },
+    {
+     "w": [
+      [
+       "וּבְחַיֵּי",
+       "ouv’hayé"
+      ],
+      [
+       "דְכָל",
+       "dékhol"
+      ],
+      [
+       "בֵּית",
+       "bèt"
+      ],
+      [
+       "יִשְׂרָאֵל",
+       "Israël"
+      ]
+     ],
+     "fr": "et du vivant de toute la maison d’Israël,"
+    },
+    {
+     "w": [
+      [
+       "בַּעֲגָלָא",
+       "ba’agala"
+      ],
+      [
+       "וּבִזְמַן",
+       "ouvizman"
+      ],
+      [
+       "קָרִיב",
+       "kariv"
+      ],
+      [
+       "וְאִמְרוּ",
+       "véimrou"
+      ],
+      [
+       "אָמֵן",
+       "amen"
+      ]
+     ],
+     "fr": "bientôt et dans un temps proche. Et dites : Amen."
+    },
+    {
+     "w": [
+      [
+       "יְהֵא",
+       "yéhé"
+      ],
+      [
+       "שְׁמֵהּ",
+       "chémé"
+      ],
+      [
+       "רַבָּא",
+       "raba"
+      ],
+      [
+       "מְבָרַךְ",
+       "mévarakh"
+      ],
+      [
+       "לְעָלַם",
+       "lé’alam"
+      ],
+      [
+       "וּלְעָלְמֵי",
+       "oul’almé"
+      ],
+      [
+       "עָלְמַיָּא",
+       "’almaya"
+      ]
+     ],
+     "fr": "Que son grand nom soit béni pour toujours et à jamais."
+    },
+    {
+     "w": [
+      [
+       "יִתְבָּרַךְ",
+       "yitbarakh"
+      ],
+      [
+       "וְיִשְׁתַּבַּח",
+       "véyichtaba’h"
+      ],
+      [
+       "וְיִתְפָּאַר",
+       "véyitpaar"
+      ],
+      [
+       "וְיִתְרוֹמַם",
+       "véyitromam"
+      ],
+      [
+       "וְיִתְנַשֵּׂא",
+       "véyitnassé"
+      ]
+     ],
+     "fr": "Qu’il soit béni, loué, glorifié, exalté, élevé,"
+    },
+    {
+     "w": [
+      [
+       "וְיִתְהַדָּר",
+       "véyit’hadar"
+      ],
+      [
+       "וְיִתְעַלֶּה",
+       "véyit’alé"
+      ],
+      [
+       "וְיִתְהַלָּל",
+       "véyit’halal"
+      ],
+      [
+       "שְׁמֵהּ",
+       "chémé"
+      ],
+      [
+       "דְּקֻדְשָׁא",
+       "dékoudcha"
+      ],
+      [
+       "בְּרִיךְ",
+       "bérikh"
+      ],
+      [
+       "הוּא",
+       "hou"
+      ]
+     ],
+     "fr": "honoré, magnifié et loué, le nom du Saint, béni soit-il,"
+    },
+    {
+     "w": [
+      [
+       "לְעֵלָּא",
+       "lé’éla"
+      ],
+      [
+       "מִן",
+       "min"
+      ],
+      [
+       "כָּל",
+       "kol"
+      ],
+      [
+       "בִּרְכָתָא",
+       "birkhata"
+      ],
+      [
+       "וְשִׁירָתָא",
+       "véchirata"
+      ]
+     ],
+     "fr": "au-delà de toutes les bénédictions et de tous les chants,"
+    },
+    {
+     "w": [
+      [
+       "תֻּשְׁבְּחָתָא",
+       "touchbé’hata"
+      ],
+      [
+       "וְנֶחֱמָתָא",
+       "véné’hémata"
+      ],
+      [
+       "דַּאֲמִירָן",
+       "daamiran"
+      ],
+      [
+       "בְּעָלְמָא",
+       "bé’alma"
+      ],
+      [
+       "וְאִמְרוּ",
+       "véimrou"
+      ],
+      [
+       "אָמֵן",
+       "amen"
+      ]
+     ],
+     "fr": "les louanges et les consolations dites dans le monde. Et dites : Amen."
+    },
+    {
+     "w": [
+      [
+       "יְהֵא",
+       "yéhé"
+      ],
+      [
+       "שְׁלָמָא",
+       "chlama"
+      ],
+      [
+       "רַבָּא",
+       "raba"
+      ],
+      [
+       "מִן",
+       "min"
+      ],
+      [
+       "שְׁמַיָּא",
+       "chémaya"
+      ]
+     ],
+     "fr": "Qu’une grande paix vienne du ciel,"
+    },
+    {
+     "w": [
+      [
+       "וְחַיִּים",
+       "vé’haïm"
+      ],
+      [
+       "עָלֵינוּ",
+       "’alénou"
+      ],
+      [
+       "וְעַל",
+       "vé’al"
+      ],
+      [
+       "כָּל",
+       "kol"
+      ],
+      [
+       "יִשְׂרָאֵל",
+       "Israël"
+      ],
+      [
+       "וְאִמְרוּ",
+       "véimrou"
+      ],
+      [
+       "אָמֵן",
+       "amen"
+      ]
+     ],
+     "fr": "et la vie, sur nous et sur tout Israël. Et dites : Amen."
+    },
+    {
+     "w": [
+      [
+       "עֹשֶׂה",
+       "ossé"
+      ],
+      [
+       "שָׁלוֹם",
+       "chalom"
+      ],
+      [
+       "בִּמְרוֹמָיו",
+       "bimromav"
+      ],
+      [
+       "הוּא",
+       "hou"
+      ],
+      [
+       "יַעֲשֶׂה",
+       "ya’assé"
+      ],
+      [
+       "שָׁלוֹם",
+       "chalom"
+      ]
+     ],
+     "fr": "Celui qui fait la paix dans ses hauteurs, qu’il fasse la paix"
+    },
+    {
+     "w": [
+      [
+       "עָלֵינוּ",
+       "’alénou"
+      ],
+      [
+       "וְעַל",
+       "vé’al"
+      ],
+      [
+       "כָּל",
+       "kol"
+      ],
+      [
+       "יִשְׂרָאֵל",
+       "Israël"
+      ],
+      [
+       "וְאִמְרוּ",
+       "véimrou"
+      ],
+      [
+       "אָמֵן",
+       "amen"
+      ]
+     ],
+     "fr": "sur nous et sur tout Israël. Et dites : Amen."
+    }
+   ],
+   "words": {
+    "יִתְגַּדַּל": [
+     "qu’il soit magnifié",
+     "ג־ד־ל · être grand",
+     "gadol (grand)"
+    ],
+    "וְיִתְקַדַּשׁ": [
+     "et sanctifié",
+     "ק־ד־שׁ · être saint",
+     "Kaddich, Kiddouch"
+    ],
+    "שְׁמֵהּ": [
+     "son nom (araméen)",
+     "שֵׁם · nom",
+     "Hachem"
+    ],
+    "רַבָּא": [
+     "grand (araméen)",
+     "ר־ב־ב · être nombreux",
+     "rav, rabbin"
+    ],
+    "בְּעָלְמָא": [
+     "dans le monde (araméen)",
+     "ע־ל־ם · monde",
+     "olam en hébreu"
+    ],
+    "מַלְכוּתֵהּ": [
+     "son règne",
+     "מ־ל־ך · régner",
+     "malkhout"
+    ],
+    "בַּעֲגָלָא": [
+     "bientôt, vite",
+     "ע־ג־ל · rond, roulant",
+     "agala (une charrette)"
+    ],
+    "קָרִיב": [
+     "proche",
+     "ק־ר־ב · approcher",
+     "karov en hébreu"
+    ],
+    "אָמֵן": [
+     "amen, c’est vrai",
+     "א־מ־ן · être fidèle",
+     "émouna (la foi)"
+    ],
+    "מְבָרַךְ": [
+     "béni",
+     "ב־ר־ך · bénir",
+     "bérakha"
+    ],
+    "וְנֶחֱמָתָא": [
+     "et les consolations",
+     "נ־ח־ם · consoler",
+     "Na’houm, Ména’hem"
+    ],
+    "שְׁלָמָא": [
+     "la paix (araméen)",
+     "שׁ־ל־ם · être entier",
+     "chalom"
+    ],
+    "שְׁמַיָּא": [
+     "le ciel (araméen)",
+     "שָׁמַיִם · ciel",
+     "chamayim"
+    ],
+    "בִּמְרוֹמָיו": [
+     "dans ses hauteurs",
+     "ר־ו־ם · être haut",
+     "maroum"
+    ],
+    "פּוּרְקָנֵהּ": [
+     "sa délivrance (araméen)",
+     "פ־ר־ק · délivrer",
+     "pourkan, comme guéoula en hébreu"
+    ]
+   },
+   "echo": {
+    "word": "יִתְגַּדַּל",
+    "text": "Ses premiers mots reprennent Ézéchiel 38:23 :",
+    "he": "וְהִתְגַּדִּלְתִּי וְהִתְקַדִּשְׁתִּי",
+    "fr": "« Je me montrerai grand et saint. »"
+   },
+   "order": [
+    "יִתְגַּדַּל וְיִתְקַדַּשׁ",
+    "בְּעָלְמָא דִּי בְרָא",
+    "יְהֵא שְׁמֵהּ רַבָּא",
+    "יִתְבָּרַךְ וְיִשְׁתַּבַּח",
+    "יְהֵא שְׁלָמָא רַבָּא",
+    "עֹשֶׂה שָׁלוֹם"
+   ],
+   "orderHint": "Sanctifier le nom, la réponse de tous, les louanges, puis la paix.",
+   "noSong": "Le Kaddich se comprend ici ; il se dit à l’office avec un minyan, pas en version chantée.",
+   "id": "kaddich",
+   "group": "synagogue",
+   "image": "illus/prieres/kaddich.jpg",
+   "songs": []
+  },
+  {
+   "name": "Hamotsi",
+   "he": "הַמּוֹצִיא",
+   "ic": "🍞",
+   "when": [
+    "Avant de manger du pain",
+    "Texte complet",
+    "Shabbat : sur les deux ’hallot"
+   ],
+   "dur": "Une phrase · 30 s",
+   "origin": "<b>Michna Berakhot 6:1</b> fixe la bénédiction du pain ; le Talmud (Berakhot 38a) discute même s’il faut dire « hamotsi » ou « motsi ». Les mots viennent du Psaume 104:14.",
+   "why": "Le pain ne sort pas de la terre tout seul : il faut semer, moissonner, moudre, cuire. La bénédiction remercie pour le blé et pour tout ce travail.",
+   "lines": [
+    {
+     "w": [
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "אַתָּה",
+       "ata"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ]
+     ],
+     "fr": "Béni sois-Tu, Éternel,"
+    },
+    {
+     "w": [
+      [
+       "אֱלֹהֵינוּ",
+       "Élohénou"
+      ],
+      [
+       "מֶלֶךְ",
+       "mélekh"
+      ],
+      [
+       "הָעוֹלָם",
+       "haolam"
+      ]
+     ],
+     "fr": "notre Dieu, Roi du monde,"
+    },
+    {
+     "w": [
+      [
+       "הַמּוֹצִיא",
+       "hamotsi"
+      ],
+      [
+       "לֶחֶם",
+       "lé’hem"
+      ],
+      [
+       "מִן",
+       "min"
+      ],
+      [
+       "הָאָרֶץ",
+       "haaréts"
+      ]
+     ],
+     "fr": "qui fais sortir le pain de la terre."
+    }
+   ],
+   "words": {
+    "בָּרוּךְ": [
+     "béni",
+     "ב־ר־ך · bénir",
+     "bérakha (bénédiction), bérekh (genou)"
+    ],
+    "אַתָּה": [
+     "toi",
+     "—",
+     "—"
+    ],
+    "ה׳": [
+     "l’Éternel",
+     "Le nom divin, écrit ainsi par respect",
+     "on lit « Adonaï » dans la prière, « Hachem » sinon"
+    ],
+    "אֱלֹהֵינוּ": [
+     "notre Dieu",
+     "אֱלֹהִים · Dieu",
+     "Élohim"
+    ],
+    "מֶלֶךְ": [
+     "roi",
+     "מ־ל־ך · régner",
+     "malkhout (royaume)"
+    ],
+    "הָעוֹלָם": [
+     "le monde",
+     "ע־ל־ם · caché, éternel",
+     "olam (monde, éternité)"
+    ],
+    "הַמּוֹצִיא": [
+     "qui fait sortir",
+     "י־צ־א · sortir",
+     "Yetsiat Mitsrayim (la sortie d’Égypte)"
+    ],
+    "לֶחֶם": [
+     "pain",
+     "ל־ח־ם · nourriture",
+     "Beit Lé’hem (Bethléem, « la maison du pain »)"
+    ],
+    "מִן": [
+     "de, hors de",
+     "—",
+     "—"
+    ],
+    "הָאָרֶץ": [
+     "la terre",
+     "אֶרֶץ · terre, pays",
+     "Erets Israël"
+    ]
+   },
+   "echo": {
+    "word": "הַמּוֹצִיא",
+    "text": "La formule reprend le Psaume 104:14 :",
+    "he": "לְהוֹצִיא לֶחֶם מִן הָאָרֶץ",
+    "fr": "« pour faire sortir le pain de la terre »"
+   },
+   "order": [
+    "בָּרוּךְ אַתָּה ה׳",
+    "אֱלֹהֵינוּ",
+    "מֶלֶךְ הָעוֹלָם",
+    "הַמּוֹצִיא",
+    "לֶחֶם",
+    "מִן הָאָרֶץ"
+   ],
+   "id": "hamotsi",
+   "group": "repas",
+   "image": "illus/prieres/hamotsi.jpg",
+   "songs": []
+  },
+  {
+   "name": "Chalom Aleikhem",
+   "he": "שָׁלוֹם עֲלֵיכֶם",
+   "ic": "👼",
+   "when": [
+    "Vendredi soir, à table",
+    "Texte complet · 5 couplets",
+    "Avant le Kiddouch"
+   ],
+   "dur": "5 couplets · 3 min",
+   "origin": "<b>Kabbalistes de Safed, fin du XVIe ou début du XVIIe siècle.</b> L’idée vient du Talmud (Chabbat 119b) : deux anges, un bon et un mauvais, raccompagnent chacun de la synagogue le vendredi soir. Si les bougies sont allumées et la table mise, le bon ange dit « Qu’il en soit ainsi le Shabbat prochain », et le mauvais doit répondre « Amen ».",
+   "why": "On le chante en rentrant de la synagogue, avant le Kiddouch. Dans le rite séfarade, cinq couplets : bienvenue, entrée, bénédiction, séjour et départ des anges.",
+   "parts": [
+    {
+     "at": 0,
+     "t": "Bienvenue",
+     "n": "La coutume est de chanter chaque couplet trois fois."
+    },
+    {
+     "at": 2,
+     "t": "Entrez",
+     "n": ""
+    },
+    {
+     "at": 4,
+     "t": "Bénissez-moi",
+     "n": ""
+    },
+    {
+     "at": 6,
+     "t": "Restez",
+     "n": "Couplet propre au rite séfarade."
+    },
+    {
+     "at": 8,
+     "t": "Partez en paix",
+     "n": ""
+    },
+    {
+     "at": 10,
+     "t": "Les deux versets",
+     "n": "Psaume 91:11 et Psaume 121:8."
+    }
+   ],
+   "lines": [
+    {
+     "w": [
+      [
+       "שָׁלוֹם",
+       "chalom"
+      ],
+      [
+       "עֲלֵיכֶם",
+       "alékhem"
+      ],
+      [
+       "מַלְאֲכֵי",
+       "malakhé"
+      ],
+      [
+       "הַשָּׁרֵת",
+       "hacharèt"
+      ],
+      [
+       "מַלְאֲכֵי",
+       "malakhé"
+      ],
+      [
+       "עֶלְיוֹן",
+       "’elyon"
+      ]
+     ],
+     "fr": "Paix sur vous, anges du service, anges du Très-Haut,"
+    },
+    {
+     "w": [
+      [
+       "מֶלֶךְ",
+       "mélekh"
+      ],
+      [
+       "מַלְכֵי",
+       "malkhé"
+      ],
+      [
+       "הַמְּלָכִים",
+       "hamélakhim"
+      ],
+      [
+       "הַקָּדוֹשׁ",
+       "hakadoch"
+      ],
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "הוּא",
+       "hou"
+      ]
+     ],
+     "fr": "du Roi des rois des rois, le Saint, béni soit-il."
+    },
+    {
+     "w": [
+      [
+       "בּוֹאֲכֶם",
+       "boakhem"
+      ],
+      [
+       "לְשָׁלוֹם",
+       "léchalom"
+      ],
+      [
+       "מַלְאֲכֵי",
+       "malakhé"
+      ],
+      [
+       "הַשָּׁלוֹם",
+       "hachalom"
+      ],
+      [
+       "מַלְאֲכֵי",
+       "malakhé"
+      ],
+      [
+       "עֶלְיוֹן",
+       "’elyon"
+      ]
+     ],
+     "fr": "Venez en paix, anges de la paix, anges du Très-Haut,"
+    },
+    {
+     "w": [
+      [
+       "מֶלֶךְ",
+       "mélekh"
+      ],
+      [
+       "מַלְכֵי",
+       "malkhé"
+      ],
+      [
+       "הַמְּלָכִים",
+       "hamélakhim"
+      ],
+      [
+       "הַקָּדוֹשׁ",
+       "hakadoch"
+      ],
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "הוּא",
+       "hou"
+      ]
+     ],
+     "fr": "du Roi des rois des rois, le Saint, béni soit-il."
+    },
+    {
+     "w": [
+      [
+       "בָּרְכוּנִי",
+       "barkhouni"
+      ],
+      [
+       "לְשָׁלוֹם",
+       "léchalom"
+      ],
+      [
+       "מַלְאֲכֵי",
+       "malakhé"
+      ],
+      [
+       "הַשָּׁלוֹם",
+       "hachalom"
+      ],
+      [
+       "מַלְאֲכֵי",
+       "malakhé"
+      ],
+      [
+       "עֶלְיוֹן",
+       "’elyon"
+      ]
+     ],
+     "fr": "Bénissez-moi de paix, anges de la paix, anges du Très-Haut,"
+    },
+    {
+     "w": [
+      [
+       "מֶלֶךְ",
+       "mélekh"
+      ],
+      [
+       "מַלְכֵי",
+       "malkhé"
+      ],
+      [
+       "הַמְּלָכִים",
+       "hamélakhim"
+      ],
+      [
+       "הַקָּדוֹשׁ",
+       "hakadoch"
+      ],
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "הוּא",
+       "hou"
+      ]
+     ],
+     "fr": "du Roi des rois des rois, le Saint, béni soit-il."
+    },
+    {
+     "w": [
+      [
+       "בְּשִׁבְתְּכֶם",
+       "béchivtékhem"
+      ],
+      [
+       "לְשָׁלוֹם",
+       "léchalom"
+      ],
+      [
+       "מַלְאֲכֵי",
+       "malakhé"
+      ],
+      [
+       "הַשָּׁלוֹם",
+       "hachalom"
+      ],
+      [
+       "מַלְאֲכֵי",
+       "malakhé"
+      ],
+      [
+       "עֶלְיוֹן",
+       "’elyon"
+      ]
+     ],
+     "fr": "Quand vous êtes assis, soyez en paix, anges de la paix, anges du Très-Haut,"
+    },
+    {
+     "w": [
+      [
+       "מֶלֶךְ",
+       "mélekh"
+      ],
+      [
+       "מַלְכֵי",
+       "malkhé"
+      ],
+      [
+       "הַמְּלָכִים",
+       "hamélakhim"
+      ],
+      [
+       "הַקָּדוֹשׁ",
+       "hakadoch"
+      ],
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "הוּא",
+       "hou"
+      ]
+     ],
+     "fr": "du Roi des rois des rois, le Saint, béni soit-il."
+    },
+    {
+     "w": [
+      [
+       "בְּצֵאתְכֶם",
+       "bétsètkhem"
+      ],
+      [
+       "לְשָׁלוֹם",
+       "léchalom"
+      ],
+      [
+       "מַלְאֲכֵי",
+       "malakhé"
+      ],
+      [
+       "הַשָּׁלוֹם",
+       "hachalom"
+      ],
+      [
+       "מַלְאֲכֵי",
+       "malakhé"
+      ],
+      [
+       "עֶלְיוֹן",
+       "’elyon"
+      ]
+     ],
+     "fr": "Quand vous partez, partez en paix, anges de la paix, anges du Très-Haut,"
+    },
+    {
+     "w": [
+      [
+       "מֶלֶךְ",
+       "mélekh"
+      ],
+      [
+       "מַלְכֵי",
+       "malkhé"
+      ],
+      [
+       "הַמְּלָכִים",
+       "hamélakhim"
+      ],
+      [
+       "הַקָּדוֹשׁ",
+       "hakadoch"
+      ],
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "הוּא",
+       "hou"
+      ]
+     ],
+     "fr": "du Roi des rois des rois, le Saint, béni soit-il."
+    },
+    {
+     "w": [
+      [
+       "כִּי",
+       "ki"
+      ],
+      [
+       "מַלְאָכָיו",
+       "malakhav"
+      ],
+      [
+       "יְצַוֶּה",
+       "yétsavé"
+      ],
+      [
+       "לָּךְ",
+       "lakh"
+      ],
+      [
+       "לִשְׁמָרְךָ",
+       "lichmorkha"
+      ],
+      [
+       "בְּכָל",
+       "békhol"
+      ],
+      [
+       "דְּרָכֶיךָ",
+       "dérakhékha"
+      ]
+     ],
+     "fr": "Car il ordonnera à ses anges de te garder dans toutes tes voies."
+    },
+    {
+     "w": [
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "יִשְׁמָר",
+       "yichmor"
+      ],
+      [
+       "צֵאתְךָ",
+       "tsètkha"
+      ],
+      [
+       "וּבוֹאֶךָ",
+       "ouvoékha"
+      ],
+      [
+       "מֵעַתָּה",
+       "mé’ata"
+      ],
+      [
+       "וְעַד",
+       "vé’ad"
+      ],
+      [
+       "עוֹלָם",
+       "olam"
+      ]
+     ],
+     "fr": "L’Éternel gardera ton départ et ton arrivée, dès maintenant et pour toujours."
+    }
+   ],
+   "words": {
+    "שָׁלוֹם": [
+     "paix, bonjour, au revoir",
+     "שׁ־ל־ם · être entier",
+     "chalom, Chlomo (Salomon)"
+    ],
+    "עֲלֵיכֶם": [
+     "sur vous",
+     "עַל · sur",
+     "« alékhem chalom », la réponse"
+    ],
+    "מַלְאֲכֵי": [
+     "les anges de",
+     "ל־א־ך · envoyer",
+     "malakh (ange, « messager »), mélakha (travail)"
+    ],
+    "הַשָּׁרֵת": [
+     "du service",
+     "שׁ־ר־ת · servir",
+     "chérout (service)"
+    ],
+    "עֶלְיוֹן": [
+     "le Très-Haut",
+     "ע־ל־ה · monter",
+     "alya (monter en Israël)"
+    ],
+    "מַלְכֵי": [
+     "les rois de",
+     "מ־ל־ך · régner",
+     "mélekh"
+    ],
+    "בּוֹאֲכֶם": [
+     "votre venue",
+     "ב־ו־א · venir",
+     "bo’i kala (Lekha Dodi)"
+    ],
+    "בָּרְכוּנִי": [
+     "bénissez-moi",
+     "ב־ר־ך · bénir",
+     "bérakha"
+    ],
+    "צֵאתְכֶם": [
+     "votre départ",
+     "י־צ־א · sortir",
+     "Yetsiat Mitsrayim"
+    ],
+    "לִשְׁמָרְךָ": [
+     "pour te garder",
+     "שׁ־מ־ר · garder",
+     "chomer (gardien)"
+    ],
+    "דְּרָכֶיךָ": [
+     "tes chemins",
+     "דֶּרֶךְ · chemin",
+     "Téfilat Haderekh (prière du voyage)"
+    ],
+    "בְּשִׁבְתְּכֶם": [
+     "quand vous êtes assis",
+     "י־שׁ־ב · s’asseoir, habiter",
+     "yéchiva, Chabbat (« le repos »)"
+    ],
+    "בְּצֵאתְכֶם": [
+     "quand vous sortez",
+     "י־צ־א · sortir",
+     "Yetsiat Mitsrayim"
+    ],
+    "מֶלֶךְ": [
+     "roi",
+     "מ־ל־ך · régner",
+     "malkhout"
+    ]
+   },
+   "echo": {
+    "word": "מַלְאֲכֵי",
+    "text": "Le verset final vient du Psaume 91:11 :",
+    "he": "כִּי מַלְאָכָיו יְצַוֶּה לָּךְ",
+    "fr": "« Car il ordonnera à ses anges de te garder. »"
+   },
+   "order": [
+    "שָׁלוֹם עֲלֵיכֶם",
+    "בּוֹאֲכֶם לְשָׁלוֹם",
+    "בָּרְכוּנִי לְשָׁלוֹם",
+    "בְּשִׁבְתְּכֶם לְשָׁלוֹם",
+    "בְּצֵאתְכֶם לְשָׁלוֹם"
+   ],
+   "orderHint": "Accueillir les anges, les faire entrer, demander leur bénédiction, les faire asseoir, les raccompagner.",
+   "id": "chalom-aleikhem",
+   "group": "shabbat",
+   "image": "illus/prieres/chalom-aleikhem.jpg",
+   "songs": [
+    {
+     "style": "Jazz intime",
+     "url": "https://podcast.rosenblum.ai/album/vendredi-soir/05-chalom-aleikhem.mp3",
+     "source": "album"
+    },
+    {
+     "style": "Rock indé",
+     "url": "prieres/audio/chalom-aleikhem_rock-indie.mp3",
+     "source": "suno"
+    },
+    {
+     "style": "Jazz",
+     "url": "prieres/audio/chalom-aleikhem_jazz.mp3",
+     "source": "suno"
+    }
+   ]
+  },
+  {
+   "name": "Kiddouch",
+   "he": "קִדּוּשׁ",
+   "ic": "🍷",
+   "when": [
+    "Vendredi soir",
+    "Texte complet",
+    "Sur une coupe de vin, avant le repas"
+   ],
+   "dur": "3 parties · 2 min",
+   "origin": "<b>« Souviens-toi du jour du Shabbat pour le sanctifier »</b> (Exode 20:8) : les Sages l’accomplissent sur une coupe de vin (Pessa’him 106a). La Michna (Berakhot 8:1) rapporte déjà le débat entre les écoles de Chammaï et de Hillel sur l’ordre des bénédictions. Le texte d’ouverture est Genèse 2:1-3.",
+   "why": "Le vendredi soir, à table, on lève une coupe pour « sanctifier » le Shabbat avec des mots. Deux raisons : la Création (on se repose comme Dieu s’est reposé) et la liberté (la sortie d’Égypte : un esclave n’a pas de jour de repos). Toute la table répond Amen.",
+   "parts": [
+    {
+     "at": 0,
+     "t": "Vayékhoulou · Genèse 2:1-3",
+     "n": "On commence par « Yom hachichi » : ses initiales et celles des mots suivants forment le Nom."
+    },
+    {
+     "at": 6,
+     "t": "Le vin",
+     "n": "« Savri maranan » : toute la table répond « Lé’haïm ! »"
+    },
+    {
+     "at": 9,
+     "t": "Le Shabbat",
+     "n": "Rite séfarade (Edot HaMizrah)."
+    }
+   ],
+   "lines": [
+    {
+     "w": [
+      [
+       "יוֹם",
+       "yom"
+      ],
+      [
+       "הַשִּׁשִּׁי",
+       "hachichi"
+      ]
+     ],
+     "fr": "Le sixième jour."
+    },
+    {
+     "w": [
+      [
+       "וַיְכֻלּוּ",
+       "vaykhoulou"
+      ],
+      [
+       "הַשָּׁמַיִם",
+       "hachamayim"
+      ],
+      [
+       "וְהָאָרֶץ",
+       "véhaaréts"
+      ],
+      [
+       "וְכָל",
+       "vékhol"
+      ],
+      [
+       "צְבָאָם",
+       "tsévaam"
+      ]
+     ],
+     "fr": "Ainsi furent achevés le ciel, la terre et tout ce qu’ils contiennent."
+    },
+    {
+     "w": [
+      [
+       "וַיְכַל",
+       "vaykhal"
+      ],
+      [
+       "אֱלֹהִים",
+       "Élohim"
+      ],
+      [
+       "בַּיּוֹם",
+       "bayom"
+      ],
+      [
+       "הַשְּׁבִיעִי",
+       "hachvi’i"
+      ],
+      [
+       "מְלַאכְתּוֹ",
+       "mélakhto"
+      ],
+      [
+       "אֲשֶׁר",
+       "achèr"
+      ],
+      [
+       "עָשָׂה",
+       "’assa"
+      ]
+     ],
+     "fr": "Dieu acheva, le septième jour, l’œuvre qu’il avait faite,"
+    },
+    {
+     "w": [
+      [
+       "וַיִּשְׁבֹּת",
+       "vayichbot"
+      ],
+      [
+       "בַּיּוֹם",
+       "bayom"
+      ],
+      [
+       "הַשְּׁבִיעִי",
+       "hachvi’i"
+      ],
+      [
+       "מִכָּל",
+       "mikol"
+      ],
+      [
+       "מְלַאכְתּוֹ",
+       "mélakhto"
+      ],
+      [
+       "אֲשֶׁר",
+       "achèr"
+      ],
+      [
+       "עָשָׂה",
+       "’assa"
+      ]
+     ],
+     "fr": "et il cessa, le septième jour, toute l’œuvre qu’il avait faite."
+    },
+    {
+     "w": [
+      [
+       "וַיְבָרֶךְ",
+       "vayvarekh"
+      ],
+      [
+       "אֱלֹהִים",
+       "Élohim"
+      ],
+      [
+       "אֶת",
+       "et"
+      ],
+      [
+       "יוֹם",
+       "yom"
+      ],
+      [
+       "הַשְּׁבִיעִי",
+       "hachvi’i"
+      ],
+      [
+       "וַיְקַדֵּשׁ",
+       "vaykadech"
+      ],
+      [
+       "אֹתוֹ",
+       "oto"
+      ]
+     ],
+     "fr": "Dieu bénit le septième jour et le sanctifia,"
+    },
+    {
+     "w": [
+      [
+       "כִּי",
+       "ki"
+      ],
+      [
+       "בוֹ",
+       "vo"
+      ],
+      [
+       "שָׁבַת",
+       "chavat"
+      ],
+      [
+       "מִכָּל",
+       "mikol"
+      ],
+      [
+       "מְלַאכְתּוֹ",
+       "mélakhto"
+      ],
+      [
+       "אֲשֶׁר",
+       "achèr"
+      ],
+      [
+       "בָּרָא",
+       "bara"
+      ],
+      [
+       "אֱלֹהִים",
+       "Élohim"
+      ],
+      [
+       "לַעֲשׂוֹת",
+       "la’assot"
+      ]
+     ],
+     "fr": "car en ce jour il cessa toute l’œuvre que Dieu avait créée pour qu’elle s’accomplisse."
+    },
+    {
+     "w": [
+      [
+       "סַבְרִי",
+       "savri"
+      ],
+      [
+       "מָרָנָן",
+       "maranan"
+      ],
+      [
+       "וְרַבּוֹתַי",
+       "vérabotaï"
+      ]
+     ],
+     "fr": "Avec votre attention, mes maîtres."
+    },
+    {
+     "w": [
+      [
+       "לְחַיִּים",
+       "lé’haïm"
+      ]
+     ],
+     "fr": "(La table répond) À la vie !"
+    },
+    {
+     "w": [
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "אַתָּה",
+       "ata"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "אֱלֹהֵינוּ",
+       "Élohénou"
+      ],
+      [
+       "מֶלֶךְ",
+       "mélekh"
+      ],
+      [
+       "הָעוֹלָם",
+       "haolam"
+      ],
+      [
+       "בּוֹרֵא",
+       "boré"
+      ],
+      [
+       "פְּרִי",
+       "péri"
+      ],
+      [
+       "הַגֶּפֶן",
+       "haguéfen"
+      ]
+     ],
+     "fr": "Béni sois-Tu, Éternel notre Dieu, Roi du monde, qui crées le fruit de la vigne."
+    },
+    {
+     "w": [
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "אַתָּה",
+       "ata"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "אֱלֹהֵינוּ",
+       "Élohénou"
+      ],
+      [
+       "מֶלֶךְ",
+       "mélekh"
+      ],
+      [
+       "הָעוֹלָם",
+       "haolam"
+      ]
+     ],
+     "fr": "Béni sois-Tu, Éternel notre Dieu, Roi du monde,"
+    },
+    {
+     "w": [
+      [
+       "אֲשֶׁר",
+       "achèr"
+      ],
+      [
+       "קִדְּשָׁנוּ",
+       "kidéchanou"
+      ],
+      [
+       "בְּמִצְוֹתָיו",
+       "bémitsvotav"
+      ],
+      [
+       "וְרָצָה",
+       "vératsa"
+      ],
+      [
+       "בָנוּ",
+       "vanou"
+      ]
+     ],
+     "fr": "qui nous as sanctifiés par tes commandements et nous as agréés,"
+    },
+    {
+     "w": [
+      [
+       "וְשַׁבַּת",
+       "véchabat"
+      ],
+      [
+       "קָדְשׁוֹ",
+       "kodcho"
+      ],
+      [
+       "בְּאַהֲבָה",
+       "béahava"
+      ],
+      [
+       "וּבְרָצוֹן",
+       "ouvratson"
+      ],
+      [
+       "הִנְחִילָנוּ",
+       "hin’hilanou"
+      ]
+     ],
+     "fr": "et nous as donné en héritage, avec amour et bienveillance, ton saint Shabbat,"
+    },
+    {
+     "w": [
+      [
+       "זִכָּרוֹן",
+       "zikaron"
+      ],
+      [
+       "לְמַעֲשֵׂה",
+       "léma’assé"
+      ],
+      [
+       "בְרֵאשִׁית",
+       "vérechit"
+      ]
+     ],
+     "fr": "souvenir de l’œuvre de la Création."
+    },
+    {
+     "w": [
+      [
+       "תְּחִלָּה",
+       "té’hila"
+      ],
+      [
+       "לְמִקְרָאֵי",
+       "lémikraé"
+      ],
+      [
+       "קֹדֶשׁ",
+       "kodech"
+      ]
+     ],
+     "fr": "premier des jours de sainte assemblée,"
+    },
+    {
+     "w": [
+      [
+       "זֵכֶר",
+       "zékher"
+      ],
+      [
+       "לִיצִיאַת",
+       "litsiat"
+      ],
+      [
+       "מִצְרָיִם",
+       "Mitsrayim"
+      ]
+     ],
+     "fr": "souvenir de la sortie d’Égypte."
+    },
+    {
+     "w": [
+      [
+       "וְשַׁבַּת",
+       "véchabat"
+      ],
+      [
+       "קָדְשְׁךָ",
+       "kodchékha"
+      ],
+      [
+       "בְּאַהֲבָה",
+       "béahava"
+      ],
+      [
+       "וּבְרָצוֹן",
+       "ouvratson"
+      ],
+      [
+       "הִנְחַלְתָּנוּ",
+       "hin’haltanou"
+      ]
+     ],
+     "fr": "et tu nous as donné en héritage ton saint Shabbat, avec amour et bienveillance."
+    },
+    {
+     "w": [
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "אַתָּה",
+       "ata"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "מְקַדֵּשׁ",
+       "mékadech"
+      ],
+      [
+       "הַשַּׁבָּת",
+       "haChabbat"
+      ]
+     ],
+     "fr": "Béni sois-Tu, Éternel, qui sanctifies le Shabbat."
+    }
+   ],
+   "words": {
+    "וַיְכֻלּוּ": [
+     "et furent achevés",
+     "כ־ל־ה · achever",
+     "kala (la fiancée, l’« accomplie », selon un midrash)"
+    ],
+    "הַשָּׁמַיִם": [
+     "le ciel",
+     "שָׁמַיִם · ciel",
+     "—"
+    ],
+    "הַשְּׁבִיעִי": [
+     "le septième",
+     "שׁ־ב־ע · sept",
+     "chavoua (semaine), Chavouot"
+    ],
+    "מְלַאכְתּוֹ": [
+     "son œuvre",
+     "ל־א־ך · envoyer, travailler",
+     "mélakha (les 39 travaux interdits le Shabbat)"
+    ],
+    "וַיִּשְׁבֹּת": [
+     "et il cessa",
+     "שׁ־ב־ת · cesser",
+     "Chabbat"
+    ],
+    "וַיְקַדֵּשׁ": [
+     "et il sanctifia",
+     "ק־ד־שׁ · être saint",
+     "Kiddouch"
+    ],
+    "בָּרָא": [
+     "il créa",
+     "ב־ר־א · créer",
+     "Béréchit bara"
+    ],
+    "הַגָּפֶן": [
+     "la vigne",
+     "גֶּפֶן · vigne",
+     "—"
+    ],
+    "בְּמִצְוֹתָיו": [
+     "par ses commandements",
+     "צ־ו־ה · ordonner",
+     "mitsva"
+    ],
+    "הִנְחִילָנוּ": [
+     "nous a donné en héritage",
+     "נ־ח־ל · hériter",
+     "na’hala (héritage)"
+    ],
+    "זִכָּרוֹן": [
+     "souvenir",
+     "ז־כ־ר · se souvenir",
+     "Zakhor"
+    ],
+    "בְרֵאשִׁית": [
+     "le commencement",
+     "רֹאשׁ · tête",
+     "Béréchit (Genèse)"
+    ],
+    "לִיצִיאַת": [
+     "de la sortie",
+     "י־צ־א · sortir",
+     "Yetsiat Mitsrayim"
+    ],
+    "בָחַרְתָּ": [
+     "tu as choisi",
+     "ב־ח־ר · choisir",
+     "bé’hira (élection)"
+    ],
+    "מְקַדֵּשׁ": [
+     "qui sanctifie",
+     "ק־ד־שׁ · être saint",
+     "Mikdach (le Temple)"
+    ],
+    "לְחַיִּים": [
+     "à la vie",
+     "ח־י־ה · vivre",
+     "lé’haïm"
+    ],
+    "הַגֶּפֶן": [
+     "la vigne",
+     "גֶּפֶן · vigne",
+     "—"
+    ]
+   },
+   "echo": {
+    "word": "וַיְכֻלּוּ",
+    "text": "On commence par « Yom hachichi » : les initiales de יוֹם הַשִּׁשִּׁי וַיְכֻלּוּ הַשָּׁמַיִם forment le Nom divin.",
+    "he": "י · ה · ו · ה",
+    "fr": "Quatre initiales, quatre lettres du Nom."
+   },
+   "order": [
+    "וַיְכֻלּוּ",
+    "וַיְכַל אֱלֹהִים",
+    "וַיִּשְׁבֹּת",
+    "וַיְבָרֶךְ",
+    "בּוֹרֵא פְּרִי הַגֶּפֶן",
+    "אֲשֶׁר קִדְּשָׁנוּ",
+    "זִכָּרוֹן לְמַעֲשֵׂה בְרֵאשִׁית",
+    "מְקַדֵּשׁ הַשַּׁבָּת"
+   ],
+   "orderHint": "Le récit du septième jour, puis le vin, puis le Shabbat.",
+   "id": "kiddouch",
+   "group": "shabbat",
+   "image": "illus/prieres/kiddouch.jpg",
+   "songs": [
+    {
+     "style": "Jazz intime",
+     "url": "https://podcast.rosenblum.ai/album/vendredi-soir/08-kiddouch.mp3",
+     "source": "album"
+    }
+   ]
+  },
+  {
+   "name": "Lekha Dodi",
+   "he": "לְכָה דוֹדִי",
+   "ic": "🕯",
+   "when": [
+    "Vendredi soir",
+    "Kabbalat Shabbat",
+    "Texte complet · 9 couplets"
+   ],
+   "dur": "9 couplets · 5 min",
+   "origin": "<b>Shlomo Alkabetz, Safed, vers 1540.</b> Les huit premiers couplets forment l’acrostiche de son nom : <b>שלמה הלוי, Shlomo HaLevi</b>. L’idée vient du Talmud : Rabbi Hanina, le vendredi au crépuscule, disait « Allons à la rencontre de la reine Shabbat » (Chabbat 119a). Presque chaque vers cite un prophète, surtout Isaïe.",
+   "why": "On accueille le Shabbat comme une fiancée, puis le chant passe du Shabbat à Jérusalem relevée de ses ruines. Au dernier couplet, « Bo’i vechalom », on se tourne vers la porte pour recevoir la fiancée. Dans le rite séfarade, on se tourne à droite puis à gauche au double « Bo’i kala ».",
+   "stanzas": [
+    {
+     "label": "Refrain",
+     "note": "Chanté au début et après chaque couplet."
+    },
+    {
+     "n": 1,
+     "letter": "ש",
+     "echo": "« Souviens-toi » (Exode 20:8) et « Garde » (Deutéronome 5:12), dits en une seule parole (Chevouot 20b) ; « l’Éternel sera un et son nom un » (Zacharie 14:9)."
+    },
+    {
+     "n": 2,
+     "letter": "ל",
+     "echo": "Le Shabbat, dernier jour créé mais premier dans la pensée divine (Genèse 2:2-3)."
+    },
+    {
+     "n": 3,
+     "letter": "מ",
+     "echo": "« La vallée des pleurs » (Psaume 84:7) : on passe du Shabbat à Jérusalem en ruines."
+    },
+    {
+     "n": 4,
+     "letter": "ה",
+     "echo": "« Secoue ta poussière, lève-toi » (Isaïe 52:2) ; le fils de Jessé de Bethléem, c’est David."
+    },
+    {
+     "n": 5,
+     "letter": "ה",
+     "echo": "« Lève-toi, brille, car ta lumière est venue » (Isaïe 60:1) ; « Éveille-toi, chante un cantique » (Juges 5:12, le chant de Débora)."
+    },
+    {
+     "n": 6,
+     "letter": "ל",
+     "echo": "« Pourquoi t’abats-tu, mon âme, et gémis-tu ? » (Psaume 42:6) ; « la ville sera rebâtie sur sa colline » (Jérémie 30:18)."
+    },
+    {
+     "n": 7,
+     "letter": "ו",
+     "echo": "« Comme le fiancé se réjouit de sa fiancée, ton Dieu se réjouira de toi » (Isaïe 62:5)."
+    },
+    {
+     "n": 8,
+     "letter": "י",
+     "echo": "« À droite et à gauche tu t’étendras » (Isaïe 54:3) ; « le fils de Pérets » : le Messie, descendant de David (Ruth 4:18-22)."
+    },
+    {
+     "n": 9,
+     "letter": "ב",
+     "echo": "Hors de l’acrostiche : le couplet de l’accueil. On se tourne vers l’entrée et l’on s’incline vers la fiancée qui arrive."
+    }
+   ],
+   "lines": [
+    {
+     "w": [
+      [
+       "לְכָה",
+       "lekha"
+      ],
+      [
+       "דוֹדִי",
+       "dodi"
+      ],
+      [
+       "לִקְרַאת",
+       "likrat"
+      ],
+      [
+       "כַּלָּה",
+       "kala"
+      ]
+     ],
+     "fr": "Viens, mon bien-aimé, à la rencontre de la fiancée,",
+     "s": 0
+    },
+    {
+     "w": [
+      [
+       "פְּנֵי",
+       "péné"
+      ],
+      [
+       "שַׁבָּת",
+       "Chabbat"
+      ],
+      [
+       "נְקַבְּלָה",
+       "nékabéla"
+      ]
+     ],
+     "fr": "accueillons la présence du Shabbat.",
+     "s": 0
+    },
+    {
+     "w": [
+      [
+       "שָׁמוֹר",
+       "chamor"
+      ],
+      [
+       "וְזָכוֹר",
+       "vézakhor"
+      ],
+      [
+       "בְּדִבּוּר",
+       "bédibour"
+      ],
+      [
+       "אֶחָד",
+       "é’had"
+      ]
+     ],
+     "fr": "« Garde » et « souviens-toi » en une seule parole,",
+     "s": 1
+    },
+    {
+     "w": [
+      [
+       "הִשְׁמִיעָנוּ",
+       "hichmi’anou"
+      ],
+      [
+       "אֵל",
+       "El"
+      ],
+      [
+       "הַמְיֻחָד",
+       "haméyou’had"
+      ]
+     ],
+     "fr": "nous fit entendre le Dieu unique ;",
+     "s": 1
+    },
+    {
+     "w": [
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "אֶחָד",
+       "é’had"
+      ],
+      [
+       "וּשְׁמוֹ",
+       "ouchmo"
+      ],
+      [
+       "אֶחָד",
+       "é’had"
+      ]
+     ],
+     "fr": "l’Éternel est un et son nom est un,",
+     "s": 1
+    },
+    {
+     "w": [
+      [
+       "לְשֵׁם",
+       "léchem"
+      ],
+      [
+       "וּלְתִפְאֶרֶת",
+       "oultif’éret"
+      ],
+      [
+       "וְלִתְהִלָּה",
+       "vélit’hila"
+      ]
+     ],
+     "fr": "pour la renommée, la splendeur et la louange.",
+     "s": 1
+    },
+    {
+     "w": [
+      [
+       "לִקְרַאת",
+       "likrat"
+      ],
+      [
+       "שַׁבָּת",
+       "Chabbat"
+      ],
+      [
+       "לְכוּ",
+       "lekhou"
+      ],
+      [
+       "וְנֵלְכָה",
+       "vénélkha"
+      ]
+     ],
+     "fr": "À la rencontre du Shabbat, venez, allons,",
+     "s": 2
+    },
+    {
+     "w": [
+      [
+       "כִּי",
+       "ki"
+      ],
+      [
+       "הִיא",
+       "hi"
+      ],
+      [
+       "מְקוֹר",
+       "mékor"
+      ],
+      [
+       "הַבְּרָכָה",
+       "habérakha"
+      ]
+     ],
+     "fr": "car elle est la source de la bénédiction ;",
+     "s": 2
+    },
+    {
+     "w": [
+      [
+       "מֵרֹאשׁ",
+       "méroch"
+      ],
+      [
+       "מִקֶּדֶם",
+       "mikédem"
+      ],
+      [
+       "נְסוּכָה",
+       "néssoukha"
+      ]
+     ],
+     "fr": "dès l’origine, depuis toujours, elle fut consacrée :",
+     "s": 2
+    },
+    {
+     "w": [
+      [
+       "סוֹף",
+       "sof"
+      ],
+      [
+       "מַעֲשֶׂה",
+       "ma’assé"
+      ],
+      [
+       "בְּמַחֲשָׁבָה",
+       "béma’hachava"
+      ],
+      [
+       "תְּחִלָּה",
+       "té’hila"
+      ]
+     ],
+     "fr": "dernière dans l’œuvre, première dans la pensée.",
+     "s": 2
+    },
+    {
+     "w": [
+      [
+       "מִקְדַּשׁ",
+       "mikdach"
+      ],
+      [
+       "מֶלֶךְ",
+       "mélekh"
+      ],
+      [
+       "עִיר",
+       "ir"
+      ],
+      [
+       "מְלוּכָה",
+       "méloukha"
+      ]
+     ],
+     "fr": "Sanctuaire du Roi, cité royale,",
+     "s": 3
+    },
+    {
+     "w": [
+      [
+       "קוּמִי",
+       "koumi"
+      ],
+      [
+       "צְאִי",
+       "tsé’i"
+      ],
+      [
+       "מִתּוֹךְ",
+       "mitokh"
+      ],
+      [
+       "הַהֲפֵכָה",
+       "hahafékha"
+      ]
+     ],
+     "fr": "lève-toi, sors du milieu des ruines ;",
+     "s": 3
+    },
+    {
+     "w": [
+      [
+       "רַב",
+       "rav"
+      ],
+      [
+       "לָךְ",
+       "lakh"
+      ],
+      [
+       "שֶׁבֶת",
+       "chévet"
+      ],
+      [
+       "בְּעֵמֶק",
+       "bé’émek"
+      ],
+      [
+       "הַבָּכָא",
+       "habakha"
+      ]
+     ],
+     "fr": "tu as assez demeuré dans la vallée des pleurs :",
+     "s": 3
+    },
+    {
+     "w": [
+      [
+       "וְהוּא",
+       "véhou"
+      ],
+      [
+       "יַחְמוֹל",
+       "ya’hmol"
+      ],
+      [
+       "עָלַיִךְ",
+       "alayikh"
+      ],
+      [
+       "חֶמְלָה",
+       "’hemla"
+      ]
+     ],
+     "fr": "Il aura pour toi pitié et compassion.",
+     "s": 3
+    },
+    {
+     "w": [
+      [
+       "הִתְנַעֲרִי",
+       "hitna’ari"
+      ],
+      [
+       "מֵעָפָר",
+       "mé’afar"
+      ],
+      [
+       "קוּמִי",
+       "koumi"
+      ]
+     ],
+     "fr": "Secoue ta poussière, lève-toi,",
+     "s": 4
+    },
+    {
+     "w": [
+      [
+       "לִבְשִׁי",
+       "livchi"
+      ],
+      [
+       "בִּגְדֵי",
+       "bigdé"
+      ],
+      [
+       "תִפְאַרְתֵּךְ",
+       "tif’artekh"
+      ],
+      [
+       "עַמִּי",
+       "ami"
+      ]
+     ],
+     "fr": "revêts tes habits de splendeur, mon peuple ;",
+     "s": 4
+    },
+    {
+     "w": [
+      [
+       "עַל",
+       "al"
+      ],
+      [
+       "יַד",
+       "yad"
+      ],
+      [
+       "בֶּן",
+       "ben"
+      ],
+      [
+       "יִשַּׁי",
+       "Yichaï"
+      ],
+      [
+       "בֵּית",
+       "beit"
+      ],
+      [
+       "הַלַּחְמִי",
+       "halah’mi"
+      ]
+     ],
+     "fr": "par la main du fils de Jessé, de Bethléem,",
+     "s": 4
+    },
+    {
+     "w": [
+      [
+       "קָרְבָה",
+       "korva"
+      ],
+      [
+       "אֶל",
+       "el"
+      ],
+      [
+       "נַפְשִׁי",
+       "nafchi"
+      ],
+      [
+       "גְּאָלָהּ",
+       "guéalah"
+      ]
+     ],
+     "fr": "approche de mon âme, délivre-la.",
+     "s": 4
+    },
+    {
+     "w": [
+      [
+       "הִתְעוֹרְרִי",
+       "hit’oréri"
+      ],
+      [
+       "הִתְעוֹרְרִי",
+       "hit’oréri"
+      ]
+     ],
+     "fr": "Réveille-toi, réveille-toi,",
+     "s": 5
+    },
+    {
+     "w": [
+      [
+       "כִּי",
+       "ki"
+      ],
+      [
+       "בָא",
+       "va"
+      ],
+      [
+       "אוֹרֵךְ",
+       "orekh"
+      ],
+      [
+       "קוּמִי",
+       "koumi"
+      ],
+      [
+       "אוֹרִי",
+       "ori"
+      ]
+     ],
+     "fr": "car ta lumière est venue : lève-toi, brille ;",
+     "s": 5
+    },
+    {
+     "w": [
+      [
+       "עוּרִי",
+       "ouri"
+      ],
+      [
+       "עוּרִי",
+       "ouri"
+      ],
+      [
+       "שִׁיר",
+       "chir"
+      ],
+      [
+       "דַּבֵּרִי",
+       "dabéri"
+      ]
+     ],
+     "fr": "éveille-toi, éveille-toi, chante un cantique :",
+     "s": 5
+    },
+    {
+     "w": [
+      [
+       "כְּבוֹד",
+       "kévod"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "עָלַיִךְ",
+       "alayikh"
+      ],
+      [
+       "נִגְלָה",
+       "nigla"
+      ]
+     ],
+     "fr": "la gloire de l’Éternel se révèle sur toi.",
+     "s": 5
+    },
+    {
+     "w": [
+      [
+       "לֹא",
+       "lo"
+      ],
+      [
+       "תֵבוֹשִׁי",
+       "tévochi"
+      ],
+      [
+       "וְלֹא",
+       "vélo"
+      ],
+      [
+       "תִכָּלְמִי",
+       "tikalmi"
+      ]
+     ],
+     "fr": "N’aie pas honte, ne sois pas confondue ;",
+     "s": 6
+    },
+    {
+     "w": [
+      [
+       "מַה",
+       "ma"
+      ],
+      [
+       "תִּשְׁתּוֹחֲחִי",
+       "tichtoho’hi"
+      ],
+      [
+       "וּמַה",
+       "ouma"
+      ],
+      [
+       "תֶּהֱמִי",
+       "téhémi"
+      ]
+     ],
+     "fr": "pourquoi t’abattre, pourquoi gémir ?",
+     "s": 6
+    },
+    {
+     "w": [
+      [
+       "בָּךְ",
+       "bakh"
+      ],
+      [
+       "יֶחֱסוּ",
+       "yé’héssou"
+      ],
+      [
+       "עֲנִיֵּי",
+       "aniyé"
+      ],
+      [
+       "עַמִּי",
+       "ami"
+      ]
+     ],
+     "fr": "En toi s’abriteront les pauvres de mon peuple,",
+     "s": 6
+    },
+    {
+     "w": [
+      [
+       "וְנִבְנְתָה",
+       "vénivneta"
+      ],
+      [
+       "עִיר",
+       "ir"
+      ],
+      [
+       "עַל",
+       "al"
+      ],
+      [
+       "תִּלָּהּ",
+       "tilah"
+      ]
+     ],
+     "fr": "et la ville sera rebâtie sur sa colline.",
+     "s": 6
+    },
+    {
+     "w": [
+      [
+       "וְהָיוּ",
+       "véhayou"
+      ],
+      [
+       "לִמְשִׁסָּה",
+       "limchissa"
+      ],
+      [
+       "שֹׁסָיִךְ",
+       "chossayikh"
+      ]
+     ],
+     "fr": "Ceux qui te pillaient seront pillés,",
+     "s": 7
+    },
+    {
+     "w": [
+      [
+       "וְרָחֲקוּ",
+       "vérah’akou"
+      ],
+      [
+       "כָּל",
+       "kol"
+      ],
+      [
+       "מְבַלְּעָיִךְ",
+       "mévalé’ayikh"
+      ]
+     ],
+     "fr": "et s’éloigneront tous ceux qui voulaient t’engloutir ;",
+     "s": 7
+    },
+    {
+     "w": [
+      [
+       "יָשִׂישׂ",
+       "yassis"
+      ],
+      [
+       "עָלַיִךְ",
+       "alayikh"
+      ],
+      [
+       "אֱלֹהָיִךְ",
+       "Élohayikh"
+      ]
+     ],
+     "fr": "ton Dieu se réjouira de toi",
+     "s": 7
+    },
+    {
+     "w": [
+      [
+       "כִּמְשׂוֹשׂ",
+       "kimsoss"
+      ],
+      [
+       "חָתָן",
+       "’hatan"
+      ],
+      [
+       "עַל",
+       "al"
+      ],
+      [
+       "כַּלָּה",
+       "kala"
+      ]
+     ],
+     "fr": "comme le fiancé se réjouit de sa fiancée.",
+     "s": 7
+    },
+    {
+     "w": [
+      [
+       "יָמִין",
+       "yamin"
+      ],
+      [
+       "וּשְׂמֹאל",
+       "oussmol"
+      ],
+      [
+       "תִּפְרוֹצִי",
+       "tifrotsi"
+      ]
+     ],
+     "fr": "À droite et à gauche tu t’étendras,",
+     "s": 8
+    },
+    {
+     "w": [
+      [
+       "וְאֶת",
+       "véet"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "תַּעֲרִיצִי",
+       "ta’aritsi"
+      ]
+     ],
+     "fr": "et tu glorifieras l’Éternel ;",
+     "s": 8
+    },
+    {
+     "w": [
+      [
+       "עַל",
+       "al"
+      ],
+      [
+       "יַד",
+       "yad"
+      ],
+      [
+       "אִישׁ",
+       "ich"
+      ],
+      [
+       "בֶּן",
+       "ben"
+      ],
+      [
+       "פַּרְצִי",
+       "Partsi"
+      ]
+     ],
+     "fr": "par la main de l’homme, descendant de Pérets,",
+     "s": 8
+    },
+    {
+     "w": [
+      [
+       "וְנִשְׂמְחָה",
+       "vénism’ha"
+      ],
+      [
+       "וְנָגִילָה",
+       "vénaguila"
+      ]
+     ],
+     "fr": "nous nous réjouirons, nous exulterons.",
+     "s": 8
+    },
+    {
+     "w": [
+      [
+       "בּוֹאִי",
+       "bo’i"
+      ],
+      [
+       "בְשָׁלוֹם",
+       "véchalom"
+      ],
+      [
+       "עֲטֶרֶת",
+       "atéret"
+      ],
+      [
+       "בַּעְלָהּ",
+       "ba’lah"
+      ]
+     ],
+     "fr": "Viens en paix, couronne de ton époux,",
+     "s": 9
+    },
+    {
+     "w": [
+      [
+       "גַּם",
+       "gam"
+      ],
+      [
+       "בְּשִׂמְחָה",
+       "béssim’ha"
+      ],
+      [
+       "בְּרִנָּה",
+       "bérina"
+      ],
+      [
+       "וּבְצָהֳלָה",
+       "ouvtsahola"
+      ]
+     ],
+     "fr": "dans la joie, le chant et l’allégresse,",
+     "s": 9
+    },
+    {
+     "w": [
+      [
+       "תּוֹךְ",
+       "tokh"
+      ],
+      [
+       "אֱמוּנֵי",
+       "émouné"
+      ],
+      [
+       "עַם",
+       "am"
+      ],
+      [
+       "סְגֻלָּה",
+       "ségoula"
+      ]
+     ],
+     "fr": "parmi les fidèles du peuple précieux :",
+     "s": 9
+    },
+    {
+     "w": [
+      [
+       "בֹּאִי",
+       "bo’i"
+      ],
+      [
+       "כַלָּה",
+       "khala"
+      ],
+      [
+       "בֹּאִי",
+       "bo’i"
+      ],
+      [
+       "כַלָּה",
+       "khala"
+      ],
+      [
+       "תּוֹךְ",
+       "tokh"
+      ],
+      [
+       "אֱמוּנֵי",
+       "émouné"
+      ],
+      [
+       "עַם",
+       "am"
+      ],
+      [
+       "סְגֻלָּה",
+       "ségoula"
+      ]
+     ],
+     "fr": "viens, fiancée ! viens, fiancée ! parmi les fidèles du peuple précieux.",
+     "s": 9
+    }
+   ],
+   "words": {
+    "לְכָה": [
+     "viens",
+     "ה־ל־ך · marcher, aller",
+     "halakha (la loi : « le chemin »)"
+    ],
+    "דוֹדִי": [
+     "mon bien-aimé",
+     "ד־ו־ד · aimer, chérir",
+     "David (« le bien-aimé »)"
+    ],
+    "לִקְרַאת": [
+     "à la rencontre de",
+     "ק־ר־א · rencontrer, appeler",
+     "kria (la lecture)"
+    ],
+    "כַּלָּה": [
+     "la fiancée",
+     "—",
+     "kala (la mariée)"
+    ],
+    "כַלָּה": [
+     "fiancée",
+     "—",
+     "kala (la mariée)"
+    ],
+    "פְּנֵי": [
+     "le visage, la présence de",
+     "פ־נ־ה · se tourner",
+     "panim (visage)"
+    ],
+    "שַׁבָּת": [
+     "le Shabbat",
+     "ש־ב־ת · cesser, se reposer",
+     "chévita (la grève)"
+    ],
+    "נְקַבְּלָה": [
+     "accueillons",
+     "ק־ב־ל · recevoir",
+     "kabbale (« ce qu’on reçoit »)"
+    ],
+    "שָׁמוֹר": [
+     "garde, observe",
+     "ש־מ־ר · garder",
+     "chomer (gardien)"
+    ],
+    "וְזָכוֹר": [
+     "et souviens-toi",
+     "ז־כ־ר · se souvenir",
+     "zikaron (mémoire)"
+    ],
+    "בְּדִבּוּר": [
+     "en une parole",
+     "ד־ב־ר · parler",
+     "dibrot (les Dix Paroles)"
+    ],
+    "אֶחָד": [
+     "un, unique",
+     "א־ח־ד · un",
+     "é’had du Chéma"
+    ],
+    "הִשְׁמִיעָנוּ": [
+     "nous fit entendre",
+     "ש־מ־ע · entendre",
+     "Chéma (écoute)"
+    ],
+    "אֵל": [
+     "Dieu",
+     "—",
+     "Israël, Michaël"
+    ],
+    "הַמְיֻחָד": [
+     "l’unique",
+     "י־ח־ד · être un",
+     "ya’had (ensemble)"
+    ],
+    "ה׳": [
+     "l’Éternel",
+     "Le nom divin, écrit ainsi par respect",
+     "on lit « Adonaï » dans la prière"
+    ],
+    "וּשְׁמוֹ": [
+     "et son nom",
+     "ש־ם · nom",
+     "Hachem (« le Nom »)"
+    ],
+    "וּלְתִפְאֶרֶת": [
+     "et la splendeur",
+     "פ־א־ר · glorifier",
+     "tif’éret"
+    ],
+    "וְלִתְהִלָּה": [
+     "et la louange",
+     "ה־ל־ל · louer",
+     "Hallel, Tehilim (les Psaumes)"
+    ],
+    "לְכוּ": [
+     "allez, venez (pluriel)",
+     "ה־ל־ך · aller",
+     "—"
+    ],
+    "וְנֵלְכָה": [
+     "et allons",
+     "ה־ל־ך · aller",
+     "—"
+    ],
+    "מְקוֹר": [
+     "la source",
+     "מָקוֹר · source",
+     "makor"
+    ],
+    "הַבְּרָכָה": [
+     "la bénédiction",
+     "ב־ר־ך · bénir",
+     "bérakha"
+    ],
+    "נְסוּכָה": [
+     "consacrée, intronisée",
+     "נ־ס־ך · oindre, verser",
+     "Psaume 2:6 « j’ai sacré mon roi »"
+    ],
+    "מַעֲשֶׂה": [
+     "l’œuvre, l’action",
+     "ע־שׂ־ה · faire",
+     "ma’assé (un acte)"
+    ],
+    "בְּמַחֲשָׁבָה": [
+     "dans la pensée",
+     "ח־שׁ־ב · penser",
+     "ma’hachava (pensée)"
+    ],
+    "תְּחִלָּה": [
+     "première, au début",
+     "ח־ל־ל · commencer",
+     "té’hila (commencement)"
+    ],
+    "מִקְדַּשׁ": [
+     "sanctuaire",
+     "ק־ד־שׁ · être saint",
+     "Beit HaMikdach (le Temple)"
+    ],
+    "מְלוּכָה": [
+     "royauté",
+     "מ־ל־ך · régner",
+     "malkhout"
+    ],
+    "קוּמִי": [
+     "lève-toi (féminin)",
+     "ק־ו־ם · se lever",
+     "kima"
+    ],
+    "הַהֲפֵכָה": [
+     "le bouleversement, les ruines",
+     "ה־פ־ך · renverser",
+     "comme Sodome renversée (Genèse 19:29)"
+    ],
+    "הַבָּכָא": [
+     "des pleurs",
+     "ב־כ־ה · pleurer",
+     "Psaume 84:7"
+    ],
+    "חֶמְלָה": [
+     "compassion",
+     "ח־מ־ל · avoir pitié",
+     "comme dans Modé Ani : bé’hemla"
+    ],
+    "הִתְנַעֲרִי": [
+     "secoue-toi",
+     "נ־ע־ר · secouer",
+     "Isaïe 52:2"
+    ],
+    "מֵעָפָר": [
+     "de la poussière",
+     "עָפָר · poussière",
+     "—"
+    ],
+    "תִפְאַרְתֵּךְ": [
+     "de ta splendeur",
+     "פ־א־ר · glorifier",
+     "tif’éret"
+    ],
+    "יִשַּׁי": [
+     "Jessé",
+     "—",
+     "le père du roi David"
+    ],
+    "הַלַּחְמִי": [
+     "de Bethléem",
+     "ל־ח־ם · pain",
+     "Beit Lé’hem, « la maison du pain »"
+    ],
+    "גְּאָלָהּ": [
+     "délivre-la",
+     "ג־א־ל · racheter, délivrer",
+     "guéoula (la délivrance)"
+    ],
+    "הִתְעוֹרְרִי": [
+     "réveille-toi",
+     "ע־ו־ר · s’éveiller",
+     "—"
+    ],
+    "אוֹרֵךְ": [
+     "ta lumière",
+     "א־ו־ר · lumière",
+     "or (lumière)"
+    ],
+    "אוֹרִי": [
+     "brille",
+     "א־ו־ר · lumière",
+     "Isaïe 60:1"
+    ],
+    "עוּרִי": [
+     "éveille-toi",
+     "ע־ו־ר · s’éveiller",
+     "Juges 5:12"
+    ],
+    "שִׁיר": [
+     "un chant",
+     "שׁ־י־ר · chanter",
+     "Chir HaChirim (le Cantique des cantiques)"
+    ],
+    "כְּבוֹד": [
+     "la gloire de",
+     "כ־ב־ד · être lourd, honorer",
+     "kavod (honneur)"
+    ],
+    "נִגְלָה": [
+     "s’est révélée",
+     "ג־ל־ה · découvrir",
+     "—"
+    ],
+    "תֵבוֹשִׁי": [
+     "tu auras honte",
+     "ב־ו־שׁ · avoir honte",
+     "boucha (la honte)"
+    ],
+    "עַמִּי": [
+     "mon peuple",
+     "עַם · peuple",
+     "Am Israël"
+    ],
+    "וְנִבְנְתָה": [
+     "et sera rebâtie",
+     "ב־נ־ה · bâtir",
+     "binyan (bâtiment)"
+    ],
+    "עִיר": [
+     "la ville",
+     "—",
+     "Ir HaKodech (Jérusalem)"
+    ],
+    "תִּלָּהּ": [
+     "sa colline, ses ruines",
+     "תֵּל · colline de ruines",
+     "Tel-Aviv (« colline du printemps »)"
+    ],
+    "אֱלֹהָיִךְ": [
+     "ton Dieu",
+     "אֱלֹהִים · Dieu",
+     "Élohim"
+    ],
+    "חָתָן": [
+     "le fiancé",
+     "—",
+     "’hatan (le marié)"
+    ],
+    "יָמִין": [
+     "la droite",
+     "—",
+     "Binyamin (« fils de la droite »)"
+    ],
+    "וּשְׂמֹאל": [
+     "et la gauche",
+     "—",
+     "—"
+    ],
+    "פַּרְצִי": [
+     "Pérets (descendant de)",
+     "פ־ר־ץ · faire une brèche",
+     "Pérets, ancêtre de David (Ruth 4:18)"
+    ],
+    "וְנִשְׂמְחָה": [
+     "nous nous réjouirons",
+     "שׂ־מ־ח · se réjouir",
+     "sim’ha (la joie)"
+    ],
+    "וְנָגִילָה": [
+     "et nous exulterons",
+     "ג־י־ל · exulter",
+     "Hava Naguila"
+    ],
+    "בּוֹאִי": [
+     "viens (féminin)",
+     "ב־ו־א · venir",
+     "—"
+    ],
+    "בְשָׁלוֹם": [
+     "en paix",
+     "שׁ־ל־ם · être entier",
+     "chalom"
+    ],
+    "עֲטֶרֶת": [
+     "la couronne de",
+     "ע־ט־ר · couronner",
+     "atara"
+    ],
+    "בְּשִׂמְחָה": [
+     "dans la joie",
+     "שׂ־מ־ח · se réjouir",
+     "sim’ha"
+    ],
+    "סְגֻלָּה": [
+     "précieux, élu",
+     "סְגֻלָּה · trésor",
+     "« am ségoula », Exode 19:5"
+    ],
+    "מַלְכְּתָא": [
+     "la reine (araméen)",
+     "מ־ל־ך · régner",
+     "malka (la reine)"
+    ]
+   },
+   "echo": {
+    "word": "דוֹדִי",
+    "text": "Le premier vers reprend le Cantique des cantiques 7:12 :",
+    "he": "לְכָה דוֹדִי נֵצֵא הַשָּׂדֶה",
+    "fr": "« Viens, mon bien-aimé, sortons aux champs. »"
+   },
+   "order": [
+    "שָׁמוֹר וְזָכוֹר",
+    "לִקְרַאת שַׁבָּת",
+    "מִקְדַּשׁ מֶלֶךְ",
+    "הִתְנַעֲרִי",
+    "הִתְעוֹרְרִי",
+    "לֹא תֵבוֹשִׁי",
+    "וְהָיוּ לִמְשִׁסָּה",
+    "יָמִין וּשְׂמֹאל",
+    "בּוֹאִי בְשָׁלוֹם"
+   ],
+   "orderHint": "Remets les 9 couplets dans l’ordre. Indice : les premières lettres des huit premiers forment le nom de l’auteur, שלמה הלוי.",
+   "id": "lekha-dodi",
+   "group": "shabbat",
+   "image": "illus/prieres/lekha-dodi.jpg",
+   "songs": [
+    {
+     "style": "Jazz intime",
+     "url": "https://podcast.rosenblum.ai/album/vendredi-soir/03-lekha-dodi.mp3",
+     "source": "album"
+    },
+    {
+     "style": "Folk-rock",
+     "url": "prieres/audio/lekha-dodi_folk-rock.mp3",
+     "source": "suno"
+    },
+    {
+     "style": "Reggae",
+     "url": "prieres/audio/lekha-dodi_reggae.mp3",
+     "source": "suno"
+    },
+    {
+     "style": "Jazz",
+     "url": "prieres/audio/lekha-dodi_jazz.mp3",
+     "source": "suno"
+    }
+   ]
+  },
+  {
+   "name": "Havdala",
+   "he": "הַבְדָּלָה",
+   "ic": "🔥",
+   "when": [
+    "Samedi soir",
+    "Texte complet",
+    "Vin, épices, bougie tressée"
+   ],
+   "dur": "Versets et 4 bénédictions · 4 min",
+   "origin": "<b>Berakhot 33a</b> attribue la Havdala aux Hommes de la Grande Assemblée, à l’époque perse. La bénédiction du feu rappelle, selon le Talmud (Pessa’him 54a), qu’Adam découvrit le feu à la fin du premier Shabbat. Les versets séfarades d’ouverture parlent de lumière après l’obscurité : Michée, Esther, Isaïe.",
+   "why": "Samedi soir, quand trois étoiles sont visibles, on sépare le Shabbat de la semaine avec les sens : on goûte le vin, on respire des épices pour se consoler du départ du Shabbat, on regarde la flamme d’une bougie tressée en approchant ses ongles.",
+   "parts": [
+    {
+     "at": 0,
+     "t": "Les versets",
+     "n": "Isaïe 41:27, Michée 7:8, Esther 8:16, 1 Samuel 18:14, Genèse 6:8, Isaïe 60:1-2."
+    },
+    {
+     "at": 10,
+     "t": "La coupe",
+     "n": "On prend la coupe dans la main droite, les épices dans la gauche."
+    },
+    {
+     "at": 17,
+     "t": "Le vin",
+     "n": ""
+    },
+    {
+     "at": 18,
+     "t": "Les épices",
+     "n": "Du myrte, le plus souvent, dans le rite séfarade : « atsé bessamim »."
+    },
+    {
+     "at": 19,
+     "t": "Le feu",
+     "n": "On replie les doigts vers la paume et l’on regarde la lumière sur les ongles."
+    },
+    {
+     "at": 20,
+     "t": "La séparation",
+     "n": ""
+    }
+   ],
+   "lines": [
+    {
+     "w": [
+      [
+       "רִאשׁוֹן",
+       "richon"
+      ],
+      [
+       "לְצִיּוֹן",
+       "létsiyon"
+      ],
+      [
+       "הִנֵּה",
+       "hiné"
+      ],
+      [
+       "הִנָּם",
+       "hinam"
+      ],
+      [
+       "וְלִירוּשָׁלַיִם",
+       "vélirouchalayim"
+      ],
+      [
+       "מְבַשֵּׂר",
+       "mévasser"
+      ],
+      [
+       "אֶתֵּן",
+       "etèn"
+      ]
+     ],
+     "fr": "Le premier, je dis à Sion : « Les voici ! », et à Jérusalem je donne un messager de bonne nouvelle."
+    },
+    {
+     "w": [
+      [
+       "אַל",
+       "al"
+      ],
+      [
+       "תִּשְׂמְחִי",
+       "tism’hi"
+      ],
+      [
+       "אֹיַבְתִּי",
+       "oyavti"
+      ],
+      [
+       "לִי",
+       "li"
+      ],
+      [
+       "כִּי",
+       "ki"
+      ],
+      [
+       "נָפַלְתִּי",
+       "nafalti"
+      ],
+      [
+       "קָמְתִּי",
+       "kamti"
+      ]
+     ],
+     "fr": "Ne te réjouis pas de mon malheur, mon ennemie : si je suis tombée, je me relève ;"
+    },
+    {
+     "w": [
+      [
+       "כִּי",
+       "ki"
+      ],
+      [
+       "אֵשֵׁב",
+       "échèv"
+      ],
+      [
+       "בַּחֹשֶׁךְ",
+       "ba’hochekh"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "אוֹר",
+       "or"
+      ],
+      [
+       "לִי",
+       "li"
+      ]
+     ],
+     "fr": "si je suis assise dans l’obscurité, l’Éternel est ma lumière."
+    },
+    {
+     "w": [
+      [
+       "לַיְּהוּדִים",
+       "layéhoudim"
+      ],
+      [
+       "הָיְתָה",
+       "hayta"
+      ],
+      [
+       "אוֹרָה",
+       "ora"
+      ],
+      [
+       "וְשִׂמְחָה",
+       "vésim’ha"
+      ],
+      [
+       "וְשָׂשֹׂן",
+       "véssasson"
+      ],
+      [
+       "וִיקָר",
+       "vikar"
+      ]
+     ],
+     "fr": "Pour les Juifs, ce fut lumière, joie, allégresse et honneur."
+    },
+    {
+     "w": [
+      [
+       "וַיְהִי",
+       "vayhi"
+      ],
+      [
+       "דָוִד",
+       "David"
+      ],
+      [
+       "לְכָל",
+       "lékhol"
+      ],
+      [
+       "דְּרָכָו",
+       "dérakhav"
+      ],
+      [
+       "מַשְׂכִּיל",
+       "maskil"
+      ],
+      [
+       "וַה׳",
+       "vAdonaï"
+      ],
+      [
+       "עִמּוֹ",
+       "’imo"
+      ]
+     ],
+     "fr": "David réussissait dans toutes ses voies, et l’Éternel était avec lui."
+    },
+    {
+     "w": [
+      [
+       "וְנֹחַ",
+       "véNoa’h"
+      ],
+      [
+       "מָצָא",
+       "matsa"
+      ],
+      [
+       "חֵן",
+       "’hen"
+      ],
+      [
+       "בְּעֵינֵי",
+       "bé’éné"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ]
+     ],
+     "fr": "Et Noé trouva grâce aux yeux de l’Éternel."
+    },
+    {
+     "w": [
+      [
+       "כֵּן",
+       "kèn"
+      ],
+      [
+       "נִמְצָא",
+       "nimtsa"
+      ],
+      [
+       "חֵן",
+       "’hen"
+      ],
+      [
+       "וְשֵׂכֶל",
+       "véssékhel"
+      ],
+      [
+       "טוֹב",
+       "tov"
+      ],
+      [
+       "בְּעֵינֵי",
+       "bé’éné"
+      ],
+      [
+       "אֱלֹהִים",
+       "Élohim"
+      ],
+      [
+       "וְאָדָם",
+       "véadam"
+      ]
+     ],
+     "fr": "Puissions-nous trouver grâce et bonne intelligence aux yeux de Dieu et des hommes."
+    },
+    {
+     "w": [
+      [
+       "קוּמִי",
+       "koumi"
+      ],
+      [
+       "אוֹרִי",
+       "ori"
+      ],
+      [
+       "כִּי",
+       "ki"
+      ],
+      [
+       "בָא",
+       "va"
+      ],
+      [
+       "אוֹרֵךְ",
+       "orekh"
+      ],
+      [
+       "וּכְבוֹד",
+       "oukhvod"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "עָלַיִךְ",
+       "’alayikh"
+      ],
+      [
+       "זָרָח",
+       "zara’h"
+      ]
+     ],
+     "fr": "Lève-toi, brille, car ta lumière est venue, et la gloire de l’Éternel s’est levée sur toi."
+    },
+    {
+     "w": [
+      [
+       "כִּי",
+       "ki"
+      ],
+      [
+       "הִנֵּה",
+       "hiné"
+      ],
+      [
+       "הַחֹשֶׁךְ",
+       "ha’hochekh"
+      ],
+      [
+       "יְכַסֶּה",
+       "yékhassé"
+      ],
+      [
+       "אֶרֶץ",
+       "érets"
+      ],
+      [
+       "וַעֲרָפֶל",
+       "va’arafel"
+      ],
+      [
+       "לְאֻמִּים",
+       "léoumim"
+      ]
+     ],
+     "fr": "Car voici, l’obscurité couvre la terre et la brume les peuples,"
+    },
+    {
+     "w": [
+      [
+       "וְעָלַיִךְ",
+       "vé’alayikh"
+      ],
+      [
+       "יִזְרַח",
+       "yizra’h"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "וּכְבוֹדוֹ",
+       "oukhvodo"
+      ],
+      [
+       "עָלַיִךְ",
+       "’alayikh"
+      ],
+      [
+       "יֵרָאֶה",
+       "yéraé"
+      ]
+     ],
+     "fr": "mais sur toi l’Éternel se lèvera, et sa gloire paraîtra sur toi."
+    },
+    {
+     "w": [
+      [
+       "כּוֹס",
+       "kos"
+      ],
+      [
+       "יְשׁוּעוֹת",
+       "yéchou’ot"
+      ],
+      [
+       "אֶשָּׂא",
+       "essa"
+      ],
+      [
+       "וּבְשֵׁם",
+       "ouvchèm"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "אֶקְרָא",
+       "ekra"
+      ]
+     ],
+     "fr": "Je lève la coupe des délivrances et j’invoque le nom de l’Éternel."
+    },
+    {
+     "w": [
+      [
+       "אָנָּא",
+       "ana"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "הוֹשִׁיעָה",
+       "hochi’a"
+      ],
+      [
+       "נָּא",
+       "na"
+      ],
+      [
+       "אָנָּא",
+       "ana"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "הַצְלִיחָה",
+       "hatsli’ha"
+      ],
+      [
+       "נָא",
+       "na"
+      ]
+     ],
+     "fr": "De grâce, Éternel, sauve-nous ! De grâce, Éternel, fais-nous réussir !"
+    },
+    {
+     "w": [
+      [
+       "הַצְלִיחֵנוּ",
+       "hatsli’hénou"
+      ],
+      [
+       "הַצְלִיחַ",
+       "hatslia’h"
+      ],
+      [
+       "דְּרָכֵינוּ",
+       "dérakhénou"
+      ],
+      [
+       "הַצְלִיחַ",
+       "hatslia’h"
+      ],
+      [
+       "לִמּוּדֵינוּ",
+       "limoudénou"
+      ]
+     ],
+     "fr": "Fais-nous réussir, fais réussir nos chemins, fais réussir nos études,"
+    },
+    {
+     "w": [
+      [
+       "וּשְׁלַח",
+       "ouchla’h"
+      ],
+      [
+       "בְּרָכָה",
+       "bérakha"
+      ],
+      [
+       "רְוָחָה",
+       "révaha"
+      ],
+      [
+       "וְהַצְלָחָה",
+       "véhatsla’ha"
+      ],
+      [
+       "בְּכָל",
+       "békhol"
+      ],
+      [
+       "מַעֲשֵׂה",
+       "ma’assé"
+      ],
+      [
+       "יָדֵינוּ",
+       "yadénou"
+      ]
+     ],
+     "fr": "envoie bénédiction, aisance et réussite dans toute l’œuvre de nos mains,"
+    },
+    {
+     "w": [
+      [
+       "כְּדִכְתִיב",
+       "kédikhtiv"
+      ],
+      [
+       "יִשָּׂא",
+       "yissa"
+      ],
+      [
+       "בְרָכָה",
+       "vérakha"
+      ],
+      [
+       "מֵאֵת",
+       "méèt"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "וּצְדָקָה",
+       "outsdaka"
+      ],
+      [
+       "מֵאֱלֹהֵי",
+       "méélohé"
+      ],
+      [
+       "יִשְׁעוֹ",
+       "yich’o"
+      ]
+     ],
+     "fr": "comme il est écrit : il recevra la bénédiction de l’Éternel et la justice du Dieu de son salut."
+    },
+    {
+     "w": [
+      [
+       "כֵּן",
+       "kèn"
+      ],
+      [
+       "יִהְיֶה",
+       "yihyé"
+      ],
+      [
+       "עִמָּנוּ",
+       "’imanou"
+      ]
+     ],
+     "fr": "Qu’il en soit ainsi avec nous !"
+    },
+    {
+     "w": [
+      [
+       "סַבְרִי",
+       "savri"
+      ],
+      [
+       "מָרָנָן",
+       "maranan"
+      ],
+      [
+       "לְחַיִּים",
+       "lé’haïm"
+      ]
+     ],
+     "fr": "Avec votre attention, mes maîtres. — À la vie !"
+    },
+    {
+     "w": [
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "אַתָּה",
+       "ata"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "אֱלֹהֵינוּ",
+       "Élohénou"
+      ],
+      [
+       "מֶלֶךְ",
+       "mélekh"
+      ],
+      [
+       "הָעוֹלָם",
+       "haolam"
+      ],
+      [
+       "בּוֹרֵא",
+       "boré"
+      ],
+      [
+       "פְּרִי",
+       "péri"
+      ],
+      [
+       "הַגֶּפֶן",
+       "haguéfen"
+      ]
+     ],
+     "fr": "Béni sois-Tu, Éternel notre Dieu, Roi du monde, qui crées le fruit de la vigne."
+    },
+    {
+     "w": [
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "אַתָּה",
+       "ata"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "אֱלֹהֵינוּ",
+       "Élohénou"
+      ],
+      [
+       "מֶלֶךְ",
+       "mélekh"
+      ],
+      [
+       "הָעוֹלָם",
+       "haolam"
+      ],
+      [
+       "בּוֹרֵא",
+       "boré"
+      ],
+      [
+       "עֲצֵי",
+       "’atsé"
+      ],
+      [
+       "בְשָׂמִים",
+       "vessamim"
+      ]
+     ],
+     "fr": "Béni sois-Tu, Éternel notre Dieu, Roi du monde, qui crées les arbres aromatiques."
+    },
+    {
+     "w": [
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "אַתָּה",
+       "ata"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "אֱלֹהֵינוּ",
+       "Élohénou"
+      ],
+      [
+       "מֶלֶךְ",
+       "mélekh"
+      ],
+      [
+       "הָעוֹלָם",
+       "haolam"
+      ],
+      [
+       "בּוֹרֵא",
+       "boré"
+      ],
+      [
+       "מְאוֹרֵי",
+       "méoré"
+      ],
+      [
+       "הָאֵשׁ",
+       "haèch"
+      ]
+     ],
+     "fr": "Béni sois-Tu, Éternel notre Dieu, Roi du monde, qui crées les lumières du feu."
+    },
+    {
+     "w": [
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "אַתָּה",
+       "ata"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "אֱלֹהֵינוּ",
+       "Élohénou"
+      ],
+      [
+       "מֶלֶךְ",
+       "mélekh"
+      ],
+      [
+       "הָעוֹלָם",
+       "haolam"
+      ],
+      [
+       "הַמַּבְדִּיל",
+       "hamavdil"
+      ],
+      [
+       "בֵּין",
+       "bèn"
+      ],
+      [
+       "קֹדֶשׁ",
+       "kodech"
+      ],
+      [
+       "לְחוֹל",
+       "lé’hol"
+      ]
+     ],
+     "fr": "Béni sois-Tu, Éternel notre Dieu, Roi du monde, qui sépares le saint du profane,"
+    },
+    {
+     "w": [
+      [
+       "וּבֵין",
+       "ouvèn"
+      ],
+      [
+       "אוֹר",
+       "or"
+      ],
+      [
+       "לְחֹשֶׁךְ",
+       "lé’hochekh"
+      ],
+      [
+       "וּבֵין",
+       "ouvèn"
+      ],
+      [
+       "יִשְׂרָאֵל",
+       "Israël"
+      ],
+      [
+       "לָעַמִּים",
+       "la’amim"
+      ]
+     ],
+     "fr": "la lumière de l’obscurité, Israël des peuples,"
+    },
+    {
+     "w": [
+      [
+       "וּבֵין",
+       "ouvèn"
+      ],
+      [
+       "יוֹם",
+       "yom"
+      ],
+      [
+       "הַשְּׁבִיעִי",
+       "hachvi’i"
+      ],
+      [
+       "לְשֵׁשֶׁת",
+       "léchéchet"
+      ],
+      [
+       "יְמֵי",
+       "yémé"
+      ],
+      [
+       "הַמַּעֲשֶׂה",
+       "hama’assé"
+      ]
+     ],
+     "fr": "le septième jour des six jours de travail."
+    },
+    {
+     "w": [
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "אַתָּה",
+       "ata"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ],
+      [
+       "הַמַּבְדִּיל",
+       "hamavdil"
+      ],
+      [
+       "בֵּין",
+       "bèn"
+      ],
+      [
+       "קֹדֶשׁ",
+       "kodech"
+      ],
+      [
+       "לְחוֹל",
+       "lé’hol"
+      ]
+     ],
+     "fr": "Béni sois-Tu, Éternel, qui sépares le saint du profane."
+    }
+   ],
+   "words": {
+    "יְשׁוּעָתִי": [
+     "mon salut",
+     "י־שׁ־ע · sauver",
+     "Yéchayahou (Isaïe)"
+    ],
+    "אֶבְטַח": [
+     "j’ai confiance",
+     "ב־ט־ח · se fier",
+     "bita’hon (confiance, sécurité)"
+    ],
+    "אֶפְחָד": [
+     "je crains",
+     "פַּחַד · peur",
+     "—"
+    ],
+    "וְזִמְרָת": [
+     "et le chant",
+     "ז־מ־ר · chanter",
+     "zémirot (chants de Shabbat)"
+    ],
+    "בְּשָׂשׂוֹן": [
+     "dans la joie",
+     "שׂ־ו־שׂ · se réjouir",
+     "sasson"
+    ],
+    "מִשְׂגָּב": [
+     "forteresse",
+     "שׂ־ג־ב · être élevé",
+     "—"
+    ],
+    "אוֹרָה": [
+     "lumière",
+     "א־ו־ר · lumière",
+     "or"
+    ],
+    "כּוֹס": [
+     "coupe",
+     "כּוֹס · coupe",
+     "—"
+    ],
+    "בְשָׂמִים": [
+     "aromates, épices",
+     "בֹּשֶׂם · parfum",
+     "la boîte à bessamim"
+    ],
+    "מְאוֹרֵי": [
+     "les lumières de",
+     "א־ו־ר · lumière",
+     "maor (luminaire)"
+    ],
+    "הָאֵשׁ": [
+     "le feu",
+     "אֵשׁ · feu",
+     "—"
+    ],
+    "הַמַּבְדִּיל": [
+     "qui sépare",
+     "ב־ד־ל · séparer",
+     "Havdala, hevdel (la différence)"
+    ],
+    "קֹדֶשׁ": [
+     "le saint",
+     "ק־ד־שׁ · être saint",
+     "kodech"
+    ],
+    "לְחוֹל": [
+     "et le profane, l’ordinaire",
+     "ח־ל־ל · ordinaire",
+     "’hol hamoed (les demi-fêtes)"
+    ],
+    "לְחֹשֶׁךְ": [
+     "et l’obscurité",
+     "חֹשֶׁךְ · obscurité",
+     "Genèse 1:4"
+    ],
+    "אוֹר": [
+     "lumière",
+     "א־ו־ר · lumière",
+     "ora, or"
+    ],
+    "קָמְתִּי": [
+     "je me relève",
+     "ק־ו־ם · se lever",
+     "tkouma (le relèvement)"
+    ],
+    "עֲצֵי": [
+     "les arbres de",
+     "עֵץ · arbre",
+     "Ets ’Haïm"
+    ],
+    "הַצְלִיחָה": [
+     "fais réussir",
+     "צ־ל־ח · réussir",
+     "hatsla’ha (le succès)"
+    ]
+   },
+   "echo": {
+    "word": "אוֹר",
+    "text": "Michée 7:8, le verset qui ouvre la Havdala séfarade :",
+    "he": "כִּי אֵשֵׁב בַּחֹשֶׁךְ ה׳ אוֹר לִי",
+    "fr": "« Si je suis assise dans l’obscurité, l’Éternel est ma lumière. »"
+   },
+   "order": [
+    "רִאשׁוֹן לְצִיּוֹן",
+    "קוּמִי אוֹרִי",
+    "כּוֹס יְשׁוּעוֹת",
+    "בּוֹרֵא פְּרִי הַגֶּפֶן",
+    "בּוֹרֵא עֲצֵי בְשָׂמִים",
+    "בּוֹרֵא מְאוֹרֵי הָאֵשׁ",
+    "הַמַּבְדִּיל"
+   ],
+   "orderHint": "Les versets, la coupe, puis les sens : goûter, sentir, voir, et enfin séparer.",
+   "id": "havdala",
+   "group": "shabbat",
+   "image": "illus/prieres/havdala.jpg",
+   "songs": []
+  },
+  {
+   "name": "Chéhé’héyanou",
+   "he": "שֶׁהֶחֱיָנוּ",
+   "ic": "🎉",
+   "when": [
+    "Les premières fois",
+    "Texte complet",
+    "Fêtes, fruits nouveaux, habits neufs"
+   ],
+   "dur": "Une phrase · 20 s",
+   "origin": "<b>La Michna (Berakhot 9:3)</b> la prescrit à qui construit une maison neuve ou achète des objets neufs. Le Talmud en parle aussi en Berakhot 54a et Erouvin 40b.",
+   "why": "La bénédiction des premières fois : une fête qui revient, le premier fruit de la saison, un habit neuf, une rencontre après longtemps. On remercie d’être là pour le vivre.",
+   "lines": [
+    {
+     "w": [
+      [
+       "בָּרוּךְ",
+       "baroukh"
+      ],
+      [
+       "אַתָּה",
+       "ata"
+      ],
+      [
+       "ה׳",
+       "Adonaï"
+      ]
+     ],
+     "fr": "Béni sois-Tu, Éternel,"
+    },
+    {
+     "w": [
+      [
+       "אֱלֹהֵינוּ",
+       "Élohénou"
+      ],
+      [
+       "מֶלֶךְ",
+       "mélekh"
+      ],
+      [
+       "הָעוֹלָם",
+       "haolam"
+      ]
+     ],
+     "fr": "notre Dieu, Roi du monde,"
+    },
+    {
+     "w": [
+      [
+       "שֶׁהֶחֱיָנוּ",
+       "chéhé’héyanou"
+      ],
+      [
+       "וְקִיְּמָנוּ",
+       "vékiyémanou"
+      ]
+     ],
+     "fr": "qui nous as fait vivre, qui nous as maintenus"
+    },
+    {
+     "w": [
+      [
+       "וְהִגִּיעָנוּ",
+       "véhiguianou"
+      ],
+      [
+       "לַזְּמַן",
+       "lazman"
+      ],
+      [
+       "הַזֶּה",
+       "hazé"
+      ]
+     ],
+     "fr": "et nous as fait parvenir jusqu’à ce moment."
+    }
+   ],
+   "words": {
+    "בָּרוּךְ": [
+     "béni",
+     "ב־ר־ך · bénir",
+     "bérakha"
+    ],
+    "אֱלֹהֵינוּ": [
+     "notre Dieu",
+     "אֱלֹהִים · Dieu",
+     "Élohim"
+    ],
+    "מֶלֶךְ": [
+     "roi",
+     "מ־ל־ך · régner",
+     "malkhout"
+    ],
+    "הָעוֹלָם": [
+     "le monde",
+     "ע־ל־ם · monde, éternité",
+     "olam"
+    ],
+    "שֶׁהֶחֱיָנוּ": [
+     "qui nous a fait vivre",
+     "ח־י־ה · vivre",
+     "lé’haïm"
+    ],
+    "וְקִיְּמָנוּ": [
+     "et nous a maintenus",
+     "ק־ו־ם · se lever, exister",
+     "kiyoum (existence)"
+    ],
+    "וְהִגִּיעָנוּ": [
+     "et nous a fait parvenir",
+     "נ־ג־ע · toucher, atteindre",
+     "higuia (arriver)"
+    ],
+    "לַזְּמַן": [
+     "au temps, au moment",
+     "ז־מ־ן · temps",
+     "zman"
+    ],
+    "הַזֶּה": [
+     "ce, celui-ci",
+     "—",
+     "—"
+    ]
+   },
+   "echo": {
+    "word": "לַזְּמַן",
+    "text": "Erouvin 40b : peut-on la dire au marché, en voyant une citrouille nouvelle ? Oui, répond Rav Yehouda :",
+    "he": "אֲפִילּוּ אַקָּרָא חַדְתָּא",
+    "fr": "« Même sur une citrouille nouvelle. »"
+   },
+   "order": [
+    "בָּרוּךְ אַתָּה ה׳",
+    "אֱלֹהֵינוּ",
+    "מֶלֶךְ הָעוֹלָם",
+    "שֶׁהֶחֱיָנוּ",
+    "וְקִיְּמָנוּ",
+    "וְהִגִּיעָנוּ",
+    "לַזְּמַן הַזֶּה"
+   ],
+   "orderHint": "Béni sois-Tu… qui nous as fait vivre, maintenus, et fait parvenir jusqu’à ce moment.",
+   "id": "chehecheyanou",
+   "group": "moments",
+   "image": "illus/prieres/chehecheyanou.jpg",
+   "songs": []
+  }
+ ]
+}
