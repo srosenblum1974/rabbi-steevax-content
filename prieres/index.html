@@ -1,6 +1,6 @@
 <!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <base href="../"><title>Prières · Rabbi Steevax</title>
-<meta name="description" content="Les prières juives du quotidien et du Shabbat, en texte complet : comprendre chaque mot, puis les chanter.">
+
 <meta name="apple-itunes-app" content="app-id=6829267081"><link rel="icon" href="web/logo.jpg">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;700&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap">
 <style>
@@ -121,6 +121,19 @@ dialog#sharedlg::backdrop{background:rgba(0,0,0,.45)}
 .rsnav .lng button{border:0;background:transparent;color:var(--ink);padding:5px 11px;font:600 12px ui-monospace,Menlo,monospace;cursor:pointer}
 .rsnav .lng button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
 html[lang=fr] .rsnav [data-l=en],html[lang=en] .rsnav [data-l=fr]{display:none}
+/* the sound that follows the visitor from page to page (prayers, album) */
+#rsplay{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:60;width:min(640px,calc(100% - 24px));
+  display:flex;align-items:center;gap:10px;background:#1A1306;color:#F8F3E9;border-radius:999px;padding:7px 10px 7px 7px;box-shadow:0 10px 30px rgba(0,0,0,.35);font:600 14px -apple-system,BlinkMacSystemFont,sans-serif}
+#rsplay[hidden]{display:none}
+#rsplay .pp{width:40px;height:40px;border-radius:50%;border:0;background:#E7B868;color:#1A1306;font-size:16px;cursor:pointer;flex:none}
+#rsplay .t{color:#F8F3E9;text-decoration:none;max-width:38%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:none}
+#rsplay .sk{flex:1;height:6px;border-radius:6px;background:rgba(255,255,255,.22);cursor:pointer;position:relative;min-width:40px}
+#rsplay .sk i{position:absolute;left:0;top:0;bottom:0;background:#E7B868;border-radius:6px}
+#rsplay small{font:12px ui-monospace,Menlo,monospace;opacity:.85;flex:none}
+#rsplay .x{width:30px;height:30px;border-radius:50%;border:0;background:rgba(255,255,255,.14);color:#F8F3E9;font-size:18px;line-height:1;cursor:pointer;flex:none}
+body.rsplaying{padding-bottom:76px}
+@media (max-width:520px){#rsplay small{display:none}#rsplay .t{max-width:46%}}
+
 @media (max-width:760px){
   .rsnav .in{flex-wrap:wrap;gap:6px 10px;padding:6px 12px}
   .rsnav .logo span{display:none}.rsnav .logo img{width:72px;height:72px}
@@ -129,7 +142,7 @@ html[lang=fr] .rsnav [data-l=en],html[lang=en] .rsnav [data-l=fr]{display:none}
   .rsnav nav::-webkit-scrollbar{display:none}
   .rsnav nav a{padding:7px 11px;font-size:14px;white-space:nowrap;flex:none}.rsnav nav a svg{width:16px;height:16px}
 }
-</style></head><body>
+</style><!--seo--><meta name="description" content="Chéma, Lekha Dodi, Kiddouch, Havdala… les prières du quotidien et du Shabbat en texte complet, mot à mot, et en chansons."><link rel="canonical" href="https://rabbisteevax.com/prieres/"><meta name="theme-color" content="#1a1306"><meta property="og:site_name" content="Rabbi Steevax"><meta property="og:type" content="website"><meta property="og:locale" content="fr_FR"><meta property="og:locale:alternate" content="en_US"><meta property="og:url" content="https://rabbisteevax.com/prieres/"><meta property="og:title" content="Prières juives : comprendre et chanter · Rabbi Steevax"><meta property="og:description" content="Chéma, Lekha Dodi, Kiddouch, Havdala… les prières du quotidien et du Shabbat en texte complet, mot à mot, et en chansons."><meta property="og:image" content="https://rabbisteevax.com/og/site.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Prières juives : comprendre et chanter · Rabbi Steevax"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Prières juives : comprendre et chanter · Rabbi Steevax"><meta name="twitter:description" content="Chéma, Lekha Dodi, Kiddouch, Havdala… les prières du quotidien et du Shabbat en texte complet, mot à mot, et en chansons."><meta name="twitter:image" content="https://rabbisteevax.com/og/site.jpg"><!--/seo--></head><body>
 <header class="rsnav" id="rsnav"><div class="in"><a class="logo" href="./" aria-label="Rabbi Steevax"><img src="web/logo.jpg" alt=""><span>Rabbi Steevax</span></a><nav><a href="./" data-nav="today"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><span data-l="fr">Aujourd’hui</span><span data-l="en">Today</span></a><a href="etude/" data-nav="study"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/><path d="M9 7h6M9 11h6"/></svg><span data-l="fr">Étude</span><span data-l="en">Study</span></a><a href="torah/" data-nav="torah"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3v18M18 3v18"/><rect x="6" y="5" width="12" height="14" rx="1"/><path d="M9 9h6M9 12h6M9 15h4"/></svg><span data-l="fr">Torah</span><span data-l="en">Torah</span></a><a href="cachere/" data-nav="kosher"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 2v8a2 2 0 0 0 4 0V2M9 10v12M17 2c-2 2-3 5-3 8h3v12"/></svg><span data-l="fr">Cachère</span><span data-l="en">Kosher</span></a><a href="prieres/" aria-current=page data-nav="prayers"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2c1.5 2 2 3.2 2 4.2a2 2 0 0 1-4 0C10 5.2 10.5 4 12 2z"/><rect x="9" y="9" width="6" height="13" rx="1"/><path d="M6 22h12"/></svg><span data-l="fr">Prières</span><span data-l="en">Prayers</span></a><a href="etude/#pods" data-nav="listen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1v-6h3zM3 19a2 2 0 0 0 2 2h1v-6H3z"/></svg><span data-l="fr">Podcast</span><span data-l="en">Podcast</span></a></nav><div class="rsside"><a class="dishc" href="table/" title="La table du Rav">🍽️ <span id="rsdish">0</span></a><a class="gear" href="reglages/" aria-label="Réglages"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></a><div class="lng"><button data-set="fr">FR</button><button data-set="en">EN</button></div></div></div></header><main id="app"><p class="wrap" style="margin-top:40px">…</p></main>
 <dialog id="sheet"></dialog><dialog id="sharedlg"></dialog>
 <script>
@@ -474,6 +487,51 @@ RS.skinNow();
   if(force) setTimeout(open, 300);
 })();
 
+(function(){
+  var KEY = "rs-player", A = window.rsAudio || (window.rsAudio = new Audio()), S = null, lastSave = 0;
+  try { S = JSON.parse(localStorage.getItem(KEY) || "null"); } catch(e) {}
+  function save(){ try { if(S){ S.ts = Date.now(); S.t = A.currentTime || S.t || 0; localStorage.setItem(KEY, JSON.stringify(S)); } else localStorage.removeItem(KEY); } catch(e) {} }
+  var bar = document.createElement("div"); bar.id = "rsplay"; bar.hidden = true;
+  bar.innerHTML = '<button class="pp" aria-label="Lecture">▶</button><a class="t" href="#"></a><div class="sk"><i></i></div><small>0:00</small><button class="x" aria-label="Fermer le lecteur">×</button>';
+  (document.body || document.documentElement).appendChild(bar);
+  function fmt(x){ return isFinite(x) && x > 0 ? Math.floor(x/60) + ":" + ("0" + Math.floor(x%60)).slice(-2) : "0:00"; }
+  function paint(){
+    if(!S){ bar.hidden = true; document.body.classList.remove("rsplaying"); return; }
+    bar.hidden = false; document.body.classList.add("rsplaying");
+    bar.querySelector(".pp").textContent = A.paused ? "▶" : "❚❚";
+    var t = bar.querySelector(".t"), q = S.queue[S.i] || {}; t.textContent = q.title || ""; t.href = S.link || "#";
+    bar.querySelector(".sk i").style.width = (A.duration ? 100 * A.currentTime / A.duration : 0) + "%";
+    bar.querySelector("small").textContent = fmt(A.currentTime) + " / " + fmt(A.duration);
+    if(window.rsPlayerPaint) window.rsPlayerPaint();
+  }
+  function start(i, at){ S.i = i; A.src = S.queue[i].url; if(at) A.addEventListener("loadedmetadata", function f(){ A.currentTime = at; A.removeEventListener("loadedmetadata", f); });
+    var p = A.play(); if(p && p.catch) p.catch(function(){ S.playing = false; paint(); }); }
+  window.rsPlayer = {
+    // queue: [{url, title}], i: index, link: the page to come back to, ctx: what the page needs to know
+    play: function(queue, i, link, ctx){ S = { queue: queue.map(function(q){ return { url: new URL(q.url, document.baseURI).href, title: q.title }; }),
+      i: i || 0, link: new URL(link, document.baseURI).href, ctx: ctx || null, playing: true, t: 0 }; start(S.i, 0); save(); paint(); },
+    toggle: function(){ if(!S) return; if(A.paused){ if(!A.src) start(S.i, S.t); else A.play(); } else A.pause(); },
+    seek: function(f){ if(A.duration) A.currentTime = A.duration * f; },
+    close: function(){ A.pause(); S = null; save(); paint(); },
+    state: function(){ return S; }
+  };
+  ["play", "pause", "loadedmetadata"].forEach(function(e){ A.addEventListener(e, function(){ if(S){ S.playing = !A.paused; save(); } paint(); }); });
+  A.addEventListener("timeupdate", function(){ if(S && Date.now() - lastSave > 2000){ lastSave = Date.now(); save(); } paint(); });
+  A.addEventListener("ended", function(){ if(!S) return; if(S.i + 1 < S.queue.length) start(S.i + 1, 0); else { S.playing = false; S.t = 0; save(); paint(); } });
+  addEventListener("pagehide", save);
+  bar.addEventListener("click", function(e){
+    if(e.target.closest(".pp")) rsPlayer.toggle();
+    else if(e.target.closest(".x")) rsPlayer.close();
+    else { var k = e.target.closest(".sk"); if(k){ var r = k.getBoundingClientRect(); rsPlayer.seek((e.clientX - r.left) / r.width); } }
+  });
+  // Coming from another page: same sound, same place; it resumes by itself when the browser allows it
+  if(S && S.queue && S.queue[S.i]){
+    if(S.playing && Date.now() - (S.ts || 0) < 30 * 60 * 1000) start(S.i, S.t);
+    else { A.src = S.queue[S.i].url; A.addEventListener("loadedmetadata", function f(){ A.currentTime = S.t || 0; A.removeEventListener("loadedmetadata", f); }); A.preload = "metadata"; }
+  }
+  paint();
+})();
+
 const $ = s => document.querySelector(s);
 const esc = t => String(t).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
 const st = { lang: "fr", tab: "comprendre", tr: true, fr: true, song: 0, lvl: 0, game: null };
@@ -493,22 +551,24 @@ const nowId = () => { const d = new Date(), day = d.getDay(), h = d.getHours();
   return day === 5 && h >= 12 ? "lekha-dodi" : day === 6 && h >= 17 ? "havdala" : h < 11 ? "mode-ani" : h >= 21 ? "chema" : "hamotsi"; };
 
 /* ---------- one audio element for the whole page ---------- */
-const A = new Audio(); A.preload = "none"; let A_ctx = null;   // {kind:"album"|"prayer", i, title}
+// The site-wide player (web/nav.py PLAYER) keeps the sound going from page to page; this page drives it.
+const A = window.rsAudio;
+const ctx = () => { const s = window.rsPlayer && rsPlayer.state(); if (!s || !s.ctx) return null;   // {kind:"album"|"prayer", i, id, title}
+  return s.ctx.kind === "album" ? { kind: "album", i: s.i, title: (s.queue[s.i] || {}).title } : s.ctx; };
 const fmt = x => isFinite(x) ? Math.floor(x / 60) + ":" + String(Math.floor(x % 60)).padStart(2, "0") : "0:00";
 function playerHtml() { return `<div class="player" id="player"><button class="pp" id="pp" aria-label="Lecture">▶</button><span class="t" id="ptitle"></span><div class="seek" id="seek"><i id="pbar"></i></div><small id="ptime">0:00</small></div>`; }
-function load(url, ctx) { if (A.src !== new URL(url, document.baseURI).href) { A.src = url; } A_ctx = ctx; A.play().catch(() => {}); paint(); }
+function load(url, c, link) { rsPlayer.play([{ url, title: c.title }], 0, link, c); }
 function paint() {
   const pp = $("#pp"); if (!pp) return;
   pp.textContent = A.paused ? "▶" : "❚❚";
-  const t = $("#ptitle"); if (t) t.textContent = A_ctx ? A_ctx.title : "";
+  const c = ctx(); const t = $("#ptitle"); if (t) t.textContent = c ? c.title : "";
   if ($("#pbar")) $("#pbar").style.width = (A.duration ? 100 * A.currentTime / A.duration : 0) + "%";
   if ($("#ptime")) $("#ptime").textContent = fmt(A.currentTime) + " / " + fmt(A.duration);
-  document.querySelectorAll(".tracks li").forEach((li, i) => li.classList.toggle("on", !!A_ctx && A_ctx.kind === "album" && A_ctx.i === i));
+  document.querySelectorAll(".tracks li").forEach((li, i) => li.classList.toggle("on", !!c && c.kind === "album" && c.i === i));
   sing();
 }
-["timeupdate", "play", "pause", "loadedmetadata", "ended"].forEach(e => A.addEventListener(e, paint));
-A.addEventListener("ended", () => { if (A_ctx && A_ctx.kind === "album" && A_ctx.i + 1 < D.album.tracks.length) playTrack(A_ctx.i + 1); });
-function playTrack(i) { const t = D.album.tracks[i]; load(t.url, { kind: "album", i, title: (i + 1) + ". " + t.title }); }
+window.rsPlayerPaint = paint;
+function playTrack(i) { rsPlayer.play(D.album.tracks.map((t, k) => ({ url: t.url, title: (k + 1) + ". " + t.title })), i, "prieres/#album", { kind: "album" }); }
 // The sung line, lit in proportion to the words (the refrain repeated after each couplet)
 function sungOrder(p) {
   if (!p.stanzas) return p.lines.map((l, i) => i);
@@ -517,7 +577,7 @@ function sungOrder(p) {
 }
 let lastSung = -1;
 function sing() {
-  const p = P[cur()]; if (!p || !A_ctx || A_ctx.kind !== "prayer" || A_ctx.id !== p.id || !A.duration || st.tab !== "ecouter") return;
+  const p = P[cur()], c = ctx(); if (!p || !c || c.kind !== "prayer" || c.id !== p.id || !A.duration || st.tab !== "ecouter") return;
   const seq = sungOrder(p), w = seq.map(i => p.lines[i].w.length), tot = w.reduce((a, b) => a + b, 0);
   const f = (A.currentTime - A.duration * .05) / (A.duration * .9); if (f < 0 || f > 1) return;
   let acc = 0, k = 0; while (k < seq.length - 1 && (acc + w[k]) / tot < f) { acc += w[k]; k++; }
@@ -677,7 +737,7 @@ function render() {
   front();
   if (r[0] === "album") {   // a shared album or track: show it, ready to play (browsers start the sound on a tap)
     const el = $("#album"); if (el) el.scrollIntoView({ block: "start" });
-    const i = (+r[1] || 0) - 1; if (i >= 0 && D.album.tracks[i]) { const t = D.album.tracks[i]; A.src = t.url; A_ctx = { kind: "album", i, title: (i + 1) + ". " + t.title }; paint(); }
+    const i = (+r[1] || 0) - 1; if (i >= 0 && D.album.tracks[i]) playTrack(i);
   }
 }
 addEventListener("hashchange", () => { st.game = null; st.song = 0; st.tab = "comprendre"; st.lvl = 0; render(); scrollTo(0, 0); });
@@ -686,11 +746,11 @@ document.addEventListener("click", e => {
   const sh = t.closest("[data-share]"); if (sh) { e.stopPropagation(); return share(sh.dataset.share); }
   const cp = t.closest("[data-copy]"); if (cp) { navigator.clipboard && navigator.clipboard.writeText(cp.dataset.copy); cp.textContent = "✓ " + L("Lien copié", "Link copied"); return; }
   const tk = t.closest("[data-track]"); if (tk) return playTrack(+tk.dataset.track);
-  if (t.closest("#pp")) { if (!A.src) { if (P[cur()]) { const s = P[cur()].songs[st.song]; if (s) load(s.url, { kind: "prayer", id: cur(), title: P[cur()].name + " · " + s.style }); } else playTrack(0); } else if (A.paused) A.play(); else A.pause(); return; }
+  if (t.closest("#pp")) { if (!rsPlayer.state()) { const p = P[cur()]; if (p) { const s = p.songs[st.song]; if (s) load(s.url, { kind: "prayer", id: p.id, title: p.name + " · " + s.style }, `prieres/#${p.id}/chant/${st.song}`); } else playTrack(0); } else rsPlayer.toggle(); return; }
   const sk = t.closest("#seek"); if (sk && A.duration) { const r = sk.getBoundingClientRect(); A.currentTime = A.duration * (e.clientX - r.left) / r.width; return; }
   const tb = t.closest("[data-tab]"); if (tb) { st.tab = tb.dataset.tab; st.game = null; return prayer(cur()); }
   const op = t.closest("[data-opt]"); if (op) { st[op.dataset.opt] = !st[op.dataset.opt]; return prayer(cur()); }
-  const sg = t.closest("[data-song]"); if (sg) { st.song = +sg.dataset.song; const p = P[cur()], s = p.songs[st.song]; document.querySelectorAll("[data-song]").forEach(b => b.setAttribute("aria-pressed", b === sg)); const sb = document.querySelector('[data-share*="/chant/"]'); if (sb) sb.dataset.share = p.id + "/chant/" + st.song; return load(s.url, { kind: "prayer", id: p.id, title: p.name + " · " + s.style }); }
+  const sg = t.closest("[data-song]"); if (sg) { st.song = +sg.dataset.song; const p = P[cur()], s = p.songs[st.song]; document.querySelectorAll("[data-song]").forEach(b => b.setAttribute("aria-pressed", b === sg)); const sb = document.querySelector('[data-share*="/chant/"]'); if (sb) sb.dataset.share = p.id + "/chant/" + st.song; return load(s.url, { kind: "prayer", id: p.id, title: p.name + " · " + s.style }, `prieres/#${p.id}/chant/${st.song}`); }
   const w = t.closest(".line .w"); if (w && !t.closest("#game")) return word(w);
   const lv = t.closest("[data-lvl]"); if (lv) { st.lvl = +lv.dataset.lvl; st.game = null; return apprendre(P[cur()]); }
   const pk = t.closest("[data-pick]"); if (pk) { const p = P[cur()], g = st.game, w0 = g.ws[g.i]; document.querySelectorAll(".choice").forEach(c => c.disabled = true); pk.classList.add(pk.dataset.pick === "1" ? "ok" : "ko");

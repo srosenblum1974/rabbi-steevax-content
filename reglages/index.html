@@ -63,6 +63,19 @@ html[lang=fr] [data-l=en],html[lang=en] [data-l=fr]{display:none}
 .rsnav .lng button{border:0;background:transparent;color:var(--ink);padding:5px 11px;font:600 12px ui-monospace,Menlo,monospace;cursor:pointer}
 .rsnav .lng button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
 html[lang=fr] .rsnav [data-l=en],html[lang=en] .rsnav [data-l=fr]{display:none}
+/* the sound that follows the visitor from page to page (prayers, album) */
+#rsplay{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:60;width:min(640px,calc(100% - 24px));
+  display:flex;align-items:center;gap:10px;background:#1A1306;color:#F8F3E9;border-radius:999px;padding:7px 10px 7px 7px;box-shadow:0 10px 30px rgba(0,0,0,.35);font:600 14px -apple-system,BlinkMacSystemFont,sans-serif}
+#rsplay[hidden]{display:none}
+#rsplay .pp{width:40px;height:40px;border-radius:50%;border:0;background:#E7B868;color:#1A1306;font-size:16px;cursor:pointer;flex:none}
+#rsplay .t{color:#F8F3E9;text-decoration:none;max-width:38%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:none}
+#rsplay .sk{flex:1;height:6px;border-radius:6px;background:rgba(255,255,255,.22);cursor:pointer;position:relative;min-width:40px}
+#rsplay .sk i{position:absolute;left:0;top:0;bottom:0;background:#E7B868;border-radius:6px}
+#rsplay small{font:12px ui-monospace,Menlo,monospace;opacity:.85;flex:none}
+#rsplay .x{width:30px;height:30px;border-radius:50%;border:0;background:rgba(255,255,255,.14);color:#F8F3E9;font-size:18px;line-height:1;cursor:pointer;flex:none}
+body.rsplaying{padding-bottom:76px}
+@media (max-width:520px){#rsplay small{display:none}#rsplay .t{max-width:46%}}
+
 @media (max-width:760px){
   .rsnav .in{flex-wrap:wrap;gap:6px 10px;padding:6px 12px}
   .rsnav .logo span{display:none}.rsnav .logo img{width:72px;height:72px}
@@ -413,6 +426,51 @@ RS.skinNow();
   bar.querySelector(".rsob-go").onclick = open;
   window.rsOnboard = open;
   if(force) setTimeout(open, 300);
+})();
+
+(function(){
+  var KEY = "rs-player", A = window.rsAudio || (window.rsAudio = new Audio()), S = null, lastSave = 0;
+  try { S = JSON.parse(localStorage.getItem(KEY) || "null"); } catch(e) {}
+  function save(){ try { if(S){ S.ts = Date.now(); S.t = A.currentTime || S.t || 0; localStorage.setItem(KEY, JSON.stringify(S)); } else localStorage.removeItem(KEY); } catch(e) {} }
+  var bar = document.createElement("div"); bar.id = "rsplay"; bar.hidden = true;
+  bar.innerHTML = '<button class="pp" aria-label="Lecture">▶</button><a class="t" href="#"></a><div class="sk"><i></i></div><small>0:00</small><button class="x" aria-label="Fermer le lecteur">×</button>';
+  (document.body || document.documentElement).appendChild(bar);
+  function fmt(x){ return isFinite(x) && x > 0 ? Math.floor(x/60) + ":" + ("0" + Math.floor(x%60)).slice(-2) : "0:00"; }
+  function paint(){
+    if(!S){ bar.hidden = true; document.body.classList.remove("rsplaying"); return; }
+    bar.hidden = false; document.body.classList.add("rsplaying");
+    bar.querySelector(".pp").textContent = A.paused ? "▶" : "❚❚";
+    var t = bar.querySelector(".t"), q = S.queue[S.i] || {}; t.textContent = q.title || ""; t.href = S.link || "#";
+    bar.querySelector(".sk i").style.width = (A.duration ? 100 * A.currentTime / A.duration : 0) + "%";
+    bar.querySelector("small").textContent = fmt(A.currentTime) + " / " + fmt(A.duration);
+    if(window.rsPlayerPaint) window.rsPlayerPaint();
+  }
+  function start(i, at){ S.i = i; A.src = S.queue[i].url; if(at) A.addEventListener("loadedmetadata", function f(){ A.currentTime = at; A.removeEventListener("loadedmetadata", f); });
+    var p = A.play(); if(p && p.catch) p.catch(function(){ S.playing = false; paint(); }); }
+  window.rsPlayer = {
+    // queue: [{url, title}], i: index, link: the page to come back to, ctx: what the page needs to know
+    play: function(queue, i, link, ctx){ S = { queue: queue.map(function(q){ return { url: new URL(q.url, document.baseURI).href, title: q.title }; }),
+      i: i || 0, link: new URL(link, document.baseURI).href, ctx: ctx || null, playing: true, t: 0 }; start(S.i, 0); save(); paint(); },
+    toggle: function(){ if(!S) return; if(A.paused){ if(!A.src) start(S.i, S.t); else A.play(); } else A.pause(); },
+    seek: function(f){ if(A.duration) A.currentTime = A.duration * f; },
+    close: function(){ A.pause(); S = null; save(); paint(); },
+    state: function(){ return S; }
+  };
+  ["play", "pause", "loadedmetadata"].forEach(function(e){ A.addEventListener(e, function(){ if(S){ S.playing = !A.paused; save(); } paint(); }); });
+  A.addEventListener("timeupdate", function(){ if(S && Date.now() - lastSave > 2000){ lastSave = Date.now(); save(); } paint(); });
+  A.addEventListener("ended", function(){ if(!S) return; if(S.i + 1 < S.queue.length) start(S.i + 1, 0); else { S.playing = false; S.t = 0; save(); paint(); } });
+  addEventListener("pagehide", save);
+  bar.addEventListener("click", function(e){
+    if(e.target.closest(".pp")) rsPlayer.toggle();
+    else if(e.target.closest(".x")) rsPlayer.close();
+    else { var k = e.target.closest(".sk"); if(k){ var r = k.getBoundingClientRect(); rsPlayer.seek((e.clientX - r.left) / r.width); } }
+  });
+  // Coming from another page: same sound, same place; it resumes by itself when the browser allows it
+  if(S && S.queue && S.queue[S.i]){
+    if(S.playing && Date.now() - (S.ts || 0) < 30 * 60 * 1000) start(S.i, S.t);
+    else { A.src = S.queue[S.i].url; A.addEventListener("loadedmetadata", function f(){ A.currentTime = S.t || 0; A.removeEventListener("loadedmetadata", f); }); A.preload = "metadata"; }
+  }
+  paint();
 })();
 
 (function(){ var l = RS.lang(); document.documentElement.lang = l; if(window.rsNavMark) rsNavMark(); })();
