@@ -1,6 +1,7 @@
 {
  "rite": "Séfarade (Siddour Edot HaMizrah, Sefaria)",
  "hero": "illus/prieres/prieres.jpg",
+ "heroFocus": 40,
  "groups": [
   {
    "id": "reveil",
@@ -283,6 +284,7 @@
    "id": "mode-ani",
    "group": "reveil",
    "image": "illus/prieres/mode-ani.jpg",
+   "focus": 72,
    "songs": []
   },
   {
@@ -1670,6 +1672,7 @@
    "id": "chema",
    "group": "reveil",
    "image": "illus/prieres/chema.jpg",
+   "focus": 14,
    "songs": [
     {
      "style": "Pop",
@@ -2350,6 +2353,7 @@
    "id": "adon-olam",
    "group": "reveil",
    "image": "illus/prieres/adon-olam.jpg",
+   "focus": 78,
    "songs": []
   },
   {
@@ -3041,6 +3045,7 @@
    "id": "amida",
    "group": "synagogue",
    "image": "illus/prieres/amida.jpg",
+   "focus": 36,
    "songs": []
   },
   {
@@ -3566,6 +3571,7 @@
    "id": "kaddich",
    "group": "synagogue",
    "image": "illus/prieres/kaddich.jpg",
+   "focus": 32,
    "songs": []
   },
   {
@@ -3706,6 +3712,7 @@
    "id": "hamotsi",
    "group": "repas",
    "image": "illus/prieres/hamotsi.jpg",
+   "focus": 62,
    "songs": []
   },
   {
@@ -4199,6 +4206,7 @@
    "id": "chalom-aleikhem",
    "group": "shabbat",
    "image": "illus/prieres/chalom-aleikhem.jpg",
+   "focus": 50,
    "songs": [
     {
      "style": "Jazz intime",
@@ -4780,6 +4788,7 @@
    "id": "kiddouch",
    "group": "shabbat",
    "image": "illus/prieres/kiddouch.jpg",
+   "focus": 45,
    "songs": [
     {
      "style": "Jazz intime",
@@ -6012,6 +6021,7 @@
    "id": "lekha-dodi",
    "group": "shabbat",
    "image": "illus/prieres/lekha-dodi.jpg",
+   "focus": 70,
    "songs": [
     {
      "style": "Jazz intime",
@@ -6973,6 +6983,7 @@
    "id": "havdala",
    "group": "shabbat",
    "image": "illus/prieres/havdala.jpg",
+   "focus": 50,
    "songs": []
   },
   {
@@ -7119,6 +7130,7 @@
    "id": "chehecheyanou",
    "group": "moments",
    "image": "illus/prieres/chehecheyanou.jpg",
+   "focus": 50,
    "songs": []
   }
  ]

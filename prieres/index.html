@@ -477,7 +477,7 @@ let S = { prog: {} }; try { S = JSON.parse(localStorage.getItem("rs-prayers") ||
 const save = () => { try { localStorage.setItem("rs-prayers", JSON.stringify(S)); } catch (_) {} };
 const prog = id => S.prog[id] || (S.prog[id] = { seen: 0, levels: [] });
 const pct = id => { const p = prog(id); return Math.round(((p.seen ? 1 : 0) + p.levels.length) / 4 * 100); };
-const img = (src, cls) => `<img src="${esc(src)}" alt="" loading="lazy" onerror="this.remove()"${cls ? ` class="${cls}"` : ""}>`;
+const img = (src, fx) => `<img src="${esc(src)}" alt="" loading="lazy" onerror="this.remove()" style="object-position:${fx == null ? 50 : fx}% 50%">`;
 const nowId = () => { const d = new Date(), day = d.getDay(), h = d.getHours();
   return day === 5 && h >= 12 ? "lekha-dodi" : day === 6 && h >= 17 ? "havdala" : h < 11 ? "mode-ani" : h >= 21 ? "chema" : "hamotsi"; };
 
@@ -518,14 +518,14 @@ function sing() {
 const cur = () => decodeURIComponent(location.hash.slice(1));
 function card(id, big) {
   const p = P[id], v = pct(id);
-  return `<a class="bleed card${big ? " now" : ""}" style="--g:${GRAD[id]}" href="prieres/#${id}">${img(p.image)}<span class="he">${p.he}</span>
+  return `<a class="bleed card${big ? " now" : ""}" style="--g:${GRAD[id]}" href="prieres/#${id}">${img(p.image, p.focus)}<span class="he">${p.he}</span>
     <div class="in"><small>${esc(big ? L("La prière du moment", "Prayer of the moment") + " · " + p.when[0] : p.when[0] + " · " + p.dur)}</small><b>${p.ic} ${esc(p.name)}</b>
     ${v ? `<div class="bar"><i style="width:${v}%"></i></div>` : ""}</div></a>`;
 }
 function front() {
   document.title = L("Prières", "Prayers") + " · Rabbi Steevax";
   const a = D.album;
-  let h = `<section class="bleed hero">${img(D.hero)}<div class="in"><span class="k">${L("Prières", "Prayers")}</span>
+  let h = `<section class="bleed hero">${img(D.hero, D.heroFocus)}<div class="in"><span class="k">${L("Prières", "Prayers")}</span>
     <h1>${L("Mes prières", "My prayers")}</h1><p>${L("Comprendre ce que l’on dit, mot à mot. Puis le chanter.", "Understand what we say, word by word. Then sing it.")}</p></div></section><div class="wrap">`;
   h += `<h2>${L("Maintenant", "Right now")}</h2>${card(nowId(), true)}`;
   h += `<h2>${L("L’album", "The album")} · ${esc(L(a.fr, a.en))}</h2><div class="album"><div class="cover">${img(a.cover)}</div><div>
@@ -558,7 +558,7 @@ function prayer(id) {
   if (p.noSong && st.tab === "ecouter") st.tab = "comprendre";
   document.title = p.name + " · " + L("Prières", "Prayers") + " · Rabbi Steevax";
   const tabs = [["comprendre", L("Comprendre", "Understand")], ...(p.noSong ? [] : [["ecouter", L("Écouter", "Listen")]]), ["apprendre", L("Apprendre", "Learn")]];
-  $("#app").innerHTML = `<section class="bleed hero" style="--g:${GRAD[id]}">${img(p.image)}<a class="back" href="prieres/" aria-label="${L("Retour", "Back")}">‹</a>
+  $("#app").innerHTML = `<section class="bleed hero" style="--g:${GRAD[id]}">${img(p.image, p.focus)}<a class="back" href="prieres/" aria-label="${L("Retour", "Back")}">‹</a>
       <span class="he big">${p.he}</span><div class="in"><span class="k">${esc(p.when[0])}</span><h1>${p.ic} ${esc(p.name)}</h1><p>${esc(p.dur)}</p></div></section>
     <div class="wrap"><div class="seg">${tabs.map(([k, l]) => `<button data-tab="${k}" aria-pressed="${st.tab === k}">${l}</button>`).join("")}</div><div id="body"></div></div>`;
   ({ comprendre, ecouter, apprendre })[st.tab](p);
