@@ -285,7 +285,13 @@
    "group": "reveil",
    "image": "illus/prieres/mode-ani.jpg",
    "focus": 72,
-   "songs": []
+   "songs": [
+    {
+     "style": "Reggae",
+     "url": "https://podcast.rosenblum.ai/album/chansons/mode-ani_reggae.mp3",
+     "source": "elevenlabs"
+    }
+   ]
   },
   {
    "name": "Chéma Israël",
@@ -3719,7 +3725,13 @@
    "group": "repas",
    "image": "illus/prieres/hamotsi.jpg",
    "focus": 62,
-   "songs": []
+   "songs": [
+    {
+     "style": "Swing",
+     "url": "https://podcast.rosenblum.ai/album/chansons/hamotsi_swing.mp3",
+     "source": "elevenlabs"
+    }
+   ]
   },
   {
    "name": "Chalom Aleikhem",
@@ -6990,7 +7002,13 @@
    "group": "shabbat",
    "image": "illus/prieres/havdala.jpg",
    "focus": 50,
-   "songs": []
+   "songs": [
+    {
+     "style": "Blues psychédélique",
+     "url": "https://podcast.rosenblum.ai/album/chansons/havdala_doors.mp3",
+     "source": "elevenlabs"
+    }
+   ]
   },
   {
    "name": "Chéhé’héyanou",
@@ -7137,7 +7155,13 @@
    "group": "moments",
    "image": "illus/prieres/chehecheyanou.jpg",
    "focus": 50,
-   "songs": []
+   "songs": [
+    {
+     "style": "Chanson française",
+     "url": "https://podcast.rosenblum.ai/album/chansons/chehecheyanou_chanson.mp3",
+     "source": "elevenlabs"
+    }
+   ]
   }
  ]
 }
