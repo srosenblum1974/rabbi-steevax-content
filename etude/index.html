@@ -3508,10 +3508,31 @@ ${prior?"Thèmes et questions ouvertes des échanges précédents de ce lecteur,
 function sampleErr(e){
   const c = e && e.code;
   if(c==="not_granted"||c==="sampling_disabled"||c==="not_declared"||c==="capability_disabled"||c==="capability_removed"){ sampleState="off"; return c==="not_granted"?T(ASK.denied):T(ASK.off); }
+  if(c==="quota") return e.message || T(ASK.limited);
   if(c==="rate_limited") return T(ASK.limited);
   if(c==="cancelled") return "";
   return T(ASK.failed);
 }
+
+const RS_RELAY = "https://podcast.rosenblum.ai/api/ask.php";
+async function rsRelay(body, signal){
+  let r;
+  try{ r = await fetch(RS_RELAY, {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({...body, lang:S.lang}), signal}); }
+  catch(e){ throw {code: e && e.name==="AbortError" ? "cancelled" : "network"}; }
+  const j = await r.json().catch(()=>({}));
+  if(!r.ok) throw {code: j.code || "failed", message: j.message};
+  return j.text || "";
+}
+async function rsSample(messages, opts={}){
+  const text = await rsRelay({messages, mode:"chat"}, opts.signal);
+  if(opts.onText) opts.onText({text});
+  return {text};
+}
+rsSample.json = async (prompt, opts={})=>{
+  const t = await rsRelay({messages:[{role:"user", content:prompt}], mode:"json"}, opts.signal);
+  const m = t.match(/[\[{][\s\S]*[\]}]/);
+  return JSON.parse(m ? m[0] : t);
+};
 async function askSend(){
   const box = $("askq"); const q = box.value.trim(); if(!q || askBusy || !sampleFn) return;
   const key = chatKey(); const turns = CHATS[key] = CHATS[key]||[];
@@ -3613,7 +3634,7 @@ document.addEventListener("keydown",e=>{ if(e.target.id==="askq" && e.key==="Ent
   NOTES = localNotes();
   try{
     const c = window.claude;
-    if(!c || !c.use){ sampleState="off"; if($("askstatus")) renderPanel(); return; }
+    if(!c || !c.use){ sampleFn = rsSample; sampleState = "on"; if($("askstatus")) renderPanel(); return; }
     const [s, d, u] = await Promise.all([c.use("sample"), c.use("db"), c.use("user")]);
     sampleFn = s; sampleState = s ? "on" : "off"; userNs = u;
     try{ uid = u ? await u.id() : null; }catch(e){ uid = null; }
