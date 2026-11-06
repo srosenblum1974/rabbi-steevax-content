@@ -42,4 +42,4 @@ browser and can be synced with the app through iCloud (CloudKit, optional, from 
 
 - History is never rewritten: `main` refuses force-push and deletion.
 - Texts come from Sefaria; translations: Bible du Rabbinat 1899 (FR), JPS (EN).
-- Contact: s.rosenblum@me.com
+- Contact: contact@rabbisteevax.com
