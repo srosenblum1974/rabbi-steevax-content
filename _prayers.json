@@ -2354,7 +2354,13 @@
    "group": "reveil",
    "image": "illus/prieres/adon-olam.jpg",
    "focus": 78,
-   "songs": []
+   "songs": [
+    {
+     "style": "Crooner",
+     "url": "prieres/audio/adon-olam_crooner.mp3",
+     "source": "suno"
+    }
+   ]
   },
   {
    "name": "Amida",
